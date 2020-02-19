@@ -246,25 +246,6 @@ h1, h2, h3, h4, h5,
 .color-white-opacity-5 {
   color: rgba(255, 255, 255, 0.5); }
 
-.btn {
-  border-radius: 30px;
-  font-size: .8rem;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-  padding: 10px 20px;
-  text-decoration: none; }
-  .btn:active, .btn:focus {
-    outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none; }
-  .btn.btn-outline-white {
-    border-color: #fff;
-    background: transparent;
-    color: #fff; }
-    .btn.btn-outline-white:hover {
-      background: #fff;
-      border-color: #fff;
-      color: #000; }
 
 .line-height-1 {
   line-height: 1 !important; }
@@ -1525,7 +1506,7 @@ h1, h2, h3, h4, h5,
   padding-bottom: 30px;
   margin-bottom: 30px;
   font-size: 2.5rem;
-  color: #dc3545; }
+  color: black; }
   @media (max-width: 991.98px) {
     .section-heading {
       font-size: 2rem; } }
