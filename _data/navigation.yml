@@ -1,0 +1,14 @@
+docs_list_title:
+docs:
+
+- title: Search
+  url: index.html#searchbox
+
+- title: Contributors
+  url: contributors.html
+
+- title: About
+  url: about.html
+
+- title: Robotics Playground
+  url: https://sites.google.com/tuftsceeo.org/roboticsplayground/home

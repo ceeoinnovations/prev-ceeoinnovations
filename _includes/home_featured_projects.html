@@ -1,0 +1,41 @@
+  <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+
+<span id="featuredmarker"></span>
+<section class="homepagesection clearfix">
+
+                <h1 id="mypageheader">Featured Projects</h1>
+       <hr>
+         <div id="featured">
+              <div class="caro">
+                   <div class="carousel js-flickity" data-flickity='{ "groupCells": true }'>
+                        </div>
+              </div>
+          </div>
+
+     <div class="sample_caro">
+          {% for project in site.projects  %}
+          {% if project.featured == true %}
+          {% if project.url != "/projects/SAMPLE-FILE.html" %}
+          <div class="mysamplecaro col-sm-4 col-md-2 col-lg-3">
+
+             <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" class="old-work-thumb">
+              <div class="old-work-text">
+
+                <h2>{{project.title}}</h2>
+                <p>CEEO INNOVATIONS</p>
+               </div>
+                    <img id="caroimg" class="caroimg" src="{{project.displayimg | prepend: 'projects/project_assets/'}}" onError="this.onerror=null;this.src='{{site.baseurl}}/web/img/2gear_ppink.png';" class="img-fluid" >
+             </a>
+         </div>
+         {%endif%}
+         {%endif%}
+      {%endfor%}
+     </div>
+
+
+  </section>
+ <script src="web/js/create_slideshow.js"></script>
+<script type="text/javascript">
+     CreateCaroMain();
+</script>
+  <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>

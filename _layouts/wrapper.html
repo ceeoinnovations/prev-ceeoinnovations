@@ -1,0 +1,182 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CEEO INNOVATIONS</title>
+<link rel="stylesheet" href="../web/mycss/aos.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet preload"  as="style"href="../web/mycss/allisoncss.css">
+
+<!-- Bootstrap core CSS -->
+<link href="../web/mycss/bootstrap.min.css" rel="stylesheet preload" as="style">
+
+
+<!-- Custom styles for this template -->
+<link href="../web/mycss/business-casual.min.css" rel="stylesheet preload" as="style">
+<!--Allison's helper functions for appending content-->
+<script src="../web/js/append_helper_functions.js" as="script"></script>
+
+<!-- Custom styles for this template -->
+<link rel="preload stylesheet" href="../web/mycss/style1.css" as="style">
+
+<!-- Theme Style -->
+<link rel="preload stylesheet" href="../web/mycss/style.css" as="style">
+</head>
+
+<body style="background-color:rgba(245,245,245,1);padding-top: 0px">
+
+
+
+<!------Mobile Novbar---------------------------------------------------------------------->
+     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- Top Navigation Menu -->
+     <div id="mobilenav" class=" clearfix sticky topnav">
+       <a href="../index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_DarkGreen_Inset.png" onError="this.onerror=null;this.src='web/img/Logo_DarkGreen_Inset.png';" alt="">
+       </a>
+       <!-- Navigation links (hidden by default) -->
+       <div id="myLinks">
+            {% for item in site.data.navigation.docs %}
+              <a  href="{{ item.url | prepend:"../" }}" >{{ item.title }}</a>
+            {% endfor %}
+       </div>
+       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+       <a href="javascript:void(0);" class="icon" style="background-color: #fff; color: #000"onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+       </a>
+     </div>
+
+<!-----------NAV BAR-------------------------------------------------------------------->
+
+<div id="nav-wrap">
+
+     <div id="navbar" class="clearfix">
+
+          <a class="navlink" href="../index.html" id="logo" target="_blank">
+               <img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_Black.png" alt="">
+          </a>
+
+       <div id="navbar-right">
+            <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
+                 <img  id="navimg" src="../web/img/ceeoblacklogo.png" onError="this.onerror=null;this.src='web/img/ceeoblacklogo.png';" alt="">
+           </a>
+
+           {% for item in site.data.navigation.docs %}
+             {% if item.title == "Search"%}
+             <a id="navsearchimglink" href={{item.url | prepend: "../" }}>
+             <img  id="navimg" src="../web/img/black-search.png" >
+        </a>
+             {% continue %}
+             {% endif %}
+             <a class ="navlink nav hvr-shrink" href="{{ item.url | prepend:"../" }}" >{{ item.title }}</a>
+           {% endfor %}
+
+          </div>
+     </div>
+
+</div>
+
+
+{{content}}
+
+<script src="../web/js/create_website.js" as="script"></script>
+<!-- This is CEEO INNOVATION DEFAULT FOOTER -->
+<footer class="footer text-faded text-center py-5" >
+  <div class="container" style="border-top-style:solid;border-top-color: rgba(0,0,0,0.3)">
+        <div class="row" style="margin-top:5rem; padding:15px; text-align: justify">
+             <p style="text-align:left;line-height: 200%; color:rgba(0,0,0,1.00)">
+                  You are visiting an open development section where you will get access to so-called “developer software”, which offers documentation on different ways to operate the LEGO® Education SPIKE™ Prime Hub and technology. Whatever use you make of the developer software, bear in mind that the results are not experiences that the LEGO Group endorses, is with or will be liable for. No rights in or to trademarks of the LEGO Group are implied or given, and you may not apply to or register any protection anywhere in the world for intellectual property or industrial rights or similar in respect of any developer software, derivative or other result achieved through its use. The developer software is made available “as is” and, to the extent possible, no warranties or representations are implied or given in relation to it by the LEGO Group. It’s your responsibility to ensure all uses that you make and enable others to make comply with all applicable laws and best practices. By accessing the developer software, you acknowledge that the terms and conditions set out above and in LEGO Education’s <a href="termandcondition.html" style="color:#00FF85">terms of use for SPIKE Prime</a> apply
+             </p>
+        </div>
+   <p style="color:black; text-align: center; margin-top:3rem;text-indent: 1px">Copyright &copy; Tufts University Center for Engineering Education and Outreach 2020</p>
+  </div>
+</footer>
+</body>
+<!--............................................................................................................................................-->
+<!--This is CEEO INNOVATION default footer -->
+<!--............................................................................................................................................-->
+   <div class="footerpage"></div>
+
+   <script>
+   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+   </script>
+   <script>
+        $(function(){
+             $(".footerpage").load("../footerpage.html");
+        });
+   </script>
+
+   <script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+var header = document.getElementById("nav-wrap");
+var mobileheader = document.getElementById("mobilenav");
+var sticky = header.offsetTop;
+
+
+
+function scrollFunction() {
+
+      if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+
+     if (document.documentElement.scrollTop > header.offsetTop) {
+
+          document.getElementById("navbar").style.padding = "0px 0px";
+         $("#navbar").css({"padding-left": ".5%", "padding-right": ".5%","padding-top":"0%","background-color":" #fff"});
+         $("#logo").css({"width": "150px"});
+         $("#navtuftsimglink").css({"width": "120px"});
+         $("#navsearchimglink").css({"width": "45px"});
+
+   }else  {
+        document.getElementById("navbar").style.padding = "10px 3px";
+        $("#navbar").css({"padding-bottom": "2.5%", "padding-top":"2.5%",  "background-color":"#fff"});
+       $("#logo").css({"width": "200px"});
+       $("#navtuftsimglink").css({"width": "120px"});
+       $("#navsearchimglink").css({"width": "50px"});
+
+     }
+
+}
+</script>
+
+<script src="../web/js/bootstrap.bundle.min.js"></script>
+<script src="../web/js/aos.js"></script>
+
+<script src="../web/js/jquery-3.2.1.min.js"></script>
+<script src="../web/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="../web/js/bootstrap.js"></script>
+  <script src="../web/js/popper.min.js"></script>
+<script src="../web/js/jquery.waypoints.min.js"></script>
+<script src="../web/js/jquery.fancybox.min.js"></script>
+<script src="../web/js/jquery.stellar.min.js"></script>
+<script src="../web/js/main.js"></script>
+<!--............................................................................................................................................-->
+<!-- Bootstrap core JavaScript -->
+
+
+
+
+</html>

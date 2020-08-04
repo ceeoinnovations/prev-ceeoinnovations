@@ -1,0 +1,104 @@
+<head>
+
+<!-- Bootstrap core CSS -->
+<link href="../web/mycss/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom fonts for this template -->
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap">
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" >
+
+<!-- Custom styles for this template -->
+<link href="../web/mycss/business-casual.min.css" rel="stylesheet preload" as="style">
+<link href="../web/mycss/business-frontpage.css" rel="stylesheet preload" as="style">
+
+<!-- Custom styles for this template -->
+   <link rel="preload stylesheet" href="../web/mycss/style1.css" as="style">
+   <link rel="stylesheet preload"  as="style"href="../web/mycss/allisoncss.css">
+
+<!-- Theme Style -->
+<link rel="preload stylesheet" href="../web/mycss/style.css" as="style">
+<link rel="preload stylesheet" href="../web/mycss/post.css" as="style">
+
+
+<style>
+     #mycontent, #transferhereVO, .vidvoidvalue, .voidvalue, .sampledatasectionVO{
+          display:none;
+     }
+     .my-site-heading-upper{
+          font-sie: 5vw;
+          padding-left: 20%;
+          padding-right: 20%;
+     }
+     .myprojectheader{
+          font-size: 2vw;
+     }
+     @media(max-width:750px) {
+          .my-site-heading-upper{
+               font-size: 6vw;
+               padding-left: 15%;
+               padding-right: 15%;
+          }
+          .myprojectheader{
+               font-size: 3vw;
+          }
+     }
+     @media(max-width:500px) {
+          .my-site-heading-upper{
+               font-size: 8vw;
+               padding-left: 5%;
+               padding-right: 5%;
+          }
+          .myprojectheader{
+               font-size: 4vw;
+          }
+     }
+</style>
+
+</head>
+<body >
+     <div style="padding-bottom:7rem">
+     </div>
+<div id="mycontent">
+     {{ content }}
+</div>
+
+<h1 class="site-heading text-center">
+
+
+<div id="titleheader">
+      <div class="myprojectheader mb-3" style="color:#00FF85; text-shadow: -.5px .5px #51d294;">Project</div>
+      <div id="headerMPT" class="site-heading-upper headerMPT"></div>
+      <div id="mypageheader" class="mypageheader my-site-heading-upper subheaderMPT" style="text-transform: none;">{{include.title}}</div>
+</div>
+</h1>
+
+<div id="myappendcontent">
+</div>
+
+- {% for this_author in page.authors%}
+     {% assign author_data = site.authors | where: 'name', this_author %}
+     {% if this_author %}
+          {% capture this_name %}
+               {{ author_data[0].name | strip_newlines }}
+          {% endcapture %}
+          {% capture this_pos %}
+               {{ author_data[0].position | strip_newlines }}
+          {% endcapture %}
+
+          {% capture this_image %}
+               {{ author_data[0].image  | prepend: '../authors/profilepics/' | strip_newlines }}
+          {% endcapture %}
+     {% include author_section.html name=this_author position=this_pos image=this_image %}
+     {% endif %}
+{% endfor %}
+          </div>
+
+
+<h2 class="voidvalue"></h2>
+<h1 class="voidvalue"></h1>
+<p class="voidvalue"></p>
+<img class="imgvoidvalue" src="../web/img/defaultimg.jpg" alt="">
+
+
+
+</body>

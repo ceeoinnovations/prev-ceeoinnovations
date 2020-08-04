@@ -1,0 +1,19 @@
+---
+---
+[
+  {% for project in site.projects %}
+   {% if project.url != "/projects/SAMPLE-FILE.html" %}
+    {
+
+      "title"    : "{{ project.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ project.url }}",
+      "displayimg" : "{{ project.displayimg  | prepend: 'project_assets/'}}",
+      "authors"     : "{{ project.authors | join: ', ' }}",
+      "categories" : "{{ project.categories }}",
+      "tags"     : "{{ project.tags | join: ', ' }}",
+      "date"     : "{{ project.date }}"
+
+    } {% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+]

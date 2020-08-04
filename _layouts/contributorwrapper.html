@@ -1,0 +1,182 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CEEO INNOVATIONS</title>
+
+<link rel="stylesheet preload"  as="style"href="web/mycss/allisoncss.css">
+
+
+
+  <!-- Custom fonts for this template -->
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="web/mycss/business-casual.min.css" rel="stylesheet preload" as="style">
+  <link href="web/mycss/business-frontpage.css" rel="stylesheet preload" as="style">
+
+<!--Allison's helper functions for appending content-->
+<script rel="preload" src="web/js/append_helper_functions.js" as="script"></script>
+<script rel="preload" src="web/js/create_website.js" as="script"></script>
+<!-- Custom styles for this template -->
+   <link rel="preload stylesheet" href="web/mycss/style1.css" as="style">
+
+<!-- Theme Style -->
+<link rel="preload stylesheet" href="web/mycss/style.css" as="style">
+
+<link rel="stylesheet" href="web/mycss/aos.css">
+<link rel="stylesheet" href="web/mycss/home_style.css">
+<link rel="stylesheet" href="web/mycss/contributor.css">
+
+</head>
+
+<body style="background-image:url(web/img/lightBackground.png); background-attachment:fixed;">
+
+
+
+
+<!------Mobile Novbar---------------------------------------------------------------------->
+     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- Top Navigation Menu -->
+     <div id="mobilenav" class=" clearfix sticky topnav">
+       <a href="index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/Logo_DarkGreen_Inset.png" onError="this.onerror=null;this.src='../web/img/Logo_DarkGreen_Inset.png';" alt="">
+       </a>
+       <!-- Navigation links (hidden by default) -->
+       <div id="myLinks">
+            {% for item in site.data.navigation.docs %}
+              <a  href="{{ item.url }}" >{{ item.title }}</a>
+            {% endfor %}
+       </div>
+       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+       <a href="javascript:void(0);" class="icon" style="background-color: #fff; color: #000"onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+       </a>
+     </div>
+
+
+
+<!-----------NAV BAR-------------------------------------------------------------------->
+
+<div id="nav-wrap">
+
+     <div id="navbar" class="clearfix">
+
+          <a id="logo" class="navlink" href="index.html"  target="_blank">
+               <img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/Logo_DarkGreen_Inset.png" onError="this.onerror=null;this.src='web/img/Logo_DarkGreen_Inset.png';" alt="">
+          </a>
+
+       <div id="navbar-right">
+           <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
+                <img  id="navimg" src="web/img/ceeoblacklogo.png"onError="this.onerror=null;this.src='web/img/ceeopinklogo.png';" alt="">
+          </a>
+
+               {% for item in site.data.navigation.docs %}
+                 {% if item.title == "Search"%}
+                 <a id="navsearchimglink" href={{item.url}}>
+                 <img  id="navimg" src="web/img/black-search.png" >
+            </a>
+                 {% continue %}
+                 {% endif %}
+                 <a class ="navlink nav hvr-shrink" href="{{ item.url }}" >{{ item.title }}</a>
+               {% endfor %}
+
+          </div>
+     </div>
+
+</div>
+
+
+{{content}}
+
+   <div class="footerpage"></div>
+
+
+   <script src="web/js/aos.js"></script>
+
+
+   <script src="../web/js/aos.js"></script>
+
+   <script src="../web/js/jquery-3.2.1.min.js"></script>
+   <script src="../web/js/jquery-migrate-3.0.1.min.js"></script>
+   <script src="../web/js/bootstrap.js"></script>
+     <script src="../web/js/popper.min.js"></script>
+   <script src="../web/js/jquery.waypoints.min.js"></script>
+   <script src="../web/js/jquery.fancybox.min.js"></script>
+   <script src="../web/js/jquery.stellar.min.js"></script>
+   <script src="../web/js/main.js"></script>
+   <script>
+   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+   </script>
+   <script>
+   AOS.init();
+        $(function(){
+             $(".footerpage").load("footerpage.html");
+        });
+   </script>
+
+   <script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction(x)};
+
+var header = document.getElementById("nav-wrap");
+var mobileheader = document.getElementById("mobilenav");
+var sticky = header.offsetTop;
+
+var x = window.matchMedia("(max-width: 1000px)");
+var y = window.matchMedia("(max-width: 600px)")
+scrollFunction(x) // Call listener function at run time
+x.addListener(scrollFunction)
+
+function scrollFunction(x) {
+
+        header.classList.add("sticky");
+
+
+  if (document.body.scrollTop > header.offsetTop || document.documentElement.scrollTop > header.offsetTop) {
+    document.getElementById("navbar").style.padding = "0px 0px";
+     $("#navbar").css({"padding-top":".5%"});
+    $("#navbar").css({"padding-left": "1%", "padding-right": "1%"});
+    $("#logo").css({"width": "100px"});
+    $("#navtuftsimglink").css({"width": "120px"});
+    $("#navsearchimglink").css({"width": "45px"});
+
+     $("#navbar-right").css({ "padding-bottom":".5%"});
+      $("#navbar-right a").css({"font-size": "1vw"});
+
+} else  {
+
+
+    document.getElementById("navbar").style.padding = "30px 10px";
+    $("#navbar").css({"padding-bottom": "4%", "padding-top":"4%"});
+    $("#logo").css({"width": "120px"});
+     $("#navtuftsimglink").css({"width": "200px"});
+     $("#navsearchimglink").css({"width": "50px"});
+
+    $("#navbar .nav").css({"padding-top": "1%"});
+     $("#navbar-right a").css({"font-size": "1.5vw"});
+     $("#navbar-right").css({ "padding-bottom":"0%"});
+  }
+}
+</script>
+
+<sc
+
+</html>

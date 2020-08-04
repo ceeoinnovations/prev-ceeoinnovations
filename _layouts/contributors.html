@@ -1,0 +1,27 @@
+---
+layout: contributorwrapper
+---
+
+<div class="col-md"style="margin-top: 15rem">
+           <h1 id="mycontribpageheader">Project Contributors</h1>
+   </div>
+
+<div id="featured" >
+
+          <div class="authordisplay row mb-5 no-gutters">
+           {% for author in site.authors%}
+                    {% capture this_name %}
+                         {{ author.name | strip_newlines }}
+                    {% endcapture %}
+                    {% capture this_pos %}
+                         {{ author.position | strip_newlines }}
+                    {% endcapture %}
+
+                    {% capture this_image %}
+                         {{ author.image  | prepend: '../authors/profilepics/' | strip_newlines }}
+                    {% endcapture %}
+               {% include contributor_author_section.html name=this_name position=this_pos image=this_image %}
+          {% endfor %}
+                    </div>
+
+</div>

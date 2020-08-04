@@ -1,0 +1,40 @@
+#logo{
+     width:8%;
+}
+#mycontribpageheader{
+font-size: 10vw;
+font-weight: 800;
+color:#EF476F;
+letter-spacing: -0.05em;
+z-index: 10;
+text-align: center;
+position: relative;
+line-height: 0.6em;
+pointer-events: none;
+flex: 1 100%;
+text-shadow: -4px 4px #51d294;
+border-color:rgba(246,245,245,1);
+margin: 0 auto;
+border-radius: 50%;
+background-size:cover;
+
+}
+
+.circle-work-text h2 {
+	color: #000;
+	font-weight: 300;
+	margin-bottom: 0;
+
+	font-size: 1rem
+}
+
+ .circle-work-text p {
+	color: rgba(0, 0, 0, .5);
+     font-size: .7rem
+}
+@media(max-width:600px){
+     .circle-work-text p {
+         color: rgba(0, 0, 0, .5);
+         font-size: .5rem
+    }
+}

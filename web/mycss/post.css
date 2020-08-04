@@ -1,0 +1,602 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji",
+  Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#mypageheader{
+font-size: 6vw;
+font-weight: 800;
+color:#EF476F;
+letter-spacing: -0.05em;
+z-index: 10;
+text-align: center;
+position: relative;
+line-height: 0.6em;
+pointer-events: none;
+flex: 1 100%;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+ text-shadow: -.5px .5px #bf3858;
+}
+
+.authordisplay{
+     padding-right: 20%;
+     padding-left: 20%;
+}
+
+#navbar {
+     overflow: hidden;
+     margin: auto;
+     background-color: #fff;
+   /*   box-shadow: 4px 4px 5px rgba(40, 41, 40, .2);*/
+     width: 100%;
+     z-index: 9999;
+     padding-bottom: 4%;
+     padding-top:4%;
+
+
+}
+
+#navbar a {
+  float: right;
+  color: #000;
+  font-weight: 400;
+  padding-left: 12px;
+   padding-right: 12px;
+  text-decoration: none;
+
+}
+
+#navbar .nav{
+     padding-top: 1%;
+}
+#navbar .nav a {
+     height: 100%;
+
+}
+#navbar #logo{
+  float: left;
+  text-align: left;
+
+}
+
+#navbar-right{
+     float:right;
+}
+
+#navbar a.active {
+     background-color: #fff;
+     color: white;
+}
+#navbar #navtuftsimglink{
+     width:200px;
+}
+#navbar #navsearchimglink{
+     width:50px;
+}
+#navtuftsimglink img, #navsearchimglink img{
+     width: 100%;
+}
+#navimg{
+      width: 100%;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.site-heading {
+     padding-top: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+#masthead #site-top{
+     padding: 3rem;
+     width: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+
+overflow: hidden;
+
+
+}
+#mastheadimg{
+     padding-left: 5%;
+      height: 400px;
+     width:70%;
+     float:left;
+}
+#mastheadparagraph {
+
+     color:#E7476F;
+     width:100%;
+     border-radius: 50%;
+
+
+     display: flex;
+
+
+       height: 25vw;
+      padding-left:5%;
+      padding-right: 5%;
+      box-shadow: 15px 15px #fffd85;
+}
+.down {
+     font-family: 'Space Mono', monospace;
+     color:#E7476F;
+     margin-top: 5rem;
+     text-align: center;
+
+margin-bottom: 7rem;
+     width:100%;
+     text-shadow:3px 1px  #fffd85;
+}
+.down img {
+     width: 10%;
+}
+#masthead .container{
+     padding-bottom: 1rem;
+}
+#mastheadparagraph p {
+     border-style: solid;
+     font-family: 'Space Mono', monospace;
+     font-size:1.2vw;
+     font-weight: 800;
+     padding-top: 5%;
+     text-align: right;
+     padding-right: 5%;
+     color:#E7476F;
+     width:35%;
+     text-shadow:3px 1px  #fffd85;
+     border: 13px black;
+
+}
+.masthead .container{
+     max-width: 1300px;
+}
+#Ceeo_Inno_Brand{
+     width:70%;
+     margin-top: 5rem;
+     margin-bottom: 3rem;
+     margin-right: -50px;
+}
+@media(max-width:1200px){
+     #navbar-right{
+          width: 50%;
+     }
+     .masthead .container{
+          max-width: 1200px;
+          margin-left: 0rem;
+          margin-right: 0rem;
+     }
+
+}
+@media(max-width:1100px){
+
+     #mastheadparagraph p {
+          font-size:1.3vw;
+          padding-left: 0%;
+          color:#E7476F;
+          width:30%;
+          text-shadow:3px 1px  #fffd85;
+
+     }
+}
+@media(max-width:992px) {
+     #mastheadparagraph{
+          box-shadow: 15px 15px #fffd85;
+          width:100%;
+           height: 30vw;
+     }
+
+     #mastheadparagraph p {
+          font-size:1.5vw;
+          padding-left: 5%;
+
+          width:40%;
+     }
+     .masthead .container{
+          max-width: 900px;
+          margin-left: 0rem;
+          margin-right: 0rem;
+     }
+     #site-top{
+          padding:3rem;
+     }
+     #navbar #navtuftsimglink{
+          width: 100px;
+     }
+     #navbar #navsearchimglink{
+          padding-top: 10px;
+          width: 50px;
+     }
+
+}
+@media(max-width:850px) {
+
+     #mastheadparagraph {
+
+          border-radius: 0%;
+           height: 250px;
+           padding-left:0%;
+           padding-right: 0%;
+           box-shadow: none;
+     }
+     #mastheadparagraph p {
+          text-align: right;
+     }
+
+     #mastheadimg{
+          width:100%;
+          height: 250px;
+     }
+
+     #masthead #site-top{
+          background-size: cover;
+     }
+     #Ceeo_Inno_Brand{
+          width:80%;
+     }
+     .down {
+          font-family: 'Space Mono', monospace;
+          color:#E7476F;
+          margin-top: 2rem;
+          text-align: center;
+
+     margin-bottom: 7rem;
+          width:100%;
+          text-shadow:3px 1px  #fffd85;
+     }
+}
+
+@media(max-width:750px){
+     #mastheadparagraph p {
+          display:block;
+          width:40%;
+          font-size:2vw;
+     }
+}
+@media(max-width:650px){
+
+     #mastheadparagraph {
+          color:#E7476F;
+          width:100%;
+     }
+     #Ceeo_Inno_Brand{
+          width:90%;
+     }
+
+}
+
+@media(max-width:600px){
+     #mastheadparagraph p {
+          display:block;
+          width:45%;
+          font-size:2.3vw;
+     }
+}
+@media(max-width:500px){
+     #mastheadparagraph p {
+          display:none;
+     }
+
+     #mastheadimg{
+          width:100%;
+          height: 300px;
+     }
+     .down {
+
+          margin-top: 0rem;
+     }
+
+
+}
+@media(max-width:400px) {
+
+     .down {
+
+          margin-bottom: 2rem;
+     }
+
+     #masthead #site-top{
+          background-size: cover;
+          padding: 0rem;
+     }
+     #Ceeo_Inno_Brand{
+          padding-top: 0rem;
+          margin-right:8%;
+     }
+}
+
+
+/*Mobile------------------------------------------------------*/
+
+#mobilenav{
+     position: fixed;
+     display: none;
+     background-color: #fff;
+     box-shadow: 4px 4px 8px rgba(0,0,0,.2);
+}
+
+
+
+
+@media(max-width:600px) {
+     #navbar{
+          display: none;
+     }
+
+     #mobilenav{
+          display: block;
+     }
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  color: #000;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  position: fixed;
+  display: block;
+  right: 0;
+  top: 0;
+}
+
+.topnav a.active{
+     width:25%;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
+
+#mynewpageheader{
+     font-size: 15vw;
+    font-weight: 800;
+    z-index: 10;
+    text-align: left;
+    position: relative;
+    line-height: 1em;
+    pointer-events: none;
+    flex: 1 100%;
+}
+
+
+#circle{
+border-color:rgba(246,245,245,1);
+margin: 0 auto;
+width: 7rem;
+height:7rem;
+border-radius: 50%;
+background-size:cover;
+
+}
+
+.circle-work-thumb {
+	display: inline-block;
+	position: relative;
+     border-radius:50%;
+     radius: 50%;
+}
+
+.circle-work-thumb img {
+	border: 10px solid #fff
+}
+
+.circle-work-thumb .circle-work-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90%;
+	margin-top: 20px;
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	opacity: 1;
+
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+/*work text 2---------------------------------------------*/
+.work-thumb .work-text2 {
+	text-align: center;
+	position: relative;
+
+	width: 100%;
+	margin-top: 20px;
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	visibility: none;
+	display: none;
+
+}
+
+
+.projectsegment{
+     transition: visibility 0s, opacity 0.5s linear;
+
+}
+.circle-work-text h2 {
+	color: #000;
+	font-weight: 300;
+	margin-bottom: 0;
+
+	font-size: 1rem
+}
+
+ .circle-work-text p {
+	color: rgba(0, 0, 0, .5);
+     font-size: .7rem
+}
+@media(max-width:600px){
+     .circle-work-text p {
+         color: rgba(0, 0, 0, .5);
+         font-size: .5rem
+    }
+}
+
+
+.circle-work-thumb:hover .circle-work-text2 {
+	margin-top: 0px;
+	opacity: 1;
+
+	-webkit-transition: .5s all ease;
+	-o-transition: .5s all ease;
+	transition: .5s all ease;
+	display: inline;
+	font-weight: 300;
+	opacity: 1;
+	color: rgba(255, 255, 255, .8);
+	font-size: 1.25rem;
+	margin-bottom: 0;
+}
+
+
+.circle-work-thumb:before {
+	content: "";
+     border-radius:50%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	opacity: .6;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px
+}
+
+.circle-work-thumb:hover .circle-work-text {
+	margin-top: 0px;
+	opacity: 1;
+	visibility: visible
+}
+
+.circle-work-thumb:hover:before {
+	opacity: 1;
+	visibility: visible
+}
+
+
+
+.circle-work-thumb {
+	display: inline-block;
+	position: relative;
+     border-radius:50%;
+     radius: 50%;
+}
+
+.circle-work-thumb img {
+	border: 10px solid #fff
+}
+
+.circle-work-thumb .circle-work-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90%;
+	margin-top: 20px;
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	opacity: 1;
+
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+@media(max-width:500px) {
+     #block{
+          border-color:rgba(246,245,245,1);
+           margin: 0 auto;
+           height: 70vw;
+           background-size:cover;
+           background-position: center;
+     }
+
+     .circle-work-thumb .circle-work-text h2 {
+          font-size: 1rem;
+     }
+     .circle-work-thumb .circle-work-text p {
+          font-size: .7rem;
+     }
+
+     .circle-work-thumb:hover .circle-work-text2 {
+          font-size: 0.8rem;
+     }
+}
+.circle-work-thumb{
+     margin:3%;
+
+}
+.myhr{
+     height:10px;
+     width:25%;
+     border:none;
+}
+
+.circlecol{
+     text-align: center;
+     margin:0 auto;
+}
