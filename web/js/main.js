@@ -42,7 +42,7 @@
 
 
 	// home slider
-/*	$('.home-slider').owlCarousel({
+	$('.home-slider').owlCarousel({
     loop:true,
     autoplay: true,
     margin:0,
@@ -153,7 +153,7 @@
         loop:false
       }
   	}
-	});*/
+	});
 
   var siteStellar = function () {
     $(window).stellar({

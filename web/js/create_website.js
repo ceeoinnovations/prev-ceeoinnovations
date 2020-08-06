@@ -61,14 +61,17 @@ function CreateSimpleSite(){
      let simplediv = document.createElement("div");
 
      for(let i = 0; i < contentvals.length;i++){
-          if(! (contentvals[i]).classList.contains('USEDDIV')) {
+          if(!(contentvals[i]).classList.contains('USEDDIV')) {
                simplediv.append(contentvals[i]);
           }
 
      }
+     console.log("simplediv.innerHTML");
+     console.log(simplediv.innerHTML);
 
-     CreateFreeWrite(simplediv);
-
+     if(simplediv.innerHTML){
+          CreateFreeWrite(simplediv);
+     }
 }
 
 //CREATELINKS==================================================================

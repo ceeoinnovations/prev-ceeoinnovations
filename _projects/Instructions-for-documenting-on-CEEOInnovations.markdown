@@ -9,12 +9,9 @@ authors: ["Allison Moore"]
 featured: true
 ---
 
-HELLO HELLO HELLO THIS IS A TEST
-
-
 <div class="image_text_overlay" markdown="1">
 ![my header image](inno_instruct/tuftsceeo.jpg)
-# The CEEO Portfolio
+# Learn to make a post
 ## CEEO innovations is a hub for the the CEEO's work
 CEEO innovations is a “hub” for all the cool projects going on at the CEEO. “Projects” pages on the site like the one you will make
 will let visitors learn about specific projects going  at the CEEO.
@@ -44,7 +41,8 @@ will let visitors learn about specific projects going  at the CEEO.
      -the first few lines of the file between the  "---" are called "front matter." Fill out your
      project title and description, choose categories, and the link to your display image.
      -**DO NOT change layout:post**
-4. **Upload** your "PROJECT-NAME.markdown" file to the **project_assets** folder on the CEEOInnovations github and check that it looks how you want it to by refreshing the site. Github takes a few minutes to update, you can make this faster by using incognito).
+     -**For more guidance on this step, see the below "Customizing sections"**
+4. **Upload** your "PROJECT-NAME.markdown" file to the **_projects** folder on the CEEOInnovations github and check that it looks how you want it to by refreshing the site. Github takes a few minutes to update, you can make this faster by using incognito).
 5. Done!
 
 </div>
@@ -59,10 +57,14 @@ will let visitors learn about specific projects going  at the CEEO.
 </div>
 
 <div class="free_write" markdown="1">
-# Markdown Basics
+#  Customizing: Markdown Basics
 ## CEEO Innovations is made using a modified version of Markdown
 
 Markdown is a "short hand" way of writing html that makes it easy to create web pages.
+Your CEEOInnovations page will be written in markdown.
+
+ You can either make your page in straight markdown, or use the "div" elements decribed in the next section to make your markdown look even better!
+
 Most of the components on this site are made using the **header, subheader, image, and link** attributes, however Markdown offers a wide variety of styling options shown in
 the pictured table. These styling options can be used with "free write" div sections of webpages (like this one!)
 ![Markdown Table 1](inno_instruct/markdown2.png)
@@ -72,17 +74,20 @@ Complete documentation for markdown can be found [here](https://www.markdownguid
 </div>
 
 <div class="free_write" markdown="1">
-# Divs on CEEO Innovations
+# Customizing: Divs on CEEO Innovations
 ## Divs allow us to customize parts of our page
 
 ![divexample0](inno_instruct/divexample0.png)
 
-This and other projects pages on this site on structed into "sections" with different designs. This isn't normally possible with markdown, however using "div" elements we can get these cool sub sections. **Divs are the "building blocks" of a CEEOInnovations project page.**
+This and other projects pages on this site on structed into "sections" with different designs.
+This isn't normally possible with markdown, however using "div" elements we can get these cool sub sections.
+**Divs are the "building blocks" of a CEEOInnovations project page.**
 
 
 ![Markdown Table 2](inno_instruct/divexample1.png)
 
-Divs can be repeated and ordered in any order. If you don't want to use a certain section of a div (such as a title or subtitle) you can just delete it!
+Divs can be repeated and ordered in any order.
+If you don't want to use a certain section of a div (such as a title or subtitle) you can just delete it!
 
 ### This is the format for a div element
 
@@ -92,12 +97,11 @@ Divs can be repeated and ordered in any order. If you don't want to use a certai
 </div>
 ```
 
-Where "DIV_NAME" can be one of **five** possible sections. Each of these sections has unique formatting and capabilities.
-1. site_title
-2. image_text_overlay
-3. video_text_overlay
-4. document
-5. free_write
+Where "DIV_NAME" can be one of **four** possible sections. Each of these sections has unique formatting and capabilities.
+1. image_text_overlay
+2. video_text_overlay
+3. document
+4. free_write
 
 
 ## 1. "site_title"

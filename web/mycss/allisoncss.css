@@ -78,7 +78,7 @@ blockquote p {
 
 .free_write_content ol li {
      text-align: left;
-     font-size: 1.5rem;
+     font-size: 1rem;
 }
 
 .free_write_content ol {
@@ -87,7 +87,7 @@ blockquote p {
 }
 .free_write_content ul li {
      text-align: left;
-     font-size: 1.5rem;
+     font-size: 1rem;
   counter-increment: my-awesome-counter;
   position: relative;
   margin-left:10%;
@@ -569,12 +569,11 @@ position: relative;
 }
 
 .free_write_content h2 {
-     font-size:2.75vw;
+     font-size:2.65vw;
      font-weight: 500;
      letter-spacing: -0.05em;
      z-index: 10;
      padding:1.9rem;
-     padding-bottom: 3rem;
      text-align: center;
      position: relative;
      line-height: 0.8em;
@@ -653,12 +652,11 @@ position: relative;
      }
 
      .free_write_content h2 {
-          font-size:  3.5vw;
+          font-size:  3.2vw;
           font-weight: 700;
           letter-spacing: -0.05em;
           z-index: 10;
           padding:2rem;
-          padding-bottom: 3rem;
           text-align: center;
           position: relative;
           line-height: 0.8em;
@@ -682,13 +680,11 @@ position: relative;
      }
 
           .free_write_content h2 {
-               font-size:  6vw;
+               font-size:  4.8vw;
                font-weight: 700;
                letter-spacing: -0.05em;
                z-index: 10;
                padding:2rem;
-               padding-bottom: 3rem;
-
                text-align: center;
                position: relative;
                line-height: 0.8em;
@@ -722,4 +718,70 @@ position: relative;
     color: inherit;
     font-family: 'Space Mono', monospace;
     word-break: normal;
+}
+
+/*VIDEO SEGMENT*------------------------*/
+
+
+#newsrcdoc, #transferhereVO .sampledatasectionVO{
+     display:none;
+}
+.video-container {
+     position:relative;
+    float: right;
+    padding-bottom: 15.25%;
+    width: 75%;
+    height: 465px;
+    border: none
+}
+
+@media (max-width:1200px) {
+}
+.video-container {
+     position:relative;
+    float: right;
+    padding-bottom: 15.25%;
+    width: 75%;
+    height: 500px;
+    border: none
+}
+}
+@media (max-width:992px) {
+}
+.video-container {
+     position:relative;
+    float: right;
+    padding-bottom: 15.25%;
+    width: 75%;
+    height: 465px;
+    border: none
+}
+}
+
+.video-container iframe {
+     overflow:hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:820px) {
+     .video-container {
+            width: 80%;
+          height: 400px;
+          margin-bottom: 15px;
+          overflow: hidden;
+          padding-bottom: 56.25%;
+     }
+}
+
+@media (max-width:750px) {
+     .video-container {
+            width: 90%;
+          height: auto;
+          margin-bottom: 15px;
+          overflow: hidden;
+     }
 }

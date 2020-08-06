@@ -6,7 +6,7 @@ description: An innovative approach to integrate engineering and literacy in ele
 categories:  ["Lesson Plans"]
 displayimg: novel-engineering/novel_engineering.png
 featured: true
-authors: ["Ethan Danahy", "Kristen Wendell"]
+authors: ["Elissa Milto", "Kristen Wendell"]
 ---
 
 <div class="image_text_overlay" markdown="1">

@@ -2,14 +2,14 @@
 layout: post
 
 title: SPIKE Morse Code Decoder with AI
-description:
-displayimg: Documentation of Decoder/morse-code-overview.png
+description: A Morse Code Decorder using AI
+displayimg: Documentation-of-Decoder/morse-code-overview.png
 categories: ["Spike Prime", "Tech"]
 ---
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![Morse code translations](Documentation of Decoder/morse-code-overview.png)
+![Morse code translations](Documentation-of-Decoder/morse-code-overview.png)
 # International Morse Code
 Use this file to write your own morse code messages and then decode them with your decoder.
 </div>

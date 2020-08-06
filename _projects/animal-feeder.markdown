@@ -3,8 +3,9 @@ layout: post
 
 Title: Automatic Animal Feeder
 Description: Feeder design for Dr. E's Challenge 2!
-displayimg: images_jason/20200723_112955[1].jpg
+displayimg: images_jason/20200723_112955.jpg
 categories: ["Spike Prime", "Lesson Plans",  "Robotics",]
+authors: ["Jason"]
 ---
 
 <div class="image_text_overlay" markdown="1">

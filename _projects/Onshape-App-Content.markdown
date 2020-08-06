@@ -4,7 +4,7 @@ layout: post
 title: ONSHAPE APP CONTENT CREATION
 description:
 displayimg: ceeo_innovations/3D-val.png
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
+categories: [ "3D Printing", "Tech"]
 ---
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->

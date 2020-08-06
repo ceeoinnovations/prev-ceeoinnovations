@@ -12,9 +12,6 @@ authors: ["Allison Moore"]
 
 
 
-w
-
-
 # The CEEO Portfolio
 
 ## CEEO innovations is a hub for the CEEO's work

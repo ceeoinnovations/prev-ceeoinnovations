@@ -10,5 +10,8 @@ docs:
 - title: About
   url: about.html
 
+- title: Document Work
+  url:  projects/Instructions-for-documenting-on-CEEOInnovations.html
+
 - title: Robotics Playground
   url: https://sites.google.com/tuftsceeo.org/roboticsplayground/home

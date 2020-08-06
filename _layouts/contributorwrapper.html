@@ -72,7 +72,7 @@
      <div id="navbar" class="clearfix">
 
           <a id="logo" class="navlink" href="index.html"  target="_blank">
-               <img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/Logo_DarkGreen_Inset.png" onError="this.onerror=null;this.src='web/img/Logo_DarkGreen_Inset.png';" alt="">
+               <img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/Logo_Black.png" onError="this.onerror=null;this.src='web/img/Logo_DarkGreen_Inset.png';" alt="">
           </a>
 
        <div id="navbar-right">
@@ -134,45 +134,35 @@ function myFunction() {
 
    <script>
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function() {scrollFunction(x)};
+window.onscroll = function() {scrollFunction()};
 
 var header = document.getElementById("nav-wrap");
 var mobileheader = document.getElementById("mobilenav");
 var sticky = header.offsetTop;
 
-var x = window.matchMedia("(max-width: 1000px)");
-var y = window.matchMedia("(max-width: 600px)")
-scrollFunction(x) // Call listener function at run time
-x.addListener(scrollFunction)
+window.onresize = scrollFunction();
 
-function scrollFunction(x) {
+function scrollFunction() {
+     if (window.pageYOffset > sticky) {
+             header.classList.add("sticky");
+        } else {
+             header.classList.remove("sticky");
+           }
 
-        header.classList.add("sticky");
 
-
-  if (document.body.scrollTop > header.offsetTop || document.documentElement.scrollTop > header.offsetTop) {
-    document.getElementById("navbar").style.padding = "0px 0px";
-     $("#navbar").css({"padding-top":".5%"});
-    $("#navbar").css({"padding-left": "1%", "padding-right": "1%"});
-    $("#logo").css({"width": "100px"});
-    $("#navtuftsimglink").css({"width": "120px"});
-    $("#navsearchimglink").css({"width": "45px"});
-
-     $("#navbar-right").css({ "padding-bottom":".5%"});
-      $("#navbar-right a").css({"font-size": "1vw"});
+  if (window.pageYOffset  > 900) {
+       document.getElementById("navbar").style.padding = "0px 0px";
+       $("#navbar").css({"padding-left": ".5%", "padding-right": ".5%","padding-top":"0%","background-color":" #fff"});
+       $("#logo").css({"width": "150px"});
+       $("#navtuftsimglink").css({"width": "120px"});
+       $("#navsearchimglink").css({"width": "45px"});
 
 } else  {
-
-
-    document.getElementById("navbar").style.padding = "30px 10px";
-    $("#navbar").css({"padding-bottom": "4%", "padding-top":"4%"});
-    $("#logo").css({"width": "120px"});
-     $("#navtuftsimglink").css({"width": "200px"});
+     document.getElementById("navbar").style.padding = "10px 3px";
+      $("#navbar").css({"padding-bottom": "2.5%", "padding-top":"2.5%",  "background-color":"#fff"});
+     $("#logo").css({"width": "200px"});
+     $("#navtuftsimglink").css({"width": "120px"});
      $("#navsearchimglink").css({"width": "50px"});
-
-    $("#navbar .nav").css({"padding-top": "1%"});
-     $("#navbar-right a").css({"font-size": "1.5vw"});
-     $("#navbar-right").css({ "padding-bottom":"0%"});
   }
 }
 </script>

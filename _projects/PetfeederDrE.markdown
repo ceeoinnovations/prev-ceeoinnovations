@@ -3,7 +3,7 @@ layout: post
 
 title: PET FEEDER
 description: A responsive device that dispenses a treat when a pet presses the button.
-displayimg: project_assets/Feeder images/feeder1.jpg
+displayimg: project_assets/Feeder-images/feeder1.jpg
 authors: ["Olivia Turner"]
 categories: ["Spike Prime",  "Robotics", "Tech"]
 ---

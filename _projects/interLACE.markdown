@@ -6,7 +6,7 @@ description: InterLACE is an interactive digital white-board interface.
 displayimg: interLace/interlacehead.png
 categories: ["Tech"]
 featured: true
-authors: []
+authors: ["Ethan Danahy"]
 ---
 <div class="image_text_overlay" markdown="1">
 ![Header Image](interLace/interlacedata4.jpg)
@@ -28,7 +28,6 @@ InterLACE is hosted on Visual Classrooms, an interactive collaboration platform 
 [Interactive Learning and Collaboration Environment](interLace/InterLACEPoster.png)
 <!-- insert as many links here as you want to dynamically create a grid of documents-->
 </div>
-
 <div class="free_write" markdown="1">
 # InterLACE Interface
 ![interlace data 1](interLace/interlacedata1.jpg)

@@ -819,11 +819,10 @@ https://flickity.metafizzy.co
 
 .carousel-cell {
 
-     width: 333px;
-     height: 500px;
+     width: 240px;
+     height: 400px;
 
   margin-right: 10px;
-  border-radius: 5px;
   /* flex-box, center image in cell */
   display: -webkit-box;
   display: -webkit-flex;
@@ -840,11 +839,10 @@ https://flickity.metafizzy.co
 @media(max-width:1100px){
      .carousel-cell {
 
-       width: 333px;
-       height: 400px;
+       width: 216px;
+       height: 360px;
 
        margin-right: 10px;
-       border-radius: 5px;
        /* flex-box, center image in cell */
        display: -webkit-box;
        display: -webkit-flex;
@@ -859,31 +857,11 @@ https://flickity.metafizzy.co
      }
 
 }
-
-@media(max-width:675px){
-     .carousel-cell {
-          width: 200px;
-          height: 300px;
-       margin-right: 10px;
-       border-radius: 5px;
-       /* flex-box, center image in cell */
-       display: -webkit-box;
-       display: -webkit-flex;
-       display:         flex;
-       -webkit-box-pack: center;
-       -webkit-justify-content: center;
-               justify-content: center;
-       -webkit-align-items: center;
-               align-items: center;
-     }
-}
-
 @media(max-width:930px){
      .carousel-cell {
-          width: 330px;
-          height: 400px;
+          width: 180px;
+          height: 300px;
        margin-right: 10px;
-       border-radius: 5px;
        /* flex-box, center image in cell */
        display: -webkit-box;
        display: -webkit-flex;
@@ -895,14 +873,14 @@ https://flickity.metafizzy.co
                align-items: center;
      }
 }
+
 
 
 @media(max-width:500px){
      .carousel-cell {
-     width: 200px;
-       height: 300px;
+     width: 150px;
+       height: 250px;
        margin-right: 10px;
-       border-radius: 5px;
        /* flex-box, center image in cell */
        display: -webkit-box;
        display: -webkit-flex;
@@ -912,15 +890,18 @@ https://flickity.metafizzy.co
                justify-content: center;
        -webkit-align-items: center;
                align-items: center;
+     }
+
+     .carousel-cell .old-work-thumb .old-work-text h2 {
+          font-size: 1.2rem;
      }
 }
 
 @media(max-width:400px){
      .carousel-cell {
-     width: 200px;
+     width: 120px;
        height: 200px;
        margin-right: 10px;
-       border-radius: 5px;
        /* flex-box, center image in cell */
        display: -webkit-box;
        display: -webkit-flex;
@@ -930,6 +911,10 @@ https://flickity.metafizzy.co
                justify-content: center;
        -webkit-align-items: center;
                align-items: center;
+     }
+
+     .carousel-cell .old-work-thumb .old-work-text h2 {
+          font-size: 1rem;
      }
 }
 /* cell number */
@@ -955,7 +940,7 @@ https://flickity.metafizzy.co
 /* brighten selected image */
 .carousel-cell img, .carousel-cell.is-selected img {
   opacity: 0.6;
-  border-radius: 10px;
+  border-radius: 20px;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-filter: none;
@@ -1098,6 +1083,13 @@ https://flickity.metafizzy.co
      #breakimage, #breakimage2{
           padding-top: 12.5rem;
           padding-bottom: 12.5rem;
+     }
+}
+
+@media(max-width:409px){
+     #breakimage, #breakimage2{
+          padding-top: 7rem;
+          padding-bottom: 7rem;
      }
 }
 
