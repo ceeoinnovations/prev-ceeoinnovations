@@ -5,6 +5,9 @@ title: YOUR SITE title
 description: description of your site
 displayimg: IMAGEFOLDERNAME/IMGNAME
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
+authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
+featured: false 
+
 ---
 
 
