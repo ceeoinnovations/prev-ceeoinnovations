@@ -1,8 +1,15 @@
 docs_list_title:
 docs:
 
-- title: Search
-  url: index.html#searchbox
+
+- title: Products
+  sublinks:
+    - title: Robotics Playground
+      url: https://ceeoinnovations.github.io/RoboticsPlayground/
+    - title: STOMP
+      url: https://sites.tufts.edu/stomp/
+    - title: Novel Engineering
+      url: https://www.novelengineering.org/
 
 - title: Contributors
   url: contributors.html
@@ -13,5 +20,5 @@ docs:
 - title: Document Work
   url:  projects/Instructions-for-documenting-on-CEEOInnovations.html
 
-- title: Robotics Playground
-  url: https://sites.google.com/tuftsceeo.org/roboticsplayground/home
+- title: Search
+  url: index.html#searchbox

@@ -31,22 +31,6 @@ will let visitors learn about specific projects going  at the CEEO.
 - Links to related sites so people can learn more about the project
 
 </div>
-
-<div class="free_write" markdown="1">
-
-# Creating a Page
-1. Use **Drag and Drop** to upload a folder of images and documents for your page to **project_assets** on [github](https://github.com/amoore449/ceeoinnovations)
-2. Copy this file [**SAMPLE-FILE.markdown**](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing) to make a new file for your page. Title your new file with the PROJECT-NAME.markdown.
-3. **Customize** the sample file with divs and markdown to display the content you want.
-     -the first few lines of the file between the  "---" are called "front matter." Fill out your
-     project title and description, choose categories, and the link to your display image.
-     -**DO NOT change layout:post**
-     -**For more guidance on this step, see the below "Customizing sections"**
-4. **Upload** your "PROJECT-NAME.markdown" file to the **_projects** folder on the CEEOInnovations github and check that it looks how you want it to by refreshing the site. Github takes a few minutes to update, you can make this faster by using incognito).
-5. Done!
-
-</div>
-
 <!--document creates a grid of documents--------------------->
 <div class="document" markdown="1">
 # Guides on how to use CEEOInnovations
@@ -54,6 +38,76 @@ will let visitors learn about specific projects going  at the CEEO.
 ["Cheatsheet" For documenting](inno_instruct/cheatsheet.pdf)
 [Presentation slides with lesson on documenting](https://docs.google.com/presentation/d/e/2PACX-1vQuVgfNrRipSOYAHUVL6Y9ZKi2BMW7wI95fPlgpEIaGu6yQpx-1VEYMOJpOCQ8sqcJCkL5O3a0ZDf7N/embed?start=false&loop=false&delayms=3000)
 [Guide to Markdown and Divs](https://docs.google.com/presentation/d/e/2PACX-1vRYPC-Jo3iU7rD1_seS9CQZFMbwctRxy_XQWQ-WJGz8waFeZH0QQwa66DYzZXbPtFb3f65SbYsrJVN0/embed?start=false&loop=false&delayms=3000)
+</div>
+
+<div class="free_write" markdown="1">
+
+# Summary: Creating a Page
+### Below is a summary of the documentation steps, the next few sections will go into more detail on each step
+
+1. Use **Drag and Drop** to upload a folder of images and documents for your page to **project_assets** on [github](https://github.com/ceeoinnovations/ceeoinnovations.github.io)
+2. Copy this file [**SAMPLE-FILE.markdown**](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing) or the sample file in [github](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh-pages/_projects/SAMPLE-FILE.markdown) to make a new file for your page. Title your new file with the PROJECT-NAME.markdown
+3. **Customize the Frontmatter** the first few lines of the file between "---" dividers decide the title of your project and other important information. **DO NOT change layout:post.**
+4. **Document** your project in [Markdown](https://www.markdownguide.org/basic-syntax/) (HTML shorthand) and use div elements to display your content more aesthetically.
+     -**For more guidance on this step, see the below "Customizing sections"**
+5. **Upload** your "PROJECT-NAME.markdown" file to the **_projects** folder on the CEEOInnovations github and check that it looks how you want it to by refreshing the site. Github takes a few minutes to update, you can make this faster by using incognito).
+6. Done!
+
+</div>
+
+<div class="video_text_overlay" markdown="1">
+[Step 1](https://youtu.be/tVpvP5be968)
+# Step 1: Upload Assets
+## Upload a file of pictures and documents for your project to github
+Uploading the images and documents you want to display on your site locally to github can
+prevent broken links later on and lets you easily include pictures and documents.
+</div>
+
+<div class="video_text_overlay" markdown="1">
+[Step 2](https://youtu.be/hSam9aVLy5A)
+# Step 2. Copy Sample File
+## Copy the sample file from either Google Docs or Github
+Create a copy of [**SAMPLE-FILE.markdown**](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing) from either
+[Google Docs](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing)
+or [github](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh-pages/_projects/SAMPLE-FILE.markdown).
+</div>
+
+<div class="free_write" markdown="1">
+## Step 3: Customize the Frontmatter
+
+The "Frontmatter" is the first few lines of a markdown
+
+```
+---
+layout: post
+
+title: YOUR SITE title
+description: description of your site
+displayimg: IMAGEFOLDERNAME/IMGNAME
+categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
+authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
+featured: false
+---
+```
+</div>
+
+
+
+<div class="free_write" markdown="1">
+#  Customizing: Markdown Basics
+## CEEO Innovations is made using a modified version of Markdown
+
+Markdown is a "short hand" way of writing html that makes it easy to create web pages.
+Your CEEOInnovations page will be written in markdown.
+
+You can either make your page in straight markdown, or use the "div" elements decribed in the next section to make your markdown look even better!
+
+Most of the components on this site are made using the **header, subheader, image, and link** attributes, however Markdown offers a wide variety of styling options shown in
+the pictured table. These styling options can be used with "free write" div sections of webpages (like this one!)
+![Markdown Table 1](inno_instruct/markdown2.png)
+![Markdown Table 2](inno_instruct/markdown3.png)
+
+Complete documentation for markdown can be found [here](https://www.markdownguide.org/basic-syntax/).
 </div>
 
 <div class="free_write" markdown="1">
@@ -72,6 +126,7 @@ the pictured table. These styling options can be used with "free write" div sect
 
 Complete documentation for markdown can be found [here](https://www.markdownguide.org/basic-syntax/).
 </div>
+
 
 <div class="free_write" markdown="1">
 # Customizing: Divs on CEEO Innovations

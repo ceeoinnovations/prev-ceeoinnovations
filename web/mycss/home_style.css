@@ -311,16 +311,17 @@ body{
      font-weight: 300;
 }
 #mypageheader{
-     font-size: 4.5vw;
-     font-weight: 600;
+     font-size: 6vw;
+     font-weight: 800;
      color:#EF476F;
       text-shadow: -.5px .5px #bf3858;
      letter-spacing: -0.05em;
      z-index: 10;
      text-align: left;
      position: relative;
-     line-height: 0.6em;
+     line-height: 0.4em;
 }
+
 
 #circle{
 border-color:rgba(246,245,245,1);
@@ -956,7 +957,7 @@ https://flickity.metafizzy.co
 #nav-wrap{
 }
 #navbar {
-  overflow: hidden;
+  overflow: visible;
   margin: auto;
   background-color: #fff;
 /*   box-shadow: 4px 4px 5px rgba(40, 41, 40, .2);*/
@@ -970,19 +971,20 @@ https://flickity.metafizzy.co
 
 
 #navbar a {
-  float: right;
+  float: none;
   color: #000;
   font-weight: 400;
   padding-left: 12px;
    padding-right: 20px;
    font-size: 1vw;
   text-decoration: none;
-
+}
+@media(max-width: 800px){
+     #navbar a {
+        font-size: 1.35vw;
+     }
 }
 
-#navbar .nav{
-     padding-top: 1%;
-}
 #navbar .nav a {
      height: 100%;
 
@@ -1041,6 +1043,59 @@ https://flickity.metafizzy.co
   padding-top: 102px;
 }
 
+#nav-wrap ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+#nav-wrap li {
+  float: left;
+}
+
+#nav-wrap li a, .dropbtn {
+  display: inline-block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav-wrap li a:hover, .dropdown:hover .dropbtn {
+  background-color: #f3f3f3;
+}
+
+#nav-wrap li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #fffd85;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #fffd85;}
+
 /*subsites-----------------------------------------------------
 #navbar ul, nav ul, .listitem ul  {
     list-style-type: none;
@@ -1064,8 +1119,19 @@ https://flickity.metafizzy.co
 
      background-image: url(../img/about3.jpg);
      overflow: hidden;
-     padding-top: 15rem;
-     padding-bottom: 15rem;
+     padding-top: 12rem;
+     padding-bottom: 12rem;
+}
+#breakimage3{
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     background-attachment: fixed;
+
+     background-image: url(../img/about.jpg);
+     overflow: hidden;
+     padding-top: 12rem;
+     padding-bottom: 12rem;
 }
 
 #breakimage2{
@@ -1076,20 +1142,20 @@ https://flickity.metafizzy.co
 
      background-image: url(../img/abput2.jpg);
      overflow: hidden;
-     padding-top: 15rem;
-     padding-bottom: 15rem;
+     padding-top: 12rem;
+     padding-bottom: 12rem;
 }
 @media(max-width:859px){
      #breakimage, #breakimage2{
-          padding-top: 12.5rem;
-          padding-bottom: 12.5rem;
+          padding-top: 10rem;
+          padding-bottom: 10rem;
      }
 }
 
 @media(max-width:409px){
      #breakimage, #breakimage2{
-          padding-top: 7rem;
-          padding-bottom: 7rem;
+          padding-top: 6rem;
+          padding-bottom: 6rem;
      }
 }
 
@@ -1405,7 +1471,7 @@ color: #000;
     flex: 1 100%;
 }
 
-@media(max-width:500px) {
+@media(max-width:650px) {
      #navbar{
           display: none;
      }
