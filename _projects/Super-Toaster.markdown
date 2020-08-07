@@ -1,7 +1,6 @@
 
 ---
 layout: post
-
 title: Super Toaster
 description: A toaster that can fly!
 displayimg: super_toaster/toaster3.jpg
