@@ -67,28 +67,56 @@
 
 <!-----------NAV BAR-------------------------------------------------------------------->
 
+
 <div id="nav-wrap">
 
      <div id="navbar" class="clearfix">
 
           <a id="logo" class="navlink" href="index.html"  target="_blank">
-               <img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/Logo_Black.png" onError="this.onerror=null;this.src='web/img/Logo_DarkGreen_Inset.png';" alt="">
+               <img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/Logo_Black.png" onError="this.onerror=null;this.src='web/img/Logo_Pink3.png';" alt="">
           </a>
 
        <div id="navbar-right">
-           <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
-                <img  id="navimg" src="web/img/ceeoblacklogo.png"onError="this.onerror=null;this.src='web/img/ceeopinklogo.png';" alt="">
-          </a>
+           <ul>
+                <li>
+
 
                {% for item in site.data.navigation.docs %}
+               {% assign class = nil %}
+               {% if page.url contains link.url %}
+                   {% assign class = 'active' %}
+               {% endif %}
                  {% if item.title == "Search"%}
-                 <a id="navsearchimglink" href={{item.url}}>
-                 <img  id="navimg" src="web/img/black-search.png" >
-            </a>
+                 <li>
+                      <a id="navsearchimglink" href={{item.url}}>
+                           <img  id="navimg" src="web/img/black-search.png" >
+                      </a>
+                 </li>
                  {% continue %}
                  {% endif %}
-                 <a class ="navlink nav hvr-shrink" href="{{ item.url }}" >{{ item.title }}</a>
+
+                      {% if item.sublinks %}
+                         <li class = "dropdown">
+                             <a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}" class="dropbtn dropdown-toggle navlink nav hvr-shrink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ item.title }} <span class="caret"></span>
+                                  <div class="dropdown-content">
+                                     {% for sublink in item.sublinks %}
+                                             <a  href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                   {% endfor %}
+                                   </div>
+                              </a>
+                         </li>
+                     {% else %}
+                          <li>
+                               <a class ="navlink nav hvr-shrink" href="{{ item.url }}" >{{ item.title }}</a>
+                         </li>
+                      {% endif %}
                {% endfor %}
+
+               <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
+                    <img  id="navimg" src="web/img/ceeoblacklogo.png"onError="this.onerror=null;this.src='web/img/ceeopinklogo.png';" alt="">
+               </a>
+          </li>
+          </ul>
 
           </div>
      </div>

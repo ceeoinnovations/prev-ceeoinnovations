@@ -15,7 +15,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet preload"  as="style"href="../web/mycss/allisoncss.css">
-
+<link rel="preload stylesheet" href="../web/mycss/home_style.css" as="style">
 <!-- Bootstrap core CSS -->
 <link href="../web/mycss/bootstrap.min.css" rel="stylesheet preload" as="style">
 
@@ -30,6 +30,7 @@
 
 <!-- Theme Style -->
 <link rel="preload stylesheet" href="../web/mycss/style.css" as="style">
+
 </head>
 
 <body style="background-color:rgba(245,245,245,1);padding-top: 0px">
@@ -58,28 +59,57 @@
 
 <!-----------NAV BAR-------------------------------------------------------------------->
 
+
+
 <div id="nav-wrap">
 
      <div id="navbar" class="clearfix">
 
-          <a class="navlink" href="../index.html" id="logo" target="_blank">
-               <img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_Black.png" alt="">
+          <a id="logo" class="navlink" href="../index.html"  target="_blank">
+               <img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_Black.png" onError="this.onerror=null;this.src='../web/img/Logo_Pink3.png';" alt="">
           </a>
 
        <div id="navbar-right">
-            <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
-                 <img  id="navimg" src="../web/img/ceeoblacklogo.png" onError="this.onerror=null;this.src='web/img/ceeoblacklogo.png';" alt="">
-           </a>
+           <ul>
+                <li>
 
-           {% for item in site.data.navigation.docs %}
-             {% if item.title == "Search"%}
-             <a id="navsearchimglink" href={{item.url | prepend: "../" }}>
-             <img  id="navimg" src="../web/img/black-search.png" >
-        </a>
-             {% continue %}
-             {% endif %}
-             <a class ="navlink nav hvr-shrink" href="{{ item.url | prepend:"../" }}" >{{ item.title }}</a>
-           {% endfor %}
+
+               {% for item in site.data.navigation.docs %}
+               {% assign class = nil %}
+               {% if page.url contains link.url %}
+                   {% assign class = 'active' %}
+               {% endif %}
+                 {% if item.title == "Search"%}
+                 <li>
+                      <a id="navsearchimglink" href="{{ item.url | prepend:"../" }}">
+                           <img  id="navimg" src="../web/img/black-search.png" >
+                      </a>
+                 </li>
+                 {% continue %}
+                 {% endif %}
+
+                      {% if item.sublinks %}
+                         <li class = "dropdown">
+                             <a href="#" class="dropbtn dropdown-toggle navlink nav hvr-shrink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ item.title }} <span class="caret"></span>
+                                  <div class="dropdown-content">
+                                     {% for sublink in item.sublinks %}
+                                             <a  href="{{ item.url | prepend:"../" }}">{{ sublink.title }}</a>
+                                   {% endfor %}
+                                   </div>
+                              </a>
+                         </li>
+                     {% else %}
+                          <li>
+                               <a class ="navlink nav hvr-shrink" href="{{ item.url | prepend:"../" }}" >{{ item.title }}</a>
+                         </li>
+                      {% endif %}
+               {% endfor %}
+
+               <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
+                    <img  id="navimg" src="../web/img/ceeoblacklogo.png"onError="this.onerror=null;this.src='../web/img/ceeopinklogo.png';" alt="">
+               </a>
+          </li>
+          </ul>
 
           </div>
      </div>
