@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Super Toaster
@@ -6,7 +5,6 @@ description: A toaster that can fly!
 displayimg: super_toaster/toaster3.jpg
 categories: [ "3D Printing", "Tech"] 
 ---
-
 
 <div class="video_text_overlay" markdown="1">
 [TITLE OF VIDEO](--- paste a youtu.be link here--)
