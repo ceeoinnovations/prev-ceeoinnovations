@@ -4,12 +4,15 @@ docs:
 
 - title: Products
   sublinks:
+    - title: Lego Engineering
+      url: http://www.legoengineering.com/
     - title: Robotics Playground
       url: https://ceeoinnovations.github.io/RoboticsPlayground/
     - title: STOMP
       url: https://sites.tufts.edu/stomp/
     - title: Novel Engineering
       url: https://www.novelengineering.org/
+
 
 - title: Contributors
   url: contributors.html
