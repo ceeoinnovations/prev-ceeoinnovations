@@ -115,6 +115,40 @@ function CreateLinks(mydivsi){
                //largernewdivPI.getElementsByClassName("sampleappendherePI")[0].innerHTML = reassignme.innerHTML;
                largerelementPI.append(finalpdfdiv);
 }
+function CreateLinkGrid(pdfcontain, mydivsi, mylinkarrayPI){
+     var i;
+     for(i=0;i < (mylinkarrayPI.length); i++){
+          //creating a new div with a class name that copies the innerhtml of another div
+          if (mylinkarrayPI.length%4==0){
+               var newdivPI = CreatenewDiv("col-sm-3 col-md-3 col-lg-3 pdfdatasection", "pdfsampledatasection");
+          } else if(mylinkarrayPI.length%3==0){
+               var newdivPI = CreatenewDiv("col-sm-4 col-md-4 col-lg-4 pdfdatasection", "pdfsampledatasection");
+          } else if(mylinkarrayPI.length%2==0){
+               var newdivPI = CreatenewDiv("col-sm-6 col-md-6 col-lg-6 pdfdatasection", "pdfsampledatasection");
+          }else if(mylinkarrayPI.length==1){
+               var newdivPI = CreatenewDiv("col-sm col-md col-lg pdfdatasection", "pdfsampledatasection");
+          } else{
+               var newdivPI = CreatenewDiv("col-sm-4 col-md-4 col-lg-4 pdfdatasection", "pdfsampledatasection");
+          }
+
+          //copy elements from markdown to new div
+          var copythis = document.getElementsByClassName("pdfsampledatasection")[0];
+          newdivPI.innerHTML = copythis.innerHTML;
+
+          //copy title to pdfheader
+          var mypdftitle = mylinkarrayPI[i].innerHTML;
+          newdivPI.getElementsByClassName("pdfheader")[0].innerHTML =mypdftitle;
+          //copy link to button and iframe
+          AddHrefSRCtoNewDiv("mypdf", 0, mylinkarrayPI[i], newdivPI);
+          AddHreftoNewDiv("click-to-download", 0, mylinkarrayPI[i], newdivPI);
+
+          //Create new div that copies append here to append content to
+          pdfcontain.append(newdivPI);
+
+     }
+     return pdfcontain;
+}
+
 
 function CollectmyLinkHeader(section_to_check){
      var sectionheaderPI = section_to_check.getElementsByTagName('h1')[0];

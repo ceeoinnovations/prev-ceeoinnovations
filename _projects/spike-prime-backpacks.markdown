@@ -21,13 +21,40 @@ You can code SPIKE Prime using MicroPython which is a subset of python for small
 [Read more on instructables.com >](https://www.instructables.com/id/MicroPython-on-SPIKE-Prime/)
 ![Link to my pic](spike-prime-backpacks/spike_1.png)
 </div>
-
-<div class="document" markdown="1">
+<div class="free_write" markdown="1">
 # HOW TO CUSTOMIZE SPIKE™ Prime
-[Backpack #1: OpenMV Camera](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/)
-[Backpack #2: Grove Sensors](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/)
-[Backpack #3: PyBoard](https://www.instructables.com/id/Backpack-3-PyBoard/)
-[Backpack #4: Breadboard](https://www.instructables.com/id/Backpack-4-Breadboard/)
-[Backpack #5: Micro:bit](https://www.instructables.com/id/Backpack-5-Microbit/)
-[Backpack #6: UniversalConnector](https://www.instructables.com/id/Backpack-6-Universal-Connector/)
+## SPIKE Prime Backpacks are extensions for LEGO Education SPIKE Prime.
+
+### Backpack #1: OpenMV Camera
+The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
+- [Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/)
+- [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples)
+
+### Backpack #2: Grove Sensors
+The Pyboard is the brain for this backpack. It allows you to connect Grove sensors to LEGO SPIKE Prime to easily.
+- [Instructables](https://www.instructables.com/id/Backpack-2-Grove-Sensors/)
+- [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples)
+
+### Backpack #3: Pyboard
+A Pyboard Backpack lets you connect to the WiFi from SPIKE Prime and use all the functionality of a Pyboard. This will hugely widen the range of projects you can do using the SPIKE Prime Hub.
+- [Instructables](https://www.instructables.com/id/Backpack-3-PyBoard/)
+- [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples)
+
+### Backpack #4: Breadboard
+This backpack allows you to connect your SPIKE Prime with LEDs, buttons, switches and joysticks to create prototypes to control SPIKE Prime.
+- [Instructables](https://www.instructables.com/id/Backpack-4-Breadboard/)
+- [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples)
+
+### Backpack #5: Micro:bit
+With the Micro:bit Backpack, you can connect a Micro:bit to LEGO SPIKE Prime. You can integrate all the capabilities of a Microbit to the SPIKE Prime. You can also communicate between two Microbits using radio communication.
+- [Instructables](https://www.instructables.com/id/Backpack-5-Microbit)
+- [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples)
+
+### Backpack #6: UniversalConnector
+The Universal Connector Backpack is basically a wired backpack that converts the SPIKE Prime connectors to generic male header pins. This backpack is super useful if you are planning to make your own backpacks for other micro-controllers.
+- [Instructables](https://www.instructables.com/id/Backpack-6-Universal-Connector/)
+- [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples)
+
+![Link to my pic](spike-prime-backpacks/github.jpg)
+
 </div>
