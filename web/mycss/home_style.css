@@ -331,19 +331,8 @@ height:17vw;
 border-radius: 50%;
 background-size:cover;
 }
-@media(max-width:700px){
-     #mypageheader{
-          font-size: 5vw;
-          font-weight: 600;
-          color:#EF476F;
+@media(max-width:720px){
 
-          letter-spacing: -0.05em;
-          z-index: 10;
-          text-align: left;
-          position: relative;
-          line-height: 0.5em;
-
-     }
      .ceeodescrip{
           text-align: center;
           font-size: 2vw;
@@ -352,34 +341,13 @@ background-size:cover;
           padding-bottom: 2vw;
           font-weight: 300;
      }
-}
-
-@media(max-width:500px){
-     #mypageheader{
-          font-size: 6vw;
-          font-weight: 600;
-          color:#EF476F;
-          letter-spacing: -0.05em;
-          z-index: 10;
-          text-align: left;
-          position: relative;
-          line-height: 0.5em;
-
+     .mainpagesubheader{
+          font-size: 1.5rem;
+          font-weight: 100;
      }
 }
-@media(max-width:500px){
-     #mypageheader{
-          font-size: 8vw;
-          font-weight: 600;
-          color:#EF476F;
-          letter-spacing: -0.05em;
-          z-index: 10;
-          text-align: left;
-          position: relative;
-          line-height: 0.5em;
 
-     }
-}
+
 @media(max-width:600px){
 
      #circle{
@@ -1617,6 +1585,15 @@ img {vertical-align: middle;}
 	position:relative;
 	top:1px;
 }
+.projectsubheader{
+     color:#51d294;
+}
+.productsubheader{
+     color:#ef476f;
+}
+.mainpagesubheader{
+     font-weight: 500;
+}
 .text {
   color: #f3f3f3;
   background-color: rgba(0 ,0 ,0, .6);
@@ -1812,22 +1789,16 @@ img {vertical-align: middle;}
      line-height: 0.4em;
 }
 @media(max-width:700px){
-     #myproductheader{
-          font-size: 5vw;
+     #mypageheader, #myproductheader{
+          font-size: 8vw;
           font-weight: 800;
      }
 }
 
 @media(max-width:500px){
-     #myproductheader{
-          font-size: 6vw;
-     }
-}
-@media(max-width:500px){
-     #myproductheader{
-          font-size: 8vw;
-          font-weight: 600;
-          color:#EF476F;
+     #mypageheader, #myproductheader{
+          font-size: 4rem;
+          font-weight: 800;
           letter-spacing: -0.05em;
           z-index: 10;
           text-align: left;
