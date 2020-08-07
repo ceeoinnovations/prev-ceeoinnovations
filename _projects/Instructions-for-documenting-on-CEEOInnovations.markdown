@@ -46,7 +46,7 @@ will let visitors learn about specific projects going  at the CEEO.
 ### Below is a summary of the documentation steps, the next few sections will go into more detail on each step
 
 1. Use **Drag and Drop** to upload a folder of images and documents for your page to **project_assets** on [github](https://github.com/ceeoinnovations/ceeoinnovations.github.io)
-2. Copy this file [**SAMPLE-FILE.markdown**](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing) or the sample file in [github](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh-pages/_projects/SAMPLE-FILE.markdown) to make a new file for your page. Title your new file with the PROJECT-NAME.markdown
+2. Copy this file [**SAMPLE-FILE.markdown**](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh-pages/_projects/SAMPLE-FILE.markdown) or the sample file in [github](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh-pages/_projects/SAMPLE-FILE.markdown) to make a new file for your page. Title your new file with the PROJECT-NAME.markdown
 3. **Customize the Frontmatter** the first few lines of the file between "---" dividers decide the title of your project and other important information. **DO NOT change layout:post.**
 4. **Document** your project in [Markdown](https://www.markdownguide.org/basic-syntax/) (HTML shorthand) and use div elements to display your content more aesthetically.
      -**For more guidance on this step, see the below "Customizing sections"**
@@ -67,7 +67,7 @@ prevent broken links later on and lets you easily include pictures and documents
 [Step 2](https://youtu.be/hSam9aVLy5A)
 # Step 2. Copy Sample File
 ## Copy the sample file from either Google Docs or Github
-Create a copy of [**SAMPLE-FILE.markdown**](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing) from either
+Create a copy of [**SAMPLE-FILE.markdown**](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh-pages/_projects/SAMPLE-FILE.markdown) from either
 [Google Docs](https://docs.google.com/document/d/1cwkEwnAnes05EWzl1L0POl9HGGlA0k_IfE2rlowTxFs/edit?usp=sharing)
 or [github](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh-pages/_projects/SAMPLE-FILE.markdown).
 </div>
@@ -75,7 +75,7 @@ or [github](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh
 <div class="free_write" markdown="1">
 ## Step 3: Customize the Frontmatter
 
-The "Frontmatter" is the first few lines of a markdown
+The "Frontmatter" is the first few lines of a markdown file. It pro
 
 ```
 ---
@@ -91,7 +91,12 @@ featured: false
 ```
 </div>
 
-
+<div class="video_text_overlay" markdown="1">
+[Step 3](https://youtu.be/hSam9aVLy5A)
+# Step 3. Customize the Frontmatter
+## Frontmatter provides key information about your page
+Create a copy of [**SAMPLE-FILE.markdown**](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh-pages/_projects/SAMPLE-FILE.markdown) and customize the frontmatter with the title, description, image, authors, and categories for your site.
+</div>
 
 <div class="free_write" markdown="1">
 #  Customizing: Markdown Basics
