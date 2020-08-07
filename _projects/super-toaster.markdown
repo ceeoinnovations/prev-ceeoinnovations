@@ -9,7 +9,7 @@ categories: [ "3D Printing", "Tech"]
 
 
 <div class="video_text_overlay" markdown="1">
-TITLE OF VIDEO](--- paste a youtu.be link here--)
+[TITLE OF VIDEO](--- paste a youtu.be link here--)
 # YOUR VIDEO TITLE
 ## YOUR VIDEO SUBTITLE
 THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
