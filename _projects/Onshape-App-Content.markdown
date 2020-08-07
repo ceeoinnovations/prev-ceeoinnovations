@@ -2,7 +2,7 @@
 layout: post
 
 title: ONSHAPE APP CONTENT CREATION
-description:
+description: Tutorial webpages for the OnShape app
 displayimg: ceeo_innovations/3D-val.png
 categories: [ "3D Printing", "Tech"]
 ---
