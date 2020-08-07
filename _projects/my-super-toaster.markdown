@@ -1,16 +1,13 @@
-
 ---
 layout: post
-
-title: title of your page
-description: a brief description of your project
-displayimg: IMAGEFOLDERNAME/IMGNAME 
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"] 
+title: Super Toaster
+description: A toaster that can fly!
+displayimg: super_toaster/toaster3.jpg
+categories: [ "3D Printing", "Tech"] 
 ---
 
-
 <div class="video_text_overlay" markdown="1">
-TITLE OF VIDEO](--- paste a youtu.be link here--)
+[TITLE OF VIDEO](--- paste a youtu.be link here--)
 # YOUR VIDEO TITLE
 ## YOUR VIDEO SUBTITLE
 THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
@@ -34,6 +31,3 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
 
 <div class="free_write" markdown="1"> 
 </div>
-
-
-
