@@ -21,13 +21,6 @@ This placemat was included as a page of the Onshape app, which will contain vari
 ## CHALLENGE & GUIDE FOR ONSHAPE BEGINNERS
 </div>
 
-<!--document creates a grid of documentss
-<div class="document" markdown="1">
-# MODELS & DEMOS
-[Paper Clip](ceeo_innovations/paper-clip.mp4)
-This demo was embedded in the HTML page as an animation loop in the Onshape app.
-<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
-<!-- </div> --------------------->
 
 <div class="document" width="500" markdown="1" >
 [Paper Clip](https://oliturner21.github.io/paper%20clip/INDEX.html)
@@ -37,9 +30,4 @@ This demo was embedded in the HTML page as an animation loop in the Onshape app.
 <div class="document" width="500" markdown="1" >
 [3D Valentine](https://oliturner21.github.io/3D Valentine placemat/INDEX.html)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
-</div>
-
-<!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
-               If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
-<div class="free_write" markdown="1">
 </div>

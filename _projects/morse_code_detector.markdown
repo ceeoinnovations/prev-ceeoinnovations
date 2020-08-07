@@ -8,7 +8,6 @@ displayimg: images_jason/20200716_113806.jpg
 featured: false;
 ---
 
-
 <div class="image_text_overlay" markdown="1">
 ![Link to my pic](images_jason/20200716_113806.jpg)
 # How Does it Work?
