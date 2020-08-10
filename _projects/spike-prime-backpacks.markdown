@@ -3,6 +3,7 @@ layout: post
 
 title: Spike Prime Backpacks
 description:
+featured: true
 displayimg: spike-prime-backpacks/backpack2.png
 categories: ["Robotics", "Spike Prime"]
 ---
