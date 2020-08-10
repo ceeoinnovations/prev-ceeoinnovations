@@ -367,7 +367,7 @@ This will produce the below content:
 
 "free_write" can be filled with whatever markdown you want. It is a unstructed section that will display any markdown you write in it in a white section box like this one.
 It is essentially the same as writing plain Markdown, however if you are using other divs you may have to write in a "free_write" section instead.
-"free_write" sections also let you have groups on your page instead of just random blockings
+"free_write" sections also let you have groups on your page instead of  a wall of text.
 
 
 For example, this is one sample free_write:
@@ -414,6 +414,15 @@ It uses lists, images, headers, and links. It will produce the following result:
 ![sitetitle](inno_instruct/free_write.png)
 
 </div>
+
+<div class="video_text_overlay" markdown="1">
+[Step 1](https://youtu.be/tVpvP5be968)
+# Step 5: Upload your project
+## Test out your project and try to upload!
+Upload your project and see how it looks. You may still have to debug and fix some links.
+Go on incognito mode to have the github site reload with your project faster.
+</div>
+
 
 <div class="document" markdown="1">
 # Give us feedback!

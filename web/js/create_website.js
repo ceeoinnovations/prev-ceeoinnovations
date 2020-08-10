@@ -502,7 +502,9 @@ function AddHreftoNewDiv_Prepend(get_class, at_place, copy_this_data, search_her
      var copyhere = search_here.getElementsByClassName(get_class)[at_place];
 
     if (!(is_url(copy_this_data.href)) || copy_this_data.href.indexOf("/ceeoinnovations") >= 0 ){
+           if(!(copy_this_data.href.indexOf("project_assets") >= 0) ){
          $(copy_this_data).attr('href' , "project_assets/" + $(copy_this_data).attr('href'));
+    }
 
     }
      copyhere.src = copy_this_data.href;
