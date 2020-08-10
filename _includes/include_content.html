@@ -75,7 +75,8 @@
 <div id="myappendcontent">
 </div>
 
-- {% for this_author in page.authors%}
+<div class="row">
+ {% for this_author in page.authors%}
      {% assign author_data = site.authors | where: 'name', this_author %}
      {% if this_author %}
           {% capture this_name %}
@@ -91,7 +92,7 @@
      {% include author_section.html name=this_author position=this_pos image=this_image %}
      {% endif %}
 {% endfor %}
-          </div>
+</div>
 
 
 <h2 class="voidvalue"></h2>

@@ -23,54 +23,82 @@ function CollectAllDivs(){
  * UPDATE AS NEW SECTIONS ARE MADE
  */
  function CreateSectionsByDiv(mydivs){
+      let nonsimple = false;
       for (var i = 0; i < mydivs.length; i++){
            if ( mydivs[i].classList.contains("site_title")){
                 CreateSiteTitle(mydivs[i]);
-
+                nonsimple = true;
 
            } else if ( mydivs[i].classList.contains("image_text_overlay")){
                 CreateHeaderImg(mydivs[i]);
+                 nonsimple = true;
            }else if ( mydivs[i].classList.contains("document")){
                CreateDocuments(mydivs[i]);
-
+                nonsimple = true;
           } else if ( mydivs[i].classList.contains("video_text_overlay")){
+               console.log("header video opened");
                  CreateHeaderVideo(mydivs[i]);
+                  nonsimple = true;
           }    else if ( mydivs[i].classList.contains("free_write")){
                  CreateFreeWrite(mydivs[i]);
-          } else if (mydivs[i].classList.contains("link_grid")){
-                 //CreateLinks(mydivs[i]);
+                  nonsimple = true;
           }
           else {
                 console.log("Div does not have a valid value");
            }
 
-           mydivs[i].className += (" USEDDIV");
-           let divvals = mydivs[i].getElementsByTagName('*');
-           for(let i = 0; i < divvals.length;i++){
-                divvals[i].className += (" USEDDIV");
-          }
+
+           if(mydivs[i].className == "document" || mydivs[i].className == "image_text_overlay"
+               || mydivs[i].className == "video_text_overlay" || mydivs[i].className == "free_write"){
+                     mydivs[i].className += (" USEDDIV");
+
+                     let divvals = mydivs[i].getElementsByTagName('*');
+                     for(let i = 0; i < divvals.length;i++){
+                          divvals[i].className += (" USEDDIV");
+                    }
+           }
+
 
       }
 
-       CreateSimpleSite();
+      $("div.USEDDIV").remove();
+      var mycontent = document.getElementById("mycontent");
+      if(mycontent.innerHTML && mycontent){
+           if(!nonsimple){
+          CreateFreeWrite(mycontent);
+          }
+     }
+     // console.log(mycontent.innerHTML);
+     //CreateSimpleSite();
 }
 //CreateSimpleSite==============================================================
-function CreateSimpleSite(){
+function CreateSimpleSite(mycontent){
      var mycontent = document.getElementById("mycontent");
      let contentvals = mycontent.getElementsByTagName('*');
      let simplediv = document.createElement("div");
 
      for(let i = 0; i < contentvals.length;i++){
           if(!(contentvals[i]).classList.contains('USEDDIV')) {
+               let mycontentvalvals = contentvals[i].getElementsByTagName('*');
                simplediv.append(contentvals[i]);
+               console.log(true);
+          } else {
+               console.log(false);
           }
 
      }
-     console.log("simplediv.innerHTML");
-     console.log(simplediv.innerHTML);
+
 
      if(simplediv.innerHTML){
-          CreateFreeWrite(simplediv);
+          console.log(simplediv.innerHTML);
+          if((simplediv.innerHTML != NULL) && (simplediv != NULL)){
+               if((simplediv.innerHTML.indexOf("a") !== -1) || (simplediv.innerHTML.indexOf("e") !== -1)
+                    || (simplediv.innerHTML.indexOf("i") !== -1) || (simplediv.innerHTML.indexOf("o") !== -1)
+                         || (simplediv.innerHTML.indexOf("u") !== -1)){
+                              console.log("FREE WRITE CALLED");
+                              CreateFreeWrite(simplediv);
+                         }
+          }
      }
 }
 
@@ -174,7 +202,7 @@ function is_url(str)
 */
 
 function CreateFreeWrite(mydivsi){
-
+     console.log("free write called");
 
      var sampledatasection= document.getElementsByClassName('sample_free_write_content_container_container')[0];
 
@@ -230,10 +258,8 @@ function CreateFreeWrite(mydivsi){
                $(img_arr[j]).attr('class' , "imgOnly");
           } else{
                $(img_arr[j]).attr('class' , "imgOnly");
+               }
           }
-     }
-
-
      }
      //append content to "appendhere"
      var append_div_here = document.getElementById("myappendcontent");
@@ -250,6 +276,7 @@ function CreateFreeWrite(mydivsi){
 *
 */
 function CreateHeaderVideo(mydivsi){
+
      let testlink = mydivsi.getElementsByTagName('a');
      if(testlink.length > 0){
      if(!(testlink[0].href.includes("--- paste ")) ){
@@ -503,7 +530,6 @@ function CreateHeaderImg(mydivsi){
      var pvoid = CheckifVoid_P_Gen(mydivsi);
 
      if((h1void) && (h2void) && (pvoid) ){
-          console.log("has text false");
           hastext = false;
      }
 
@@ -543,7 +569,7 @@ function CreateHeaderImg(mydivsi){
           subheader.innerHTML = myh1.innerHTML;
           myparagraph.innerHTML = myp.innerHTML;
 
-     }else{
+     } else{
         newdivHT.innerHTML = no_text_sampledatasection.innerHTML;
      }
 
@@ -553,11 +579,14 @@ function CreateHeaderImg(mydivsi){
 
      var append_div_here = document.getElementById("myappendcontent");
 
-     console.log(newdivHT.innerHTML);
+     //console.log(newdivHT.innerHTML);
 
+     if(!hastext){
+          $(mynewimg).css({"float": "none"});
+     }
      append_div_here.appendChild(newdivHT);
 
-     console.log(append_div_here.innerHTML);
+     //console.log(append_div_here.innerHTML);
 }
 //CREATE SITE TITLE(S)=======================================================
 

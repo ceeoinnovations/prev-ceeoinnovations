@@ -78,7 +78,7 @@ blockquote p {
 
 .free_write_content ol li {
      text-align: left;
-     font-size: 1rem;
+     font-size: .85rem;
 }
 
 .free_write_content ol {
@@ -87,7 +87,7 @@ blockquote p {
 }
 .free_write_content ul li {
      text-align: left;
-     font-size: 1rem;
+     font-size: .85rem;
   counter-increment: my-awesome-counter;
   position: relative;
   margin-left:10%;
@@ -127,7 +127,7 @@ blockquote p {
 }
 
 .intro-img{
-     width:70%;
+     width:75%;
      margin-left: 15%;
      margin-right: 15%;
      float:right;
@@ -213,7 +213,7 @@ blockquote p {
      }
 
      .intro .intro-text {
-          width: 60%;
+          width: 47%;
           padding: 2rem;
      }
 
@@ -500,6 +500,7 @@ position: relative;
           display: none;
 }
 .sample_free_write_content_container{
+     clear:right;
      background-color:#fff;
      border-radius: 10px;
 }
@@ -508,13 +509,47 @@ position: relative;
 }
 .free_write_row {
      text-align:left;
+     clear: right;
      justify-content: center;
      padding-top: 5rem;
      padding-bottom: 5rem;
 }
+
 .free_write_content{
      Font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
      width:70%;
+}
+
+.imgOnly img {
+     border-radius: 20px;
+}
+
+
+
+.imgOnly {
+     width:68%;
+     display: inline;
+     margin: 0 auto;
+     text-align: center;
+     margin-left: 16%;
+     margin-right: 16%;
+     padding-bottom: 4rem;
+     padding-top: 4rem;
+     border-radius: 20px;
+}
+
+@media(max-width:600px){
+     .imgOnly {
+          width:80%;
+          display: inline;
+          margin: 0 auto;
+          text-align: center;
+          margin-left: 10%;
+          margin-right: 10%;
+          padding-bottom: 2rem;
+          padding-top: 2rem;
+          border-radius: 20px;
+     }
 }
 
 
@@ -542,40 +577,22 @@ position: relative;
 }
 
 
-.imgOnly {
-     width:70%;
-     display: inline;
-     margin: 0 auto;
-     text-align: center;
-     margin-left: 15%;
-     margin-right: 15%;
-     padding-bottom: 4rem;
-     padding-top: 4rem;
-     border-radius: 20px;
-}
-@media(max-width:600px){
-     .imgOnly {
-          width:90%;
-          display: inline;
-          margin: 0 auto;
-          text-align: center;
-          margin-left: 5%;
-          margin-right: 5%;
-          padding-bottom: 2rem;
-          padding-top: 2rem;
-          border-radius: 20px;
+@media (min-width: 1200px){
+.free_write_row, .imagesection img{
+    max-width: 1200px;
+    margin: 0 auto;
      }
 }
-.imgOnly img {
-     border-radius: 20px;
-}
+
+
+
 
 
 .free_write_content h3,
 .free_write_content h4,
 .free_write_content h5,
 .free_write_content h6 {
-     font-weight: 500;
+     font-weight: 400;
      letter-spacing: -0.05em;
      z-index: 10;
      padding:1.9rem;
@@ -586,20 +603,43 @@ position: relative;
      line-height: 0.8em;
 }
 .free_write_content h3 {
-     font-size:2.5vw;
+     font-size:1.6rem;
+
 }
 .free_write_content h4 {
-     font-size:2.35vw;
+     font-size:1.5rem;
+     font-weight: 300;
+
 }
 .free_write_content h5 {
-     font-size:2.2vw;
+     font-size:1.4rem;
+     font-weight: 250;
+
 }
 .free_write_content h6 {
-     font-size:2.0vw;
+     font-size:1.3rem;
+     font-weight: 200;
+
+}
+.largerappendherePI{
+     margin-left: 5rem;
+     margin-right: 5rem;
+}
+@media(min-width:1200px){
+.largerappendherePI{
+     margin-left: 5rem;
+     margin-right: 5rem;
+}
+}
+@media(max-width:600px){
+.largerappendherePI{
+     margin-left: 0rem;
+     margin-right: 0rem;
+}
 }
 
 .free_write_content h2 {
-     font-size:2.65vw;
+     font-size:1.8rem;
      font-weight: 500;
      letter-spacing: -0.05em;
      z-index: 10;
@@ -632,7 +672,7 @@ position: relative;
 
 }
 .free_write_content h1 {
-     font-size: 3.7vw;
+     font-size: 2.4rem;
      font-weight: 500;
      color:#EF476F;
      letter-spacing: -0.05em;
@@ -642,21 +682,9 @@ position: relative;
      line-height: 0.8em;
      margin: 1.2rem;
 }
-.free_write_content h3 {
-       font-size: 1.8rem;
-}
-.free_write_content h4 {
-    font-size: 1.7rem;
-}
-.free_write_content h5 {
-     font-size: 1.6rem;
-}
-.free_write_content h6 {
-    font-size: 1.5rem;
-}
 
 .free_write_content p{
-     font-size:1re;
+     font-size:.85rem;
      text-align: left;
 }
 
@@ -692,7 +720,7 @@ position: relative;
           margin: 3rem;
      }
      .free_write_content p{
-          font-size:1.8vw;
+          font-size:.9rem;
           text-align: left;
      }
 

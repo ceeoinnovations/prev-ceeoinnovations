@@ -6,117 +6,38 @@ description: Toasters that can fly!
 displayimg: super_toaster/toaster2.jpg
 categories: ["3D Printing", "Tech"]
 authors: ["Allison Moore", "Bart Toaster", "Toaster Man"]
-featured: true 
+featured: true
 ---
-
-
-<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![TITLE OF IMAGE](PROJECTFILENAME/IMGNAME)
-# YOUR IMAGE TITLE
-## YOUR IMAGE SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
+![TITLE OF IMAGE](super_toaster/toast.png)
+# Culinary Innovation
+## Buy a toaster today!
+Getting a toaster will let
+you toast bagels, bread, and more!
 </div>
 
-<!--document creates a grid of documentss--------------------->
-<div class="document" markdown="1">
-# TITLE OF SECTION
-[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
-[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
-<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
-</div>
-
-<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
-<div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](--- paste a youtu.be link here--)
-# YOUR VIDEO TITLE
-## YOUR VIDEO SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
-</div>
-
-<!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
-               If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
 <div class="free_write" markdown="1">
-</div>
----
-layout: post
-
-title: YOUR SITE title
-description: description of your site
-displayimg: IMAGEFOLDERNAME/IMGNAME
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
-authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
-featured: false 
-
----
-
-
-<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
-<div class="image_text_overlay" markdown="1">
-![TITLE OF IMAGE](PROJECTFILENAME/IMGNAME)
-# YOUR IMAGE TITLE
-## YOUR IMAGE SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
+## Here are some facts about toasters
+- Toasters run on **electricity**
+- The first pop up toaster was invented by Charles Strite in 1921
+- The original toaster was invented in 1893 by Albert Marsh
 </div>
 
-<!--document creates a grid of documentss--------------------->
-<div class="document" markdown="1">
-# TITLE OF SECTION
-[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
-[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
-<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
-</div>
-
-<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](--- paste a youtu.be link here--)
-# YOUR VIDEO TITLE
-## YOUR VIDEO SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
+
+[TITLE OF VIDEO](https://youtu.be/rJQpyIIV3-s)
+# How to toast
+## Learn how to make toast
+Watch this video to learn how to make toast!
 </div>
 
-<!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
-               If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
-<div class="free_write" markdown="1">
-</div>
----
-layout: post
-
-title: YOUR SITE title
-description: description of your site
-displayimg: IMAGEFOLDERNAME/IMGNAME
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
-authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
-featured: false 
-
----
-
-
-<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
-<div class="image_text_overlay" markdown="1">
-![TITLE OF IMAGE](PROJECTFILENAME/IMGNAME)
-# YOUR IMAGE TITLE
-## YOUR IMAGE SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
-</div>
-
-<!--document creates a grid of documentss--------------------->
-<div class="document" markdown="1">
-# TITLE OF SECTION
-[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
-[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
-<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
-</div>
-
-<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](--- paste a youtu.be link here--)
-# YOUR VIDEO TITLE
-## YOUR VIDEO SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
+[TITLE OF VIDEO](https://youtu.be/UyDbbM1eisE)
 </div>
 
-<!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
-               If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
 <div class="free_write" markdown="1">
+# Meet the "Super Toaster"
+This is a project post created only
+using only Markdown and no text so it has
+all of it's text in one block.
 </div>

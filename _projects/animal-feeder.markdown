@@ -9,7 +9,7 @@ authors: ["Jason"]
 ---
 
 <div class="image_text_overlay" markdown="1">
-![Link to my pic](images_jason/20200723_112955[1].jpg)
+![Link to my pic](images_jason/20200723_112955.jpg)
 # How does it work?
 This robot allows the user to put food into the small container behind it. When the button is pressed, the food is flipped over onto the holding container for the animals to eat!
 </div>

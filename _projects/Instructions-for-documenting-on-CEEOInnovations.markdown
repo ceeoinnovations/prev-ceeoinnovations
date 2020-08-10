@@ -75,7 +75,10 @@ or [github](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh
 <div class="free_write" markdown="1">
 ## Step 3: Customize the Frontmatter
 
-The "Frontmatter" is the first few lines of a markdown file. It pro
+The "Frontmatter" is the first few lines of a markdown file. It provides key information about how
+your project is displayed.
+
+#### It will look like this:
 
 ```
 ---
@@ -89,167 +92,282 @@ authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
 featured: false
 ---
 ```
+
+The "frontmatter" must be the very first few lines of your file and is case sensitive. Do not change "layout:post" because that determines the styling for your page,
+other frontmatter elements can be changed to influence how your project is displayed.
+
+- **"title:"** determines the title of your project. This will be displayed on top of your post and on the main page.
+- **"description"** a one sentence description of your project that will appear on the home page of the site.
+- **"displayimg"** determines what picture is show on the homepage for your project.
+     - Crop your picture 3:2
+     - link to a picture stored in a local github folder using "Image_folder_name/Img_name" from Step 1 (replacing with your own image folder name and image name)
+- **"categories"** determines what tags apply to your search item
+     - the listed categories are buttons on the search page, if you leave one on the list your project will be searchable under that category
+          - for example, a project with the categories "[Lesson Plans", "Makerspaces", "Robotics"]" will be searchable under the Lesson Plans, Makerspaces, and Robotics Categories
+          - you can also specify unique categories that won't appear as buttons but will make your project searchable under that keyword.
+               - for example, a project with the categories  "[Lesson Plans", "Greenhouses", "Peanut Butter"] will be searchable under all of those terms but only the *button* for "Lesson Plans will appear on the site
+- **"authors"** is a list of authors or contributors that worked on the projects
+     - Fill out the list with each author who worked on the project
+          - a project with one author would have an authors list that looks like "authors: ["Jane Doe"]"
+          - a project with five authors would have an authors list that looks like "authors: ["Jane Doe", "John Doe", "Brad Pitt", "Angelina Jolie", "Meredith Portsmith"]"
+     - If you would like your project authors to have a picture and position listed with their name. You can make an author profile for them [here](www.thest.computer).
+          - Otherwise the site will show a filler profile with the authors name and a generic picture.
+- **featured** determines if your project will appear on the "featured projects" section of the homepage
+     - set "true" if you want your project to appear featured and "false" otherwise.
 </div>
 
 <div class="video_text_overlay" markdown="1">
-[Step 3](https://youtu.be/hSam9aVLy5A)
+[Step 3](https://www.youtube.com/watch?v=6DCVCFkU2mk&t=18s)
 # Step 3. Customize the Frontmatter
 ## Frontmatter provides key information about your page
 Create a copy of [**SAMPLE-FILE.markdown**](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh-pages/_projects/SAMPLE-FILE.markdown) and customize the frontmatter with the title, description, image, authors, and categories for your site.
 </div>
 
 <div class="free_write" markdown="1">
-#  Customizing: Markdown Basics
-## CEEO Innovations is made using a modified version of Markdown
+#  Step 4: Writing up your documentation
+## Part 1: Markdown
 
+CEEO Innovations uses a combination of Markdown and "div" elements to create your project page.
+Markdown is a shorthand version of HTML (the coding language used on websites), whereas "div" elements are a method for styling your page so that different parts of your page can have different appearences.  
 Markdown is a "short hand" way of writing html that makes it easy to create web pages.
 Your CEEOInnovations page will be written in markdown.
 
-You can either make your page in straight markdown, or use the "div" elements decribed in the next section to make your markdown look even better!
+You can either make your page in straight markdown, or use the "div" elements described in the next section to make your markdown look even better If you write your page in straight Markdown, everything on your page will appear in a single "text" section (like this one).
 
 Most of the components on this site are made using the **header, subheader, image, and link** attributes, however Markdown offers a wide variety of styling options shown in
 the pictured table. These styling options can be used with "free write" div sections of webpages (like this one!)
 ![Markdown Table 1](inno_instruct/markdown2.png)
 ![Markdown Table 2](inno_instruct/markdown3.png)
 
-Complete documentation for markdown can be found [here](https://www.markdownguide.org/basic-syntax/).
+### Complete documentation for markdown can be found [here](https://www.markdownguide.org/basic-syntax/).
+
+## Example using just markdown
+
+It is suggested you combine Markdown with "div" elements to achieve a better look and feel for your site however you can also use straight markdown on your page.
+A file with **ONLY** Markdown would look something like the below:
+
+~~~
+---
+layout: post
+
+Title: Toaster (Only Markdown)
+Description: An project post about toaters only using Markdown
+displayimg: super_toaster/toast.png
+categories: ["Tech"]
+authors: ["Allison Moore"]
+---
+# Meet the "Super Toaster"
+
+This is a project post created only using only Markdown and no text so it has
+all of it's text in one block.
+
+## Here are some facts about toasters
+- Toasters run on **electricity**
+- The first pop up toaster was invented by Charles Strite in 1921
+- The original toaster was invented in 1893 by Albert Marsh
+
+Here is some code to run your toaster:
+
+```
+int toaster(bool toast){
+     if (toast){
+          return 6;
+     } else {
+          return 7;
+     }
+}
+```
+
+To learn more about toasters, click [here](https://quickservant.com/weird-facts-about-toasters/).
+This is a picture of a toaster:
+
+![toaster pic](super_toaster/download.jpg)
+
+You can also include photos from the internet (although this is risky since photo links can break):
+
+![toaster pic](https://i1.wp.com/dealsfinders.blog/wp-content/uploads/2020/04/4-Slice-Toaster-Stainless-Steel-Toaster.jpg?fit=474%2C463&ssl=1)
+~~~
+
+The above code would produce a result that looks like:
+![Markdown Table 2](inno_instruct/Picture1.png)
 </div>
 
 <div class="free_write" markdown="1">
-#  Customizing: Markdown Basics
-## CEEO Innovations is made using a modified version of Markdown
+#  Step 4: Writing up your documentation
+## Part 2: "div" elements
 
-Markdown is a "short hand" way of writing html that makes it easy to create web pages.
-Your CEEOInnovations page will be written in markdown.
-
- You can either make your page in straight markdown, or use the "div" elements decribed in the next section to make your markdown look even better!
-
-Most of the components on this site are made using the **header, subheader, image, and link** attributes, however Markdown offers a wide variety of styling options shown in
-the pictured table. These styling options can be used with "free write" div sections of webpages (like this one!)
-![Markdown Table 1](inno_instruct/markdown2.png)
-![Markdown Table 2](inno_instruct/markdown3.png)
-
-Complete documentation for markdown can be found [here](https://www.markdownguide.org/basic-syntax/).
-</div>
+"div" elements are a container that can be added to around your Markdown to customize parts of a page. This means that you can add multiple sections, large photos, embedded videos, and embedded documents to your site.
+This can let your page seem more complicated and interesting than is possible with straight Markdown.
 
 
-<div class="free_write" markdown="1">
-# Customizing: Divs on CEEO Innovations
-## Divs allow us to customize parts of our page
-
-![divexample0](inno_instruct/divexample0.png)
+![divexample0](inno_instruct/newdiv0.png)
 
 This and other projects pages on this site on structed into "sections" with different designs.
-This isn't normally possible with markdown, however using "div" elements we can get these cool sub sections.
+This isn't normally possible with markdown, however using "div" elements we can create subsections
 **Divs are the "building blocks" of a CEEOInnovations project page.**
 
 
-![Markdown Table 2](inno_instruct/divexample1.png)
+![Markdown Table 2](inno_instruct/newdiv1.png)
 
 Divs can be repeated and ordered in any order.
+
 If you don't want to use a certain section of a div (such as a title or subtitle) you can just delete it!
 
-### This is the format for a div element
+
+Below is the format for a div section, it goes around your markdown content to decide how it is formatted.
 
 ```
 <div class=”DIV_NAME” markdown="1">
- ------DIV CONTENT---------
+ ------MARKDOWN CONTENT---------
 </div>
 ```
 
-Where "DIV_NAME" can be one of **four** possible sections. Each of these sections has unique formatting and capabilities.
-1. image_text_overlay
-2. video_text_overlay
-3. document
-4. free_write
+Currently, the possible div sections have the class names "image_text_overlay", "video_text_overlay",  "document", and "free_write." Each has a unique name and serves a specific purpose. "free_write" will probably be the most useful section and is similar to writing straight Markdown
 
 
-## 1. "site_title"
 
-Site title provides a "heading" for a projects page
+</div>
 
-The code for a sample "site_title" div is below:
+<div class="free_write" markdown="1">
+## Image_Text_Overlay
+### Step 4, Part 2: "div" elements
 
-```
-<div class=”site_title” markdown="1">
- # PaperBots
- # Multiple
- # Lines
- </div>
- ```
-This will produce:
+"image_text_overlay" lets you format a picture as a large image with a text overlay, or simply as a large image.
 
-![sitetitle](inno_instruct/sitetitle.jpg)
-
-
-## 2. "image_text_overlay"
-
-image_text_overlay provides a large image with a title, subtitle, and description overlayed on it.
-
-
-The code for a sample "image_text_overlay" div is below:
-
+The code for a sample full image_text_overlay" element is:
 ```
 <div class="image_text_overlay" markdown="1">
-![Link to my pic](paper-bots/headimagerobot.jpg)
-## An Inexpensive Option for Engineering Education
-# Accessible Robotics
-PaperBots provide a low cost method of
-creating educational robots for any age.
+![TITLE OF IMAGE](super_toaster/toast.png)
+# Culinary Innovation
+## Buy a toaster today!
+Getting a toaster will let you toast bagels, bread, and more!
 </div>
- ```
-This will produce:
+```
 
-![imagehead](inno_instruct/imagetext.png)
+The above code will be produce the following:  
 
-## 3. "video_text_overlay"
+</div>
 
-video_text_overlay provides a large video with a title, subtitle, and description overlayed on it.
+<div class="image_text_overlay" markdown="1">
+![TITLE OF IMAGE](super_toaster/toast.png)
+# Culinary Innovation
+## Buy a toaster today!
+Getting a toaster will let you toast bagels, bread, and more!
+</div>
+
+<div class="free_write" markdown="1">
+In the "image text overlay", a markdown image tag, a markdown image header (h1), a markdown image subheader (h2), and a markdown paragraph element are used.
+**Any of these elements can be deleted if it makes sense to. The "image_text_overlay" div or any of the divs can be used as many times as you want.**
+
+#### For example, below is an "image_text_overlay" with only an image element and no text.
+```
+<div class="image_text_overlay" markdown="1">
+![TITLE OF IMAGE](super_toaster/toast.png)
+</div>
+```
+</div>
+
+<div class="image_text_overlay" markdown="1">
+![TITLE OF IMAGE](super_toaster/toast.png)
+</div>
+
+
+<div class="free_write" markdown="1">
+## Video_Text_Overlay
+### Step 4, Part 2: "div" elements
+
+"video_text_overlay" is exactly the same as the "image_text_overlay" except with a **video** instead of an image and a **link tag** instead of in image tag.
+
+```
+<div class="video_text_overlay" markdown="1">
+[TITLE OF VIDEO](https://youtu.be/rJQpyIIV3-s)
+# Culinary Innovation
+## Buy a toaster today!
+Getting a toaster will let you toast bagels, bread, and more!
+</div>
+```
+This will produce the below content:
+</div>
+
+<div class="video_text_overlay" markdown="1">
+[TITLE OF VIDEO](https://youtu.be/rJQpyIIV3-s)
+# Culinary Innovation
+## Buy a toaster today!
+Getting a toaster will let you toast bagels, bread, and more!
+</div>
+
+<div class="free_write" markdown="1">
+Notice here that a "link tag" rather than an "image tag" is used.
+```
+a Link tag in markdown has NO "!" in front of it
+[TITLE OF VIDEO](https://youtu.be/rJQpyIIV3-s)
+
+an image tag in markdown has "!" in front of it
+![TITLE OF IMAGE](super_toaster/toast.png)
+```
+
+A markdown *link* tag, a markdown image header (h1), a markdown image subheader (h2), and a markdown paragraph element are used in "video_text_overlay".
+**Like with "image_text_overlay" any of the elements in the "video_text_overlay" can be deleted and the div element can be used as many times as you want.**
 
 #### **IMPORTANT** When copying videos for CEEO Innovations you must copy the 'youtu.be" link found by clicking the share button on a video *not* the normal URL.
-
+Video link do not currently work with content not hosted on youtube.
  ![sitetitle](inno_instruct/youtubelink.png)
 
-The code for a sample "video_text_overlay" div is below:
-```
-<div class="image_text_overlay" markdown="1">
-![Link to my pic](paper-bots/headimagerobot.jpg)
-## An Inexpensive Option for Engineering Education
-# Accessible Robotics
-PaperBots provide a low cost method of
-creating educational robots for any age.
 </div>
- ```
- This will produce:
-
- ![sitetitle](inno_instruct/paperbot.png)
 
 
-## 4. "document"
+<div class="free_write" markdown="1">
+## "document"
+### Step 4, Part 2: "div" elements
 
-"document" lets you create a grid or a single instance of either local hosted or external "documents" these can be pdfs, presentations, images, website previews, etc.
-To embed a google presentation, copy the "embed" link within the iframe embed option but only the embed link.
-
-
-The code for a sample "document" div is below:
-
+"document" is a bit different than the "video_text_overlay" options. A document section will look something like this:
 ```
 <div class="document" markdown="1">
-# PAPER CUTOUTS
-[Pull Up Man Lesson Plan](paper-bots/Pull-Up-Man-Lesson-Plan.pdf)
-[HexaBot Lesson Plan](paper-bots/HexaBot-Lesson-Plan.pdf)
-[HexaBot Lesson Plan](paper-bots/PUMan_Cutout.pdf)
-[PaperBots Site](https://www.paperbots.org/)
+# TITLE OF SECTION
+[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
+[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
+<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
- ```
- This will produce:
+```
+More specifically, a document section has a title and then as many documents as you want to be displayed will appear in a grid.
+For example, this would be a document element with 4 sections.
+```
+<div class="document" markdown="1">
+<div class="document" markdown="1">
+# Supporting documentation on toasters
+[My toaster presentation](https://docs.google.com/presentation/d/e/2PACX-1vTlmRtMDPiP_WeGrlIRKweX8AXdHrdZ6HcywLKfCoNCt9p1xEZabXoS3ATo3GDrzfVx3e1r7efBDI94/embed?start=false&loop=false&delayms=3000)
+[the history of toasters](super_toaster/HistoryofToasts.pdf)
+[Famous toasts](super_toaster/Toasts.pdf)
+[my favorite toast recipe](https://docs.google.com/document/d/e/2PACX-1vRcww35kO7gkwEeVnbF9EyTGGwtcTVxLnthjtfBPzu8NpeDvlXTKODWNxcv-I8Ahtca1RK2MiiLy9A5/pub?embedded=true)
+</div>
+```
+This will produce the below content:
+</div>
 
- ![sitetitle](inno_instruct/iframe.png)
+<div class="document" markdown="1">
+# Supporting documentation on toasters
+[My toaster presentation](https://docs.google.com/presentation/d/e/2PACX-1vTlmRtMDPiP_WeGrlIRKweX8AXdHrdZ6HcywLKfCoNCt9p1xEZabXoS3ATo3GDrzfVx3e1r7efBDI94/embed?start=false&loop=false&delayms=3000)
+[the history of toasters](super_toaster/HistoryofToasts.pdf)
+[Famous toasts](super_toaster/Toasts.pdf)
+[my favorite toast recipe](https://docs.google.com/document/d/e/2PACX-1vRcww35kO7gkwEeVnbF9EyTGGwtcTVxLnthjtfBPzu8NpeDvlXTKODWNxcv-I8Ahtca1RK2MiiLy9A5/pub?embedded=true)
+</div>
+
+<div class="free_write" markdown="1">
+ "document" elements can hold almost everything but not everything will "look good" they are best used for for powerpoints, pdfs, or occasionally large poster images
+     - Technically, websites can also be embedded in "document" elements but often will look poorly formatted
+          - many websites like github also block their pages from appearing in iframe elements.
+     - A guide on how to add google slides presentations is linked here.
+</div>
 
 
+
+
+<div class="free_write" markdown="1">
 ## 5. "free_write"
 
 "free_write" can be filled with whatever markdown you want. It is a unstructed section that will display any markdown you write in it in a white section box like this one.
+It is essentially the same as writing plain Markdown, however if you are using other divs you may have to write in a "free_write" section instead.
+"free_write" sections also let you have groups on your page instead of just random blockings
 
 
 For example, this is one sample free_write:
@@ -299,5 +417,5 @@ It uses lists, images, headers, and links. It will produce the following result:
 
 <div class="document" markdown="1">
 # Give us feedback!
-[Feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfa-MQgvEgZVkgYA_vNH_Gq_ybG0fT5YhXLeveJVmmDm9_8jA/viewform?embedded=true)
+[Feedback form](https://docs.google.com/forms/d/e/1FAIpQLScRlhwdR0he9QnfO2dxrysiTQ55V6Vg-IaPlC6ydG0pJ4a3EA/viewform?embedded=true)
 </div>
