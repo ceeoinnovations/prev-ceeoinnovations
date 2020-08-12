@@ -1121,7 +1121,7 @@ https://flickity.metafizzy.co
 }
 
 @media(max-width:409px){
-     #breakimage3, #breakimage, #breakimage2{ 
+     #breakimage3, #breakimage, #breakimage2{
           padding-top: 6rem;
           padding-bottom: 6rem;
      }
@@ -1667,6 +1667,11 @@ img {vertical-align: middle;}
     /* padding-bottom: 2.5rem; */
     background-color: rgba(255, 255, 255, 1);
 }
+.moderator .page-section{
+     margin: none;
+     padding: none;
+     width:100%;
+}
      .text {
        color: #f3f3f3;
        background-color: rgba(0 ,0 ,0, .6);
@@ -1688,7 +1693,7 @@ img {vertical-align: middle;}
      }
 }
 
-@media(max-width:435px){
+@media(max-width:500px){
 .myproductButton {
 	box-shadow: 0px 1px 0px 0px #d6466a;
 	background-color:#ef476e;
