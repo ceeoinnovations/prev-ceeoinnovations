@@ -222,7 +222,14 @@ function CreateFreeWrite(mydivsi){
               {
           $(myimages[i]).attr('src' , "project_assets/" + $(myimages[i]).attr('src'));
                }
+
+          if(myimages[i].className == "small"){
+          $(myimages[i]).attr('class' , "smallimg");
+     } else {
           $(myimages[i]).attr('class' , "imgOnly");
+
+     }
+
 
      }
 
