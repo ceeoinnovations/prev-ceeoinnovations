@@ -120,18 +120,6 @@ body{
 
 }
 
-.smallimg{
-    width: 40%;
-    float: left;
-    display: inline;
-    margin: 0 auto;
-    text-align: center;
-     margin-left: 0%;
-     margin-right: 0%;
-     padding-bottom: 0rem;
-     padding-top: 0rem;
-    border-radius: 20px;
-}
 .free_write_content p .myButton{
           text-align: center;
           margin: 0 auto;

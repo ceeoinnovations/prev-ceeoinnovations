@@ -245,9 +245,25 @@ function CreateFreeWrite(mydivsi){
 
     }
 
+    if($(this).find('a').length !== 0){
+         console.log("hoo");
+           $(this).addClass('Buttonhome');
+    }
+
+
+
 });
 
      var p_arr=  document.getElementsByClassName('p_imgOnly');
+
+     var button_arr=  document.getElementsByTagName('p');
+     console.log(button_arr);
+     for(let j=0; j < button_arr.length; j++){
+          if((button_arr[j].getElementsByClassName("myButton").length !=0) &&
+                (!$.trim($(this).text()).length)) {
+                $(button_arr[j]).addClass('button_home');
+          }
+     }
 
      for(let i=0;i < (p_arr.length); i++){
 
