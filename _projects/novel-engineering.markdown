@@ -10,16 +10,11 @@ authors: ["Elissa Milto", "Kristen Wendell"]
 ---
 
 <div class="image_text_overlay" markdown="1">
-![Link to my pic](PICTURES_OF_THE_ROCK/The-Rock-Tequila.jpg)
+![Link to my pic](novel_engineeringK/gallery_6.png)
 ## Create Based on Compeling Stories
 # Building based on Books
 Inspired by kids and grounded in research, Novel Engineering is an innovative approach to integrate engineering and literacy in elementary and middle school.
 </div>
-
-<div class="free_write" markdown="1">
-![Link to my pic](PICTURES_OF_THE_ROCK/mr.dwayne.jpg)
-# About the Dwayne
-Big. Large. Wrestle.
 
 <div class="document" markdown="1">
 # Sample Chapter of the Novel Engineering Book
