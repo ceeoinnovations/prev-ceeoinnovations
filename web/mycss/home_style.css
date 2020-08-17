@@ -317,14 +317,13 @@ body{
      font-weight: 300;
 }
 #mypageheader{
-     font-size: 6vw;
-     font-weight: 800;
+     font-size: 4vw;
+
+     font-weight: 700;
      color:#EF476F;
-      text-shadow: -.5px .5px #bf3858;
      letter-spacing: -0.05em;
-     z-index: 10;
+     z-index: 400;
      text-align: left;
-     position: relative;
      line-height: 0.4em;
 }
 
@@ -1093,8 +1092,8 @@ https://flickity.metafizzy.co
 
      background-image: url(../img/about3.jpg);
      overflow: hidden;
-     padding-top: 12rem;
-     padding-bottom: 12rem;
+     padding-top: 8rem;
+     padding-bottom: 8rem;
 }
 #breakimage3{
      background-repeat: no-repeat;
@@ -1104,8 +1103,8 @@ https://flickity.metafizzy.co
 
      background-image: url(../img/about.jpg);
      overflow: hidden;
-     padding-top: 12rem;
-     padding-bottom: 12rem;
+     padding-top: 8rem;
+     padding-bottom: 8rem;
 }
 
 #breakimage2{
@@ -1116,20 +1115,20 @@ https://flickity.metafizzy.co
 
      background-image: url(../img/abput2.jpg);
      overflow: hidden;
-     padding-top: 12rem;
-     padding-bottom: 12rem;
+     padding-top: 8rem;
+     padding-bottom: 8rem;
 }
 @media(max-width:859px){
      #breakimage3, #breakimage, #breakimage2{
-          padding-top: 10rem;
-          padding-bottom: 10rem;
+          padding-top: 6rem;
+          padding-bottom: 6rem;
      }
 }
 
 @media(max-width:409px){
      #breakimage3, #breakimage, #breakimage2{
-          padding-top: 6rem;
-          padding-bottom: 6rem;
+          padding-top: 3rem;
+          padding-bottom: 3rem;
      }
 }
 
@@ -1788,27 +1787,27 @@ img {vertical-align: middle;}
 }
 
 #myproductheader{
-     font-size: 6vw;
+     font-size: 4vw;
 
-     font-weight: 800;
+     font-weight: 700;
      color:#51d294;
       text-shadow: -.5px .5px #bf3858;
      letter-spacing: -0.05em;
-     z-index: 10;
+     z-index: 400;
      text-align: left;
      line-height: 0.4em;
 }
 @media(max-width:700px){
      #mypageheader, #myproductheader{
-          font-size: 8vw;
-          font-weight: 800;
+          font-size: 5vw;
+          font-weight: 600;
      }
 }
 
 @media(max-width:500px){
      #mypageheader, #myproductheader{
-          font-size: 4rem;
-          font-weight: 800;
+          font-size: 2.4rem;
+          font-weight: 600;
           letter-spacing: -0.05em;
           z-index: 10;
           text-align: left;

@@ -50,50 +50,55 @@
      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-     <!-- Top Navigation Menu -->
+     <!-- Top Navigation Menu
      <div id="mobilenav" class=" clearfix sticky topnav">
        <a href="index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/Logo_DarkGreen_Inse.png" onError="this.onerror=null;this.src='../web/img/Logo_DarkGreen_Inset.png';" alt="">
        </a>
-       <!-- Navigation links (hidden by default) -->
+       Navigation links (hidden by default) --
        <div id="myLinks">
             {% for item in site.data.navigation.docs %}
               <a  href="{{ item.url }}" >{{ item.title }}</a>
             {% endfor %}
        </div>
-       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+       !-- "Hamburger menu" / "Bar icon" to toggle the navigation links --
        <a href="javascript:void(0);" class="icon" style="background-color: #fff; color: #000"onclick="myFunction()">
          <i class="fa fa-bars"></i>
        </a>
      </div>
-     <!--TRYING TO MAKE DROP down
+     TRYING TO MAKE DROP down-->
 
 
      <div id="mobilenav" class=" clearfix sticky topnav">
       <a href="index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/Logo_DarkGreen_Inse.png" onError="this.onerror=null;this.src='../web/img/Logo_DarkGreen_Inset.png';" alt="">
       </a>
+      <div id="myLinks" class = "dropdown navlink">
+
       {% for item in site.data.navigation.docs %}
 
             {% if item.sublinks %}
-                 <div class = "dropdown">
-                     <button class="dropbtn" >{{ item.title }}
+
+                     <a id="mysublinks" class="navlink"onclick="mysubFunction()" >{{ item.title }}
                           <i class="fa fa-caret-down"></i>
-                         </button>
-                         <div class="dropdown-content">
-                             {% for sublink in item.sublinks %}
-                                     <a  href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
-                          {% endfor %}
-                          </div>
                      </a>
-                 </li>
+                     <div id="sublinks">
+                             {% for sublink in item.sublinks %}
+                                     <a  class="navlink" href="{{ sublink.url }}" style="background-color:#2efa98;" >{{ sublink.title }}</a>
+                          {% endfor %}
+                    </div>
+
+                     </a>
             {% else %}
-                 <li>
+
                      <a class ="navlink nav hvr-shrink" href="{{ item.url }}" >{{ item.title }}</a>
-                 </li>
+
             {% endif %}
 
       {% endfor %}
+</div>
+<a href="javascript:void(0);" class="icon" style="background-color: #fff; color: #000"onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+</a>
      </div>
-
 
       <!-- Navigation links (hidden by default)
       <div id="myLinks">
@@ -206,6 +211,15 @@
    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction() {
   var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function mysubFunction() {
+  var x = document.getElementById("sublinks");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

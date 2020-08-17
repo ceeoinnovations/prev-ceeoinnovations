@@ -9,7 +9,7 @@ featured: true
 ---
 
 <div class="image_text_overlay" markdown="1">
-![Makerspace Banner](nedlams-workdhop/workshop.jpg)
+![Makerspace Banner](nedlams-workshop/workshop.jpg)
 # Nedlam's Workshop
 ## The Malden Maker Space
 
