@@ -370,7 +370,6 @@ iframe{
 background-color: #51d294;
 padding:3%;
 border-radius:10px;
-box-shadow: 1px 1px #3c6b54;
 position: relative;
 
 }
@@ -390,7 +389,12 @@ position: relative;
     cursor: pointer;
     color: #51d294;
     font-weight: bold;
-    padding: 4% 4%;
+    padding: 2% 4%;
+}
+.pdfheader{
+     font-size: 1rem;
+     font-weight: bold;
+     color: #fffd85;
 }
 
 .click-to-download:hover {

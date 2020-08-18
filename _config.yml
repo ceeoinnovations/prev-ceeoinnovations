@@ -36,6 +36,7 @@ my_categories:
   - Robotics
   - Makerspaces
   - Tech
+  - Documentation Instructions
 
 # Build settings
 theme: minima

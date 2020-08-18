@@ -3,8 +3,8 @@ layout: post
 
 displayimg: inno_instruct/small_background.jpg
 title: Instructions for Documenting on CEEO Innovations
-description: CEEO innovations is a “hub” for all the cool projects going on at the CEEO.
-categories: ["Lesson Plans"]
+description: Learn how to make a "project" post on CEEO Innovations
+categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
 featured: true
 ---

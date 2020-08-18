@@ -6,7 +6,7 @@ description: InterLACE is an interactive digital white-board interface.
 displayimg: interLace/interlacehead.png
 categories: ["Tech"]
 featured: true
-authors: ["Ethan Danahy"]
+authors: ["Ethan Danahy", "Leslie Schneider"]
 date: 07-11-2013
 ---
 <div class="image_text_overlay" markdown="1">
@@ -46,14 +46,12 @@ to "what the students think. It promotes collaborative, engaging learning.
 
 The on-going NSF-sponsored research project InterLACE (Interactive Learning and Collaboration Environment) at Tufts University spun off to a commercialized product called Visual Classrooms.
 
-[Sign up to use interLACE at https://visualclassrooms.com/](https://visualclassrooms.com/)
+[Sign up to use interLACE at https://visualclassrooms.com/](https://visualclassrooms.com/){:.button}
 </div>
 
 
 <div class="free_write" markdown="1">
 ### Learn more about interLACE
-
-
 - [CADREK Project Site](https://cadrek12.org/projects/interlace-interactive-learning-and-collaboration-environment)
 - [CEEO Research Page](http://ceeo.tufts.edu/research/projectsinterlace.htm)
 

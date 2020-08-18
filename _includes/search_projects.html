@@ -4,6 +4,8 @@
 <!--<div class=" pageheadercontain col-md-6">-->
            <h1 id="mypageheader">All Projects</h1>
   <!--</div>--><hr>
+
+
     <div id="featured">
 	<!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
           <div id="searchbox">
@@ -37,7 +39,7 @@
 
 
 
-                   <div class="projectsegment col-sm-6 col-md-4 col-lg-fifth" >
+                   <div class="projectsegment col-sm-6 col-md-4 col-lg-2" >
                      <a class = "work-thumb" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" >
                                <div id="hidden-tags" class="hidden-tags">
                                     {{project.categories}}
@@ -52,7 +54,8 @@
                             <div class="work-text">
                               <h2>{{project.title}}</h2>
 
-                              <p >CEEO INNOVATIONS</p>
+                              <p >CEEO INNOVATIONS <br> <b>{{project.date | date_to_string}}</b></p>
+
                                  <p class="work-text2">{{project.description}}</p>
 
                        </div>
@@ -67,6 +70,5 @@
 
                </div>
            </div>
-
 
           </section>

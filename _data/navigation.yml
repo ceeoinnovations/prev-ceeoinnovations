@@ -2,7 +2,7 @@ docs_list_title:
 docs:
 
 
-- title: Products
+- title: Launched Projects
   sublinks:
     - title: LEGO Engineering
       url: http://www.legoengineering.com/
@@ -15,9 +15,6 @@ docs:
 
 - title: About
   url: about.html
-
-- title: Document Work
-  url:  projects/Instructions-for-documenting-on-CEEOInnovations.html
 
 - title: Search
   url: index.html#searchbox

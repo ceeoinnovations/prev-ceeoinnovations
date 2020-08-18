@@ -11,7 +11,7 @@ date: 10-03-2017
 ---
 
 <div class="image_text_overlay" markdown="1">
-![Link to my pic](novel_engineeringK/gallery_6.png)
+![Link to my pic](novel-engineering/gallery_6.png)
 ## Create Based on Compeling Stories
 # Building based on Books
 Inspired by kids and grounded in research, Novel Engineering is an innovative approach to integrate engineering and literacy in elementary and middle school.
