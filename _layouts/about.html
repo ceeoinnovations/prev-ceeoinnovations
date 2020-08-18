@@ -119,3 +119,31 @@ layout: contributorwrapper
                    </div>
           </div>
           </section>
+
+
+           <section class="homepagesection clearfix">
+
+                <div class="col-md-6" >
+          		<h1 id="myconpageheader" style="color: #f3f3f3;">Project Contributors</h1>
+              </div>
+          <div id="featured" >
+
+                    <div class="authordisplay row mb-5 no-gutters">
+                     {% for author in site.authors%}
+                              {% capture this_name %}
+                                   {{ author.name | strip_newlines }}
+                              {% endcapture %}
+                              {% capture this_pos %}
+                                   {{ author.position | strip_newlines }}
+                              {% endcapture %}
+
+                              {% capture this_image %}
+                                   {{ author.image  | prepend: '../authors/profilepics/' | strip_newlines }}
+                              {% endcapture %}
+                         {% include contributor_author_section.html name=this_name position=this_pos image=this_image %}
+                    {% endfor %}
+                              </div>
+
+          </div>
+
+          </section>

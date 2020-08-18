@@ -6,6 +6,7 @@ description:
 featured: true
 displayimg: spike-prime-backpacks/backpack2.png
 categories: ["Robotics", "Spike Prime"]
+date: 04-05-2019
 ---
 
 <div class="image_text_overlay" markdown="1">

@@ -5,7 +5,8 @@ title: Morse Code Detector
 description:
 categories:  ["Lesson Plans"]
 displayimg: images_jason/20200716_113806.jpg
-featured: false;
+featured: false
+date: 08-07-2020
 ---
 
 <div class="image_text_overlay" markdown="1">

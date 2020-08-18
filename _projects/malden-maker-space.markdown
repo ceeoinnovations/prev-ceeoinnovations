@@ -6,6 +6,7 @@ description: The Tufts CEEO collaborated with Malden High School to restore the 
 displayimg: nedlams-workshop/students.jpg
 categories: ["Makerspaces"]
 featured: true
+date: 08-03-2015
 ---
 
 <div class="image_text_overlay" markdown="1">

@@ -6,6 +6,7 @@ description: Inspire and support teachers to go beyond the basics in bringing LE
 displayimg: legoengineering/morekids.jpg
 categories: ["Spike Prime", "Lesson Plans", "Robotics", "Ev3/NXT", "Tech"]
 authors: []
+date: 12-11-2015
 ---
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->

@@ -31,7 +31,8 @@
       	 <div class="row no-gutters" >
 
                 {% assign my_variable = 100 %}
-     			{% for project in site.projects  %}
+                {% assign projects = site.projects | sort: 'date' | reverse %}
+     			{% for project in projects %}
                     {% if project.url != "/projects/SAMPLE-FILE.html" %}
 
 

@@ -6,7 +6,8 @@ description: An innovative approach to integrate engineering and literacy in ele
 categories:  ["Lesson Plans"]
 displayimg: novel-engineering/novel_engineering.png
 featured: true
-authors: ["Elissa Milto", "Kristen Wendell"]
+authors: ["Elissa Milto", "Laura Fradin", "Merredith Portmsore"]
+date: 10-03-2017
 ---
 
 <div class="image_text_overlay" markdown="1">

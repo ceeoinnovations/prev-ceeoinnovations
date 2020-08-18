@@ -7,6 +7,7 @@ displayimg: interLace/interlacehead.png
 categories: ["Tech"]
 featured: true
 authors: ["Ethan Danahy"]
+date: 07-11-2013
 ---
 <div class="image_text_overlay" markdown="1">
 ![Header Image](interLace/interlacedata4.jpg)
