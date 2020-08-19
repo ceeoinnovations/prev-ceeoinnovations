@@ -36,7 +36,6 @@ function CollectAllDivs(){
                CreateDocuments(mydivs[i]);
                 nonsimple = true;
           } else if ( mydivs[i].classList.contains("video_text_overlay")){
-               console.log("header video opened");
                  CreateHeaderVideo(mydivs[i]);
                   nonsimple = true;
           }    else if ( mydivs[i].classList.contains("free_write")){
@@ -305,10 +304,83 @@ function CreateHeaderVideo(mydivsi){
      if(!(testlink[0].href.includes("--- paste ")) ){
           if(testlink[0].href.includes("https://youtu.be")){
                 YouTubeCreateHeaderVideo(mydivsi);
-          }
+          } else{
+               LocalCreateHeaderVideo(mydivsi);
           }
      }
+     }
 }
+/*LocalCreateVideoHeader
+* Create and allocate a header video section
+* collects image link, sub header, header, and description, if existing
+*
+*/
+function LocalCreateHeaderVideo(mydivsi){
+     //collect the template for header img
+     let hastext = true;
+     var sampledatasection  = document.getElementsByClassName('sampledatasectionVO')[0];
+     var no_text_sampledatasection  = document.getElementsByClassName('no_text_sampledatasectionVO')[0];
+
+     var h1void =  CheckifVoid_Gen("h1", 0, mydivsi);
+     var h2void = CheckifVoid_Gen("h2", 0, mydivsi);
+     var pvoid = CheckifVoid_P_Gen(mydivsi);
+
+     if((h1void) && (h2void) && (pvoid) ){
+          hastext = false;
+     }
+     if(hastext){
+          //collect tag elements from div
+          var myh1 = CheckifVoidandAssign_Gen("h1", 0, mydivsi);
+          var myh2 = CheckifVoidandAssign_Gen("h2", 0, mydivsi);
+          var myp = CheckifVoidandAssign_P_Gen(mydivsi);
+     }
+
+     var mypicturelink = CheckifVoidandAssign_Gen("a", 0, mydivsi);
+     var my_code = mypicturelink;
+
+     //create new div and copy sample data
+     let newdiv = document.createElement("div");
+     let mynewiframe;
+     let mainheader;
+     let subheader;
+     let myparagraph;
+
+     if(hastext){
+     newdiv.innerHTML = sampledatasection.innerHTML;
+
+          //get sections of old div
+          mainheader = newdiv.getElementsByClassName('mainheaderVO')[0];
+          subheader = newdiv.getElementsByClassName('subheaderVO')[0];
+          myparagraph = newdiv.getElementsByClassName('myparagraphVO')[0];
+          mynewiframe = newdiv.getElementsByClassName('myiframehere_alt')[0];
+
+          //reassign with markdown values
+          mainheader.innerHTML = myh2.innerHTML;
+          subheader.innerHTML = myh1.innerHTML;
+          myparagraph.innerHTML = myp.innerHTML;
+     } else{
+          let mydisplayalt = no_text_sampledatasection.getElementsByClassName("video_container_container")[0];
+           $(mydisplayalt).css({"display": "none"});
+          newdiv.innerHTML = no_text_sampledatasection.innerHTML;
+          mynewiframe = newdiv.getElementsByClassName('myiframehere_alt')[0];
+     }
+
+     //mypicturelink
+     var myfullpicturelink = document.createElement("p");
+     myfullpicturelink.innerHTML = my_code;
+
+     $(mynewiframe).attr('src' , "project_assets/" + $(mypicturelink).attr('href'));
+
+     var mydisplay = newdiv.getElementsByClassName("video-container-container")[0];
+     $(mydisplay).css({"display": "none"});
+
+     //append copy to append image_text_overlay
+     var append_div_here = document.getElementById("myappendcontent");
+     append_div_here.appendChild(newdiv);
+
+
+}
+
 /*CreateVideoHeader
 * Create and allocate a header video section
 * collects image link, sub header, header, and description, if existing
@@ -394,6 +466,11 @@ function YouTubeCreateHeaderVideo(mydivsi){
 
      newsrcdoc.setAttribute("srcdoc", "demoValue");
      mynewiframe.srcdoc = newsrcdoc.innerHTML;
+
+
+
+     var mydisplay = newdiv.getElementsByClassName("alt-video-container-container")[0];
+      $(mydisplay).css({"display": "none"});
 
      //append copy to append image_text_overlay
      var append_div_here = document.getElementById("myappendcontent");

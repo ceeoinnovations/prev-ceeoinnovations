@@ -6,7 +6,7 @@
 #newsrcdoc, #transferhereVO .sampledatasectionVO{
      display:none;
 }
-.video-container {
+.alt-video-container, .video-container {
      position:relative;
     float: none;
     padding-bottom: 15.25%;
@@ -18,7 +18,7 @@
     width: 100%;
 }
 @media (max-width:992px) {
-     .video-container {
+     .alt-video-container, .video-container {
           height: 300px;
           margin-bottom: 15px;
           overflow: hidden;
@@ -26,7 +26,7 @@
      }
 }
 
-.video-container iframe {
+.alt-video-container video, .video-container iframe {
      overflow:hidden;
     position: absolute;
     top: 0;
@@ -39,7 +39,7 @@
 
 
 @media (max-width: 600px) {
-     .video-container {
+     .alt-video-container, .video-container {
             width: 100%;
           height: auto;
           float:none;
@@ -59,9 +59,18 @@
   <div class="container">
    <div class="vid-intro">
 
+<div class="alt-video-container-container">
+     <div class="alt-video-container">
+        <video class="introvid img-fluid mb-3 mb-lg-0 rounded myiframehere_alt" width="320" height="240" controls src="movie.ogg">
+          <!--<source src="movie.mp4" type="video/mp4">-->
+          Your browser does not support the video tag.
+        </video>
+   </div>
+</div>
+
 <div class="video-container-container">
      <div class="video-container">
-           <iframe  class="intro-vid img-fluid mb-3 mb-lg-0 rounded myiframehere"  src="https://www.youtube.com/embed/uXMQn6dbxc4"   srcdoc="" allowfullscreen></iframe>
+           <iframe  class="introvid img-fluid mb-3 mb-lg-0 rounded myiframehere"  src="https://www.youtube.com/embed/uXMQn6dbxc4" allowfullscreen></iframe>
      </div>
 </div>
 

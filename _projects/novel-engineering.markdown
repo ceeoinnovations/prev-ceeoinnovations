@@ -42,8 +42,8 @@ Inspired by kids and grounded in research, Novel Engineering is an innovative ap
 </div>
 
 <div class="video_text_overlay" markdown="1">
-[Link to my video](https://youtu.be/P1Ix0Axa-LQ)
-## Example Activity
+[Link to my video](novel-engineering/novel_eng.mov)
+## https://youtu.be/P1Ix0Axa-LQ
 # Muncha! Muncha! Muncha!
 This video describes an example novel engineering activity that could be implemented in the classroom.
 </div>
