@@ -34,9 +34,10 @@ my_categories:
   - 3D Printing
   - Ev3/NXT
   - Robotics
+  - Documentation Instructions
   - Makerspaces
   - Tech
-  - Documentation Instructions
+
 
 # Build settings
 theme: minima

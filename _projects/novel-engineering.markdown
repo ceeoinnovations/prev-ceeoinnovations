@@ -6,7 +6,7 @@ description: An innovative approach to integrate engineering and literacy in ele
 categories:  ["Lesson Plans"]
 displayimg: novel-engineering/novel_engineering.png
 featured: true
-authors: ["Elissa Milto", "Laura Fradin", "Merredith Portmsore"]
+authors: ["Elissa Milto", "Laura Fradin", "Meredith Portmsore"]
 date: 10-03-2017
 ---
 
@@ -43,7 +43,7 @@ Inspired by kids and grounded in research, Novel Engineering is an innovative ap
 
 <div class="video_text_overlay" markdown="1">
 [Link to my video](novel-engineering/novel_eng.mov)
-## https://youtu.be/P1Ix0Axa-LQ
+## Example Project
 # Muncha! Muncha! Muncha!
 This video describes an example novel engineering activity that could be implemented in the classroom.
 </div>

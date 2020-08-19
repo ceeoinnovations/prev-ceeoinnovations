@@ -4,7 +4,7 @@ layout: post
 displayimg: inno_instruct/small_background.jpg
 title: Creating an Author Profile on CEEO Innovations
 description: Learn how to create an author profile on CEEO Innovations
-categories: ["Lesson Plans"]
+categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
 featured: true
 ---

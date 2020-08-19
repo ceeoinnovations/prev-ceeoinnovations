@@ -2,7 +2,7 @@
 layout: post
 
 displayimg: inno_instruct/small_background.jpg
-title: Instructions for Documenting on CEEO Innovations
+title: Creating a Project on CEEO Innovations
 description: Learn how to make a "project" post on CEEO Innovations
 categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
