@@ -121,16 +121,8 @@
 
 <script src="../web/js/create_website.js" as="script"></script>
 <!-- This is CEEO INNOVATION DEFAULT FOOTER -->
-<footer class="footer text-faded text-center py-5" >
-  <div class="container" style="border-top-style:solid;border-top-color: rgba(0,0,0,0.3)">
-        <div class="row" style="margin-top:5rem; padding:15px; text-align: justify">
-             <p style="text-align:left;line-height: 200%; color:rgba(0,0,0,1.00)">
-                  You are visiting an open development section where you will get access to so-called “developer software”, which offers documentation on different ways to operate the LEGO® Education SPIKE™ Prime Hub and technology. Whatever use you make of the developer software, bear in mind that the results are not experiences that the LEGO Group endorses, is with or will be liable for. No rights in or to trademarks of the LEGO Group are implied or given, and you may not apply to or register any protection anywhere in the world for intellectual property or industrial rights or similar in respect of any developer software, derivative or other result achieved through its use. The developer software is made available “as is” and, to the extent possible, no warranties or representations are implied or given in relation to it by the LEGO Group. It’s your responsibility to ensure all uses that you make and enable others to make comply with all applicable laws and best practices. By accessing the developer software, you acknowledge that the terms and conditions set out above and in LEGO Education’s <a href="termandcondition.html" style="color:#00FF85">terms of use for SPIKE Prime</a> apply
-             </p>
-        </div>
-   <p style="color:black; text-align: center; margin-top:3rem;text-indent: 1px">Copyright &copy; Tufts University Center for Engineering Education and Outreach 2020</p>
-  </div>
-</footer>
+     {% capture my_jargin %}{{page.legal}}{% endcapture %}
+{% include legal_text.html legal=my_jargin %}
 </body>
 <!--............................................................................................................................................-->
 <!--This is CEEO INNOVATION default footer -->
