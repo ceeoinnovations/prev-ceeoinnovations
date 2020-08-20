@@ -6,7 +6,7 @@ title: Creating an Author Profile on CEEO Innovations
 description: Learn how to create an author profile on CEEO Innovations
 categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
-featured: true
+featured: false
 ---
 
 <div class="free_write" markdown="1">

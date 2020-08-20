@@ -6,7 +6,7 @@ title: Creating a Project on CEEO Innovations
 description: Learn how to make a "project" post on CEEO Innovations
 categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
-featured: true
+featured: false
 ---
 
 <div class="image_text_overlay" markdown="1">
@@ -117,7 +117,7 @@ other frontmatter elements can be changed to influence how your project is displ
 </div>
 
 <div class="video_text_overlay" markdown="1">
-[Step 3](https://www.youtube.com/watch?v=6DCVCFkU2mk&t=18s)
+[Step 3](https://youtu.be/6DCVCFkU2mk)
 # Step 3. Customize the Frontmatter
 ## Frontmatter provides key information about your page
 Create a copy of [**SAMPLE-FILE.markdown**](https://github.com/ceeoinnovations/ceeoinnovations.github.io/blob/gh-pages/_projects/SAMPLE-FILE.markdown) and customize the frontmatter with the title, description, image, authors, and categories for your site.

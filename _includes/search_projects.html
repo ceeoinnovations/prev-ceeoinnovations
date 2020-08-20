@@ -49,18 +49,25 @@
                                     {{project.categories}}
                                     {{project.tags}}
                                     {{project.date}}
+                                    {{project.Categories}}
+                                    {{project.Title}}
+                                    {{project.Url}}
+                                    {{project.Authors}}
+                                    {{project.Categories}}
+                                    {{project.Tags}}
+                                    {{project.Date}}
                                </div>
 
                             <div class="work-text">
-                              <h2>{{project.title}}</h2>
+                              <h2>{{project.title}}{{project.Title}}</h2>
 
-                              <p >CEEO INNOVATIONS <br> <b>{{project.date | date_to_string}}</b></p>
+                              <p >CEEO INNOVATIONS <br> <b>{{project.date | date_to_string}}{{project.Date | date_to_string}}</b></p>
 
-                                 <p class="work-text2">{{project.description}}</p>
+                                 <p class="work-text2">{{project.description}}{{project.Description}}</p>
 
                        </div>
 
-                          <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
+                          <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
 
                           </a>
                   </div>

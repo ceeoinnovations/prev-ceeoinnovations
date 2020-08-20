@@ -36,9 +36,9 @@ layout: "homewrapper"
                <img src="{{ item.img }}" style="width:100%">
                {% endif %}
                <div class="text">
-                    <h1 class="producttext_head">{{ item.title }}</h1>
-                    <p class="producttext_para">{{ item.description }}</p>
-                    <a href="{{ item.url }}" class="myproductButton">Visit Site</a>
+                    <h1 class="producttext_head">{{ item.title }}{{ item.Title }}</h1>
+                    <p class="producttext_para">{{ item.description }}{{ item.Description }}</p>
+                    <a href="{{ item.url }}{{ item.Url }}" class="myproductButton">Visit Site</a>
                </div>
      </div>
      {% endfor %}

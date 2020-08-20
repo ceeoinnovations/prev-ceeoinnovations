@@ -7,6 +7,7 @@ displayimg: IMAGEFOLDERNAME/IMGNAME
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
 authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
 featured: false
+date: 24-03-2020
 
 ---
 
