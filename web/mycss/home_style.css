@@ -75,6 +75,7 @@ body{
      padding-left: 0rem;
       padding-right: 0rem;
       padding-top:1.5rem;
+      padding-bottom: 1.5rem;
    }
 }
 @media (max-width: 468px){
@@ -1164,6 +1165,7 @@ https://flickity.metafizzy.co
 @media(max-width:600px){
      #breakimage3, #breakimage, #breakimage2{
           background-attachment: scroll;
+          display: none;
      }
 }
 @supports (-webkit-touch-callout: none) {
