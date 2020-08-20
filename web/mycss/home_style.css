@@ -49,7 +49,7 @@ body{
     padding-left: 9rem;
     padding-right: 9rem;
 }
-@media (max-width: 870px){
+@media (max-width: 1050px){
      .moderator.homepagesection {
          padding-left: 0rem;
          padding-right: 0rem;
@@ -1161,6 +1161,16 @@ https://flickity.metafizzy.co
           padding-bottom: 6rem;
      }
 }
+@media(max-width:600px){
+     #breakimage3, #breakimage, #breakimage2{
+          background-attachment: scroll;
+     }
+}
+@supports (-webkit-touch-callout: none) {
+     #breakimage3, #breakimage, #breakimage2{
+               background-attachment: scroll;
+     }
+}
 
 @media(max-width:409px){
      #breakimage3, #breakimage, #breakimage2{
@@ -1392,7 +1402,7 @@ margin-bottom: 7rem;
 
 
 }
-@media(max-width:400px) {
+@media(max-width:600px) {
 
      .down {
 
@@ -1407,6 +1417,13 @@ margin-bottom: 7rem;
      #Ceeo_Inno_Brand{
           padding-top: 0rem;
           margin-right:8%;
+     }
+}
+@supports (-webkit-touch-callout: none) {
+     #masthead #site-top{
+          background-attachment: scroll;
+          background-size: cover;
+          padding: 0rem;
      }
 }
 
