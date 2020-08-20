@@ -8,17 +8,12 @@ categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
 featured: false
 ---
+
 <div class="free_write" markdown="1">
-# Welcome to Super Toast
-Ever want bread that is crispy and crunchy, and delicious?
+# Instructions for Documenting on CEEO Innovations
+On CEEO Innovations you can create either "project" pages or "launched" project pages. Launched pages will automatically redirect to another site if your project has a website and support of it's own. Project pages will let you write up information about your project on CEEO Innovations. Author profiles
+     - Guide to creating a [Project Page on CEEO Innovation](../project-on-CEEOInnovations.html)
+     - Guide to creating a ["Fully Launched" Project on CEEO Innovation](../Creating-fully-launched-project-on-CEEO-Innovations.html)
+     - Guide to creating an [Author Profile on CEEO Innovation](../Creating-an-author-profile-on-CEEO-Innovations.html)
 
-## Try super toast today!
-Here are some facts0comes from the Latin "tostare," meaning "to Toast"
-- Canadian Neurosurgeon Dr. Wilder Penfield discovered that there is an entire section "Toast Center" in the brain dedicated
 </div>
-
-
-# This is a photo of my favorite toasts!
-![MY fav toast](super_toaster/Healthy-toast.jpg)
-
-This is a link to a website about [toast](https://en.wikipedia.org/wiki/Toast).

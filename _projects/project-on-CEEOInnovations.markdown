@@ -89,6 +89,8 @@ description: description of your site
 displayimg: IMAGEFOLDERNAME/IMGNAME
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
 authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
+date: dd-mm-yyyy
+legal: ENTER ANY LEGAL TEXT FOR YOUR CONTENT HERE
 featured: false
 ---
 ```
@@ -112,6 +114,9 @@ other frontmatter elements can be changed to influence how your project is displ
           - a project with five authors would have an authors list that looks like "authors: ["Jane Doe", "John Doe", "Brad Pitt", "Angelina Jolie", "Meredith Portsmith"]"
      - If you would like your project authors to have a picture and position listed with their name. You can make an author profile for them [here](www.thest.computer).
           - Otherwise the site will show a filler profile with the authors name and a generic picture.
+- **date** the format for this display is "dd-mm-yyyy." It is fairly important to get this syntax right since Jekyll will throw an error otherwise.
+     - **If you don't see your project page updating on the main site check to see if this syntax is right and in the order "dd-mm-yyyy"**. You can also delete this element if you believe a date does not apply to your project. Projects on the homepage are sorted by date.  
+- **legal** use this field to have any legal text that might pertain to your project appear on the bottom of the project page.
 - **featured** determines if your project will appear on the "featured projects" section of the homepage
      - set "true" if you want your project to appear featured and "false" otherwise.
 </div>
@@ -190,7 +195,17 @@ You can also include photos from the internet (although this is risky since phot
 
 The above code would produce a result that looks like:
 ![Markdown Table 2](inno_instruct/Picture1.png)
+
+##### If you use ***only*** Markdown you will not be able to use div elements. It is instead suggestted you encase straight Markdown in a "free_write" div (see next tutorial).
 </div>
+
+<div class="video_text_overlay" markdown="1">
+[Step 4](https://youtu.be/uiotevW4nS0)
+# Step 4, Part 1. Overview of Markdown
+## Project pages are written in Markdown syntex
+Project pages on CEEO Innovations are written using the Markdown[here](https://www.markdownguide.org/basic-syntax/) syntax language.
+</div>
+
 
 <div class="free_write" markdown="1">
 #  Step 4: Writing up your documentation
@@ -224,8 +239,12 @@ Below is the format for a div section, it goes around your markdown content to d
 
 Currently, the possible div sections have the class names "image_text_overlay", "video_text_overlay",  "document", and "free_write." Each has a unique name and serves a specific purpose. "free_write" will probably be the most useful section and is similar to writing straight Markdown
 
-
-
+</div>
+<div class="video_text_overlay" markdown="1">
+[Step 4](https://youtu.be/tnQWpgtw7bc)
+# Step 4, Part 2. "div" Element Overview
+## div elements let us customize Markdown syntax
+Div elements allow us to divide our page into sections and include different types of media.
 </div>
 
 <div class="free_write" markdown="1">

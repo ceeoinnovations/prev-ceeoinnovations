@@ -2,7 +2,7 @@
 layout: post
 
 displayimg: inno_instruct/small_background.jpg
-title: Creating an Launched Project on CEEO Innovations
+title: Creating a Launched Project on CEEO Innovations
 description: Making a fully launched project on CEEO Innovations
 categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
