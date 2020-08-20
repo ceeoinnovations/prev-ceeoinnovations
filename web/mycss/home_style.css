@@ -49,6 +49,13 @@ body{
     padding-left: 9rem;
     padding-right: 9rem;
 }
+@media (max-width: 870px){
+     .moderator.homepagesection {
+         padding-left: 0rem;
+         padding-right: 0rem;
+     }
+
+}
 @media (max-width: 768px){
     .homepagesection{
          margin: 0vw;
@@ -62,11 +69,21 @@ body{
     }
 
 }
+@media (max-width: 600px){
+.homepagesection{
+     margin: 0vw;
+     padding-left: 0rem;
+      padding-right: 0rem;
+      padding-top:1.5rem;
+   }
+}
 @media (max-width: 468px){
     .moderator.homepagesection {
         padding-left: 0rem;
         padding-right: 0rem;
     }
+
+
 
 }
 @media (min-width: 1200px) {
@@ -1162,7 +1179,6 @@ background-attachment: fixed;
 background-color: #51d294;
 background-image: url(../img/compress-gif-background3.gif);
 overflow: hidden;
-
 }
 
 
@@ -1384,6 +1400,7 @@ margin-bottom: 7rem;
      }
 
      #masthead #site-top{
+          background-attachment: scroll;
           background-size: cover;
           padding: 0rem;
      }
@@ -1645,6 +1662,7 @@ img {vertical-align: middle;}
 }
 .producttext_head{
      color: #f3f3f3;
+     font-size: 1.4rem;
 }
 .producttext_para{
      font-size: 1rem;
@@ -1676,7 +1694,7 @@ img {vertical-align: middle;}
           color: #f3f3f3;
      }
      .producttext_para{
-          font-size: 1rem;
+          font-size: .7rem;
      }
 }
 
@@ -1812,7 +1830,6 @@ img {vertical-align: middle;}
      background-color: #fff;
 /*     box-shadow: .5px .5px 3px #DADADA;
           padding: 3rem;*/
-    margin-top: 2rem;
      background-color: rgba(255, 255, 255, 0.5);
      border-radius: 10px;
 }
