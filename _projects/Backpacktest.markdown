@@ -1,0 +1,36 @@
+---
+layout: post
+
+title: Backpack for SPIKE Prime
+description: This is a testtttt.
+displayimg: IMAGEFOLDERNAME/IMGNAME
+categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
+authors: ["Milan Dahal", "NAME OF OTHER COLLABORATOR"]
+featured: false
+date: 24-03-2020
+
+---
+
+
+<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
+<div class="image_text_overlay" markdown="1">
+![TITLE OF IMAGE](PROJECTFILENAME/IMGNAME)
+# YOUR IMAGE TITLE
+## YOUR IMAGE SUBTITLE
+THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
+</div>
+
+<!--document creates a grid of documentss--------------------->
+<div class="document" markdown="1">
+# TITLE OF SECTION
+[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
+[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
+<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
+</div>
+
+<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
+<div class="video_text_overlay" markdown="1">
+[TITLE OF VIDEO](--- paste a youtu.be link here--)
+# YOUR VIDEO TITLE
+## YOUR VIDEO SUBTITLE
+THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
