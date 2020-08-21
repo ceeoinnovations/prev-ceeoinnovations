@@ -5,7 +5,7 @@ title: Backpack for SPIKE Prime
 description: Third party hardware extensions for SPIKE Prime.
 displayimg: IMAGEFOLDERNAME/IMGNAME
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
-authors: ["Milan Dahal", "NAME OF OTHER COLLABORATOR"]
+authors: ["Milan Dahal", "Milan2", "Milan3"]
 featured: false
 date: 28-03-2020
 
