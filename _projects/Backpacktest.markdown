@@ -8,6 +8,7 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Backpack", "LE
 authors: ["Milan Dahal"]
 featured: false
 date: 21-08-2020
+legal: You are visiting an open development section where you will get access to so-called “developer software”, which offers documentation on different ways to operate the LEGO® Education SPIKE™ Prime Hub and technology. Whatever use you make of the developer software, bear in mind that the results are not experiences that the LEGO Group endorses, is with or will be liable for. No rights in or to trademarks of the LEGO Group are implied or given, and you may not apply to or register any protection anywhere in the world for intellectual property or industrial rights or similar in respect of any developer software, derivative or other result achieved through its use. The developer software is made available “as is” and, to the extent possible, no warranties or representations are implied or given in relation to it by the LEGO Group. It’s your responsibility to ensure all uses that you make and enable others to make comply with all applicable laws and best practices. By accessing the developer software, you acknowledge that the terms and conditions set out above and in LEGO Education’s terms of use for SPIKE Prime apply
 
 ---
 
@@ -15,9 +16,9 @@ date: 21-08-2020
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 ![Backpack](Backpack_for_SPIKE_Prime/backpack.jpeg)
-# Backpack for SPIKE Prime
-## Third party hardware extensions for SPIKE Prime
-Third party hardware extensions for SPIKE Prime including Pyboards, breadboards, micro:bits, OpenMV, etc.
+# Backpacks for SPIKE Prime
+## Third-party hardware extensions for SPIKE Prime
+Backpacks are hardware extensions for SPIKE Prime.  Do machine vision projects using OpenMV Backpack, use Pyboard Backpack to connect you SPIKE Prime to the internet and  Grove Sensor Backpack to connect to a wide range of Grove sensors. Explore all 6 different backpacks we have built for SPIKE Prime.  
 </div>
 
 <!--document creates a grid of documentss--------------------->
