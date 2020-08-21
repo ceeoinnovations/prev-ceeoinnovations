@@ -2,7 +2,7 @@
 layout: post
 
 title: Backpack for SPIKE Prime
-description: This is a testtttt.
+description: This it.
 displayimg: IMAGEFOLDERNAME/IMGNAME
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
 authors: ["Milan Dahal", "NAME OF OTHER COLLABORATOR"]
