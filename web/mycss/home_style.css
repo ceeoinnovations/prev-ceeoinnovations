@@ -358,7 +358,7 @@ body{
      font-size: 4vw;
 
      font-weight: 700;
-     color:#EF476F;
+     color:#000;
      letter-spacing: -0.05em;
      z-index: 400;
      text-align: left;
@@ -1231,14 +1231,13 @@ overflow: hidden;
 }
 #mastheadparagraph {
 
-     color:#E7476F;
+     color:#000;
      width:100%;
      border-radius: 50%;
      display: flex;
       height: 25vw;
       padding-left:5%;
       padding-right: 5%;
-      box-shadow: 15px 15px #fffd85;
 }
 .down {
      font-family: 'Space Mono', monospace;
@@ -1264,9 +1263,8 @@ margin-bottom: 7rem;
      padding-top: 5%;
      text-align: right;
      padding-right: 5%;
-     color:#E7476F;
+     color:#000;
      width:35%;
-     text-shadow:3px 1px  #fffd85;
      border: 13px black;
 
 }
@@ -1648,7 +1646,7 @@ img {vertical-align: middle;}
      color:#51d294;
 }
 .productsubheader{
-     color:#ef476f;
+     color:#000;
 }
 .mainpagesubheader{
      font-weight: 600;

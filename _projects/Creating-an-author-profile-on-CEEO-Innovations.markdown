@@ -7,6 +7,7 @@ description: Learn how to create an author profile on CEEO Innovations
 categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
 featured: false
+url: https://docs.google.com/spreadsheets/d/150O_uIJBECrZpr_dwpvV0XtI9SoIbHl42sKKt-xynIg/edit#gid=0
 ---
 
 <div class="free_write" markdown="1">

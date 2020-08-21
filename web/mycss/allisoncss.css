@@ -85,7 +85,6 @@ blockquote p {
 
 .free_write_content ol {
      text-align: left;
-   margin-left:10%;
 }
 .free_write_content ul li {
      text-align: left;
@@ -111,7 +110,7 @@ blockquote p {
 
 .free_write_content ul li:nth-child(even)::before {
      text-align: left;
-  color: #fff;
+  color: #000;
   position: absolute;
   --size: 27px;
   left: calc(-1 * var(--size) - 10px);
@@ -399,7 +398,7 @@ position: relative;
 
 .click-to-download:hover {
     background-color:#9ede8e;
-    color:#fff;
+    color:#000;
 }
 .click-to-download:active {
     position:relative;
@@ -433,7 +432,7 @@ position: relative;
 }
 .pdfsectiontitle{
      font-size:2rem;
-     color: #ef476f;
+     color: #000;
      font-weight:700;
 
 }
@@ -702,6 +701,7 @@ position: relative;
 .free_write_content h2 {
      font-size:1.8rem;
      font-weight: 500;
+     color: #5ee683;
      letter-spacing: -0.05em;
      z-index: 10;
      padding:1.5rem;
@@ -734,8 +734,8 @@ position: relative;
 }
 .free_write_content h1 {
      font-size: 2.4rem;
-     font-weight: 500;
-     color:#EF476F;
+     font-weight: 800;
+     color:#51d294;
      letter-spacing: -0.05em;
      z-index: 10;
      text-align: center;
@@ -751,8 +751,7 @@ position: relative;
 @media(max-width:130px){
 .free_write_content h1 {
      font-size: 3.8vw;
-     font-weight: 500;m
-     color:#EF476F;
+     font-weight: 500;
      letter-spacing: -0.05em;
      z-index: 10;
      text-align: center;
@@ -771,7 +770,6 @@ position: relative;
      .free_write_content h1 {
           font-size: 4vw;
           font-weight: 500;
-          color:#EF476F;
           letter-spacing: -0.05em;
           z-index: 10;
           text-align: center;
@@ -839,7 +837,6 @@ position: relative;
      .free_write_content h1 {
           font-size: 5vw;
           font-weight: 500;
-          color:#EF476F;
           letter-spacing: -0.05em;
           z-index: 10;
           text-align: center;
@@ -858,15 +855,12 @@ position: relative;
           text-align: center;
           position: relative;
           line-height: 0.8em;
-
      }
 }
 
 @media(max-width:750px){
      .free_write_content h1 {
-          font-size: 7vw;
           font-weight: 500;
-          color:#EF476F;
           letter-spacing: -0.05em;
           z-index: 10;
           text-align: center;
@@ -886,7 +880,6 @@ position: relative;
                text-align: center;
                position: relative;
                line-height: 0.8em;
-
           }
 }
 
@@ -901,7 +894,7 @@ position: relative;
      }
 
    .highlight {
-        background-color: #29E188;
+        background-color: #dadada;
         text-align: left;
      padding-top: 10px;
      padding-right: 10px;

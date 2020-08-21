@@ -2,79 +2,11 @@
 layout: homewrapper
 ---
 {% include home_featured_projects.html%}
-<div id="breakimage3"></div>
-<div class="homepagesection">
-<section id="product_section">
-   <div class="productcontain">
-      <h1 id="myproductheader">Launched Projects</h1>
-      <h2 class="mainpagesubheader productsubheader">Innovations with their own websites and support</h2>
-      <hr>
-   </div>
-   <div class="moderator homepagesection">
-      <div class="slideshow-container">
-         {% assign count = 0 %}
-         {% for item in site.data.products.docs %}
-         {% assign count = count | plus: 1 %}
-         <div class="mySlides">
-            <div class="numbertext">{{count}}</div>
-            {% if item.video %}
-            <video autoplay muted loop id="myVideo">
-               <source src="{{ item.video }}" type="video/mp4">
-            </video>
-            {% else %}
-            <img src="{{ item.img }}" style="width:100%">
-            {% endif %}
-            <div class="text">
-               <h1 class="producttext_head">{{ item.title }}{{ item.Title }}</h1>
-               <p class="producttext_para">{{ item.description }}{{ item.Description }}</p>
-               <a href="{{ item.url }}{{ item.Url }}" class="myproductButton">Visit Site</a>
-            </div>
-         </div>
-         {% endfor %}
-         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-         <br>
-         <div style="text-align:center">
-            {% assign dot_count = 0 %}
-            {% for item in site.data.products.docs %}
-            {% assign dot_count = dot_count | plus: 1 %}
-            <span class="dot" onclick="currentSlide({{dot_count}})"></span>
-            {% endfor %}
-         </div>
-      </div>
-</section>
-</div>
+<!--<div id="breakimage3"></div>-->
 <div id="breakimage"></div>
 {% include search_projects.html%}
 <div id="breakimage2"></div>
-<script>
-   var slideIndex = 1;
-   showSlides(slideIndex);
 
-   function plusSlides(n) {
-     showSlides(slideIndex += n);
-   }
-
-   function currentSlide(n) {
-     showSlides(slideIndex = n);
-   }
-
-   function showSlides(n) {
-     var i;
-     var slides = document.getElementsByClassName("mySlides");
-     var dots = document.getElementsByClassName("dot");
-     if (n > slides.length) {slideIndex = 1}
-     if (n < 1) {slideIndex = slides.length}
-     for (i = 0; i < slides.length; i++) {
-         slides[i].style.display = "none";
-     }
-     for (i = 0; i < dots.length; i++) {
-         dots[i].className = dots[i].className.replace(" active", "");
-     }
-     slides[slideIndex-1].style.display = "block";
-     dots[slideIndex-1].className += " active";
-   }
-</script>
 <script src="web/js/search_function.js"></script>
 <script src="web/js/bootstrap.bundle.min.js"></script>
 <script src="web/js/jquery-3.2.1.min.js"></script>
