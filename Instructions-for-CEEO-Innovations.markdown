@@ -1,7 +1,7 @@
 ---
 layout: post
 
-displayimg: inno_instruct/small_background.jpg
+displayimg: project_assets/inno_instruct/small_background.jpg
 title: Instructions for CEEO Innovations
 description: Instructions for adding content to CEEO Innovations
 categories: ["Lesson Plans", "Documentation Instructions"]

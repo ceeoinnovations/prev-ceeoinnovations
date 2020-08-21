@@ -3,53 +3,40 @@ layout: "wrapper"
 ---
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-     <head>
-          <meta charset="utf-8">
-          <title></title>
-
-     </head>
-
-<body>
-
-     <!-- DO NOT DELETE, IMPORT OF MARKDOWN ---------------------------------->
-     {% capture my_variable %}{{page.title}}{% endcapture %}
-     {% capture my_des %}{{page.description}}{% endcapture %}
-     {% capture my_variable2 %}{{page.Title}}{% endcapture %}
-     {% capture my_des2 %}{{page.Description}}{% endcapture %}
-          {% include include_content.html title=my_variable description=my_des  title2=my_variable2 description2=my_des2  %}
-
-          <!-- Header for page title --------------------------------->
-          {% include page_title.html %}
-
-
-
-<!-- Header for page Heading --------------------------------->
-          {% include image_header.html %}
-<!-- Page Heading ---------------------------------->
-          {% include pdf_include.html %}
-<!-- Video Overlay---------------------------------->
-          {% include video_overlay.html %}
-<!--Free Write----------------------------------->
-          {% include free_write.html %}
-
-
-
-<!--Allison's helper functions for appending content-->
-          <script src="../web/js/create_website.js"></script>
-          <script src="../web/js/append_helper_functions.js"></script>
-
-          <script>CreateWebMain();</script>
-
-
-          <script>
-          var mypdf = document.getElementsByClassName('mypdf');
-          for(let i = 0; i <mypdf.length; i++){
-          $(mypdf[i]).on("load", function() {
-               let head = $(mypdf[i]).contents().find("head");
-               let css = '<style>img{width:100%;body{zoom: 0.05;}</style>';
-               $(head).append(css);
-          });
-          }
-          </script>
-</body>
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+   </head>
+   <body>
+      <!-- DO NOT DELETE, IMPORT OF MARKDOWN ---------------------------------->
+      {% capture my_variable %}{{page.title}}{% endcapture %}
+      {% capture my_des %}{{page.description}}{% endcapture %}
+      {% capture my_variable2 %}{{page.Title}}{% endcapture %}
+      {% capture my_des2 %}{{page.Description}}{% endcapture %}
+      {% include include_content.html title=my_variable description=my_des  title2=my_variable2 description2=my_des2  %}
+      <!-- Header for page title --------------------------------->
+      {% include page_title.html %}
+      <!-- Header for page Heading --------------------------------->
+      {% include image_header.html %}
+      <!-- Page Heading ---------------------------------->
+      {% include pdf_include.html %}
+       <!-- Video Overlay---------------------------------->
+      {% include video_overlay.html %}
+      <!--Free Write----------------------------------->
+      {% include free_write.html %}
+       <!--Allison's helper functions for appending content-->
+      <script src="../web/js/create_website.js"></script>
+      <script src="../web/js/append_helper_functions.js"></script>
+      <script>CreateWebMain();</script>
+      <script>
+         var mypdf = document.getElementsByClassName('mypdf');
+         for(let i = 0; i <mypdf.length; i++){
+         $(mypdf[i]).on("load", function() {
+              let head = $(mypdf[i]).contents().find("head");
+              let css = '<style>img{width:100%;body{zoom: 0.05;}</style>';
+              $(head).append(css);
+         });
+         }
+      </script>
+   </body>
 </html>

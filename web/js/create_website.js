@@ -171,10 +171,10 @@ function AddHrefSRCtoNewDiv_Prepend(get_class, at_place, copy_this_data, search_
      let copyhere = search_here.getElementsByClassName(get_class)[at_place];
 
          if (!(is_url(copy_this_data.href)) || copy_this_data.href.indexOf("/ceeoinnovations") >= 0 ){
-           //   if(!(copy_this_data.href.contains("project_assets")){
-             $(copy_this_data).attr('href' , "project_assets/" + $(copy_this_data).attr('href'));
-       // }
-      }
+              if(!(copy_this_data.href.includes("project_assets"))) {
+                  $(copy_this_data).attr('href' , "project_assets/" + $(copy_this_data).attr('href'));
+               }
+          }
      copyhere.src = copy_this_data.href;
      return copyhere;
 }
@@ -219,7 +219,9 @@ function CreateFreeWrite(mydivsi){
 
               if (!(is_url(myimages[i].src)) || myimages[i].src.indexOf("/ceeoinnovations") >= 0)
               {
+                   if(!(myimages[i].src.includes("project_assets"))) {
           $(myimages[i]).attr('src' , "project_assets/" + $(myimages[i]).attr('src'));
+               }
                }
 
           if(myimages[i].className == "small"){
@@ -369,7 +371,9 @@ function LocalCreateHeaderVideo(mydivsi){
      var myfullpicturelink = document.createElement("p");
      myfullpicturelink.innerHTML = my_code;
 
-     $(mynewiframe).attr('src' , "project_assets/" + $(mypicturelink).attr('href'));
+      if(!(mynewiframe.src.includes("project_assets"))){
+           $(mynewiframe).attr('src' , "project_assets/" + $(mypicturelink).attr('href'));
+      }
 
      var mydisplay = newdiv.getElementsByClassName("video-container-container")[0];
      $(mydisplay).css({"display": "none"});
@@ -588,7 +592,8 @@ function AddHrefSRCtoNewDiv_Prepend(get_class, at_place, copy_this_data, search_
      var copyhere = search_here.getElementsByClassName(get_class)[at_place];
    // $(copy_this_data).attr('href' , "../project_assets/" + $(copy_this_data).attr('href'));
     if (!(is_url(copy_this_data.href)) || copy_this_data.href.indexOf("/ceeoinnovations") >= 0   ){
-         if(!(copy_this_data.href.indexOf("project_assets") >= 0) ){
+         if(!(copy_this_data.href.includes("project_assets/"))){
+
          $(copy_this_data).attr('href' , "project_assets/" + $(copy_this_data).attr('href'));
      }
 
@@ -603,7 +608,9 @@ function AddHreftoNewDiv_Prepend(get_class, at_place, copy_this_data, search_her
 
     if (!(is_url(copy_this_data.href)) || copy_this_data.href.indexOf("/ceeoinnovations") >= 0 ){
            if(!(copy_this_data.href.indexOf("project_assets") >= 0) ){
+                if (!(copy_this_data.href.includes("project_assets"))){
          $(copy_this_data).attr('href' , "project_assets/" + $(copy_this_data).attr('href'));
+     }
     }
 
     }
@@ -645,7 +652,9 @@ function CreateHeaderImg(mydivsi){
      var myimg = CheckifVoidandAssign_Img_Gen(0, mydivsi);
      if (!(is_url(myimg.src)) || myimg.src.indexOf("/ceeoinnovations") >= 0 ){
           myimg.src.replace(/\s/g, '%20')
+      if(!(myimg.src.includes("project_assets"))){
          $(myimg).attr('src' , "project_assets/" + $(myimg).attr('src'));
+     }
      }
 
      //create new div and copy sample data--------------------------------

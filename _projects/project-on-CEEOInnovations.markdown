@@ -10,7 +10,7 @@ featured: false
 ---
 
 <div class="image_text_overlay" markdown="1">
-![my header image](inno_instruct/tuftsceeo.jpg)
+![my header image](project_assets/inno_instruct/tuftsceeo.jpg)
 # Learn to make a post
 ## CEEO innovations is a hub for the the CEEO's work
 CEEO innovations is a “hub” for all the cool projects going on at the CEEO. “Projects” pages on the site like the one you will make
