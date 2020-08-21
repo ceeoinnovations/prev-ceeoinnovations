@@ -2,7 +2,7 @@
 layout: post
 
 title: Backpack for SPIKE Prime
-description: This it.
+description: Third party hardware extensions for SPIKE Prime.
 displayimg: IMAGEFOLDERNAME/IMGNAME
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
 authors: ["Milan Dahal", "NAME OF OTHER COLLABORATOR"]
