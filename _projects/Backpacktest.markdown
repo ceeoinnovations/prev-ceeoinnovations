@@ -16,7 +16,7 @@ date: 21-08-2020
 <div class="image_text_overlay" markdown="1">
 ![Backpack](Backpack_for_SPIKE_Prime/backpack.jpeg)
 # Backpack for SPIKE Prime
-##Third party hardware extensions for SPIKE Prime
+## Third party hardware extensions for SPIKE Prime
 Third party hardware extensions for SPIKE Prime including Pyboards, breadboards, micro:bits, OpenMV, etc.
 </div>
 
