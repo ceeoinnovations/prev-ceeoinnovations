@@ -3,21 +3,21 @@ layout: post
 
 title: Backpack for SPIKE Prime
 description: Third party hardware extensions for SPIKE Prime.
-displayimg: IMAGEFOLDERNAME/IMGNAME
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
-authors: ["Milan Dahal", "Milan2", "Milan3"]
+displayimg: Backpack_for_SPIKE_Prime/backpack.jpeg
+categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Backpack", "LEGO", "Tech"]
+authors: ["Milan Dahal"]
 featured: false
-date: 28-03-2020
+date: 21-08-2020
 
 ---
 
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![TITLE OF IMAGE](PROJECTFILENAME/IMGNAME)
-# YOUR IMAGE TITLE
-## YOUR IMAGE SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
+![Backpack](Backpack_for_SPIKE_Prime/backpack.jpeg)
+# Backpack for SPIKE Prime
+##Third party hardware extensions for SPIKE Prime
+Third party hardware extensions for SPIKE Prime including Pyboards, breadboards, micro:bits, OpenMV, etc.
 </div>
 
 <!--document creates a grid of documentss--------------------->
