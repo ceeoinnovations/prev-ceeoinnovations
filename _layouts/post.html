@@ -8,6 +8,7 @@ layout: wrapper
       <title></title>
    </head>
    <body>
+
       <!-- DO NOT DELETE, IMPORT OF MARKDOWN ---------------------------------->
       {% capture my_variable %}{{page.title}}{% endcapture %}
       {% capture my_des %}{{page.description}}{% endcapture %}
@@ -18,6 +19,7 @@ layout: wrapper
       {% include page_title.html %}
       <!-- Header for page Heading --------------------------------->
       {% include image_header.html %}
+
       <!-- Page Heading ---------------------------------->
       {% include pdf_include.html %}
        <!-- Video Overlay---------------------------------->
@@ -25,7 +27,7 @@ layout: wrapper
       <!--Free Write----------------------------------->
       {% include free_write.html %}
 
-       {% include embeddedcard.html %}
+
        <!--Allison's helper functions for appending content-->
       <script src="../web/js/create_website.js"></script>
       <script src="../web/js/append_helper_functions.js"></script>
