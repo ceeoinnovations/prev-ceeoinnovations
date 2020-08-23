@@ -15,7 +15,7 @@ legal: You are visiting an open development section where you will get access to
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![Backpack](Backpack_for_SPIKE_Prime/backpack.jpeg)
+![Backpack](Backpack_for_SPIKE_Prime/backpack.png)
 # Backpacks for SPIKE Prime
 ## Third-party hardware extensions for SPIKE Prime
 Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Prime to the internet using Pyboard Backpack, connect to wide range of Grove Sensors using Grove Sensor Backpack and build machine vision projects using OpenMV Backpack. Explore all 6 different backpacks we have built for SPIKE Prime.  
