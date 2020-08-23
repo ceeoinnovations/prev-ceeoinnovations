@@ -18,7 +18,7 @@ legal: You are visiting an open development section where you will get access to
 ![Backpack](Backpack_for_SPIKE_Prime/backpack.jpeg)
 # Backpacks for SPIKE Prime
 ## Third-party hardware extensions for SPIKE Prime
-Backpacks are hardware extensions for SPIKE Prime.  Do machine vision projects using OpenMV Backpack, use Pyboard Backpack to connect you SPIKE Prime to the internet and  Grove Sensor Backpack to connect to a wide range of Grove sensors. Explore all 6 different backpacks we have built for SPIKE Prime.  
+Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Prime to the internet using Pyboard Backpack, connect to wide range of Grove Sensors using Grove Sensor Backpack and build machine vision projects using OpenMV Backpack. Explore all 6 different backpacks we have built for SPIKE Prime.  
 </div>
 
 <!--document creates a grid of documentss--------------------->
