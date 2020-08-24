@@ -16,8 +16,8 @@ legal: You are visiting an open development section where you will get access to
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 ![Backpack](Backpack_for_SPIKE_Prime/backpack.png){:.small}
-# Backpacks for SPIKE Prime
-## Third-party hardware extensions for SPIKE Prime
+# AI for SPIKE Prime
+##  Implementation of AI algorithms on SPIKE Prime
 Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Prime to the internet using Pyboard Backpack, connect to a wide range of Grove Sensors using Grove Sensor Backpack and build machine vision projects using OpenMV Backpack. Explore all 6 backpacks we have built for SPIKE Prime.  
 </div>
 
@@ -25,11 +25,11 @@ Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Pr
 <div class="free_write" markdown="1">
 
 
+### Morse Code Detector
+![Link to my pic](images_jason/20200716_113806.jpg){:.small}
 
-### Backpack #1: OpenMV Camera
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack1.jpg){:.small}
+The robot uses machine learning to figure out, for the length you held down the button, whether it is equivalent do a dot or a dash in morse code! But what if it's wrong? It has a built in feature to tell it that it's wrong. This will make it guess more accurately for later presses!
 
-The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
 
 [Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
 [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
