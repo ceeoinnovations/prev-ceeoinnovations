@@ -18,15 +18,21 @@ legal: You are visiting an open development section where you will get access to
 ![Backpack](Backpack_for_SPIKE_Prime/backpack.png)
 # Backpacks for SPIKE Prime
 ## Third-party hardware extensions for SPIKE Prime
-Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Prime to the internet using Pyboard Backpack, connect to wide range of Grove Sensors using Grove Sensor Backpack and build machine vision projects using OpenMV Backpack. Explore all 6 different backpacks we have built for SPIKE Prime.  
+Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Prime to the internet using Pyboard Backpack, connect to a wide range of Grove Sensors using Grove Sensor Backpack and build machine vision projects using OpenMV Backpack. Explore all 6 backpacks we have built for SPIKE Prime.  
 </div>
 
 <!--document creates a grid of documentss--------------------->
-<div class="document" markdown="1">
-# TITLE OF SECTION
-[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
-[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
-<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
+<div class="free_write" markdown="1">
+# Backpacks
+
+
+### Backpack #1: OpenMV Camera
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
+The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
+
+[Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
+[Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
+
 </div>
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
