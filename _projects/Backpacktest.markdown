@@ -85,10 +85,3 @@ The Universal Connector Backpack is basically a wired backpack that converts the
 
 
 </div>
-
-<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
-<div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](--- paste a youtu.be link here--)
-# YOUR VIDEO TITLE
-## YOUR VIDEO SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
