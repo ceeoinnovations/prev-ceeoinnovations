@@ -23,10 +23,37 @@ Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Pr
 
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
-# Backpacks
 
 
-### Backpack #1: OpenMV Camera
+## Backpack #1: OpenMV Camera
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
+The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
+
+[Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
+[Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
+
+## Backpack #1: OpenMV Camera
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
+The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
+
+[Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
+[Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
+
+## Backpack #1: OpenMV Camera
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
+The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
+
+[Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
+[Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
+
+## Backpack #1: OpenMV Camera
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
+The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
+
+[Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
+[Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
+
+## Backpack #1: OpenMV Camera
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
 The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
 
