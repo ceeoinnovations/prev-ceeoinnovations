@@ -5,7 +5,7 @@ title: InterLACE
 description: InterLACE is an interactive digital white-board interface.
 displayimg: project_assets/interLace/interlacehead.png
 categories: ["Tech"]
-featured: true
+featured: false
 authors: ["Ethan Danahy", "Leslie Schneider"]
 date: 07-11-2013
 ---

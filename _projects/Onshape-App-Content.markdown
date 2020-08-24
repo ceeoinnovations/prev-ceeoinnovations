@@ -5,7 +5,7 @@ title: ONSHAPE APP CONTENT CREATION
 description: Tutorial webpages for the OnShape app
 displayimg: ceeo_innovations/3D-val.png
 categories: [ "3D Printing", "Tech"]
-featured: true
+featured: false
 date: 03-05-2020
 ---
 
