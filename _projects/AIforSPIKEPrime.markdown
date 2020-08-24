@@ -26,7 +26,7 @@ Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Pr
 
 
 ### Morse Code Detector
-![Link to my pic](images_jason/20200716_113806.jpg){:.small}
+![Link to my pic](AIforSPIKEPrime/MorseCodeDetector/morsecodedetector.jpg){:.small}
 
 The robot uses machine learning to figure out, for the length you held down the button, whether it is equivalent do a dot or a dash in morse code! But what if it's wrong? It has a built in feature to tell it that it's wrong. This will make it guess more accurately for later presses!
 
