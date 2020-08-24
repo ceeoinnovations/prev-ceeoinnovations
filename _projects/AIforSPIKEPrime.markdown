@@ -1,10 +1,10 @@
 ---
 layout: post
 
-title: Robotics Playground
-description: An experimental library of placemat instructions for robotics activities
+title: AI for SPIKE Prime
+description: Implementation of AI algorithms on SPIKE Prime.
 displayimg: Backpack_for_SPIKE_Prime/backpack.png
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Placemats", "LEGO", "Tech"]
+categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "AI", "LEGO", "Tech"]
 authors: ["Milan Dahal"]
 featured: true
 date: 21-08-2020
@@ -17,7 +17,7 @@ legal: You are visiting an open development section where you will get access to
 <div class="image_text_overlay" markdown="1">
 ![Backpack](Backpack_for_SPIKE_Prime/backpack.png){:.small}
 # AI for SPIKE Prime
-##  Implementation of AI algorithms on SPIKE Prime
+##  Implementation of AI algorithms on SPIKE Prime.
 Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Prime to the internet using Pyboard Backpack, connect to a wide range of Grove Sensors using Grove Sensor Backpack and build machine vision projects using OpenMV Backpack. Explore all 6 backpacks we have built for SPIKE Prime.  
 </div>
 
