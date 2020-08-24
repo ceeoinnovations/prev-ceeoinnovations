@@ -35,40 +35,47 @@ The Open MV camera is the brain for the Camera Backpack that allows you to integ
 
 
 
-### Backpack #1: OpenMV Camera
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
-The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
+### Backpack #2: Grove Sensors
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 2.png){:.small}
+
+The Pyboard is the brain for this backpack. It allows you to connect Grove sensors to LEGO SPIKE Prime to easily.
 
 
-[Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
+[Instructables](https://www.instructables.com/id/Backpack-2-Grove-Sensors/){:.myButton}
+[Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
+
+
+### Backpack #3: Pyboard
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 3.png){:.small}
+A Pyboard Backpack lets you connect to the WiFi from SPIKE Prime and use all the functionality of a Pyboard. This will hugely widen the range of projects you can do using the SPIKE Prime Hub.
+
+[Instructables](https://www.instructables.com/id/Backpack-3-PyBoard/){:.myButton}
+[Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
+
+
+### Backpack #4: Breadboard
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 4.png){:.small}
+This backpack allows you to connect your SPIKE Prime with LEDs, buttons, switches and joysticks to create prototypes to control SPIKE Prime.
+
+[Instructables](https://www.instructables.com/id/Backpack-4-Breadboard/){:.myButton}
 [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
 
 
 
-### Backpack #1: OpenMV Camera
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
-The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
+### Backpack #5: Micro:bit
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 5.png){:.small}
+With the Micro:bit Backpack, you can connect a Micro:bit to LEGO SPIKE Prime. You can integrate all the capabilities of a Microbit to the SPIKE Prime. You can also communicate between two Microbits using radio communication.
 
-[Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
+[Instructables](https://www.instructables.com/id/Backpack-5-Microbit){:.myButton}
 [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
 
+### Backpack #6: UniversalConnector
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 6.png){:.small}
+The Universal Connector Backpack is basically a wired backpack that converts the SPIKE Prime connectors to generic male header pins. This backpack is super useful if you are planning to make your own backpacks for other micro-controllers.
 
-
-### Backpack #1: OpenMV Camera
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
-The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
-
-[Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
+[Instructables](https://www.instructables.com/id/Backpack-6-Universal-Connector/){:.myButton}
 [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
 
-
-
-### Backpack #1: OpenMV Camera
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
-The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
-
-[Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
-[Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
 
 </div>
 
