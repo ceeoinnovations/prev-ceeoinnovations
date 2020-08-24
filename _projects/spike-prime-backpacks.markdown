@@ -3,7 +3,7 @@ layout: post
 
 title: Spike Prime Backpacks
 description:
-featured: true
+featured: false
 displayimg: spike-prime-backpacks/backpack2.png
 categories: ["Robotics", "Spike Prime"]
 date: 04-05-2019
