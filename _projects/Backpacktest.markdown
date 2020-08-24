@@ -26,7 +26,7 @@ Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Pr
 
 
 
-## Backpack #1: OpenMV Camera
+### Backpack #1: OpenMV Camera
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
 The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
 
@@ -35,7 +35,7 @@ The Open MV camera is the brain for the Camera Backpack that allows you to integ
 
 
 
-## Backpack #1: OpenMV Camera
+### Backpack #1: OpenMV Camera
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
 The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
 
@@ -45,7 +45,7 @@ The Open MV camera is the brain for the Camera Backpack that allows you to integ
 
 
 
-## Backpack #1: OpenMV Camera
+### Backpack #1: OpenMV Camera
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
 The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
 
@@ -54,7 +54,7 @@ The Open MV camera is the brain for the Camera Backpack that allows you to integ
 
 
 
-## Backpack #1: OpenMV Camera
+### Backpack #1: OpenMV Camera
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
 The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
 
@@ -63,7 +63,7 @@ The Open MV camera is the brain for the Camera Backpack that allows you to integ
 
 
 
-## Backpack #1: OpenMV Camera
+### Backpack #1: OpenMV Camera
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 1.png){:.small}
 The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
 
