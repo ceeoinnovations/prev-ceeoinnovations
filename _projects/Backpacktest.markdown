@@ -63,14 +63,14 @@ This backpack allows you to connect your SPIKE Prime with LEDs, buttons, switche
 
 
 ### Backpack #5: Micro:bit
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 5.png){:.small}
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 5.jpeg){:.small}
 With the Micro:bit Backpack, you can connect a Micro:bit to LEGO SPIKE Prime. You can integrate all the capabilities of a Microbit to the SPIKE Prime. You can also communicate between two Microbits using radio communication.
 
 [Instructables](https://www.instructables.com/id/Backpack-5-Microbit){:.myButton}
 [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
 
 ### Backpack #6: UniversalConnector
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 6.png){:.small}
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack 6.jpeg){:.small}
 The Universal Connector Backpack is basically a wired backpack that converts the SPIKE Prime connectors to generic male header pins. This backpack is super useful if you are planning to make your own backpacks for other micro-controllers.
 
 [Instructables](https://www.instructables.com/id/Backpack-6-Universal-Connector/){:.myButton}
