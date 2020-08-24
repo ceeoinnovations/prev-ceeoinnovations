@@ -1,10 +1,10 @@
 ---
 layout: post
 
-title: AI for SPIKE Prime
-description: Implementation of AI algorithms on SPIKE Prime.
+title: Robotics Playground
+description: An experimental library of placemat instructions for robotics activities
 displayimg: Backpack_for_SPIKE_Prime/backpack.png
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "AI", "LEGO", "Tech"]
+categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Placemats", "LEGO", "Tech"]
 authors: ["Milan Dahal"]
 featured: true
 date: 21-08-2020
