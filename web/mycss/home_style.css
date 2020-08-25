@@ -1686,6 +1686,23 @@ img {vertical-align: middle;}
     user-select: none;
 }
 }
+@media(max-width:2000px){
+
+.prev, .previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+}
 
 /* Caption text */
 .myproductButton {
