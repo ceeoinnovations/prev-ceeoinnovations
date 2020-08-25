@@ -1,26 +1,2 @@
 docs_list_title:
 docs:
-
-- title: LEGO Engineering
-  url: http://www.legoengineering.com/
-  video:
-  img: slideshow_img/mindstorm.jpg
-  description: The aim of this site is to inspire and support teachers to go beyond the basics in bringing LEGO-based engineering to all students.
-
-- title: Robotics Playground
-  url: https://ceeoinnovations.github.io/RoboticsPlayground/
-  video: slideshow_img/Sweep_vid.mov
-  img:
-  description: An experimental library of placemat instructions for robotics activities.
-
-- title: Novel Engineering
-  url: https://www.novelengineering.org/
-  video: slideshow_img/novel_eng.mov
-  img:
-  description: An Integrated approach to teaching Engineering and Literacy.
-
-- title: STOMP
-  url: https://sites.tufts.edu/stomp/
-  video:
-  img: slideshow_img/Stomp.jpg
-  description: STOMP partners pairs of Tufts University students with school teachers in the greater Boston area to create and implement engineering curricula in the teachers’ classrooms.
