@@ -1,20 +1,4 @@
 docs_list_title:
 docs:
-
-
-- title: Launched Projects
-  sublinks:
-    - title: LEGO Engineering
-      url: http://www.legoengineering.com/
-    - title: Robotics Playground
-      url: https://ceeoinnovations.github.io/RoboticsPlayground/
-    - title: STOMP
-      url: https://sites.tufts.edu/stomp/
-    - title: Novel Engineering
-      url: https://www.novelengineering.org/
-
-- title: About
-  url: about.html
-
 - title: Search
   url: index.html#searchbox

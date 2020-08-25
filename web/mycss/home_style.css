@@ -355,10 +355,10 @@ body{
      font-weight: 300;
 }
 #mypageheader{
-     font-size: 4vw;
+     font-size: 3.8vw;
 
      font-weight: 700;
-     color:#EF476F;
+     color:#000;
      letter-spacing: -0.05em;
      z-index: 400;
      text-align: left;
@@ -1015,10 +1015,21 @@ https://flickity.metafizzy.co
      color: white;
 }
 #navbar #navtuftsimglink{
+     padding-top: 18px;
      width:200px;
 }
-#navbar #navsearchimglink{
-     width:50px;
+@media(max-width:2000px){
+     #navbar #navsearchimglink{
+          width:65px;
+     }
+}
+@media(max-width:2000px){
+     #navbar #navtuftsimglink{
+          width:120px;
+     }
+     #navbar #navsearchimglink{
+          width:50px;
+     }
 }
 #navtuftsimglink img, #navsearchimglink img{
      width: 100%;
@@ -1230,20 +1241,16 @@ overflow: hidden;
      float:left;
 }
 #mastheadparagraph {
-
-     color:#E7476F;
      width:100%;
      border-radius: 50%;
      display: flex;
       height: 25vw;
       padding-left:5%;
       padding-right: 5%;
-      box-shadow: 15px 15px #fffd85;
 }
 .down {
      font-family: 'Space Mono', monospace;
      color:#E7476F;
-     margin-top: 5rem;
      text-align: center;
 
 margin-bottom: 7rem;
@@ -1257,17 +1264,14 @@ margin-bottom: 7rem;
      padding-bottom: 1rem;
 }
 #mastheadparagraph p{
-     border-style: solid;
      font-family: 'Space Mono', monospace;
      font-size:1.2vw;
      font-weight: 800;
      padding-top: 5%;
      text-align: right;
      padding-right: 5%;
-     color:#E7476F;
+     color:#000;
      width:35%;
-     text-shadow:3px 1px  #fffd85;
-     border: 13px black;
 
 }
 .masthead .container{
@@ -1292,15 +1296,12 @@ margin-bottom: 7rem;
      #mastheadparagraph p {
           font-size:1.3vw;
           padding-left: 0%;
-          color:#E7476F;
           width:30%;
-          text-shadow:3px 1px  #fffd85;
 
      }
 }
 @media(max-width:992px) {
      #mastheadparagraph{
-          box-shadow: 15px 15px #fffd85;
           width:100%;
            height: 30vw;
      }
@@ -1329,7 +1330,6 @@ margin-bottom: 7rem;
 @media(max-width:850px) {
 
      #mastheadparagraph {
-
           border-radius: 0%;
            height: 250px;
            padding-left:0%;
@@ -1354,7 +1354,6 @@ margin-bottom: 7rem;
      .down {
           font-family: 'Space Mono', monospace;
           color:#E7476F;
-          margin-top: 2rem;
           text-align: center;
           margin-bottom: 7rem;
           width:100%;
@@ -1372,7 +1371,6 @@ margin-bottom: 7rem;
 @media(max-width:650px){
 
      #mastheadparagraph {
-          color:#E7476F;
           width:100%;
      }
      #Ceeo_Inno_Brand{
@@ -1430,7 +1428,14 @@ margin-bottom: 7rem;
 }
 
 #logo{
-     width:150px;
+     padding-top: 10px;
+     width:300px;
+}
+@media(max-width:2400px){
+     #logo{
+          padding-top: 10px;
+          width:200px;
+     }
 }
 
 /*Mobile------------------------------------------------------*/
@@ -1648,17 +1653,25 @@ img {vertical-align: middle;}
      color:#51d294;
 }
 .productsubheader{
-     color:#ef476f;
+     color:#51d294;
 }
-.mainpagesubheader{
-     font-weight: 600;
-     font-size: 1.9rem;
+.mainpagesubheader {
+    font-weight: 600;
+    font-size: 3rem;
 }
+@media(max-width: 2400px){
+.mainpagesubheader {
+    font-weight: 600;
+    font-size: 2.6rem;
+}
+}
+
 @media(max-width: 890px){
      .mainpagesubheader{
           font-weight: 500;
           font-size: 1.4rem
 ;     }
+
 }
 @media(max-width: 590px){
      .mainpagesubheader{
@@ -1856,7 +1869,7 @@ img {vertical-align: middle;}
 #myproductheader{
      font-size: 4vw;
      font-weight: 700;
-     color:#51d294;
+     color:#000;
      letter-spacing: -0.05em;
      z-index: 400;
      text-align: left;
@@ -1885,7 +1898,16 @@ img {vertical-align: middle;}
 
 /*==============================================================================*/
 
-
+@media(min-width:1700px){
+     #mypageheader{
+          font-size:3vw;
+     }
+}
+@media(min-width:2000px){
+     #mypageheader{
+          font-size:2.5vw;
+     }
+}
 
 
 @media screen and (max-width: 600px) {
