@@ -830,6 +830,26 @@ https://flickity.metafizzy.co
 }
 
 .carousel-cell {
+     width: 700px;
+     height: 1000px;
+}
+
+@media(max-width:4000px){
+.carousel-cell {
+     width: 600px;
+     height: 900px;
+}
+}
+@media(max-width:2600px){
+.carousel-cell {
+     width: 500px;
+     height: 800px;
+}
+}
+
+
+@media(max-width:1800px){
+.carousel-cell {
 
      width: 240px;
      height: 400px;
@@ -846,6 +866,7 @@ https://flickity.metafizzy.co
           align-items: center;
 -webkit-transform: scale(1);
           transform: scale(1);
+}
 }
 
 @media(max-width:1100px){
@@ -1013,6 +1034,9 @@ https://flickity.metafizzy.co
 #navbar a.active {
      background-color: #fff;
      color: white;
+}
+#navbar #navsearchimglink{
+     width:70px;
 }
 #navbar #navtuftsimglink{
      padding-top: 18px;
@@ -1602,12 +1626,12 @@ img {vertical-align: middle;}
 
 
 /* Next & previous buttons */
-.prev, .next {
+.prev, .previous, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 60px;
   margin-top: -22px;
   color: white;
   font-weight: bold;
@@ -1626,6 +1650,41 @@ img {vertical-align: middle;}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+}
+
+@media(max-width:3300px){
+
+.prev, .previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 50px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+}
+@media(max-width:2700px){
+
+.prev, .previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 50px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
 }
 
 /* Caption text */
@@ -1847,7 +1906,7 @@ img {vertical-align: middle;}
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev, .previous, .next,.text {font-size: 11px}
 }
 
 #myVideo {
