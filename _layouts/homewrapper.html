@@ -115,7 +115,7 @@
                         </div>
                      </div>
                      <a class="down" href="index.html#featuredmarker">
-                     <img class="hvr-shrink" src="web/img/arrow.png" alt="">
+                     <img class="hvr-shrink" src="web/img/arrowbw.png" alt="">
                      </a>
                   </div>
                </div>
@@ -164,6 +164,7 @@
          window.onresize = scrollFunction();
 
          function scrollFunction() {
+              console.log("RUNNING LOG");
 
          if (window.pageYOffset > sticky) {
                  header.classList.add("sticky");
@@ -171,25 +172,26 @@
                  header.classList.remove("sticky");
                }
 
-           if (document.documentElement.scrollTop > header.offsetTop) {
+           if (window.pageYOffset > sticky) {
              document.getElementById("navbar").style.padding = "0px 0px";
              $("#navbar").css({"padding-left": ".5%", "padding-right": ".5%","padding-top":"0%","background-color":" #fff"});
-             $("#logo").css({"width": "150px"});
-             $("#navtuftsimglink").css({"width": "120px"});
-             $("#navsearchimglink").css({"width": "45px"});
-
          } else  {
 
               document.getElementById("navbar").style.padding = "10px 3px";
                $("#navbar").css({"padding-bottom": "2.5%", "padding-top":"2.5%",  "background-color":"#fff"});
-              if (Window.innerwidth > 750){
+          /*    if (2000 > Window.innerwidth > 75){
+                   console.log("red ELSE STATEMENT RUNNING");
+
                    $("#logo").css({"width": "200px"});
-              } else{
+              } else if(Window.innerwidth > 2000){
+                   console.log("purple ELSE STATEMENT RUNNING");
+
+                     $("#logo").css({"width": "30px"});
+              }else{
+                   console.log("ELSE STATEMENT RUNNING");
                    $("#logo").css({"width": "150px"});
 
-              }
-              $("#navtuftsimglink").css({"width": "120px"});
-              $("#navsearchimglink").css({"width": "50px"});
+              }*/
 
            }
          }
