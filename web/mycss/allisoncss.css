@@ -601,16 +601,28 @@ position: relative;
      }
 }
 
+@media (min-width: 3000px){
+.free_write_row, .imagesection img {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+section-heading .section-heading-lower {
+    display: block;
+    font-size: 5rem;
+    font-weight: 100;
+}
+}
 
-.smallimg{
+.smallimg {
     width: 50%;
     float: left;
     display: inline;
     margin: 0 auto;
-     margin-left: 0%;
-     margin-right: 0%;
-     padding-bottom: 0rem;
-     padding-top: 0rem;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    padding-right: 1rem;
     border-radius: 20px;
 }
 @media(max-width: 1175px){

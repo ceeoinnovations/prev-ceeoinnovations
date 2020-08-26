@@ -27,7 +27,8 @@
          {% for project in projects %}
          {% if project.url != "/projects/SAMPLE-FILE.html" %}
          <div class="projectsegment col-sm-6 col-md-4 col-lg-2" >
-            <a class = "work-thumb" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" >
+              {% if project.redirecturl %}
+            <a class = "work-thumb" href="{{ project.redirecturl }}" >
             <div id="hidden-tags" class="hidden-tags">
                {{project.categories}}
                {{project.title}}
@@ -55,6 +56,38 @@
             <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
             {% endif %}
             </a>
+            {% else %}
+            <a class = "work-thumb" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" >
+           <div id="hidden-tags" class="hidden-tags">
+              {{project.categories}}
+              {{project.title}}
+              {{project.url}}
+              {{project.authors}}
+              {{project.categories}}
+              {{project.tags}}
+              {{project.date}}
+              {{project.Categories}}
+              {{project.Title}}
+              {{project.Url}}
+              {{project.Authors}}
+              {{project.Categories}}
+              {{project.Tags}}
+              {{project.Date}}
+           </div>
+           <div class="work-text">
+              <h2>{{project.title}}{{project.Title}}</h2>
+              <p >CEEO INNOVATIONS <br> <b>{{project.date | date_to_string}}{{project.Date | date_to_string}}</b></p>
+              <p class="work-text2">{{project.description}}{{project.Description}}</p>
+           </div>
+           {% if project.displayimg contains "project_assets/" %}
+           <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
+           {% else %}
+           <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
+           {% endif %}
+           </a>
+            {% endif%}
+
+
          </div>
          {% assign my_variable = my_variable  | plus: 7990 %}
          {%endif%}
