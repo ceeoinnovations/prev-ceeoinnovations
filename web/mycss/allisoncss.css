@@ -30,10 +30,10 @@
      padding: 5rem;
 }
 
-@media(max-width:992px) {
+@media(max-width:980px) {
      .page-section {
           position: relative;
-          padding-top: 5rem;
+          padding-top: 0rem;
           padding-bottom: 5rem;
           padding-left: 0;
           padding-right: 0;
@@ -43,6 +43,7 @@
 @media(max-width:992px) {
 .intro-img{
           width: 100%;
+          max-height: 35rem;
      }
      .section-heading .section-heading-upper {
           font-size:.75rem;
@@ -132,6 +133,7 @@ blockquote p {
      margin-left: 15%;
      margin-right: 15%;
      float:right;
+     max-height: 60rem;
      box-shadow: .5px .5px 10px rgba(0,0,0, 0.1) ;
      padding: 0rem;
 }
@@ -222,6 +224,7 @@ blockquote p {
           width:80%;
           margin-left: 10%;
           margin-right: 10%;
+          max-height: 45rem;
           float:right;
           box-shadow: .5px .5px 10px rgba(0,0,0, 0.1) ;
           padding: 0rem;
@@ -268,6 +271,7 @@ blockquote p {
      .intro-img{
           width:85%;
           margin-left: 7.5%;
+          max-height: 40rem;
           margin-right: 7.5%;
           float:right;
           box-shadow: .5px .5px 10px rgba(0,0,0, 0.1) ;
@@ -324,6 +328,7 @@ blockquote p {
           margin-left: 0%;
           margin-right: 0%;
           float:none;
+          max-height: 30rem;
           box-shadow: none;
           padding: 0rem;
      }
@@ -622,8 +627,8 @@ section-heading .section-heading-lower {
     margin-right: 0%;
     padding-bottom: 0rem;
     padding-top: 0rem;
-    padding-right: 1rem;
-    border-radius: 20px;
+    margin-right: 1rem;
+    border-radius: 5px;
 }
 @media(max-width: 1175px){
      .smallimg{
@@ -654,6 +659,7 @@ section-heading .section-heading-lower {
 @media(max-width: 500px){
      .smallimg{
          width: 100%;
+          border-radius: 0px;
      }
 }
 

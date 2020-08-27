@@ -972,7 +972,7 @@ https://flickity.metafizzy.co
 
 /* brighten selected image */
 .carousel-cell img, .carousel-cell.is-selected img {
-  opacity: 0.6;
+  opacity: 0.4;
   border-radius: 20px;
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -1753,7 +1753,12 @@ img {vertical-align: middle;}
     font-size: 2.6rem;
 }
 }
-
+@media (max-width: 1000px){
+.mainpagesubheader {
+    font-weight: 600;
+    font-size: 2rem;
+}
+}
 @media(max-width: 890px){
      .mainpagesubheader{
           font-weight: 500;

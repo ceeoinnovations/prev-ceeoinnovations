@@ -50,11 +50,25 @@
                <p >CEEO INNOVATIONS <br> <b>{{project.date | date_to_string}}{{project.Date | date_to_string}}</b></p>
                <p class="work-text2">{{project.description}}{{project.Description}}</p>
             </div>
-            {% if project.displayimg contains "project_assets/" %}
-            <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
-            {% else %}
-            <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
-            {% endif %}
+
+
+
+
+            {% if project.displayimg contains ".png" %}
+               {% if project.displayimg contains "project_assets/" %}
+               <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+               {% else %}
+               <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+               {% endif %}
+          {% else %}
+               {% if project.displayimg contains "project_assets/" %}
+               <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+               {% else %}
+               <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+               {% endif %}
+          {% endif %}
+
+
             </a>
             {% else %}
             <a class = "work-thumb" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" >
@@ -79,11 +93,24 @@
               <p >CEEO INNOVATIONS <br> <b>{{project.date | date_to_string}}{{project.Date | date_to_string}}</b></p>
               <p class="work-text2">{{project.description}}{{project.Description}}</p>
            </div>
-           {% if project.displayimg contains "project_assets/" %}
-           <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
-           {% else %}
-           <div id="block" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/2gear_ppink.png');" >  </div>
-           {% endif %}
+
+
+
+           {% if project.displayimg contains ".png" %}
+              {% if project.displayimg contains "project_assets/" %}
+              <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+              {% else %}
+              <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+              {% endif %}
+         {% else %}
+              {% if project.displayimg contains "project_assets/" %}
+              <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+              {% else %}
+              <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+              {% endif %}
+         {% endif %}
+
+
            </a>
             {% endif%}
 
