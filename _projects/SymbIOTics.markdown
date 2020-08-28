@@ -25,7 +25,7 @@ SymbIOTics is an Internet of Things platform designed for elementary school stud
 
 
 
-![Link to my pic](images_jason/20200716_113806.jpg){:.small}
+![Link to my pic](SymbIOTics/sym1){:.small}
 
 Altogether, the SymbIOTics system consists of three main components: (1) a smart brick containing a Wio Node (small wifi enabled microprocessor) and battery, (2) Grove sensor/actuator modules, and (3) the LabVIEW Dashboard creation interface. The smart brick houses all of the system's intelligence in a LEGO Compatible 3D printed casing with a laser-cut bottom. To enable students to easily turn on and off the smart brick, the battery wires were routed through two neodymium magnets. A small magnetic bumper with two magnets connected by a wire acted as a switch to turn on and off the bricks. The Grove sensors were all attached to laser-cut acrylic LEGO mounts, which allowed students to easily integrate them directly into their LEGO creations.
 
