@@ -32,7 +32,7 @@ SymbIOTics system consists of three main components:
 3. the LabVIEW Dashboard creation interface.
 
 | Header | Header |
-| :----:  | :-----:  |
+| :-------------------------------------:  | :------------------------------------------:  |
 |![schematic](SymbIOTics/schematic.png){:.medium} | ![sym1](SymbIOTics/sym1.png){:.medium}|
 
 
