@@ -33,7 +33,7 @@ SymbIOTics system consists of three main components:
 
 | :-------------------------------------:  | :------------------------------------------:  |
 |![schematic](SymbIOTics/schematic.png){:.medium} | ![sym1](SymbIOTics/sym1.png){:.medium}|
-|:--:|
+|:-------------------------------------:|
 | *SymbIOTics Smart Brick* |
 
 
