@@ -48,8 +48,8 @@ Students can control their actuators, monitor sensor values, and write rules for
 
 ## Tests
 
-|![zoo1](SymbIOTics/zoo1.jpeg){:.medium}|
-|![zoo2](SymbIOTics/zoo2.jpeg){:.medium}|
+|![zoo1](SymbIOTics/zoo1.jpg){:.medium}|
+|![zoo2](SymbIOTics/zoo2.jpg){:.medium}|
 |:--:|
 | *SymbIOTics LabVIEW Palette and Example Dashboard* |  <br/><br/><br/><br/>
 
