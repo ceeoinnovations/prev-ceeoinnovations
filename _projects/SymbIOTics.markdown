@@ -17,7 +17,7 @@ date: 21-08-2020
 ![Backpack](Backpack_for_SPIKE_Prime/backpack.png){:.small}
 # SymbIOTics
 ##  An IoT Platform Designed for Elementary School Classrooms
-SymbIOTics is an Internet of Things platform designed for elementary school students. The Internet of Things is any network of physical devices that can share information over the internet. IoT technology has the power to revolutionize how we communicate with the devices we use every day and has the potential to help solve some of the world’s largest problems. As more products are engineered to be internet enabled, it is important that we start teaching young students about smart, connected products. Currently, there are no educational platforms that enable elementary school students to build their own IoT systems. Sara developed the SymbIOTics system as her undergraduate senior honors thesis as a way to introduce elementary school students to the Internet of Things by allowing them to build their own smart connected products.
+SymbIOTics is an Internet of Things platform designed for elementary school students. Since there were no educational platforms that enabled elementary school students to build their own IoT systems Sara developed the SymbIOTics system as her undergraduate senior honors thesis as a way to introduce elementary school students to the Internet of Things by allowing them to build their own smart connected products.
 </div>
 
 <!--document creates a grid of documentss--------------------->
