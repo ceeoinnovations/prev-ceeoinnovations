@@ -31,8 +31,7 @@ SymbIOTics system consists of three main components:
 2. Grove sensor/actuator modules, and
 3. the LabVIEW Dashboard creation interface.
 
-1                           |                 2
-:-------------------------:|:-------------------------:
+
 ![schematic](SymbIOTics/schematic.png){:.medium} | ![sym1](SymbIOTics/sym1.png){:.medium}
 
 
