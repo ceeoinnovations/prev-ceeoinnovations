@@ -32,7 +32,7 @@ SymbIOTics system consists of three main components:
 3. the LabVIEW Dashboard creation interface.
 
 
-![schematic](SymbIOTics/schematic.png){:.medium}![sym1](SymbIOTics/sym1.png){:.medium}
+![schematic](SymbIOTics/schematic.png){:.small}![sym1](SymbIOTics/sym1.png){:.small}
 
 The smart brick houses all of the system's intelligence in a LEGO Compatible 3D printed casing with a laser-cut bottom. To enable students to easily turn on and off the smart brick, the battery wires were routed through two neodymium magnets. A small magnetic bumper with two magnets connected by a wire acted as a switch to turn on and off the bricks. The Grove sensors were all attached to laser-cut acrylic LEGO mounts, which allowed students to easily integrate them directly into their LEGO creations.
 
