@@ -16,7 +16,8 @@
       {% for project in projects  %}
       {% if project.url != "/projects/SAMPLE-FILE.html" %}
       <div class="mysamplecaro col-sm-4 col-md-2 col-lg-3">
-         <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" class="old-work-thumb">
+           {% if project.redirecturl %}
+         <a href="{{ project.redirecturl }}" class="old-work-thumb">
          <div class="old-work-text">
             <h2>{{project.title}}</h2>
             <p>CEEO INNOVATIONS</p>
@@ -27,6 +28,19 @@
          <img id="caroimg" class="caroimg" src="{{project.displayimg | prepend: 'projects/project_assets/'}}" onError="this.onerror=null;this.src='{{site.baseurl}}/web/img/2gear_ppink.png';" class="img-fluid" >
          {% endif %}
          </a>
+         {% else %}
+         <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" class="old-work-thumb">
+         <div class="old-work-text">
+           <h2>{{project.title}}</h2>
+           <p>CEEO INNOVATIONS</p>
+         </div>
+         {% if project.displayimg contains "project_assets/" %}
+         <img id="caroimg" class="caroimg" src="{{project.displayimg | prepend: 'projects/'}}" onError="this.onerror=null;this.src='{{site.baseurl}}/web/img/2gear_ppink.png';" class="img-fluid" >
+         {% else %}
+         <img id="caroimg" class="caroimg" src="{{project.displayimg | prepend: 'projects/project_assets/'}}" onError="this.onerror=null;this.src='{{site.baseurl}}/web/img/2gear_ppink.png';" class="img-fluid" >
+         {% endif %}
+         </a>
+         {% endif %}
       </div>
       {%endif%}
       {%endfor%}
