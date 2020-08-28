@@ -47,9 +47,9 @@ The smart brick houses all of the system's intelligence in a LEGO Compatible 3D 
 Students can control their actuators, monitor sensor values, and write rules for their system using the drag and drop dashboard interface on LabVIEW. Since the SymbIOTics system is designed for students ages 7 and up, coding interface is made as simple as possible. Students simply select the Grove sensor or actuator module they want to add to the dashboard from the SymbIOTics palette, and drop it onto their dashboard. From there they can move the object around and change different controls as desired. All user-controlled components of the interface are either drop-down menus, clickable buttons, or numeric controls, eliminating the need for students to write text-based code. Students can also drag and drop “Rules” modules onto their dashboard, which allows them to create a correlation between a sensor and an actuator.
 
 ## Tests
-
+||||
 |:-------:|:-------:|:--------:|
-|![zoo1](SymbIOTics/zoo1.jpg){:.medium}||![zoo2](SymbIOTics/zoo2.jpg){:.medium}|<br/><br/><br/><br/>
+|![zoo1](SymbIOTics/zoo1.jpg){:.medium}|-|![zoo2](SymbIOTics/zoo2.jpg){:.medium}|<br/><br/><br/><br/>
 
 
 | |*Example Zoo Exhibits Built With SymbIOTics System* ||  <br/><br/><br/><br/>
