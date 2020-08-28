@@ -2,7 +2,7 @@
 layout: post
 
 title: SymbIOTics
-description: An IOT platform for young children
+description: An IoT Platform Designed for Elementary School Classrooms
 displayimg: Backpack_for_SPIKE_Prime/backpack.png
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","IOT", "LEGO"]
 authors: ["Sara Willner-Giwerc"]
@@ -16,8 +16,8 @@ date: 21-08-2020
 <div class="image_text_overlay" markdown="1">
 ![Backpack](Backpack_for_SPIKE_Prime/backpack.png){:.small}
 # SymbIOTics
-##  An IOT platform for young children.
-Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Prime to the internet using Pyboard Backpack, connect to a wide range of Grove Sensors using Grove Sensor Backpack and build machine vision projects using OpenMV Backpack. Explore all 6 backpacks we have built for SPIKE Prime.  
+##  An IoT Platform Designed for Elementary School Classrooms
+SymbIOTics is an Internet of Things platform designed for elementary school students. The Internet of Things is any network of physical devices that can share information over the internet. IoT technology has the power to revolutionize how we communicate with the devices we use every day and has the potential to help solve some of the world’s largest problems. As more products are engineered to be internet enabled, it is important that we start teaching young students about smart, connected products. Currently, there are no educational platforms that enable elementary school students to build their own IoT systems. I developed the SymbIOTics system as my undergraduate senior honors thesis as a way to introduce elementary school students to the Internet of Things by allowing them to build their own smart connected products. 
 </div>
 
 <!--document creates a grid of documentss--------------------->
