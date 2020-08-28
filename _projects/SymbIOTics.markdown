@@ -3,7 +3,7 @@ layout: post
 
 title: SymbIOTics
 description: An IoT Platform Designed for Elementary School Classrooms
-displayimg: Backpack_for_SPIKE_Prime/backpack.png
+displayimg: SymbIOTics/zoo3.jpeg
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","IOT", "LEGO"]
 authors: ["Sara Willner-Giwerc"]
 featured: false
