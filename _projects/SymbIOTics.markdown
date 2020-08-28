@@ -17,17 +17,25 @@ date: 21-08-2020
 ![Backpack](Backpack_for_SPIKE_Prime/backpack.png){:.small}
 # SymbIOTics
 ##  An IoT Platform Designed for Elementary School Classrooms
-SymbIOTics is an Internet of Things platform designed for elementary school students. The Internet of Things is any network of physical devices that can share information over the internet. IoT technology has the power to revolutionize how we communicate with the devices we use every day and has the potential to help solve some of the world’s largest problems. As more products are engineered to be internet enabled, it is important that we start teaching young students about smart, connected products. Currently, there are no educational platforms that enable elementary school students to build their own IoT systems. I developed the SymbIOTics system as my undergraduate senior honors thesis as a way to introduce elementary school students to the Internet of Things by allowing them to build their own smart connected products. 
+SymbIOTics is an Internet of Things platform designed for elementary school students. The Internet of Things is any network of physical devices that can share information over the internet. IoT technology has the power to revolutionize how we communicate with the devices we use every day and has the potential to help solve some of the world’s largest problems. As more products are engineered to be internet enabled, it is important that we start teaching young students about smart, connected products. Currently, there are no educational platforms that enable elementary school students to build their own IoT systems. Sara developed the SymbIOTics system as her undergraduate senior honors thesis as a way to introduce elementary school students to the Internet of Things by allowing them to build their own smart connected products.
 </div>
 
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
 
 
-### Morse Code Detector
+
 ![Link to my pic](images_jason/20200716_113806.jpg){:.small}
 
-The robot uses machine learning to figure out, for the length you held down the button, whether it is equivalent do a dot or a dash in morse code! But what if it's wrong? It has a built in feature to tell it that it's wrong. This will make it guess more accurately for later presses!
+Altogether, the SymbIOTics system consists of three main components: (1) a smart brick containing a Wio Node (small wifi enabled microprocessor) and battery, (2) Grove sensor/actuator modules, and (3) the LabVIEW Dashboard creation interface. The smart brick houses all of the system's intelligence in a LEGO Compatible 3D printed casing with a laser-cut bottom. To enable students to easily turn on and off the smart brick, the battery wires were routed through two neodymium magnets. A small magnetic bumper with two magnets connected by a wire acted as a switch to turn on and off the bricks. The Grove sensors were all attached to laser-cut acrylic LEGO mounts, which allowed students to easily integrate them directly into their LEGO creations.
+
+
+Using LabVIEW, a graphical programming language, I created a drag and drop dashboard interface where students could control their actuators, monitor sensor values, and write rules for their system. Since the SymbIOTics system is designed for students ages 7 and up, the goal was to make the coding interface as simple as possible. Students simply select the Grove sensor or actuator module they want to add to the dashboard from the SymbIOTics pallet, and drop it onto their dashboard. From there they can move the object around and change different controls as desired. All user-controlled components of the interface are either drop-down menus, clickable buttons, or numeric controls, eliminating the need for students to write text-based code. Students can also drag and drop “Rules” modules onto their dashboard, which allows them to create a correlation between a sensor and an actuator.
+
+After developing the hardware and software of the SymbIOTics system, she tested it in a 2nd grade coding classroom. Students were challenged to build and Internet of Things zoo. After incorporating sensors and actuators into their own zoo exhibits, they began to leverage the power of a network of devices to build dashboards that enabled a zoo keeper to access information about all of the zoo exhibits in the class. The results showed that second grade students were easily able to understand the main idea behind the Internet of Things and use the benefits of connected devices to build more complex systems than they would have been able to build without an internet connection. Of the fourteen students who tested the platform, every student successfully built their own IoT artifact, and eleven students were able build their own IoT system as well as interact with their classmates’ systems in a meaningful way. The solution diversity and important peer-to-peer discussions sparked by the use of the new platform illustrated both the technical viability of the new technology and the important learning outcomes generated by enabling students to create their own smart connected products.
+
+
+The SymbIOTics system is a work in progress and she will continue to iterate on the concept of an IoT device for classroom use.
 
 
 [Instructables](https://www.instructables.com/id/Backpack-1-OpenMV-Camera/){:.myButton}
