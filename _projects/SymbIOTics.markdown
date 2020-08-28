@@ -25,9 +25,16 @@ SymbIOTics is an Internet of Things platform designed for elementary school stud
 
 
 
-![sym1](SymbIOTics/schematic.png){:.medium}
 
-Altogether, the SymbIOTics system consists of three main components: (1) a smart brick containing a Wio Node (small wifi enabled microprocessor) and battery, (2) Grove sensor/actuator modules, and (3) the LabVIEW Dashboard creation interface. The smart brick houses all of the system's intelligence in a LEGO Compatible 3D printed casing with a laser-cut bottom. To enable students to easily turn on and off the smart brick, the battery wires were routed through two neodymium magnets. A small magnetic bumper with two magnets connected by a wire acted as a switch to turn on and off the bricks. The Grove sensors were all attached to laser-cut acrylic LEGO mounts, which allowed students to easily integrate them directly into their LEGO creations.
+SymbIOTics system consists of three main components:
+1. a smart brick containing a Wio Node (small wifi enabled microprocessor) and battery,
+2. Grove sensor/actuator modules, and
+3. the LabVIEW Dashboard creation interface.
+
+
+![schematic](SymbIOTics/schematic.png){:.medium}![sym1](SymbIOTics/sym1.png){:.medium}
+
+The smart brick houses all of the system's intelligence in a LEGO Compatible 3D printed casing with a laser-cut bottom. To enable students to easily turn on and off the smart brick, the battery wires were routed through two neodymium magnets. A small magnetic bumper with two magnets connected by a wire acted as a switch to turn on and off the bricks. The Grove sensors were all attached to laser-cut acrylic LEGO mounts, which allowed students to easily integrate them directly into their LEGO creations.
 
 
 Using LabVIEW, a graphical programming language, I created a drag and drop dashboard interface where students could control their actuators, monitor sensor values, and write rules for their system. Since the SymbIOTics system is designed for students ages 7 and up, the goal was to make the coding interface as simple as possible. Students simply select the Grove sensor or actuator module they want to add to the dashboard from the SymbIOTics pallet, and drop it onto their dashboard. From there they can move the object around and change different controls as desired. All user-controlled components of the interface are either drop-down menus, clickable buttons, or numeric controls, eliminating the need for students to write text-based code. Students can also drag and drop “Rules” modules onto their dashboard, which allows them to create a correlation between a sensor and an actuator.
