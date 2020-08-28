@@ -48,10 +48,10 @@ Students can control their actuators, monitor sensor values, and write rules for
 
 ## Tests
 
-|:--:|:--:|
+|:-------:|:--------:|
 |![zoo1](SymbIOTics/zoo1.jpg){:.medium}|![zoo2](SymbIOTics/zoo2.jpg){:.medium}|
 
-|:--:|
+|:--------:|
 | *Example Zoo Exhibits Built With SymbIOTics System* |  <br/><br/><br/><br/>
 
 
