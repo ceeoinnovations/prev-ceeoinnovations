@@ -25,7 +25,7 @@ SymbIOTics is an Internet of Things platform designed for elementary school stud
 
 
 
-### The System
+## The System
 SymbIOTics system consists of three main components:
 1. a smart brick containing a Wio Node (small wifi enabled microprocessor) and battery,
 2. Grove sensor/actuator modules, and
