@@ -32,7 +32,7 @@ SymbIOTics system consists of three main components:
 3. the LabVIEW Dashboard creation interface.
 
 | :-------------------------------------:  | :------------------------------------------:  |
-|![SymbIOTics exploded view](SymbIOTics/schematic2.jpeg){:.medium} | ![symbIOTics assembly](SymbIOTics/sym1.jpeg){:.medium}|
+|![SymbIOTics exploded view](SymbIOTics/schematic2.jpeg){:.medium} | ![symbIOTics assembly](SymbIOTics/sym2.jpeg){:.medium}|
 | :-------------------------------------:  | :------------------------------------------:  |
 | *SymbIOTics Smart Brick Exploded View* | *SymbIOTics Smart Brick* |<br/><br/><br/><br/>
 
