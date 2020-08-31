@@ -651,7 +651,6 @@ position: relative;
 
 @media (min-width: 2000px){
 .free_write_row, .imagesection img {
-    max-width: 2000px;
     margin: 0 auto;
 }
 }
@@ -660,7 +659,6 @@ position: relative;
     max-width: 4000px;
 }
 .free_write_row, .imagesection img {
-    max-width: 3500px;
     margin: 0 auto;
 }
 }
@@ -669,7 +667,6 @@ position: relative;
     max-width: 5000px;
 }
 .free_write_row, .imagesection img {
-    max-width: 5000px;
     margin: 0 auto;
 }
 section-heading .section-heading-lower {
