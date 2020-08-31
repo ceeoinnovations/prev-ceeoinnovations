@@ -12,6 +12,22 @@
     -moz-osx-font-smoothing: grayscale;
     text-shadow: -0.5px 0.5px #424C55;
 }
+@media(min-width:3000px){
+#mypageheader {
+    font-size: 4vw;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    z-index: 10;
+    text-align: center;
+    position: relative;
+    line-height: 0.8em;
+    pointer-events: none;
+    flex: 1 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: -0.5px 0.5px #424C55;
+     }
+}
 
 .authordisplay{
      padding-right: 20%;
@@ -38,9 +54,17 @@ width: 7rem;
 height:7rem;
 border-radius: 50%;
 background-size:cover;
-
 }
-
+@media(min-width: 2000px){
+     #circle{
+     border-color:rgba(246,245,245,1);
+     margin: 0 auto;
+     width: 20rem;
+     height:20rem;
+     border-radius: 50%;
+     background-size:cover;
+     }
+}
 .circle-work-thumb {
 	display: inline-block;
 	position: relative;
@@ -92,14 +116,26 @@ background-size:cover;
 	color: #000;
 	font-weight: 300;
 	margin-bottom: 0;
-
 	font-size: 1rem
 }
-
- .circle-work-text p {
-	color: rgba(0, 0, 0, .5);
-     font-size: .7rem
+.circle-work-text p {
+    color: rgba(0, 0, 0, .5);
+    font-size: .7rem
 }
+@media(min-width:3000px){
+.circle-work-text h2 {
+    color: #000;
+    font-weight: 300;
+    margin-bottom: 0;
+    font-size: 5rem;
+}
+.circle-work-text p {
+    color: rgba(0, 0, 0, .5);
+    font-size: 3rem;
+}
+}
+
+
 @media(max-width:600px){
      .circle-work-text p {
          color: rgba(0, 0, 0, .5);

@@ -43,7 +43,7 @@
 @media(max-width:992px) {
 .intro-img{
           width: 100%;
-          max-height: 35rem;
+          max-height: 30rem;
      }
      .section-heading .section-heading-upper {
           font-size:.75rem;
@@ -78,21 +78,17 @@ blockquote:before {
 blockquote p {
      display: inline;
 }
-
-.free_write_content ol li {
-     text-align: left;
-     font-size: .85rem;
-}
-
-.free_write_content ol {
-     text-align: left;
-}
 .free_write_content ul li {
      text-align: left;
      font-size: .85rem;
   counter-increment: my-awesome-counter;
   position: relative;
   margin-left:10%;
+}
+
+.free_write_content ol li {
+     text-align: left;
+     font-size: .85rem;
 }
 
 .free_write_content ul li:nth-child(odd)::before {
@@ -104,7 +100,6 @@ blockquote p {
   width: var(--size);
   height: var(--size);
   top: 0;
-
   background: black;
   border-radius: 50%;
 }
@@ -119,10 +114,38 @@ blockquote p {
   width: var(--size);
   height: var(--size);
   top: 0;
-
   background: black;
   border-radius: 50%;
 }
+@media(min-width:3000px){
+     .free_write_content ol li {
+          text-align: left;
+          margin-left: 5rem;
+          font-size: 3rem;
+     }
+     .free_write_content ul li {
+          text-align: left;
+          margin-left: 5rem;
+          font-size: 3rem;
+     }
+}
+@media(min-width:2000px){
+     .free_write_content ol li {
+          text-align: left;
+          margin-left: 5rem;
+          font-size: 2rem;
+     }
+     .free_write_content ul li {
+          text-align: left;
+          margin-left: 5rem;
+          font-size: 2rem;
+     }
+}
+
+.free_write_content ol {
+     text-align: left;
+}
+
 /*HEADER IMAGE================================================================*/
 .sampledatasectionHT, #transferhere, .imgvoidvalue{
      display:none;
@@ -156,7 +179,18 @@ blockquote p {
 	font-size: 2rem;
 	font-weight: 100
 }
-
+@media(min-width:3000px){
+.section-heading .section-heading-lower {
+    display: block;
+    font-size: 4rem;
+    font-weight: 100;
+}
+.section-heading .section-heading-upper {
+	display: block;
+	font-size: 2rem;
+	font-weight: 800
+}
+}
 .myparagraphHT, .myparagraphVO{
      font-size:1.1vw;
 }
@@ -271,7 +305,7 @@ blockquote p {
      .intro-img{
           width:85%;
           margin-left: 7.5%;
-          max-height: 40rem;
+          max-height: 35rem;
           margin-right: 7.5%;
           float:right;
           box-shadow: .5px .5px 10px rgba(0,0,0, 0.1) ;
@@ -441,7 +475,16 @@ position: relative;
      font-weight:700;
 
 }
-
+@media(min-width:2000px) {
+     .container {
+    max-width: 2000px;
+}
+.pdfsectiontitle {
+    font-size: 4rem;
+    color: #000;
+    font-weight: 700;
+}
+}
 @media(max-width:952px) {
     .mypdf, .pdfdatasection,#sampleappendherePI, .sampleappendherePI {
          padding-left: 3%;
@@ -606,9 +649,27 @@ position: relative;
      }
 }
 
-@media (min-width: 3000px){
+@media (min-width: 2000px){
 .free_write_row, .imagesection img {
     max-width: 2000px;
+    margin: 0 auto;
+}
+}
+@media (min-width: 4000px){
+     .container {
+    max-width: 4000px;
+}
+.free_write_row, .imagesection img {
+    max-width: 3500px;
+    margin: 0 auto;
+}
+}
+@media (min-width: 5000px){
+     .container {
+    max-width: 5000px;
+}
+.free_write_row, .imagesection img {
+    max-width: 5000px;
     margin: 0 auto;
 }
 section-heading .section-heading-lower {
@@ -630,17 +691,20 @@ section-heading .section-heading-lower {
     margin-right: 1rem;
     border-radius: 5px;
 }
+.halfimg {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+
 @media(max-width: 1175px){
      .smallimg{
          width: 60%;
            float: right;
          display: inline;
-         margin: 0 auto;
-          margin-left: 0%;
-          margin-right: 0%;
           padding-bottom: 0rem;
           padding-top: 0rem;
-         border-radius: 20px;
      }
 }
 @media(max-width: 900px){
@@ -648,12 +712,8 @@ section-heading .section-heading-lower {
          width: 40%;
            float: left;
          display: inline-block;
-         margin: 0 auto;
-          margin-left: 0%;
-          margin-right: 0%;
-          padding-bottom: 2rem;
           padding-top: 0rem;
-         border-radius: 20px;
+          padding-bottom: 2rem;
      }
 }
 @media(max-width: 500px){
@@ -682,22 +742,43 @@ section-heading .section-heading-lower {
 }
 .free_write_content h3 {
      font-size:1.6rem;
-
+}
+@media(min-width: 2000px){
+     .free_write_content h3 {
+          font-size:3rem;
+     }
 }
 .free_write_content h4 {
      font-size:1.5rem;
      font-weight: 300;
 
 }
+
+@media(min-width:2000px){
+.free_write_content h4 {
+    font-size: 3.5rem;
+}
+}
 .free_write_content h5 {
+     text-align: center;
      font-size:1.4rem;
      font-weight: 250;
 
+}
+@media(min-width:2000px){
+.free_write_content h5 {
+    font-size: 3rem;
+}
 }
 .free_write_content h6 {
      font-size:1.3rem;
      font-weight: 200;
 
+}
+@media(min-width:2000px){
+.free_write_content h6 {
+    font-size: 2.8rem;
+}
 }
 .largerappendherePI{
      margin-left: 5rem;
@@ -726,7 +807,48 @@ section-heading .section-heading-lower {
      text-align: center;
      position: relative;
      line-height: 0.8em;
-
+}
+@media(min-width:3000px){
+     .free_write_content h2 {
+          font-size: 6.5rem;
+          font-weight: 500;
+          color: #000;
+          letter-spacing: -0.05em;
+          z-index: 10;
+          padding:1.5rem;
+          text-align: center;
+          position: relative;
+          line-height: 0.8em;
+     }
+     .free_write_content {
+          font-size: 3rem;
+     }
+}
+@media(min-width:1800px){
+.free_write_content h2 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: -0.05em;
+    z-index: 10;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    line-height: 0.8em;
+}
+}
+@media(min-width:3000px){
+.free_write_content h2 {
+    font-size: 4.8rem;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: -0.05em;
+    z-index: 10;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    line-height: 0.8em;
+}
 }
 .freecontainer{
      margin-left: 10%;
@@ -762,8 +884,58 @@ section-heading .section-heading-lower {
      margin: 1.2rem;
 }
 
+
 .free_write_content p{
      font-size:.85rem;
+}
+@media(min-width:2000px){
+     .free_write_content p {
+          font-size:3rem;
+     }
+}
+@media(min-width:5000px){
+     .free_write_content p {
+          font-size:3rem;
+     }
+}
+@media(max-width:8000px){
+.free_write_content h1 {
+    font-size: 8rem;
+    font-weight: 800;
+    color: #000;
+    letter-spacing: -0.05em;
+    z-index: 10;
+    text-align: center;
+    position: relative;
+    line-height: 0.8em;
+    margin: 1.2rem;
+     }
+}
+@media (max-width: 5000px){
+.free_write_content h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #000;
+    letter-spacing: -0.05em;
+    z-index: 10;
+    text-align: center;
+    position: relative;
+    line-height: 0.8em;
+    margin: 1.2rem;
+}
+}
+@media (max-width: 2000px){
+.free_write_content h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #000;
+    letter-spacing: -0.05em;
+    z-index: 10;
+    text-align: center;
+    position: relative;
+    line-height: 0.8em;
+    margin: 1.2rem;
+}
 }
 
 @media(max-width:130px){
@@ -817,6 +989,7 @@ section-heading .section-heading-lower {
 .free_write_content h4 {
     font-size: 1.7rem;
 }
+
 .free_write_content h5 {
      font-size: 1.6rem;
 }

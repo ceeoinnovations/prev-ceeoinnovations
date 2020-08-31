@@ -225,11 +225,12 @@ function CreateFreeWrite(mydivsi){
                }
 
           if(myimages[i].className == "small"){
-          $(myimages[i]).attr('class' , "smallimg");
-     } else {
-          $(myimages[i]).attr('class' , "imgOnly");
-
-     }
+               $(myimages[i]).attr('class' , "smallimg");
+          } else if(myimages[i].className == "half"){
+               $(myimages[i]).attr('class' , "halfimg");
+          } else {
+               $(myimages[i]).attr('class' , "imgOnly");
+          }
 
 
      }
