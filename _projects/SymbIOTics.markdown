@@ -50,7 +50,7 @@ Students can control their actuators, monitor sensor values, and write rules for
 
 |||
 |:----:|:----:|
-|![zoo1](SymbIOTics/zoo1.jpg){:.medium}|![zoo2](SymbIOTics/zoo2.jpg){:.medium}|<br/><br/>
+|![zoo1](SymbIOTics/zoo1.jpg){:.half}|![zoo2](SymbIOTics/zoo2.jpg){:.half}|<br/><br/>
 
 
 
