@@ -72,7 +72,5 @@ The system was tested in a 2nd grade coding classroom. Students were challenged 
 
 </div>
 <div class="document" markdown="1">
-
-# International Journal of Design for Learning
-[Pubication](SymbIOTics/article.pdf)
+[Pubications](SymbIOTics/article.pdf)
 </div>
