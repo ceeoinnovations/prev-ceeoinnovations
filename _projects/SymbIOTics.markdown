@@ -65,6 +65,12 @@ The system was tested in a 2nd grade coding classroom. Students were challenged 
 
 *The SymbIOTics system is a work in progress.*
 
+
+
+</div>
+<div class="document" markdown="1">
+<div class="free_write" markdown="1">
+
 ## Publications
 
 
@@ -72,9 +78,7 @@ The system was tested in a 2nd grade coding classroom. Students were challenged 
 [Paper]([symbiotics](https://scholarworks.iu.edu/journals/index.php/ijdl/article/view/26719)
 
 
-
 </div>
-<div class="document" markdown="1">
-# PaperBots Cutouts
-[Article](SymbIOTics/article.pdf)
+# Publications
+[Pubication](SymbIOTics/article.pdf)
 </div>
