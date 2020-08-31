@@ -48,9 +48,8 @@ Students can control their actuators, monitor sensor values, and write rules for
 
 ## Tests
 
-|||
-|:----:|:----:|
-|![zoo1](SymbIOTics/zoo1.jpg){:.half}|![zoo2](SymbIOTics/zoo2.jpg){:.half}|<br/><br/>
+
+![zoo1](SymbIOTics/zoo1.jpg){:.half}![zoo2](SymbIOTics/zoo2.jpg){:.half}<br/><br/>
 
 
 
