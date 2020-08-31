@@ -37,6 +37,7 @@ SymbIOTics system consists of three main components:
 | *SymbIOTics Smart Brick Exploded View* | *SymbIOTics Smart Brick* |<br/><br/><br/><br/>
 
 
+
 The smart brick houses all of the system's intelligence in a LEGO Compatible 3D printed casing with a laser-cut bottom. To enable students to easily turn on and off the smart brick, the battery wires are routed through two neodymium magnets. A small magnetic bumper with two magnets connected by a wire acts as a switch to turn on and off the bricks. The Grove sensors are all attached to laser-cut acrylic LEGO mounts, which allows students to easily integrate them directly into their LEGO creations.
 
 
@@ -45,6 +46,7 @@ The smart brick houses all of the system's intelligence in a LEGO Compatible 3D 
 | *SymbIOTics LabVIEW Palette and Example Dashboard* |  <br/><br/><br/><br/>
 
 Students can control their actuators, monitor sensor values, and write rules for their system using the drag and drop dashboard interface on LabVIEW. Since the SymbIOTics system is designed for students ages 7 and up, coding interface is made as simple as possible. Students simply select the Grove sensor or actuator module they want to add to the dashboard from the SymbIOTics palette, and drop it onto their dashboard. From there they can move the object around and change different controls as desired. All user-controlled components of the interface are either drop-down menus, clickable buttons, or numeric controls, eliminating the need for students to write text-based code. Students can also drag and drop “Rules” modules onto their dashboard, which allows them to create a correlation between a sensor and an actuator.
+![SymbIOTics exploded view](SymbIOTics/schematic2.png){.half} ![symbIOTics assembly](SymbIOTics/sym2.jpeg){.half}
 
 ## Tests
 
