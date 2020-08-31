@@ -53,7 +53,7 @@ Students can control their actuators, monitor sensor values, and write rules for
 
 
 
-<figcaption> Example Zoo Exhibits Built With SymbIOTics System </figcaption>
+<figcaption style="text-align: center;""> Example Zoo Exhibits Built With SymbIOTics System </figcaption>
 
 
 <br/><br/><br/><br/>
