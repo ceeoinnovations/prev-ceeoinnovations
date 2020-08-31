@@ -65,17 +65,14 @@ The system was tested in a 2nd grade coding classroom. Students were challenged 
 
 *The SymbIOTics system is a work in progress.*
 
-## International Journal of Design for Learning
+## Publications
 
-Willner-Giwerc, S., Rogers, C., & Wendell, K. (2020). The SymbIOTics System: Designing an Internet of Things Platform for Elementary School Students. International Journal of Designs for Learning, 11(2), 64-79. https://doi.org/10.14434/ijdl.v11i2.26719
+1. [Willner-Giwerc, S., Rogers, C., & Wendell, K. (2020). The SymbIOTics System: Designing an Internet of Things Platform for Elementary School Students. International Journal of Designs for Learning, 11(2), 64-79. https://doi.org/10.14434/ijdl.v11i2.26719](https://scholarworks.iu.edu/journals/index.php/ijdl/article/view/26719)
 
 
 </div>
 <div class="document" markdown="1">
 
-
-
-
-# Publications
+# International Journal of Design for Learning
 [Pubication](SymbIOTics/article.pdf)
 </div>
