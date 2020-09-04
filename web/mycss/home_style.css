@@ -1508,7 +1508,6 @@ color: #000;
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
   position: fixed;
   display: block;
   right: 0;
