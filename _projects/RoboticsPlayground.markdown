@@ -3,7 +3,7 @@ layout: post
 
 title: Robotics Playground
 description: An experimental library of placemat instructions for robotics activities
-displayimg: Backpack_for_SPIKE_Prime/backpack.png
+displayimg: RoboticsPlayground/logo.PNG
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Placemats", "LEGO", "Tech"]
 authors: ["Milan Dahal"]
 featured: true
