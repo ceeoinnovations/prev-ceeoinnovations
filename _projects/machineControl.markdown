@@ -26,13 +26,31 @@ The Machine Control Toolkit is a software library for LabVIEW that enables users
 
 
 ## Overview
+
+
+Currently, digital fabrication tools (such as CNC machines, 3D printers, and Laser Cutters) are trapped inside a black box. Each machine has a default software that it comes with, and interfaces with only that software. However, at the heart of how all of these tools work is something called G-Code. G-Code consists of simple commands and coordinates that tell the machine where to go and what to do. By harnessing the simplicity of G-Code and the modularity of LabVIEW, the machine control toolkit breaks down the black box and enables users to connect their digital fabrication tools to other platforms and devices.
+
 The goal of the toolkit is to provide an entry-point for beginning makers to learn about G-Code, while also enabling advanced makers to control their digital fabrication tools in a new way! Currently, the toolkit only supports the Grbl CNC firmware and the uArm Swift Pro. The goal for future releases is to support more machine firmwares and expand the VI library to include controls for standard laser cutters and 3D printers.
 
 ## How it works
 
+The Machine Control Toolkit transforms standard G-Code commands into LabVIEW VIs. Users can specify inputs, such as position, feedrate, spindle speed, etc, and the VIs will return the G-Code string to perform the desired action.
 
+*insert image here*
+
+Machines are connected via USB to the computer running the machine control code, and serial communication is used to connect to, read from, write to, and disconnect from a machine. The machine control VIs can be placed in a buffer setup (which comes part of the toolkit), to create custom interfaces to control a fabrication machine. This structure allows users to place a set of controls on their front panel, which when changed cause the appropriate commands to be sent to the machine.
+*insert image here*
+Users can also use the Vis in the Machine Control Toolkit to create G-Code programs to then fabricate. The text to G-Code feature allows users to simply type in text, and the VI will generate the G-Code to fabricate that text. The images below show the simple programs for a CNC machine and the uArm Swift Pro, which generate the G-Code necessary to fabricate the phrase "Tufts CEEO". These screenshots also show the preview G-Code feature of the toolkit, which lets users see what their file will look like before fabricating it.
+*insert examples here*
+Users can then send arrays of G-Code commands, or entire G-Code files, to their fabrication machine using a VI from the toolkit.
+*insert image here*
+Combining all these features with the extensive existing set of VIs in LabVIEW, users can create not only control their machines, but also connect their machines to external devices and platforms to experience making in a whole new way.
 The smart brick houses all of the system's intelligence in a LEGO Compatible 3D printed casing with a laser-cut bottom. To enable students to easily turn on and off the smart brick, the battery wires are routed through two neodymium magnets. A small magnetic bumper with two magnets connected by a wire acts as a switch to turn on and off the bricks. The Grove sensors are all attached to laser-cut acrylic LEGO mounts, which allows students to easily integrate them directly into their LEGO creations.
 
+</div>
+<div class="document" markdown="1">
+[Getting Started](MachineControlToolkit/GettingStarted.pdf)
+</div>
 
 |![schematic](SymbIOTics/LabVIEW.png){:.half}|
 |:--:|
