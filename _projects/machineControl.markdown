@@ -15,7 +15,7 @@ date: 7-09-2020
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 ![MachineControlToolkit](![machine](MachineControlToolkit/cover.png)
-# Machin Control Toolkit for LabVIEW
+# Machine Control Toolkit for LabVIEW
 
 The Machine Control Toolkit is a software library for LabVIEW that enables users to control digital fabrication machines that interpret G-Code. The toolkit breaks down standard G-Code commands into VIs that users can easily manipulate to generate G-Code toolpaths and design their own machine control interfaces.
 </div>
@@ -25,17 +25,10 @@ The Machine Control Toolkit is a software library for LabVIEW that enables users
 
 
 
-## The System
-SymbIOTics system consists of three main components:
-1. a smart brick containing a Wio Node (small wifi enabled microprocessor) and battery,
-2. Grove sensor/actuator modules, and
-3. the LabVIEW Dashboard creation interface.
+## Overview
+The goal of the toolkit is to provide an entry-point for beginning makers to learn about G-Code, while also enabling advanced makers to control their digital fabrication tools in a new way! Currently, the toolkit only supports the Grbl CNC firmware and the uArm Swift Pro. The goal for future releases is to support more machine firmwares and expand the VI library to include controls for standard laser cutters and 3D printers.
 
-| :-------------------------------------:  | :------------------------------------------:  |
-|![SymbIOTics exploded view](SymbIOTics/schematic2.png) | ![symbIOTics assembly](SymbIOTics/sym2.jpeg)|
-| :-------------------------------------:  | :------------------------------------------:  |
-| *SymbIOTics Smart Brick Exploded View* | *SymbIOTics Smart Brick* |<br/><br/><br/><br/>
-
+## How it works
 
 
 The smart brick houses all of the system's intelligence in a LEGO Compatible 3D printed casing with a laser-cut bottom. To enable students to easily turn on and off the smart brick, the battery wires are routed through two neodymium magnets. A small magnetic bumper with two magnets connected by a wire acts as a switch to turn on and off the bricks. The Grove sensors are all attached to laser-cut acrylic LEGO mounts, which allows students to easily integrate them directly into their LEGO creations.
