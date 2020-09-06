@@ -39,11 +39,17 @@ The Machine Control Toolkit transforms standard G-Code commands into LabVIEW VIs
 *insert image here*
 
 Machines are connected via USB to the computer running the machine control code, and serial communication is used to connect to, read from, write to, and disconnect from a machine. The machine control VIs can be placed in a buffer setup (which comes part of the toolkit), to create custom interfaces to control a fabrication machine. This structure allows users to place a set of controls on their front panel, which when changed cause the appropriate commands to be sent to the machine.
+
 *insert image here*
+
 Users can also use the Vis in the Machine Control Toolkit to create G-Code programs to then fabricate. The text to G-Code feature allows users to simply type in text, and the VI will generate the G-Code to fabricate that text. The images below show the simple programs for a CNC machine and the uArm Swift Pro, which generate the G-Code necessary to fabricate the phrase "Tufts CEEO". These screenshots also show the preview G-Code feature of the toolkit, which lets users see what their file will look like before fabricating it.
+
 *insert examples here*
+
 Users can then send arrays of G-Code commands, or entire G-Code files, to their fabrication machine using a VI from the toolkit.
+
 *insert image here*
+
 Combining all these features with the extensive existing set of VIs in LabVIEW, users can create not only control their machines, but also connect their machines to external devices and platforms to experience making in a whole new way.
 The smart brick houses all of the system's intelligence in a LEGO Compatible 3D printed casing with a laser-cut bottom. To enable students to easily turn on and off the smart brick, the battery wires are routed through two neodymium magnets. A small magnetic bumper with two magnets connected by a wire acts as a switch to turn on and off the bricks. The Grove sensors are all attached to laser-cut acrylic LEGO mounts, which allows students to easily integrate them directly into their LEGO creations.
 
