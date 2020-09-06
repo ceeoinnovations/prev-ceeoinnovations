@@ -12,6 +12,14 @@
     -moz-osx-font-smoothing: grayscale;
     text-shadow: -0.5px 0.5px #424C55;
 }
+body {
+    margin-top: 0rem;
+}
+@media(min-width:2500px){
+.legal_text_description{
+     font-size: .8vw;
+}
+}
 @media(min-width:3000px){
 #mypageheader {
     font-size: 4vw;
@@ -386,7 +394,7 @@ background-size:cover;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #fff;
 }
 
 /* Fading animation */
