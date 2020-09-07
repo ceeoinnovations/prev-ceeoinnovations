@@ -43,7 +43,6 @@
 @media(max-width:992px) {
 .intro-img{
           width: 100%;
-          max-height: 30rem;
      }
      .section-heading .section-heading-upper {
           font-size:.75rem;
@@ -153,12 +152,13 @@ blockquote p {
 
 .intro-img{
      width:75%;
+     background-color: #fff;
      margin-left: 15%;
      margin-right: 15%;
      float:right;
-     max-height: 60rem;
      box-shadow: .5px .5px 10px rgba(0,0,0, 0.1) ;
      padding: 0rem;
+     object-fit: contain;
 }
 
 .intro-text{
@@ -362,7 +362,6 @@ blockquote p {
           margin-left: 0%;
           margin-right: 0%;
           float:none;
-          max-height: 30rem;
           box-shadow: none;
           padding: 0rem;
      }
@@ -643,31 +642,48 @@ position: relative;
 
 
 @media (min-width: 1200px){
-.free_write_row, .imagesection img{
-    max-width: 1200px;
+ .imagesection img{
     margin: 0 auto;
+    object-fit:contain;
+    height: 40vw;
      }
 }
 
 @media (min-width: 2000px){
-.free_write_row, .imagesection img {
+ .imagesection img {
     margin: 0 auto;
+    object-fit:contain;
+    height: 40vw;
 }
+}
+#logoimg{
+     background-color:#fff;
 }
 @media (min-width: 4000px){
      .container {
     max-width: 4000px;
+
+
 }
-.free_write_row, .imagesection img {
+
+
+ .imagesection img {
     margin: 0 auto;
+    object-fit:contain;
+    height: 40vw;
 }
+}
+.free_write_row{
+     margin: 0 auto;
 }
 @media (min-width: 5000px){
      .container {
     max-width: 5000px;
 }
-.free_write_row, .imagesection img {
+.imagesection img {
     margin: 0 auto;
+    object-fit:contain;
+    height: 40vw;
 }
 section-heading .section-heading-lower {
     display: block;
@@ -923,8 +939,8 @@ section-heading .section-heading-lower {
 }
 @media (max-width: 2000px){
 .free_write_content h1 {
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 2.6rem;
+    font-weight: 700;
     color: #000;
     letter-spacing: -0.05em;
     z-index: 10;
