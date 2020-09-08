@@ -73,11 +73,7 @@ The smart brick houses all of the system's intelligence in a LEGO Compatible 3D 
 
 ## Download
 
-To download the Machine Control Toolkit for LabVIEW, download the ZIP folder below, and unzip it.
-[Download](https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing)
-
-
-Place the unzipped folder titled "Machine Control Toolkit" in your National Instruments user.lib folder, and the toolkit will appear in your user library palette.
+Download the Machine Control Toolkit for LabVIEW [here](https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing). Unzip the folder and place the folder titled "Machine Control Toolkit" in your National Instruments user.lib folder, and the toolkit will appear in your user library palette.
 
 Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and ideas!
 
