@@ -5,7 +5,7 @@ title: Machine Control Toolkit for LabVIEW
 description:  a software library for LabVIEW that enables users to control digital fabrication machines that interpret G-Code.
 displayimg: MachineControlToolkit/cover.png
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
-authors: ["Sara Willner-Giwerc"]
+authors: ["Sara Willner-Giwerc", "Matthew Mueller"]
 featured: false
 date: 7-09-2020
 
