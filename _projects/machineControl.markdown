@@ -85,5 +85,5 @@ Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and i
 
 
 <div class="document" markdown="1">
-[Pubications](MachineControlToolkit/article.pdf)
+[Poster](MachineControlToolkit/article.pdf)
 </div>
