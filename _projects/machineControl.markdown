@@ -58,11 +58,18 @@ The smart brick houses all of the system's intelligence in a LEGO Compatible 3D 
 [Getting Started](MachineControlToolkit/GettingStarted.pdf)
 </div>
 
+</div>
+<div class="document" markdown="1">
+[Examples](MachineControlToolkit/GettingStarted.pdf)
+[Example2](MachineControlToolkit/GettingStarted.pdf)
+</div>
+
 
 
 
 <div class="free_write" markdown="1">
-Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and ideas!
+
+##Download
 
 To download the Machine Control Toolkit for LabVIEW, download the ZIP folder below, and unzip it.
 
@@ -70,9 +77,7 @@ https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=shari
 
 Place the unzipped folder titled "Machine Control Toolkit" in your National Instruments user.lib folder, and the toolkit will appear in your user library palette.
 
-## Publications
-
-1. [Willner-Giwerc, S., Rogers, C., & Wendell, K. (2020). The SymbIOTics System: Designing an Internet of Things Platform for Elementary School Students. *International Journal of Designs for Learning, 11(2)*, 64-79. https://doi.org/10.14434/ijdl.v11i2.26719](https://scholarworks.iu.edu/journals/index.php/ijdl/article/view/26719)
+Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and ideas!
 
 </div>
 <div class="document" markdown="1">
