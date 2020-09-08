@@ -62,8 +62,8 @@ The smart brick houses all of the system's intelligence in a LEGO Compatible 3D 
 
 
 <div class="document" markdown="1">
-[Examples](MachineControlToolkit/GettingStarted.pdf)
-[Example2](MachineControlToolkit/GettingStarted.pdf)
+[UARM SWIFT PRO](MachineControlToolkit/UARM.pdf)
+[CNC MACHINES](MachineControlToolkit/CNC.pdf)
 </div>
 
 
