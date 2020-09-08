@@ -71,7 +71,7 @@ The smart brick houses all of the system's intelligence in a LEGO Compatible 3D 
 
 <div class="free_write" markdown="1">
 
-##Download
+## Download
 
 To download the Machine Control Toolkit for LabVIEW, download the ZIP folder below, and unzip it.
 
