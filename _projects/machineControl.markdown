@@ -58,7 +58,7 @@ The smart brick houses all of the system's intelligence in a LEGO Compatible 3D 
 [Getting Started](MachineControlToolkit/GettingStarted.pdf)
 </div>
 
-</div>
+
 <div class="document" markdown="1">
 [Examples](MachineControlToolkit/GettingStarted.pdf)
 [Example2](MachineControlToolkit/GettingStarted.pdf)
