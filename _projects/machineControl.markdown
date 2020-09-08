@@ -54,6 +54,8 @@ Combining all these features with the extensive existing set of VIs in LabVIEW, 
 The smart brick houses all of the system's intelligence in a LEGO Compatible 3D printed casing with a laser-cut bottom. To enable students to easily turn on and off the smart brick, the battery wires are routed through two neodymium magnets. A small magnetic bumper with two magnets connected by a wire acts as a switch to turn on and off the bricks. The Grove sensors are all attached to laser-cut acrylic LEGO mounts, which allows students to easily integrate them directly into their LEGO creations.
 
 </div>
+
+
 <div class="document" markdown="1">
 [Getting Started](MachineControlToolkit/GettingStarted.pdf)
 </div>
@@ -80,6 +82,8 @@ Place the unzipped folder titled "Machine Control Toolkit" in your National Inst
 Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and ideas!
 
 </div>
+
+
 <div class="document" markdown="1">
 [Pubications](MachineControlToolkit/article.pdf)
 </div>
