@@ -82,7 +82,9 @@ Combining all these features with the extensive existing set of VIs in LabVIEW, 
 <div class="free_write" markdown="1">
 ## Download
 Download the Machine Control Toolkit for LabVIEW ([here](https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing)). Unzip and place the folder titled "Machine Control Toolkit" in your National Instruments user.lib folder, and the toolkit will appear in your user library palette.
+
 Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and ideas!
+
 </div>
 <div class="document" markdown="1">
 [Poster](MachineControlToolkit/article.pdf)
