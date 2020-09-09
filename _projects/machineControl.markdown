@@ -36,24 +36,24 @@ The goal of the toolkit is to provide an entry-point for beginning makers to lea
 
 The Machine Control Toolkit transforms standard G-Code commands into LabVIEW VIs. Users can specify inputs, such as position, feedrate, spindle speed, etc, and the VIs will return the G-Code string to perform the desired action.
 
-![Image1](![Image1](MachineControlToolkit/Image1.png)
-![Image2](![Image2](MachineControlToolkit/Image2.png)
+![Image1](MachineControlToolkit/Image1.png)
+![Image2](MachineControlToolkit/Image2.png)
 
 Machines are connected via USB to the computer running the machine control code, and serial communication is used to connect to, read from, write to, and disconnect from a machine. The machine control VIs can be placed in a buffer setup (which comes part of the toolkit), to create custom interfaces to control a fabrication machine. This structure allows users to place a set of controls on their front panel, which when changed cause the appropriate commands to be sent to the machine.
 
-![Image3](![Image3](MachineControlToolkit/Image3.png)
+![Image3](MachineControlToolkit/Image3.png)
 
 Users can also use the Vis in the Machine Control Toolkit to create G-Code programs to then fabricate. The text to G-Code feature allows users to simply type in text, and the VI will generate the G-Code to fabricate that text. The images below show the simple programs for a CNC machine and the uArm Swift Pro, which generate the G-Code necessary to fabricate the phrase "Tufts CEEO". These screenshots also show the preview G-Code feature of the toolkit, which lets users see what their file will look like before fabricating it.
 
-![Image4](![Image4](MachineControlToolkit/Image4.png)
-![Image5](![Image5](MachineControlToolkit/Image5.png)
-![Image6](![Image6](MachineControlToolkit/Image6.png)
-![Image7](![Image7](MachineControlToolkit/Image7.png)
+![Image4](MachineControlToolkit/Image4.png)
+![Image5](MachineControlToolkit/Image5.png)
+![Image6](MachineControlToolkit/Image6.png)
+![Image7](MachineControlToolkit/Image7.png)
 
 
 Users can then send arrays of G-Code commands, or entire G-Code files, to their fabrication machine using a VI from the toolkit.
 
-![Image8](![Image8](MachineControlToolkit/Image8.png)
+![Image8](MachineControlToolkit/Image8.png)
 
 Combining all these features with the extensive existing set of VIs in LabVIEW, users can create not only control their machines, but also connect their machines to external devices and platforms to experience making in a whole new way.
 
