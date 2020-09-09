@@ -32,7 +32,12 @@ Currently, digital fabrication tools (such as CNC machines, 3D printers, and Las
 
 The goal of the toolkit is to provide an entry-point for beginning makers to learn about G-Code, while also enabling advanced makers to control their digital fabrication tools in a new way! Currently, the toolkit only supports the Grbl CNC firmware and the uArm Swift Pro. The goal for future releases is to support more machine firmwares and expand the VI library to include controls for standard laser cutters and 3D printers.
 
-## How it works
+
+
+<details>
+  <summary> ## How it works </summary>
+
+
 
 The Machine Control Toolkit transforms standard G-Code commands into LabVIEW VIs. Users can specify inputs, such as position, feedrate, spindle speed, etc, and the VIs will return the G-Code string to perform the desired action.
 
@@ -64,6 +69,8 @@ Users can then send arrays of G-Code commands, or entire G-Code files, to their 
 ![Image8](MachineControlToolkit/Image8.png)
 
 Combining all these features with the extensive existing set of VIs in LabVIEW, users can create not only control their machines, but also connect their machines to external devices and platforms to experience making in a whole new way.
+
+</details>
 
 </div>
 
