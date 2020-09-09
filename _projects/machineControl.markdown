@@ -50,8 +50,8 @@ Users can also use the Vis in the Machine Control Toolkit to create G-Code progr
 ![Image5](MachineControlToolkit/Image5.png){:.halfimg}
 
 *uArm Swift Pro Example:*
-![Image6](MachineControlToolkit/Image6.png){:.halfimg}
-![Image7](MachineControlToolkit/Image7.png){:.halfimg}
+![Image6](MachineControlToolkit/Image6.png){:.half}
+![Image7](MachineControlToolkit/Image7.png){:.half}
 
 
 Users can then send arrays of G-Code commands, or entire G-Code files, to their fabrication machine using a VI from the toolkit.
