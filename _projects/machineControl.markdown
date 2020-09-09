@@ -75,8 +75,8 @@ Combining all these features with the extensive existing set of VIs in LabVIEW, 
 
 
 <div class="document" markdown="1">
-[UARM SWIFT PRO](MachineControlToolkit/UARM.pdf)
-[CNC MACHINES](MachineControlToolkit/CNC.pdf)
+[UARM SWIFT PRO EXAMPLES](MachineControlToolkit/UARM.pdf)
+[CNC MACHINES EXAMPLES](MachineControlToolkit/CNC.pdf)
 </div>
 
 <div class="free_write" markdown="1">
