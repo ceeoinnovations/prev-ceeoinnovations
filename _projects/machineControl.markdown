@@ -50,7 +50,7 @@ Users can also use the Vis in the Machine Control Toolkit to create G-Code progr
 
 *CNC Machine Example*
 
-![Image4](MachineControlToolkit/Image4.png){.small}![Image5](MachineControlToolkit/Image5.png){.small}
+![Image4](MachineControlToolkit/Image4.png)![Image5](MachineControlToolkit/Image5.png)
 
 
 *uArm Swift Pro Example:*
@@ -70,7 +70,6 @@ Download the Machine Control Toolkit for LabVIEW ([here](https://drive.google.co
 Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and ideas!
 
 </div>
-
 
 
 <div class="document" markdown="1">
