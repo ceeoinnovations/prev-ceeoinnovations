@@ -34,8 +34,7 @@ The goal of the toolkit is to provide an entry-point for beginning makers to lea
 
 
 
-<details>
-  <summary> How it works </summary>
+## How it works
 
 The Machine Control Toolkit transforms standard G-Code commands into LabVIEW VIs. Users can specify inputs, such as position, feedrate, spindle speed, etc, and the VIs will return the G-Code string to perform the desired action.
 
@@ -67,8 +66,6 @@ Users can then send arrays of G-Code commands, or entire G-Code files, to their 
 ![Image8](MachineControlToolkit/Image8.png)
 
 Combining all these features with the extensive existing set of VIs in LabVIEW, users can create not only control their machines, but also connect their machines to external devices and platforms to experience making in a whole new way.
-
-</details>
 
 
 
