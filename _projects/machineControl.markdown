@@ -64,7 +64,10 @@ Users can then send arrays of G-Code commands, or entire G-Code files, to their 
 
 Combining all these features with the extensive existing set of VIs in LabVIEW, users can create not only control their machines, but also connect their machines to external devices and platforms to experience making in a whole new way.
 
+## Download
+Download the Machine Control Toolkit for LabVIEW ([here](https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing)). Unzip and place the folder titled "Machine Control Toolkit" in your National Instruments user.lib folder, and the toolkit will appear in your user library palette.
 
+Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and ideas!
 
 </div>
 
@@ -73,19 +76,11 @@ Combining all these features with the extensive existing set of VIs in LabVIEW, 
 [Getting Started](MachineControlToolkit/GettingStarted.pdf)
 </div>
 
-
 <div class="document" markdown="1">
 [UARM SWIFT PRO EXAMPLES](MachineControlToolkit/UARM.pdf)
 [CNC MACHINES EXAMPLES](MachineControlToolkit/CNC.pdf)
 </div>
 
-<div class="free_write" markdown="1">
-## Download
-Download the Machine Control Toolkit for LabVIEW ([here](https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing)). Unzip and place the folder titled "Machine Control Toolkit" in your National Instruments user.lib folder, and the toolkit will appear in your user library palette.
-
-Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and ideas!
-
-</div>
 <div class="document" markdown="1">
 [Poster](MachineControlToolkit/article.pdf)
 </div>
