@@ -72,11 +72,9 @@ Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and i
 </div>
 
 
-<div class="document" markdown="1">
-[Getting Started](MachineControlToolkit/GettingStarted.pdf)
-</div>
 
 <div class="document" markdown="1">
+[Getting Started](MachineControlToolkit/GettingStarted.pdf)
 [UARM SWIFT PRO EXAMPLES](MachineControlToolkit/UARM.pdf)
 [CNC MACHINES EXAMPLES](MachineControlToolkit/CNC.pdf)
 </div>
