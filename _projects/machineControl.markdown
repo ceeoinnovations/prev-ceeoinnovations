@@ -41,7 +41,7 @@ The Machine Control Toolkit transforms standard G-Code commands into LabVIEW VIs
 
 Machines are connected via USB to the computer running the machine control code, and serial communication is used to connect to, read from, write to, and disconnect from a machine. The machine control VIs can be placed in a buffer setup (which comes part of the toolkit), to create custom interfaces to control a fabrication machine. This structure allows users to place a set of controls on their front panel, which when changed cause the appropriate commands to be sent to the machine.
 
-*insert image here*
+![Image3](![Image3](MachineControlToolkit/Image3.png)
 
 Users can also use the Vis in the Machine Control Toolkit to create G-Code programs to then fabricate. The text to G-Code feature allows users to simply type in text, and the VI will generate the G-Code to fabricate that text. The images below show the simple programs for a CNC machine and the uArm Swift Pro, which generate the G-Code necessary to fabricate the phrase "Tufts CEEO". These screenshots also show the preview G-Code feature of the toolkit, which lets users see what their file will look like before fabricating it.
 
