@@ -52,8 +52,8 @@ Users can also use the Vis in the Machine Control Toolkit to create G-Code progr
 
 *CNC Machine Example:*
 
-![Image4](MachineControlToolkit/Image4.png){:.small}
-![Image5](MachineControlToolkit/Image5.png){:.small}
+![Image4](MachineControlToolkit/Image4.png){:.medium}
+![Image5](MachineControlToolkit/Image5.png){:.medium}
 
 *uArm Swift Pro Example:*
 
