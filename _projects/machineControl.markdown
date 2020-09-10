@@ -69,6 +69,9 @@ Download the Machine Control Toolkit for LabVIEW ([here](https://drive.google.co
 
 Contact Sara Willner-Giwerc (sara.willner_giwerc@tufts.edu) with questions and ideas!
 
+## Publications
+
+1. Wilner-Giwerc, S., Mueller, M. (October 2017). “LabVIEW Machine Control Toolkit Demo”. Demo at FabLearn Conference 2017, Stanford, CA.
 </div>
 
 
