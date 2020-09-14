@@ -621,6 +621,7 @@ position: relative;
 @media(max-width:600px){
      .free_write_content p{
           font-size: 3vw;
+          text-align:center;
      }
 }
 @media(max-width:992px) {
