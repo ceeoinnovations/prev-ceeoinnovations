@@ -42,7 +42,7 @@ The smart brick houses all of the system's intelligence in a LEGO Compatible 3D 
 
 {% include image1.html url="SymbIOTics/LabVIEW.png" description="My cat, Robert Downey Jr." %}
 
-
+changes reflect??? 
 ![schematic](SymbIOTics/LabVIEW.png)
 
  ##### *SymbIOTics LabVIEW Palette and Example Dashboard*
