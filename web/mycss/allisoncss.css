@@ -616,7 +616,7 @@ position: relative;
      }
 }
 
-.free_write_content p+em{
+.free_write_content img+em{
   text-align: center;
 }
 
