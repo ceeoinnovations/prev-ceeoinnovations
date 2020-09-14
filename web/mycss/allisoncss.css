@@ -632,7 +632,8 @@ position: relative;
 
 
 .free_write_content em {
-  font-size:.02rem;
+  margin: 0 auto;
+  font-size: .2rem;
   text-align: center;
 }
 
