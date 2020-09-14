@@ -616,6 +616,10 @@ position: relative;
      }
 }
 
+.imgOnly+em{
+  text-align: center;
+}
+
 
 @media(max-width:600px){
      .free_write_content p{
