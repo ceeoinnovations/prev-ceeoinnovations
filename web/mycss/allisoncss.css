@@ -616,6 +616,14 @@ position: relative;
      }
 }
 
+.free_write_content imgOnly +em {
+  text-align: center;
+
+}
+
+.free_write_content em {
+  text-align: center;
+}
 
 
 
