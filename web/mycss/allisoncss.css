@@ -616,7 +616,7 @@ position: relative;
      }
 }
 
-.imgOnly+em{
+.p imgOnly+em{
   text-align: center;
 }
 
