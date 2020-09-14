@@ -620,7 +620,7 @@ position: relative;
 @media(max-width:600px){
      .free_write_content p{
           font-size: 3vw;
-          text-align:center;
+
      }
 }
 @media(max-width:992px) {
@@ -901,18 +901,18 @@ section-heading .section-heading-lower {
 
 .free_write_content p{
      font-size:.85rem;
-     text-align: center;
+
 }
 @media(min-width:2000px){
      .free_write_content p {
           font-size:3rem;
-          text-align: center;
+
      }
 }
 @media(min-width:5000px){
      .free_write_content p {
           font-size:3rem;
-          text-align: center;
+
      }
 }
 @media(max-width:8000px){
@@ -969,7 +969,7 @@ section-heading .section-heading-lower {
 
 .free_write_content p{
      font-size:1.2vw;
-     text-align: center;
+
 }
 }
 
@@ -986,7 +986,7 @@ section-heading .section-heading-lower {
      }
      .free_write_content p{
           font-size:.9rem;
-          text-align: center;
+
      }
 
 }
