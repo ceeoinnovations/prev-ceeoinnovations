@@ -33,7 +33,6 @@ SymbIOTics system consists of three main components:
 
 
 ![symbIOTics assembly](SymbIOTics/sym2.jpeg){:.half}![SymbIOTics exploded view](SymbIOTics/schematic2.png){:.half}  
-
 *SymbIOTics Smart Brick and its Exploded View*
 
 
