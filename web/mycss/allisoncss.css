@@ -709,7 +709,7 @@ section-heading .section-heading-lower {
 }
 
 .rightimg {
-    width: 50%;
+    width: 40%;
     float: right;
     display: inline;
     vertical-align: middle;
@@ -723,7 +723,7 @@ section-heading .section-heading-lower {
 }
 
 .leftimg {
-    width: 50%;
+    width: 40%;
     float: left;
     display: inline;
     vertical-align: middle;
