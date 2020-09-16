@@ -151,13 +151,13 @@ blockquote p {
 
 .section-heading .section-heading-lower {
 	display: block;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	font-weight: 100
 }
 @media(min-width:3000px){
 .section-heading .section-heading-lower {
     display: block;
-    font-size: 1.5rem;
+    font-size: 4rem;
     font-weight: 100;
 }
 .section-heading .section-heading-upper {
@@ -167,7 +167,7 @@ blockquote p {
 }
 }
 .myparagraphHT, .myparagraphVO{
-     font-size:1vw;
+     font-size:1.1vw;
 }
 .intro .intro-text {
        margin-top: 2rem;
@@ -176,13 +176,13 @@ blockquote p {
 @media(max-width:1900px) {
      .section-heading .section-heading-upper {
      	display: block;
-     	font-size: 1.5rem;
+     	font-size: 1rem;
      	font-weight: 800
      }
 
      .section-heading .section-heading-lower {
      	display: block;
-     	font-size: 1.5rem;
+     	font-size: 2.5rem;
      	font-weight: 100
      }
      .myparagraphHT, .myparagraphVO{
@@ -193,17 +193,17 @@ blockquote p {
 @media(max-width:1650px) {
      .section-heading .section-heading-upper {
      	display: block;
-     	font-size: 1.5rem;
+     	font-size: 1rem;
      	font-weight: 800
      }
 
      .section-heading .section-heading-lower {
      	display: block;
-     	font-size: 1.5rem;
+     	font-size: 2rem;
      	font-weight: 100
      }
      .myparagraphHY, .myparagraphVO{
-          font-size:1vw;
+          font-size:1.1vw;
      }
 }
 
@@ -211,17 +211,17 @@ blockquote p {
 @media(max-width:1450px) {
      .section-heading .section-heading-upper {
      	display: block;
-     	font-size: 1.5rem;
+     	font-size: 1rem;
      	font-weight: 800
      }
 
      .section-heading .section-heading-lower {
      	display: block;
-     	font-size: 1.5rem;
+     	font-size: 1.7rem;
      	font-weight: 100
      }
      .myparagraphHT, .myparagraphVO{
-          font-size:1vw;
+          font-size:1.1vw;
      }
 
      .intro .intro-text {
@@ -260,14 +260,14 @@ blockquote p {
 }
 @media(max-width:1200px) {
      .myparagraphHT, .myparagraphVO{
-          font-size:1vw;
+          font-size:1.2vw;
      }
 }
 
 @media(max-width:1100px) {
      .section-heading .section-heading-upper {
           display: block;
-          font-size: 1.5rem;
+          font-size: .8rem;
           font-weight: 800
      }
 
@@ -304,28 +304,28 @@ blockquote p {
             margin-top: 2vw;
      }
      .myparagraphHT, .myparagraphVO{
-          font-size:1.5vw;
+          font-size:1.3vw;
      }
 }
 @media(max-width:800px) {
      .section-heading .section-heading-upper {
           display: block;
-          font-size: 1.5rem;
+          font-size: .6rem;
           font-weight: 800
      }
      .myparagraphHT, .myparagraphVO{
-          font-size:1vw;
+          font-size:1.5vw;
      }
 
 }
 @media(max-width:600px) {
      .myparagraphHT, .myparagraphVO{
-          font-size:1vw;
+          font-size:1rem;
      }
 }
 @media(max-width:350px) {
      .myparagraphHT, .myparagraphVO{
-          font-size:1vw;
+          font-size:.8rem;
      }
 }
 
@@ -638,7 +638,12 @@ position: relative;
 #logoimg{
      background-color:#fff;
 }
+@media (min-width: 4000px){
+     .container {
+    max-width: 4000px;
 
+
+}
 
 
  .imagesection img {
@@ -837,21 +842,17 @@ section-heading .section-heading-lower {
 }
 
 .freecontainer{
-  width: 1200px;
      margin-left: 10%;
      margin-right: 10%;
 }
 @media(max-width:900px){
      .freecontainer{
-       width:800px;
-       align
           margin-left: 7%;
           margin-right: 7%;
      }
 }
-@media(max-width:800px){
+@media(max-width:700px){
      .freecontainer{
-       width:800px;
           margin-left: 3%;
           margin-right: 3%;
      }
