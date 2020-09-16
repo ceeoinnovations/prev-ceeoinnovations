@@ -39,8 +39,7 @@ The goal of the toolkit is to provide an entry-point for beginning makers to lea
 
 The Machine Control Toolkit transforms standard G-Code commands into LabVIEW VIs. Users can specify inputs, such as position, feedrate, spindle speed, etc, and the VIs will return the G-Code string to perform the desired action.
 
-![Image1](MachineControlToolkit/Image1.png)
-![Image2](MachineControlToolkit/Image2.png)
+![Image1](MachineControlToolkit/Image1.png)![Image2](MachineControlToolkit/Image2.png)
 
 Machines are connected via USB to the computer running the machine control code, and serial communication is used to connect to, read from, write to, and disconnect from a machine. The machine control VIs can be placed in a buffer setup (which comes part of the toolkit), to create custom interfaces to control a fabrication machine. This structure allows users to place a set of controls on their front panel, which when changed cause the appropriate commands to be sent to the machine.
 
@@ -51,12 +50,12 @@ Users can also use the Vis in the Machine Control Toolkit to create G-Code progr
 
 *CNC Machine Example:*
 
-![Image4](MachineControlToolkit/Image4.png)![Image5](MachineControlToolkit/Image5.png)
+![Image4](MachineControlToolkit/Image4.png){:.half}![Image5](MachineControlToolkit/Image5.png){:.half}
 
 
 *uArm Swift Pro Example:*
 
-![Image6](MachineControlToolkit/Image6.png)![Image7](MachineControlToolkit/Image7.png)
+![Image6](MachineControlToolkit/Image6.png){:.half}![Image7](MachineControlToolkit/Image7.png){:.half}
 
 
 Users can then send arrays of G-Code commands, or entire G-Code files, to their fabrication machine using a VI from the toolkit.
