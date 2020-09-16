@@ -712,6 +712,7 @@ section-heading .section-heading-lower {
 .rightimg {
     width: 50%;
     height: 100px;
+    object-fit:cover;
     float: right;
     display: inline-block;
     vertical-align: middle;
@@ -726,6 +727,7 @@ section-heading .section-heading-lower {
 .leftimg {
     width: 50%;
     height: 100px;
+    object-fit:cover;
     float: left;
     display: inline-block;
     vertical-align: middle;
