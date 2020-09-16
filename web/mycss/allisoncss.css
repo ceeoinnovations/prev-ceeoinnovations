@@ -712,7 +712,7 @@ section-heading .section-heading-lower {
 .rightimg {
     width: 50%;
 
-    float: right;
+    float: left;
 
     vertical-align: middle;
     margin: 0 auto;
