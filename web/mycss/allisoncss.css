@@ -621,6 +621,7 @@ position: relative;
 @media(max-width:600px){
      .free_write_content p{
           font-size: 3vw;
+          clear: both;
 
      }
 
@@ -932,17 +933,20 @@ section-heading .section-heading-lower {
 
 .free_write_content p{
      font-size:.85rem;
+     clear: both;
 
 }
 @media(min-width:2000px){
      .free_write_content p {
           font-size:3rem;
+          clear: both;
 
      }
 }
 @media(min-width:5000px){
      .free_write_content p {
           font-size:3rem;
+          clear: both;
 
      }
 }
@@ -1000,7 +1004,7 @@ section-heading .section-heading-lower {
 
 .free_write_content p{
      font-size:1.2vw;
-
+clear: both;
 }
 }
 
@@ -1017,6 +1021,7 @@ section-heading .section-heading-lower {
      }
      .free_write_content p{
           font-size:.9rem;
+          clear: both;
 
      }
 
