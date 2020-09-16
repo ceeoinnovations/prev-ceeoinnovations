@@ -838,21 +838,19 @@ section-heading .section-heading-lower {
 
 .freecontainer{
   width: 1200px;
-     margin-left: 10%;
-     margin-right: 10%;
+  margin: auto;
+
 }
 @media(max-width:900px){
      .freecontainer{
        width:800px;
-          margin-left: 7%;
-          margin-right: 7%;
+
      }
 }
 @media(max-width:800px){
      .freecontainer{
        width:800px;
-          margin-left: 3%;
-          margin-right: 3%;
+
      }
 }
 
