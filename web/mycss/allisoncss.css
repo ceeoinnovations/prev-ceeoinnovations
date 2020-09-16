@@ -709,7 +709,7 @@ section-heading .section-heading-lower {
 }
 
 .rightimg {
-    width: 40%;
+    width: 50%;
     float: right;
     display: inline-block;
     vertical-align: middle;
@@ -718,12 +718,11 @@ section-heading .section-heading-lower {
     margin-right: 0%;
     padding-bottom: 0rem;
     padding-top: 0rem;
-    margin-right: 1rem;
-    border-radius: 1px;
+    
 }
 
 .leftimg {
-    width: 40%;
+    width: 50%;
     float: left;
     display: inline-block;
     vertical-align: middle;
@@ -732,8 +731,8 @@ section-heading .section-heading-lower {
     margin-right: 0%;
     padding-bottom: 0rem;
     padding-top: 0rem;
-    margin-right: 1rem;
-    border-radius: 5px;
+
+
 }
 .halfimg {
     width: 48%;
