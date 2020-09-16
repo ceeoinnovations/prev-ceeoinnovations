@@ -26,8 +26,7 @@ SNAPR is a tool that lets students capture and populate their e-portfolios autom
 
 ## Goal
 
-
-![SNAPR](![SNAPR](SNAPR/details.png)
+![SNAPR](SNAPR/details.png)
 
 SNAPR is a tool designed for a design-based research study based on the conjecture:
 
