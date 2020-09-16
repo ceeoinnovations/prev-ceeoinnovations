@@ -616,20 +616,6 @@ position: relative;
      }
 }
 
-@media(max-width:600px){
-     .imgOnly+em{
-          width:80%;
-          display: inline;
-          margin: 0 auto;
-          text-align: center;
-          margin-left: 10%;
-          margin-right: 10%;
-          padding-bottom: 2rem;
-          padding-top: 2rem;
-          border-radius: 20px;
-     }
-}
-
 
 .free_write_content em {
   margin: 0 auto;
