@@ -711,7 +711,7 @@ section-heading .section-heading-lower {
 .rightimg {
     width: 40%;
     float: right;
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
     margin: 0 auto;
     margin-left: 0%;
@@ -725,7 +725,7 @@ section-heading .section-heading-lower {
 .leftimg {
     width: 40%;
     float: left;
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
     margin: 0 auto;
     margin-left: 0%;
