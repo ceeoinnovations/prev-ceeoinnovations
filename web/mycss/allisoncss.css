@@ -663,12 +663,7 @@ position: relative;
 #logoimg{
      background-color:#fff;
 }
-@media (min-width: 4000px){
-     .container {
-    max-width: 4000px;
 
-
-}
 
 
  .imagesection img {
@@ -680,15 +675,7 @@ position: relative;
 .free_write_row{
      margin: 0 auto;
 }
-@media (min-width: 5000px){
-     .container {
-    max-width: 5000px;
-}
-.imagesection img {
-    margin: 0 auto;
-    object-fit:contain;
-    height: 40vw;
-}
+
 section-heading .section-heading-lower {
     display: block;
     font-size: 5rem;
@@ -854,22 +841,7 @@ section-heading .section-heading-lower {
      position: relative;
      line-height: 0.8em;
 }
-@media(min-width:3000px){
-     .free_write_content h2 {
-          font-size: 6.5rem;
-          font-weight: 500;
-          color: #000;
-          letter-spacing: -0.05em;
-          z-index: 10;
-          padding:1.5rem;
-          text-align: center;
-          position: relative;
-          line-height: 0.8em;
-     }
-     .free_write_content {
-          font-size: 3rem;
-     }
-}
+
 @media(min-width:1800px){
 .free_write_content h2 {
     font-size: 3.8rem;
@@ -883,19 +855,7 @@ section-heading .section-heading-lower {
     line-height: 0.8em;
 }
 }
-@media(min-width:3000px){
-.free_write_content h2 {
-    font-size: 4.8rem;
-    font-weight: 500;
-    color: #000;
-    letter-spacing: -0.05em;
-    z-index: 10;
-    padding: 1.5rem;
-    text-align: center;
-    position: relative;
-    line-height: 0.8em;
-}
-}
+
 .freecontainer{
      margin-left: 10%;
      margin-right: 10%;
