@@ -24,7 +24,7 @@ The Machine Control Toolkit is a software library for LabVIEW that enables users
 <div class="free_write" markdown="1">
 
 
-## Overview1
+## Overview
 
 
 Currently, digital fabrication tools (such as CNC machines, 3D printers, and Laser Cutters) are trapped inside a black box. Each machine has a default software that it comes with, and interfaces with only that software. However, at the heart of how all of these tools work is something called G-Code. G-Code consists of simple commands and coordinates that tell the machine where to go and what to do. By harnessing the simplicity of G-Code and the modularity of LabVIEW, the machine control toolkit breaks down the black box and enables users to connect their digital fabrication tools to other platforms and devices.
