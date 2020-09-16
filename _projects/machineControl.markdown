@@ -23,7 +23,7 @@ The Machine Control Toolkit is a software library for LabVIEW that enables users
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
 
-[Download Machine Control Toolkit for LabVIEW](https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing){:.myButton}
+[DOWNLOAD](https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing){:.myButton}
 
 
 ## Overview
