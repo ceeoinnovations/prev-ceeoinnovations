@@ -4,7 +4,7 @@ layout: post
 title: SNAPR
 description:  a tool that lets students capture and populate their e-portfolios
 displayimg: SNAPR/cover.jpeg
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
+categories: ["DELETE CATEGORIES THAT DON'T APPLY","Canvas", "Documentation"]
 authors: ["Dipeshwor Man Shrestha"]
 featured: false
 date: 9-15-2020
