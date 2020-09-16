@@ -53,5 +53,5 @@ Read more about how you can set it up in SNAPR Github page. [link to Github Page
 
 
 <div class="document" markdown="1">
-[Poster](SNAPR/article.pdf)
+[Poster](SNAPR/poster.pdf)
 </div>
