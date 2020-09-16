@@ -711,7 +711,7 @@ section-heading .section-heading-lower {
 
 .rightimg {
     width: 50%;
-    height: 100px;
+    height: 200px;
     object-fit:cover;
     float: right;
     display: inline-block;
@@ -726,7 +726,7 @@ section-heading .section-heading-lower {
 
 .leftimg {
     width: 50%;
-    height: 100px;
+    height: 200px;
     object-fit:cover;
     float: left;
     display: inline-block;
