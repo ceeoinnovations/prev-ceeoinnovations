@@ -848,8 +848,9 @@ section-heading .section-heading-lower {
           margin-right: 7%;
      }
 }
-@media(max-width:700px){
+@media(max-width:800px){
      .freecontainer{
+       width:800px;
           margin-left: 3%;
           margin-right: 3%;
      }
