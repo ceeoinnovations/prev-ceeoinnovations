@@ -38,23 +38,21 @@
           padding-left: 0;
           padding-right: 0;
      }
+     .intro-img{
+               width: 100%;
+          }
+          .section-heading .section-heading-upper {
+               font-size:.75rem;
+               text-transform: none;
+               font-weight: 600
+          }
+           .section-heading .section-heading-lower {
+                text-align: center;
+               font-size:1.5rem;
+               text-transform: none;
+          }
 }
 
-@media(max-width:992px) {
-.intro-img{
-          width: 100%;
-     }
-     .section-heading .section-heading-upper {
-          font-size:.75rem;
-          text-transform: none;
-          font-weight: 600
-     }
-      .section-heading .section-heading-lower {
-           text-align: center;
-          font-size:1.5rem;
-          text-transform: none;
-     }
-}
 
 /*Markdown format=========================================================*/
 blockquote {
