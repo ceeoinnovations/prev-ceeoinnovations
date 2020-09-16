@@ -228,10 +228,12 @@ function CreateFreeWrite(mydivsi){
                $(myimages[i]).attr('class' , "smallimg");
           } else if(myimages[i].className == "half"){
                $(myimages[i]).attr('class' , "halfimg");
-          }
+          }  else if(myimages[i].className == "left"){
+                 $(myimages[i]).attr('class' , "leftimg");
+            }
 
-          else if(myimages[i].className == "test"){
-               $(myimages[i]).attr('class' , "testimg");
+          else if(myimages[i].className == "right"){
+               $(myimages[i]).attr('class' , "rightimg");
           }else {
                $(myimages[i]).attr('class' , "imgOnly");
           }
