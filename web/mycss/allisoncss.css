@@ -697,6 +697,7 @@ section-heading .section-heading-lower {
 
 .smallimg {
     width: 50%;
+
     float: left;
     display: inline;
     margin: 0 auto;
@@ -710,6 +711,7 @@ section-heading .section-heading-lower {
 
 .rightimg {
     width: 50%;
+    height: 100px;
     float: right;
     display: inline-block;
     vertical-align: middle;
@@ -718,11 +720,12 @@ section-heading .section-heading-lower {
     margin-right: 0%;
     padding-bottom: 0rem;
     padding-top: 0rem;
-    
+
 }
 
 .leftimg {
     width: 50%;
+    height: 100px;
     float: left;
     display: inline-block;
     vertical-align: middle;
