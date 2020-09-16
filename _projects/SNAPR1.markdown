@@ -23,6 +23,8 @@ SNAPR is a tool that lets students capture and populate their e-portfolios autom
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
 
+[ SNAPR Github Page](https://github.com/dipeshwor/SNAPR){:.myButton}
+
 
 ![SNAPR](SNAPR/details.png)
 
@@ -41,12 +43,6 @@ Similar to Canvas, there are various e-portfolio platforms that students can use
 In order to minimize this limitation, we designed SNAPR which lets the students automatically populate their e-portfolios while they are working on their projects. The setup constitutes a camera, connected to the WiFi, which periodically takes snapshots of the student work and uploads the snapshots to the students’ e-portfolios. Once populated, the students can access the uploaded snapshots to choose which ones to keep on their e-portfolio, perhaps to tell a story of failure, or to highlight an ‘Aha’ moment, or to share an insight they had about how their learning evolved.
 
 
-
-
-
-## Github Page
-
-Read more about SNAPR on its [ Github Page](https://github.com/dipeshwor/SNAPR).
 
 
 </div>
