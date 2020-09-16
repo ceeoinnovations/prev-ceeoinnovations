@@ -707,6 +707,19 @@ section-heading .section-heading-lower {
     margin-right: 1rem;
     border-radius: 5px;
 }
+
+.testimg {
+    width: 50%;
+    float: right;
+    display: inline;
+    margin: 0 auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    margin-right: 1rem;
+    border-radius: 1px;
+}
 .halfimg {
     width: 48%;
     margin-left: 1%;
