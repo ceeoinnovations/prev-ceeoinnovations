@@ -735,18 +735,7 @@ section-heading .section-heading-lower {
     padding-bottom: 0rem;
     padding-top: 0rem;
 }
-.leftimg::after{
-  content: "";
-  clear: both;
-  display: table;
 
-}
-.rightimg::after{
-  content: "";
-  clear: both;
-  display: table;
-
-}
 .halfimg {
     width: 48%;
     margin-left: 1%;
