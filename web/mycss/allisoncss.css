@@ -114,30 +114,7 @@ blockquote p {
   background: black;
   border-radius: 50%;
 }
-@media(min-width:3000px){
-     .free_write_content ol li {
-          text-align: left;
-          margin-left: 5rem;
-          font-size: 1rem;
-     }
-     .free_write_content ul li {
-          text-align: left;
-          margin-left: 5rem;
-          font-size: 1rem;
-     }
-}
-@media(min-width:2000px){
-     .free_write_content ol li {
-          text-align: left;
-          margin-left: 5rem;
-          font-size: 1rem;
-     }
-     .free_write_content ul li {
-          text-align: left;
-          margin-left: 5rem;
-          font-size: 1rem;
-     }
-}
+
 
 .free_write_content ol {
      text-align: left;
