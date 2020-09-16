@@ -46,7 +46,7 @@ In order to minimize this limitation, we designed SNAPR which lets the students 
 
 ## Github Page
 
-Read more about SNAPR in its [ Github Page](https://github.com/dipeshwor/SNAPR).
+Read more about SNAPR on its [ Github Page](https://github.com/dipeshwor/SNAPR).
 
 
 </div>
