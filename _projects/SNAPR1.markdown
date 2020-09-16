@@ -31,9 +31,9 @@ SNAPR is a tool that lets students capture and populate their e-portfolios autom
 
 SNAPR is a tool designed for a design-based research study based on the conjecture:
 
-In a making activity, e-portfolios provide observable opportunities for students to reflect on intermediate steps in their making, while also providing observable evidence for facilitators to assess students’ learning.
+1. In a making activity, e-portfolios provide observable opportunities for students to reflect on intermediate steps in their making, while also providing observable evidence for facilitators to assess students’ learning.
 
-We plan to explore the following research questions:
+2. We plan to explore the following research questions:
 
 What processes of making are evident in students’ e-portfolio?
 How can SNAPR encourage student reflection on the processes of making?
