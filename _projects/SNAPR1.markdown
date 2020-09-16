@@ -7,7 +7,7 @@ displayimg: SNAPR/cover.jpeg
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Canvas", "Documentation"]
 authors: ["Dipeshwor Man Shrestha"]
 featured: false
-date: 9-15-2020
+date: 15-09-2020
 
 ---
 
