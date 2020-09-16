@@ -2,7 +2,7 @@
 layout: post
 
 title: Extensions to Onshape
-description: An experiemental library of extensions to Onshape
+description: an experiemental library of extensions to Onshape
 displayimg: Backpack_for_SPIKE_Prime/backpack.png
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Onshape", "3D"]
 authors: ["Milan Dahal"]
@@ -27,7 +27,7 @@ Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Pr
 ### Morse Code Detector
 ![Link to my pic](images_jason/20200716_113806.jpg){:.half}
 ![Link to my pic](images_jason/20200716_113806.jpg){:.half}
-##### This is the caption underneath. 
+##### This is the caption underneath.
 
 The robot uses machine learning to figure out, for the length you held down the button, whether it is equivalent do a dot or a dash in morse code! But what if it's wrong? It has a built in feature to tell it that it's wrong. This will make it guess more accurately for later presses!
 

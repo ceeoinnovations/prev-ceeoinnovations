@@ -14,7 +14,7 @@ date: 7-09-2020
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![MachineControlToolkit](![machine](MachineControlToolkit/cover.jpeg)
+![MachineControlToolkit](![machine](MachineControlToolkit/cover.jpeg){:.myButton}
 # Machine Control Toolkit for LabVIEW
 
 The Machine Control Toolkit is a software library for LabVIEW that enables users to control digital fabrication machines that interpret G-Code. The toolkit breaks down standard G-Code commands into VIs that users can easily manipulate to generate G-Code toolpaths and design their own machine control interfaces.

@@ -2,7 +2,7 @@
 layout: post
 
 title: Backpacks for SPIKE Prime
-description: Third party hardware extensions for SPIKE Prime.
+description: third party hardware extensions for SPIKE Prime.
 displayimg: Backpack_for_SPIKE_Prime/backpack.png
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Backpack", "LEGO", "Tech"]
 authors: ["Milan Dahal"]

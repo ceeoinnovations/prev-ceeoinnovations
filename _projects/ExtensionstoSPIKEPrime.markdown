@@ -2,7 +2,7 @@
 layout: post
 
 title: Extensions to SPIKE Prime
-description: An experiemental library of extensions to SPIKE Prime
+description: an experiemental library of extensions to SPIKE Prime
 displayimg: Backpack_for_SPIKE_Prime/backpack.png
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "AI", "LEGO", "Tech"]
 authors: ["Milan Dahal"]
