@@ -727,14 +727,24 @@ section-heading .section-heading-lower {
     width: 50%;
 
     float: left;
-    
+
     vertical-align: middle;
     margin: 0 auto;
     margin-left: 0%;
     margin-right: 0%;
     padding-bottom: 0rem;
     padding-top: 0rem;
+}
+.leftimg::after{
+  content: "";
+  clear: both;
+  display: table;
 
+}
+.rightimg::after{
+  content: "";
+  clear: both;
+  display: table;
 
 }
 .halfimg {
