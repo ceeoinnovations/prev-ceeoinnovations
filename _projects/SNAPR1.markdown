@@ -24,8 +24,6 @@ SNAPR is a tool that lets students capture and populate their e-portfolios autom
 <div class="free_write" markdown="1">
 
 
-## Goal
-
 ![SNAPR](SNAPR/details.png)
 
 SNAPR is a tool designed for a design-based research study based on the conjecture:
@@ -35,7 +33,7 @@ SNAPR is a tool designed for a design-based research study based on the conjectu
 We plan to explore the following research questions:
 
 1. What processes of making are evident in students’ e-portfolio?
-2. How can SNAPR encourage student reflection on the processes of making?
+2. How can SNAPR encourage student reflection in the processes of making?
 3. How are students’ STEM literacies represented in the e-portfolio, and how does enacting those practices contribute to their evolving identity as an engineer or a maker?
 
 Similar to Canvas, there are various e-portfolio platforms that students can use to showcase their work. Unfortunately, most of them are designed in such a way that the users usually update the content only after their work is complete. Likewise, most people find it cumbersome to document their work, as they are working on a project. We think, opportunities for reflection on the ‘in-between’ stages are missing in the existing design of e-portfolios.
@@ -48,7 +46,7 @@ In order to minimize this limitation, we designed SNAPR which lets the students 
 
 ## Github Page
 
-Read more about SNAPR in its Github page. [link to Github Page](https://github.com/dipeshwor/SNAPR)
+Read more about SNAPR in its [ Github Page](https://github.com/dipeshwor/SNAPR).
 
 
 </div>
