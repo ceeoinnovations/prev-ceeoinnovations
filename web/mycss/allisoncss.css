@@ -617,13 +617,6 @@ position: relative;
 }
 
 
-.free_write_content em {
-  margin: 0 auto;
-  font-size: .2rem;
-  text-align: center;
-}
-
-
 
 @media(max-width:600px){
      .free_write_content p{
