@@ -86,7 +86,7 @@ body {
 }
 @media(min-width:3000px){
 	body {
-    margin-top: 12rem; 
+    margin-top: 12rem;
 	}
 }
 [tabindex="-1"]:focus {
@@ -11677,7 +11677,7 @@ figure figcaption {
 	transform: translate(-50%, -50%)
 }
 
-.old-work-thumb .old-work-text h2 {
+.old-work-thumb .old-work-text h2 h4 {
 	color: #fff;
 	font-weight: 300;
 	margin-bottom: 0;
