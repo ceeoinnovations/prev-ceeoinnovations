@@ -6,7 +6,7 @@ description: a way to connect your browser to your LEGO® SPIKE™ Prime using w
 displayimg: SPIKEPrimeOnlineIDE/logo.png
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Coding Rooms", "LEGO", "Tech"]
 authors: ["Jeremy Jung"]
-featured: true
+featured: false
 date: 21-08-2020
 
 
