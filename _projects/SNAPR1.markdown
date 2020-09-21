@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: SNAPR1
+title: SNAPR
 description:  a tool that lets students capture and populate their e-portfolios
 displayimg: SNAPR/cover.jpg
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Canvas", "Documentation"]
