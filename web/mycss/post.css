@@ -1,13 +1,12 @@
 
 #mypageheader{
 font-size: 2em;
-line-height: 0.5;
 font-weight: 800;
 letter-spacing: -0.05em;
 z-index: 10;
 text-align: center;
 position: relative;
-line-height: 0.6em;
+line-height: 0.6;
 pointer-events: none;
 flex: 1 100%;
 -webkit-font-smoothing: antialiased;
