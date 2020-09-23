@@ -27,7 +27,7 @@ Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Pr
 
 
 ### Backpack #1: OpenMV Camera
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack1.jpg){:.left}
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack1.jpg){:.half}
 
 The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
 
@@ -37,7 +37,7 @@ The Open MV camera is the brain for the Camera Backpack that allows you to integ
 
 
 ### Backpack #2: Grove Sensors
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack2.jpg){:.left}
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack2.jpg){:.half}
 
 The Pyboard is the brain for this backpack. It allows you to connect Grove sensors to LEGO SPIKE Prime to easily.
 
@@ -47,7 +47,7 @@ The Pyboard is the brain for this backpack. It allows you to connect Grove senso
 
 
 ### Backpack #3: Pyboard
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack3.jpg){:.left}
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack3.jpg){:.half}
 
 A Pyboard Backpack lets you connect to the WiFi from SPIKE Prime and use all the functionality of a Pyboard. This will hugely widen the range of projects you can do using the SPIKE Prime Hub.
 
@@ -56,7 +56,7 @@ A Pyboard Backpack lets you connect to the WiFi from SPIKE Prime and use all the
 
 
 ### Backpack #4: Breadboard
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack4.jpg){:.left}
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack4.jpg){:.half}
 
 This backpack allows you to connect your SPIKE Prime with LEDs, buttons, switches and joysticks to create prototypes to control SPIKE Prime.
 
@@ -66,7 +66,7 @@ This backpack allows you to connect your SPIKE Prime with LEDs, buttons, switche
 
 
 ### Backpack #5: Micro:bit
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack5.jpg){:.left}
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack5.jpg){:.half}
 
 
 With the Micro:bit Backpack, you can connect a Micro:bit to LEGO SPIKE Prime. You can integrate all the capabilities of a Microbit to the SPIKE Prime. You can also communicate between two Microbits using radio communication.
@@ -75,7 +75,7 @@ With the Micro:bit Backpack, you can connect a Micro:bit to LEGO SPIKE Prime. Yo
 [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
 
 ### Backpack #6: UniversalConnector
-![Link to my pic](Backpack_for_SPIKE_Prime/Backpack6.jpg){:.left}
+![Link to my pic](Backpack_for_SPIKE_Prime/Backpack6.jpg){:.half}
 
 
 The Universal Connector Backpack is basically a wired backpack that converts the SPIKE Prime connectors to generic male header pins. This backpack is super useful if you are planning to make your own backpacks for other micro-controllers.
