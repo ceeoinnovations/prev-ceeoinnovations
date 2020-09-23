@@ -449,10 +449,7 @@ position: relative;
      font-weight:700;
 
 }
-@media(min-width:2000px) {
-     .container {
-    max-width: 2000px;
-}
+
 .pdfsectiontitle {
     font-size: 4rem;
     color: #000;
@@ -628,13 +625,7 @@ position: relative;
      }
 }
 
-@media (min-width: 2000px){
- .imagesection img {
-    margin: 0 auto;
-    object-fit:contain;
-    height: 40vw;
-}
-}
+
 #logoimg{
      background-color:#fff;
 }
@@ -761,43 +752,27 @@ section-heading .section-heading-lower {
 .free_write_content h3 {
      font-size:1.6rem;
 }
-@media(min-width: 2000px){
-     .free_write_content h3 {
-          font-size:3rem;
-     }
-}
+
 .free_write_content h4 {
      font-size:1.5rem;
      font-weight: 300;
 
 }
 
-@media(min-width:2000px){
-.free_write_content h4 {
-    font-size: 3.5rem;
-}
-}
+
 .free_write_content h5 {
      text-align: center;
      font-size:1.4rem;
      font-weight: 250;
 
 }
-@media(min-width:2000px){
-.free_write_content h5 {
-    font-size: 3rem;
-}
-}
+
 .free_write_content h6 {
      font-size:1.3rem;
      font-weight: 200;
 
 }
-@media(min-width:2000px){
-.free_write_content h6 {
-    font-size: 2.8rem;
-}
-}
+
 .largerappendherePI{
      margin-left: 5rem;
      margin-right: 5rem;
@@ -881,13 +856,7 @@ section-heading .section-heading-lower {
      clear: both;
 
 }
-@media(min-width:2000px){
-     .free_write_content p {
-          font-size:3rem;
-          clear: both;
 
-     }
-}
 
 
 
