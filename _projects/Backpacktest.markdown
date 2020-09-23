@@ -27,6 +27,7 @@ Backpacks are hardware extensions for SPIKE Prime. You can connect your SPIKE Pr
 
 
 ### Backpack #1: OpenMV Camera
+
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack1.jpg){:.half}
 
 The Open MV camera is the brain for the Camera Backpack that allows you to integrate image processing and machine vision capabilities of the Open MV camera to LEGO SPIKE Prime.
@@ -37,6 +38,7 @@ The Open MV camera is the brain for the Camera Backpack that allows you to integ
 
 
 ### Backpack #2: Grove Sensors
+
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack2.jpg){:.half}
 
 The Pyboard is the brain for this backpack. It allows you to connect Grove sensors to LEGO SPIKE Prime to easily.
@@ -56,6 +58,7 @@ A Pyboard Backpack lets you connect to the WiFi from SPIKE Prime and use all the
 
 
 ### Backpack #4: Breadboard
+
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack4.jpg){:.half}
 
 This backpack allows you to connect your SPIKE Prime with LEDs, buttons, switches and joysticks to create prototypes to control SPIKE Prime.
@@ -66,6 +69,7 @@ This backpack allows you to connect your SPIKE Prime with LEDs, buttons, switche
 
 
 ### Backpack #5: Micro:bit
+
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack5.jpg){:.half}
 
 
@@ -75,6 +79,7 @@ With the Micro:bit Backpack, you can connect a Micro:bit to LEGO SPIKE Prime. Yo
 [Github](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks/tree/master/examples){:.myButton}
 
 ### Backpack #6: UniversalConnector
+
 ![Link to my pic](Backpack_for_SPIKE_Prime/Backpack6.jpg){:.half}
 
 
