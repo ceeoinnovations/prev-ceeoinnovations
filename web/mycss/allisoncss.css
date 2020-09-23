@@ -28,6 +28,7 @@
 .page-section {
      position: relative;
      padding: 5rem;
+     max-width:800px;
 }
 
 @media(max-width:980px) {
