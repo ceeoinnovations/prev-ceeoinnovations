@@ -6,7 +6,7 @@ letter-spacing: -0.05em;
 z-index: 10;
 text-align: center;
 position: relative;
-line-height: 0.75;
+line-height: 1;
 pointer-events: none;
 flex: 1 100%;
 -webkit-font-smoothing: antialiased;
