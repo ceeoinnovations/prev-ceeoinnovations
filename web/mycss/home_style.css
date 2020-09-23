@@ -61,6 +61,8 @@ body{
 .moderator.homepagesection {
     padding-left: 9rem;
     padding-right: 9rem;
+    max-width:1500px;
+    margin: auto;
 }
 @media (max-width: 1050px){
      .moderator.homepagesection {
