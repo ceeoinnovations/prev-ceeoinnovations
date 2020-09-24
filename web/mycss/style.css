@@ -81,12 +81,12 @@ body {
 }
 @media(min-width:1800px){
 	body {
-    margin-top: 10rem;
+    margin-top: 0rem;
 	}
 }
 @media(min-width:3000px){
 	body {
-    margin-top: 12rem;
+    margin-top: 0rem;
 	}
 }
 [tabindex="-1"]:focus {
