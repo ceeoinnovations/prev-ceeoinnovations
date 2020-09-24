@@ -1374,7 +1374,7 @@ margin-bottom: 7rem;
      #navbar #navtuftsimglink{
           width: 240px;
      }
-    
+
 
 }
 @media(max-width:850px) {
@@ -1479,14 +1479,9 @@ margin-bottom: 7rem;
 
 #logo{
      padding-top: 10px;
-     width:300px;
+     width:150px;
 }
-@media(max-width:2400px){
-     #logo{
-          padding-top: 10px;
-          width: 150px;
-     }
-}
+
 
 /*Mobile------------------------------------------------------*/
 
