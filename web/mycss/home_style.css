@@ -189,7 +189,7 @@ body{
      cursor:pointer;
      color:#000000;
      text-align: center;
-     font-size:1vw;
+     font-size:0.8em;
      padding:9px 12px;
      text-decoration:none;
 }
@@ -678,9 +678,7 @@ text-align: right;
           padding-right:.5vw;
           align-content:left;
      }
-     .myButton, .button{
-          font-size: 2vw;
-     }
+
 }
 
 
