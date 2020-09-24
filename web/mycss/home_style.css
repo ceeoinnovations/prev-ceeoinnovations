@@ -1057,12 +1057,7 @@ https://flickity.metafizzy.co
      padding-top: 18px;
      width:10vw;
 }
-@media(max-width:2000px){
-     #navbar #navtuftsimglink{
-          padding-top: 18px;
-          width:8vw;
-     }
-}
+
 
 @media(max-width:2000px){
      #navbar #navsearchimglink{
@@ -1071,10 +1066,10 @@ https://flickity.metafizzy.co
 }
 @media(max-width:2000px){
      #navbar #navtuftsimglink{
-          width:120px;
+          width:240px;
      }
      #navbar #navsearchimglink{
-          width:50px;
+          width:65px;
      }
 }
 #navtuftsimglink img, #navsearchimglink img{
@@ -1383,10 +1378,10 @@ margin-bottom: 7rem;
           padding:3rem;
      }
      #navbar #navtuftsimglink{
-          width: 100px;
+          width: 240px;
      }
      #navbar #navsearchimglink{
-          width: 50px;
+          width: 65px;
      }
 
 }
