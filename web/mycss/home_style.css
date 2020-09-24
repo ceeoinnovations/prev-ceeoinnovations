@@ -374,7 +374,7 @@ body{
      font-weight: 300;
 }
 #mypageheader{
-     font-size: 3.3vw;
+     font-size: 2em;
 
      font-weight: 700;
      color:#000;
@@ -1980,12 +1980,7 @@ img {vertical-align: middle;}
      text-align: left;
      line-height: 0.4em;
 }
-@media(max-width:700px){
-     #mypageheader, #myproductheader{
-          font-size: 5vw;
-          font-weight: 600;
-     }
-}
+
 
 @media(max-width:500px){
      #mypageheader, #myproductheader{
@@ -2003,21 +1998,6 @@ img {vertical-align: middle;}
 
 /*==============================================================================*/
 
-@media(min-width:1700px){
-     #mypageheader{
-          font-size:3vw;
-     }
-}
-@media(min-width:2000px){
-     #mypageheader{
-          font-size:2.5vw;
-     }
-}
-@media(min-width:3000px){
-     #mypageheader{
-          font-size:3.5vw;
-     }
-}
 
 
 @media screen and (max-width: 600px) {
