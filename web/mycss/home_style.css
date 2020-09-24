@@ -1059,11 +1059,7 @@ https://flickity.metafizzy.co
 }
 
 
-@media(max-width:2000px){
-     #navbar #navsearchimglink{
-          width:65px;
-     }
-}
+
 @media(max-width:2000px){
      #navbar #navtuftsimglink{
           width:240px;
