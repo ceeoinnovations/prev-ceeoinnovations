@@ -1050,7 +1050,9 @@ https://flickity.metafizzy.co
      background-color: #fff;
      color: white;
 }
-
+#navbar #navsearchimglink {
+    width: 65px;
+}
 #navbar #navtuftsimglink{
      padding-top: 18px;
      width:10vw;
@@ -1062,9 +1064,7 @@ https://flickity.metafizzy.co
      #navbar #navtuftsimglink{
           width:240px;
      }
-     #navbar #navsearchimglink{
-          width:65px;
-     }
+
 }
 #navtuftsimglink img, #navsearchimglink img{
      width: 100%;
@@ -1374,9 +1374,7 @@ margin-bottom: 7rem;
      #navbar #navtuftsimglink{
           width: 240px;
      }
-     #navbar #navsearchimglink{
-          width: 65px;
-     }
+    
 
 }
 @media(max-width:850px) {
