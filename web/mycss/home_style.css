@@ -1296,18 +1296,18 @@ margin-bottom: 7rem;
     width: 35%;
 }
 @media(max-width:800px){
-     .#mastheadparagraph p {
+     #mastheadparagraph p {
          font-size: 0.8em;
      }
 }
 @media(max-width:700px){
-     .#mastheadparagraph p {
+     #mastheadparagraph p {
          font-size: 0.7em;
      }
 }
 
 @media(max-width:600px){
-     .#mastheadparagraph p {
+     #mastheadparagraph p {
          font-size: 0.6em;
      }
 }
