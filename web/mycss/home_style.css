@@ -1265,7 +1265,7 @@ overflow: hidden;
      background-position:  center;
      background-size: cover;
      background-attachment: fixed;
-     background-image: url(../img/vertgif.gif);
+     background-image: url(../img/mobil.gif);
      overflow: hidden;
 
      }
@@ -1274,7 +1274,7 @@ overflow: hidden;
 #mastheadimg{
      padding-left: 5%;
       height: 400px;
-     width:70%;
+     width:100%;
      float:left;
 }
 #mastheadparagraph {
