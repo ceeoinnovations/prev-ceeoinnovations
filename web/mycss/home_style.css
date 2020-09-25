@@ -23,7 +23,7 @@ body{
 }
 }
 .homepagesection{
-          width: 1200px;
+          max-width: 1200px;
     margin:auto;
      margin-top: 5vw;
      padding-left: 5rem;
