@@ -1242,21 +1242,6 @@ overflow: hidden;
 }
 
 
-/*@media (min-width: 400px){
-
-#masthead #site-top{
-     padding: 3rem;
-     width: 100%;
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
-background-attachment: fixed;
-
-background-image: url(../img/compress-gif-background3.gif);
-overflow: hidden;
-
-}*/
-
 @media(max-width:600px){
      #masthead #site-top{
           padding: 3rem;
