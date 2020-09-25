@@ -1295,6 +1295,22 @@ margin-bottom: 7rem;
     color: #000;
     width: 35%;
 }
+@media(max-width:800px){
+     .#mastheadparagraph p {
+         font-size: 0.8em;
+     }
+}
+@media(max-width:700px){
+     .#mastheadparagraph p {
+         font-size: 0.7em;
+     }
+}
+
+@media(max-width:600px){
+     .#mastheadparagraph p {
+         font-size: 0.6em;
+     }
+}
 
 
 .masthead .container{
