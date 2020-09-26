@@ -1243,7 +1243,13 @@ overflow: hidden;
 
 #Ceeo_Inno_Message{
   width:30%;
+  max-width: 200px;
   float:right;
+}
+
+#Ceeo_Inno_Brand{
+  width:100%;
+  max-width: 300px;
 }
 
 @media(max-width:600px){
@@ -1265,7 +1271,7 @@ overflow: hidden;
      }
 
      #Ceeo_Inno_Brand{
-       width:100%
+       width:100%;
      }
 }
 
