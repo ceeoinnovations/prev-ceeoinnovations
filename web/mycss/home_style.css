@@ -1241,6 +1241,10 @@ background-image: url(../img/compress-gif-background3.gif);
 overflow: hidden;
 }
 
+#Ceeo_Inno_Message{
+  width:30%;
+  float:right;
+}
 
 @media(max-width:600px){
      #masthead #site-top{
@@ -1253,6 +1257,11 @@ overflow: hidden;
      background-image: url(../img/mobilgif.gif);
      overflow: hidden;
 
+
+     }
+
+     #Ceeo_Inno_Message{
+       display:none;
      }
 }
 
@@ -1262,6 +1271,11 @@ overflow: hidden;
      width:100%;
      float:left;
 }
+
+
+
+
+
 #mastheadparagraph {
      width:100%;
      border-radius: 50%;
