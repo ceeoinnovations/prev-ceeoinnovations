@@ -1263,6 +1263,10 @@ overflow: hidden;
      #Ceeo_Inno_Message{
        display:none;
      }
+
+     #Ceeo_Inno_Brand{
+       width:100%
+     }
 }
 
 #mastheadimg{
