@@ -573,7 +573,11 @@ background-size:cover;
 
 
 }
-
+.work-thumb:after{
+content: "";
+display: block;
+padding-bottom: 100%;
+}
 
 .projectsegment{
      transition: visibility 0s, opacity 0.5s linear;
