@@ -291,9 +291,7 @@ padding-bottom: 100%;
 }
 
 @media(max-width:1400px) {
-     #block{
-           height: 20rem;
-     }
+     
 
      .work-thumb:hover .work-text2 {
           font-size: .8rem;
@@ -307,11 +305,7 @@ padding-bottom: 100%;
 
 }
 
-@media(max-width:1200px) {
-     #block{
-           height: 13.5rem;
-     }
-}
+
 @media(max-width:1100px) {
      #block{
            height: 15rem;
@@ -328,12 +322,7 @@ padding-bottom: 100%;
           font-size: .6rem;
      }
 }
-@media(max-width:1000px) {
-     #block{
-           height: 15rem;
-     }
 
-}
 @media(max-width:500px) {
      #block{
           border-color:rgba(246,245,245,1);
