@@ -210,12 +210,18 @@ body{
 #block{
      border-color:rgba(246,245,245,1);
       margin: 0 auto;
-      height: 25vw;
+      width:100%;
       border-radius: 10px;
       background-size:cover;
       padding: 3px;
       background-position: center;
 }
+#block:after {
+content: "";
+display: block;
+padding-bottom: 100%;
+}
+
 .circle-work-thumb .circle-work-text h2 {
 	color: #fff;
 	font-weight: 300;
