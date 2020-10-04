@@ -1026,11 +1026,7 @@ pre code {
 		max-width: 50%
 	}
 
-	.col-sm-6:after {
-	content: "";
-	display: block;
-	padding-bottom: 100%;
-	}
+	
 
 	.ABOUTCOL {
 		-webkit-box-flex: 0;
