@@ -292,7 +292,17 @@ padding-bottom: 200%;
 
 
 
-.work-thumb .work-text2 {
+
+
+
+.work-thumb .work-text p {
+    font-size: 0.8rem;
+}
+.work-thumb .work-text h2 {
+    font-size: 1rem;
+}
+
+.work-thumb {
   font-size:  10px;
   line-height: 0.8rem;
 	text-align: center;
@@ -306,12 +316,18 @@ padding-bottom: 200%;
 	display: none;
 }
 
-
-.work-thumb .work-text p {
-    font-size: 0.8rem;
-}
-.work-thumb .work-text h2 {
-    font-size: 1rem;
+.work-text2 {
+  font-size:  10px;
+  line-height: 0.8rem;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	visibility: none;
+	display: none;
 }
 
 @media(max-width:500px) {
