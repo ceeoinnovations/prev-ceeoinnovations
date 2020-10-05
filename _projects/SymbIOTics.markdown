@@ -23,7 +23,7 @@ SymbIOTics is an Internet of Things platform designed for elementary school stud
 <!--document creates a grid of documents--------------------->
 <div class="free_write" markdown="1">
 
-![Backpack5](Backpack_for_SPIKE_Prime/Backpack5.jpg)
+
 
 ## The System
 SymbIOTics system consists of three main components:
