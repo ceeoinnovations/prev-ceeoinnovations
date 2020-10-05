@@ -1,27 +1,11 @@
 <section class="homepagesection clearfix" >
    <!--<div class=" pageheadercontain col-md-6">-->
-   <h1 id="mypageheader">All Projects</h1>
+   <h1 id="mypageheader">Featured Projects</h1>
    <!--</div>-->
    <hr>
    <div id="featured">
       <!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
-      <div id="searchbox">
-         <div id="buttonbox">
-            <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart(this)" style="margin-left: 0rem">
-               <h6 id="All" class="myButton" >All</h6>
-            </div>
-            {% for i in site.my_categories %}
-            <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart(this)">
-               <h6 id="{{i | replace: ' ', '_' }}" class="myButton"  >{{i}}</h6>
-            </div>
-            {% endfor %}
-         </div>
-         <div class="search-container">
-            <input id="searchinput" type="text" placeholder="Search.." name="search">
-            <button onclick="mySearchFunction()"><i class="fa fa-search"></i></button>
-         </div>
-      </div>
-      <div class="row no-gutters" >
+        <div class="row no-gutters" >
          {% assign my_variable = 100 %}
          {% assign projects = site.projects | sort: 'date' | reverse %}
          {% for project in projects %}
