@@ -396,10 +396,7 @@ background-size:cover;
           padding-bottom: 2vw;
           font-weight: 300;
      }
-     .mainpagesubheader{
-          font-size: 1.5rem;
-          font-weight: 100;
-     }
+
 }
 
 
@@ -1728,31 +1725,6 @@ img {vertical-align: middle;}
 .mainpagesubheader {
     font-weight: 600;
     font-size: 2vw;
-}
-@media(max-width: 2400px){
-.mainpagesubheader {
-    font-weight: 600;
-    font-size: 2.3vw;
-}
-}
-@media (max-width: 1000px){
-.mainpagesubheader {
-    font-weight: 600;
-    font-size: 2rem;
-}
-}
-@media(max-width: 890px){
-     .mainpagesubheader{
-          font-weight: 500;
-          font-size: 1.4rem
-;     }
-
-}
-@media(max-width: 590px){
-     .mainpagesubheader{
-          font-weight: 500;
-          font-size: 4vw;
-     }
 }
 .text {
   color: #f3f3f3;
