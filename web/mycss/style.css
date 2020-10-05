@@ -1026,7 +1026,7 @@ pre code {
 		max-width: 50%
 	}
 
-
+	
 
 	.ABOUTCOL {
 		-webkit-box-flex: 0;
@@ -11585,12 +11585,11 @@ figure figcaption {
 	font-weight: 300;
 	margin-bottom: 0;
 
-	font-size: 0.8rem
+	font-size: 1.5rem
 }
 
 .work-thumb .work-text p {
 	color: rgba(255, 255, 255, .5)
-	font-size: 0.7rem
 }
 
 
