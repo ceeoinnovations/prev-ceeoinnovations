@@ -7,7 +7,7 @@
       <!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
         <div class="row no-gutters" >
          {% assign my_variable = 100 %}
-         {% assign projects = site.projects | sort: 'date' | reverse %}
+         {% assign projects = site.projects | sort: 'featured' | reverse %}
          {% for project in projects %}
          {% if project.url != "/projects/SAMPLE-FILE.html" %}
          <div class="projectsegment col-sm-6 col-md-4 col-lg-2" >
