@@ -1725,6 +1725,12 @@ img {vertical-align: middle;}
 .mainpagesubheader {
     font-weight: 600;
     font-size: 1.8em;
+    letter-spacing: -0.05em;
+    z-index: 10;
+    text-align: left;
+    line-height: 0.5em;
+
+}
 }
 .text {
   color: #f3f3f3;
