@@ -13,7 +13,7 @@
    <div class="row no-gutters" >
      {% assign my_variable = 100 %}
      {% assign projects = site.projects | sort: 'date' | reverse %}
-
+     {% if project.featured == true %}
      {% for project in projects | limit:6 %}
      {% if project.url != "/projects/SAMPLE-FILE.html" %}
      <div class="projectsegment col-sm-6 col-md-4 col-lg-2" >
@@ -109,6 +109,7 @@
      {% assign my_variable = my_variable  | plus: 7990 %}
      {%endif%}
      {%endfor%}
+     {%endif%}
  </div>
    </div>
 </section>
