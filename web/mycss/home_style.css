@@ -1643,57 +1643,8 @@ img {vertical-align: middle;}
   background-color: rgba(0,0,0,0.8);
 }
 
-@media(max-width:3300px){
 
-.prev, .previous, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 50px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 70px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-}
-@media(max-width:2700px){
 
-.prev, .previous, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 50px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 60px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-}
-@media(max-width:2000px){
-
-.prev, .previous, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 20px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 60px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-}
 
 /* Caption text */
 .myproductButton {
@@ -1728,7 +1679,7 @@ img {vertical-align: middle;}
     letter-spacing: -0.05em;
     z-index: 10;
     text-align: left;
-    line-height: 0.5em;
+    line-height: 1.5em;
 
 }
 }
