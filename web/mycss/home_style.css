@@ -1724,7 +1724,7 @@ img {vertical-align: middle;}
 }
 .mainpagesubheader {
     font-weight: 600;
-    font-size: 2vw;
+    font-size: 1.8em;
 }
 .text {
   color: #f3f3f3;
@@ -1934,6 +1934,10 @@ img {vertical-align: middle;}
           line-height: 0.5em;
 
      }
+     .mainpagesubheader {
+         font-size: 6vw;
+     }
+
 }
 
 
