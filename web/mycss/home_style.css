@@ -1203,12 +1203,12 @@ https://flickity.metafizzy.co
 #masthead #site-top{
      padding: 3rem;
      width: 100%;
-background-repeat: no-repeat;
+background-repeat: repeat-y;
 background-position: center center;
 background-size: cover;
 background-attachment: fixed;
 background-color: #51d294;
-background-image: url(../img/compress-gif-background3.gif);
+background-image: url(../img/bg.jpg);
 overflow: hidden;
 }
 
