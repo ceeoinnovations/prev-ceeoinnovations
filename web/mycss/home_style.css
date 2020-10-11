@@ -1203,12 +1203,12 @@ https://flickity.metafizzy.co
 #masthead #site-top{
      padding: 3rem;
      width: 100%;
-background-repeat: repeat-y;
+background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
 background-attachment: fixed;
 background-color: #51d294;
-background-image: url(../img/bg.jpg);
+background-image: url(../img/compress-gif-background3.gif);
 overflow: hidden;
 }
 
@@ -1308,14 +1308,23 @@ margin-bottom: 7rem;
 }
 
 
-
+.masthead .container{
+     max-width: 3000px;
+}
 #Ceeo_Inno_Brand{
      width:70%;
      margin-top: 5rem;
      margin-bottom: 3rem;
      margin-right: -50px;
 }
+@media(max-width:1200px){
+     .masthead .container{
+          max-width: 1200px;
+          margin-left: 0rem;
+          margin-right: 0rem;
+     }
 
+}
 
 @media(max-width:992px) {
      #mastheadparagraph{
@@ -1324,7 +1333,11 @@ margin-bottom: 7rem;
      }
 
 
-
+     .masthead .container{
+          max-width: 900px;
+          margin-left: 0rem;
+          margin-right: 0rem;
+     }
      #site-top{
           padding:3rem;
      }
