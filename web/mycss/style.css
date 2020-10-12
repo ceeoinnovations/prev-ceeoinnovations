@@ -11592,10 +11592,10 @@ figure figcaption {
 }
 
 
-.work-thumb:hover .work-text2 p{
+.work-thumb:hover .work-text p{
 	margin-top: 0px;
 	opacity: 1;
-	visibility: none;
+	visibility: hidden;
 }
 
 .work-thumb:hover .work-text2 {
