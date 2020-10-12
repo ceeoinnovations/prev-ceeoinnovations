@@ -12,10 +12,11 @@ layout: wrapper
       <!-- DO NOT DELETE, IMPORT OF MARKDOWN ---------------------------------->
       {% capture my_variable %}{{page.title}}{% endcapture %}
       {% capture my_link %}{{page.linker}}{% endcapture %}
+      {% capture my_linktitle %}{{page.linktitle}}{% endcapture %}
       {% capture my_des %}{{page.description}}{% endcapture %}
       {% capture my_variable2 %}{{page.Title}}{% endcapture %}
       {% capture my_des2 %}{{page.Description}}{% endcapture %}
-      {% include include_content.html title=my_variable link=my_link description=my_des  title2=my_variable2 description2=my_des2  %}
+      {% include include_content.html title=my_variable link=my_link linktitle=my_linktitle description=my_des  title2=my_variable2 description2=my_des2  %}
       <!-- Header for page title --------------------------------->
       {% include page_title.html %}
       <!-- Header for page Heading --------------------------------->
