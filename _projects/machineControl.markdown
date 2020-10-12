@@ -19,7 +19,7 @@ linkpage: Google
 ![MachineControlToolkit](![machine](MachineControlToolkit/cover.jpeg)
 # Machine Control Toolkit for LabVIEW
 
-The Machine Control Toolkit is a software library for LabVIEW that enables users to control digital fabrication machines that interpret G-Code. The toolkit breaks down standard G-Code commands into VIs that users can easily manipulate to generate G-Code toolpaths and design their own machine control interfaces.
+test The Machine Control Toolkit is a software library for LabVIEW that enables users to control digital fabrication machines that interpret G-Code. The toolkit breaks down standard G-Code commands into VIs that users can easily manipulate to generate G-Code toolpaths and design their own machine control interfaces.
 </div>
 
 <!--document creates a grid of documentss--------------------->
