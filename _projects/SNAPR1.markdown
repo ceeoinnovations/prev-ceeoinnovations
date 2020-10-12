@@ -15,6 +15,7 @@ linkname: Github
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
+
 ![SNAPR](![SNAPR](SNAPR/cover.jpg)
 # SNAPR -  Snap, Narrate, Auto Post and Reflect
 
