@@ -29,14 +29,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 my_categories:
-  - Spike Prime
-  - Lesson Plans
+  - SPIKE Prime
   - 3D Printing
-  - Ev3/NXT
+  - EV3/NXT
   - Robotics
-  - Documentation Instructions
   - Makerspaces
-  - Tech
+
 
 
 # Build settings
