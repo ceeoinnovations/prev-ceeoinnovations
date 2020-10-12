@@ -11581,14 +11581,14 @@ figure figcaption {
 
 /*--------------------------------------------------------------------------*/
 .work-thumb .work-text h2 {
-	color: #FFF;
-	font-weight: 400;
+	color: #fff;
+	font-weight: 300;
 	margin-bottom: 0;
-	font-size: 1rem;
+	font-size: 1rem
 }
 
 .work-thumb .work-text p {
-	color: rgba(255, 255, 255, 0.5)
+	color: rgba(255, 255, 255, .5)
 }
 
 
@@ -11602,10 +11602,9 @@ figure figcaption {
 	display: inline;
 	font-weight: 300;
 	opacity: 1;
-	color: rgba(255, 255, 255, 1);
-	font-size: 1rem;
+	color: rgba(255, 255, 255, .8);
+	font-size: 1.25rem;
 	margin-bottom: 0;
-
 }
 
 
