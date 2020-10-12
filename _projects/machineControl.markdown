@@ -8,7 +8,7 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
 authors: ["Sara Willner-Giwerc", "Matthew Mueller"]
 featured: false
 date: 7-09-2020
-linker: https://www.google.com
+link: https://www.google.com
 linkname: Github
 
 ---
