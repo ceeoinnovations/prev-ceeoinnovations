@@ -11591,7 +11591,9 @@ figure figcaption {
 	color: rgba(255, 255, 255, .8)
 }
 
-
+.work-thumb:hover .work-text p {
+	display:none;
+}
 .work-thumb:hover .work-text2 {
 	margin-top: 0px;
 	opacity: 1;
