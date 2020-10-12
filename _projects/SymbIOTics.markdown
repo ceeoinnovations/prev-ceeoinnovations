@@ -8,7 +8,7 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","IOT", "LEGO"]
 authors: ["Sara Willner-Giwerc"]
 featured: false
 date: 21-08-2020
-link: false
+linkt: false
 
 ---
 
@@ -21,7 +21,7 @@ link: false
 # SymbIOTics
 ##  an IoT Platform Designed for Elementary School Classrooms
 
-ttt tSymbIOTics is an Internet of Things platform designed for elementary school students. It was developed as an undergraduate senior honors thesis as a way to introduce elementary school students to the Internet of Things by allowing them to build their own smart connected products.
+SymbIOTics is an Internet of Things platform designed for elementary school students. It was developed as an undergraduate senior honors thesis as a way to introduce elementary school students to the Internet of Things by allowing them to build their own smart connected products.
 </div>
 
 <!--document creates a grid of documents--------------------->
