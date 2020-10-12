@@ -8,8 +8,8 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
 authors: ["Sara Willner-Giwerc", "Matthew Mueller"]
 featured: false
 date: 7-09-2020
-link: https://www.google.com
-linkname: Github
+link: https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing
+linkname: DOWNLOAD
 
 ---
 
@@ -25,7 +25,6 @@ The Machine Control Toolkit is a software library for LabVIEW that enables users
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
 
-[DOWNLOAD](https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing){:.myButton}
 
 
 ## Overview
