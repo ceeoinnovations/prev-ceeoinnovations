@@ -67,12 +67,9 @@
          <div class="myprojectheader mb-3" style="color:#00FF85; text-shadow: -.5px .5px #51d294;">Project</div>
          <div id="headerMPT" class="site-heading-upper headerMPT"></div>
          <div id="mypageheader" class="mypageheader my-site-heading-upper subheaderMPT" style="text-transform: none;">{{include.title}}</div>
-
-        <div>
-        {% if include.lname %}
-        <a class="myButton" href= "{{ include.link }}" >{{include.lname}}</a>
-        {% endif %}
-        </div>
+         {% capture my_link %}{{page.linker}}{% endcapture %}
+         {% capture my_lt %}{{page.linkname}}{% endcapture %}
+         {% include link_section.html link=my_link linkt=my_linkt lname=my_lt %}
 
 
       </div>
