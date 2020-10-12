@@ -11592,12 +11592,6 @@ figure figcaption {
 }
 
 
-.work-thumb:hover .work-text p{
-	margin-top: 0px;
-	opacity: 1;
-	visibility: hidden;
-}
-
 .work-thumb:hover .work-text2 {
 	margin-top: 0px;
 	opacity: 1;
@@ -11611,7 +11605,7 @@ figure figcaption {
 	color: rgba(255, 255, 255, 1);
 	font-size: 1rem;
 	margin-bottom: 0;
-	visibility: visible;
+
 }
 
 
