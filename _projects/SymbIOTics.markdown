@@ -14,10 +14,10 @@ date: 21-08-2020
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![Backpack](![symbiotics](SymbIOTics/cover.png)
+![Cover](![symbiotics](SymbIOTics/cover.png)
 # SymbIOTics
 ##  an IoT Platform Designed for Elementary School Classrooms
-test SymbIOTics is an Internet of Things platform designed for elementary school students. It was developed as an undergraduate senior honors thesis as a way to introduce elementary school students to the Internet of Things by allowing them to build their own smart connected products.
+SymbIOTics is an Internet of Things platform designed for elementary school students. It was developed as an undergraduate senior honors thesis as a way to introduce elementary school students to the Internet of Things by allowing them to build their own smart connected products.
 </div>
 
 <!--document creates a grid of documents--------------------->
