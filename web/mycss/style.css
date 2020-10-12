@@ -11581,19 +11581,23 @@ figure figcaption {
 
 /*--------------------------------------------------------------------------*/
 .work-thumb .work-text h2 {
-	color: #FFF;
+	color: #0F0;
 	font-weight: 300;
 	margin-bottom: 0;
-	font-size: 1rem
+	font-size: 1rem;
 }
 
 .work-thumb .work-text p {
 	color: rgba(255, 255, 255, 1)
 }
 
-.work-thumb:hover .work-text p {
-	display:none;
+
+.work-thumb:hover .work-text2 p{
+	margin-top: 0px;
+	opacity: 1;
+	visibility: none;
 }
+
 .work-thumb:hover .work-text2 {
 	margin-top: 0px;
 	opacity: 1;
@@ -11604,8 +11608,8 @@ figure figcaption {
 	display: inline;
 	font-weight: 300;
 	opacity: 1;
-	color: rgba(255, 255, 255, .8);
-	font-size: 1.25rem;
+	color: rgba(255, 255, 255, 1);
+	font-size: 1rem;
 	margin-bottom: 0;
 }
 
