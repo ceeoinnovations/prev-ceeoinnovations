@@ -8,8 +8,6 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","Canvas", "Documentation"]
 authors: ["Dipeshwor Man Shrestha"]
 featured: false
 date: 15-09-2020
-linker: https://github.com/dipeshwor/SNAPR
-linkname: Github
 ---
 
 
