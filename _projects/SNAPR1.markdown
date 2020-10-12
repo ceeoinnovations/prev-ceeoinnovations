@@ -8,7 +8,8 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","Canvas", "Documentation"]
 authors: ["Dipeshwor Man Shrestha"]
 featured: false
 date: 15-09-2020
-
+link: https://github.com/dipeshwor/SNAPR
+linkname: Github
 ---
 
 
@@ -22,9 +23,6 @@ SNAPR is a tool that lets students capture and populate their e-portfolios autom
 
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
-
-[ SNAPR Github Page](https://github.com/dipeshwor/SNAPR){:.myButton}
-
 
 ![SNAPR](SNAPR/details.png)
 
