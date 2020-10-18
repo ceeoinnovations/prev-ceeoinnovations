@@ -219,7 +219,7 @@ body{
 #block:after {
 content: "";
 display: block;
-padding-bottom: 200%;
+padding-bottom: 100%;
 }
 
 .circle-work-thumb .circle-work-text h2 {
