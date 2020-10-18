@@ -1434,9 +1434,9 @@ pre code {
 	}
 	.col-lg-2 {
 		-webkit-box-flex: 0;
-		-ms-flex: 0 0 16.66667%;
-		flex: 0 0 16.66667%;
-		width: 16.66667%
+		-ms-flex: 0 0 33.33%;
+		flex: 0 0 33.33%;
+		width: 33.33%
 	}
 
 
