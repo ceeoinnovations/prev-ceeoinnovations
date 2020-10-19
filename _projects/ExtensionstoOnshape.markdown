@@ -3,7 +3,6 @@ layout: post
 
 title: Extensions to Onshape
 description: an experiemental library of extensions to Onshape
-displayimg: Backpack_for_SPIKE_Prime/backpack.png
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Onshape", "3D"]
 authors: ["Milan Dahal"]
 featured: false

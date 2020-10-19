@@ -3,8 +3,7 @@ layout: post
 
 title: Extensions to EV3
 description: an experimental library of extenstion to EV3
-displayimg: Backpack_for_SPIKE_Prime/backpack.png
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","EV3", "LEGO", "Tech"]
+ategories: ["DELETE CATEGORIES THAT DON'T APPLY","EV3", "LEGO", "Tech"]
 authors: ["Milan Dahal"]
 featured: false
 date: 21-08-2020

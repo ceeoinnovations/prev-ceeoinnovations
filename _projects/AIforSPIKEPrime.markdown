@@ -3,7 +3,6 @@ layout: post
 
 title: AI for SPIKE Prime
 description: Implementation of AI algorithms on SPIKE Prime.
-displayimg: Backpack_for_SPIKE_Prime/backpack.png
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "AI", "LEGO", "Tech"]
 authors: ["Milan Dahal"]
 featured: true
