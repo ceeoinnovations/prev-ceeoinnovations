@@ -353,7 +353,7 @@ padding-bottom: 100%;
 
      font-weight: 700;
      color:#000;
-     letter-spacing: -0.05em;
+     letter-spacing: 0.02em;
      z-index: 400;
      text-align: left;
      line-height: 0.4em;
@@ -1866,7 +1866,7 @@ img {vertical-align: middle;}
      #mypageheader, #myproductheader{
           font-size: 6.5vw;
           font-weight: 600;
-          letter-spacing: -0.05em;
+          letter-spacing: 0.02em;
           z-index: 10;
           text-align: left;
           line-height: 0.5em;
