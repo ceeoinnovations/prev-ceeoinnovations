@@ -11564,9 +11564,9 @@ figure figcaption {
 }
 /*work text 2---------------------------------------------*/
 .work-thumb .work-text2 {
-	text-align: center;
+	text-align: left;
 	position: relative;
-	padding: 2px;
+	padding: 20px;
 	width: 100%;
 	margin-top: 20px;
 	-webkit-transition: .3s all ease;
