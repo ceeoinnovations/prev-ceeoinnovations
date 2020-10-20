@@ -221,6 +221,20 @@ content: "";
 display: block;
 padding-bottom: 100%;
 }
+#block_featured{
+     border-color:rgba(246,245,245,1);
+      margin: 0 auto;
+      width:100%;
+      border-radius: 10px;
+      background-size:cover;
+      padding: 3px;
+      background-position: center;
+}
+#block_featured:after {
+content: "";
+display: block;
+padding-bottom: 16.67%;
+}
 
 .circle-work-thumb .circle-work-text h2 {
 	color: #fff;
@@ -301,6 +315,13 @@ padding-bottom: 100%;
 
 @media(max-width:500px) {
      #block{
+          border-color:rgba(246,245,245,1);
+           margin: 0 auto;
+           height: 70vw;
+           background-size:cover;
+           background-position: center;
+     }
+     #block_featured{
           border-color:rgba(246,245,245,1);
            margin: 0 auto;
            height: 70vw;
