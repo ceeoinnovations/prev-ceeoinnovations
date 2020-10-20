@@ -11574,7 +11574,7 @@ figure figcaption {
 	transition: .3s all ease;
 	visibility: none;
 	display: none;
-  font-size: 0.9rem;
+  font-size: 2.5rem;
 }
 
 
@@ -11584,7 +11584,7 @@ figure figcaption {
 	color: #fff;
 	font-weight: 600;
 	margin-bottom: 0;
-	font-size: 1rem;
+	font-size: 2.5rem;
 }
 
 .work-thumb .work-text p {
