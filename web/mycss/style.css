@@ -11546,7 +11546,7 @@ figure figcaption {
 }
 
 .work-thumb .work-text {
-	text-align: center;
+	text-align: left;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -11556,7 +11556,7 @@ figure figcaption {
 	-o-transition: .3s all ease;
 	transition: .3s all ease;
 	opacity: 1;
-	padding: 2px;
+	padding: 20px;
 
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
