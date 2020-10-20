@@ -1241,6 +1241,7 @@ overflow: hidden;
 
 #Ceeo_Inno_Message{
   width:80%;
+  text-align: center;
   margin-left: auto;
   margin-right:aruto;
   font-size: 2rem;
