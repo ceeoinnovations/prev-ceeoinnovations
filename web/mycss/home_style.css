@@ -1308,12 +1308,11 @@ margin-bottom: 7rem;
 
 
 #mastheadparagraph p {
-    font-family: 'Space Mono', monospace;
+
     font-size: 1em;
-    font-weight: 800;
+    font-weight: 400;
     padding-top: 5%;
     text-align: center;
-    padding-right: 5%;
     color: #fff;
     width: 90%;
 }
