@@ -7,6 +7,7 @@ description: Making a fully launched project on CEEO Innovations
 categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
 featured: false
+draft: true
 ---
 
 <div class="free_write" markdown="1">

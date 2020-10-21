@@ -7,6 +7,7 @@ description: Learn how to make a "project" post on CEEO Innovations
 categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
 featured: false
+draft: true
 ---
 
 <div class="image_text_overlay" markdown="1">

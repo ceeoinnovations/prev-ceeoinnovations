@@ -7,7 +7,7 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","Onshape", "3D"]
 authors: ["Milan Dahal"]
 featured: false
 date: 21-08-2020
-
+draft: true
 ---
 
 

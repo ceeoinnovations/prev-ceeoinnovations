@@ -7,6 +7,7 @@ displayimg: paper-bots/horizontal_paperbots_car.jpeg
 categories: ["Lesson Plans", "Robotics"]
 date: 8-6-2019
 legal:
+draft: false
 ---
 
 <div class="image_text_overlay" markdown="1">

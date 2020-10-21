@@ -8,7 +8,7 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","IOT", "LEGO"]
 authors: ["Sara Willner-Giwerc"]
 featured: false
 date: 21-08-2020
-
+draft: false
 
 ---
 
