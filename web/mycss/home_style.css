@@ -192,6 +192,7 @@ body{
      font-size:0.8em;
      padding:9px 12px;
      text-decoration:none;
+     min-width: 200px;
 }
 .myButton:hover, .button:hover {
      background-color:#51d294;
@@ -605,8 +606,8 @@ text-align: right;
 
 #buttonbox {
  width:100%;
- justify-content: right;
- text-align: right;
+ justify-content: center;
+ text-align: center;
 }
 @media(max-width:1000px){
      .search-container {
