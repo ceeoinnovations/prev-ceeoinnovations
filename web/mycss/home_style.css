@@ -1274,10 +1274,7 @@ overflow: hidden;
 }
 
 #mastheadimg{
-     padding-left: 5%;
-      height: 400px;
-     width:100%;
-     float:left;
+
 }
 
 
@@ -1384,8 +1381,7 @@ margin-bottom: 7rem;
 
 
      #mastheadimg{
-          width:100%;
-          height: 250px;
+
      }
 
      #masthead #site-top{
@@ -1419,8 +1415,7 @@ margin-bottom: 7rem;
 
 
      #mastheadimg{
-          width:100%;
-          height: 300px;
+
      }
      .down {
 
