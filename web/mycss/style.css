@@ -11636,6 +11636,20 @@ figure figcaption {
 	visibility: visible
 }
 
+
+@media (max-width: 600px){
+	.work-thumb .work-text h2 {
+		color: #fff;
+		font-weight: 650;
+		margin-bottom: 0;
+		font-size: 0.6rem;
+	}
+	.work-thumb .work-text p {
+		color: rgba(255, 255, 255, .5)
+		font-size: 0.6rem;
+	}
+
+}
 .divider {
 	width: 70px;
 	height: 6px;
