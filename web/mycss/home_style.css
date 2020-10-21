@@ -370,7 +370,7 @@ padding-bottom: 25%;
      font-size: 3em;
 
      font-weight: 700;
-     color:#000;
+     color: #5175D2;
      letter-spacing: 0.02em;
      z-index: 400;
      text-align: left;
@@ -1681,7 +1681,7 @@ img {vertical-align: middle;}
     font-size: 1.8em;
     letter-spacing: -0.05em;
     z-index: 10;
-    text-align: left;
+    text-align: center;
     line-height: 1.5em;
 
 }
@@ -1890,8 +1890,9 @@ img {vertical-align: middle;}
           font-weight: 600;
           letter-spacing: 0.02em;
           z-index: 10;
-          text-align: left;
+          text-align: center;
           line-height: 0.5em;
+
 
      }
      .mainpagesubheader {
