@@ -641,7 +641,6 @@ text-align: right;
      .search-container {
        float: none;
        display: inline;
-       margin: 1%;
        margin-top: 0%;
        width:100%;
      }
@@ -653,7 +652,6 @@ text-align: right;
      .search-container {
        float: right;
        display: inline;
-       margin: 1%;
        margin-top: -12%;
      }
      #buttonbox {
