@@ -1001,12 +1001,10 @@ https://flickity.metafizzy.co
 /*   box-shadow: 4px 4px 5px rgba(40, 41, 40, .2);*/
   width: 100%;
   z-index: 9999;
-  padding-bottom: 4%;
-  padding-top:4%;
-
+  padding-bottom: 0.5%;
   padding-left:.5%;
   padding-right:.5%;
-  padding-top:0%;
+  padding-top:0.5%;
 
 }
 
