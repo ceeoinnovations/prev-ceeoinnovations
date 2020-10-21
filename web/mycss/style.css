@@ -29,7 +29,7 @@
 	--dark: #343a40;
 	--breakpoint-xs: 0;
 	--breakpoint-sm: 576px;
-	--breakpoint-md: 768px;
+	--breakpoint-md: 920px;
 	--breakpoint-lg: 992px;
 	--breakpoint-xl: 1200px;
 	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
@@ -600,7 +600,7 @@ pre code {
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:920px) {
 	.container {
 		max-width: 720px
 	}
@@ -1203,7 +1203,7 @@ pre code {
 		}
 
 }
-@media (min-width:768px) {
+@media (min-width:920px) {
 	.col-md {
 		-ms-flex-preferred-size: 0;
 		flex-basis: 0;
@@ -4619,7 +4619,7 @@ input[type=submit].btn1-block {
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:920px) {
 	.navbar-expand-md {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
@@ -7004,7 +7004,7 @@ button.bg-dark:hover {
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:920px) {
 	.d-md-none {
 		display: none!important
 	}
@@ -7532,7 +7532,7 @@ button.bg-dark:hover {
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:920px) {
 	.flex-md-row {
 		-webkit-box-orient: horizontal!important;
 		-webkit-box-direction: normal!important;
@@ -8033,7 +8033,7 @@ button.bg-dark:hover {
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:920px) {
 	.float-md-left {
 		float: left!important
 	}
@@ -8766,7 +8766,7 @@ button.bg-dark:hover {
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:920px) {
 	.m-md-0 {
 		margin: 0!important
 	}
@@ -9559,7 +9559,7 @@ button.bg-dark:hover {
 	}
 }
 
-@media (min-width:768px) {
+@media (min-width:920px) {
 	.text-md-left {
 		text-align: left!important
 	}
@@ -10869,7 +10869,7 @@ header .search-form .form-control:-moz-placeholder {
 	line-height: 1.2
 }
 
-@media (min-width:768px) {
+@media (min-width:920px) {
 	.block-41 .block-41-text {
 		font-size: 20px
 	}
