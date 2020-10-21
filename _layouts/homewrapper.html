@@ -154,32 +154,34 @@
       </script>
       <script>
          // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-         window.onscroll = function() {scrollFunction()};
+        // window.onscroll = function() {scrollFunction()};
 
-         var header = document.getElementById("nav-wrap");
-         var mobileheader = document.getElementById("mobilenav");
-         var sticky = header.offsetTop;
+      //   var header = document.getElementById("nav-wrap");
+    //     var mobileheader = document.getElementById("mobilenav");
+    //     var sticky = header.offsetTop;
 
 
 
          window.onresize = scrollFunction();
 
-         function scrollFunction() {
+        // function scrollFunction() {
               console.log("RUNNING LOG");
 
-         if (window.pageYOffset > sticky) {
-                 header.classList.add("sticky");
-            } else {
-                 header.classList.remove("sticky");
-               }
+        //    if (window.pageYOffset > sticky) {
+        //         header.classList.add("sticky");
+        //    } else {
+        //         header.classList.remove("sticky");
+        //       }
 
-           if (window.pageYOffset > sticky) {
-             document.getElementById("navbar").style.padding = "0px 0px";
-             $("#navbar").css({"padding-left": ".5%", "padding-right": ".5%","padding-top":"0%"});
-         } else  {
+      //     if (window.pageYOffset > sticky) {
+      //       document.getElementById("navbar").style.padding = "0px 0px";
+      //       $("#navbar").css({"padding-left": ".5%", "padding-right": ".5%","padding-top":"0%"});
+      //   } else  {
 
-              document.getElementById("navbar").style.padding = "10px 3px";
-               $("#navbar").css({"padding-bottom": "2.5%", "padding-top":"2.5%"});
+      //        document.getElementById("navbar").style.padding = "10px 3px";
+      //         $("#navbar").css({"padding-bottom": "2.5%", "padding-top":"2.5%"});
+
+
           /*    if (2000 > Window.innerwidth > 75){
                    console.log("red ELSE STATEMENT RUNNING");
 
