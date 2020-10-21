@@ -1281,10 +1281,13 @@ overflow: hidden;
 
 #mastheadparagraph {
      width:100%;
+     max-width:800px;
      border-radius: 50%;
      height: 25vw;
       padding-left:5%;
       padding-right: 5%;
+      margin-left: auto;
+      margin-right: auto;
 }
 .down {
      font-family: 'Space Mono', monospace;
