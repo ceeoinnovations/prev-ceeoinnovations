@@ -34,18 +34,18 @@ Dear Reader,
 
 Welcome to the journey!
 
-First things first - Click on the Github link above (under the project name) to go the Github page. Find and <b>duplicate<b> the sample.markdown file. <b>Rename<b> it with suitable name. Create a folder with the same name (not necessary, but very important!!) inside <b>projects_assests folder<b>. Remember markdown file outside projects_assets folder, and project folder inside the projects_assets folder.
+First things first - Click on the Github link above (under the project name) to go the Github page. Find and <b>duplicate</b> the sample.markdown file. <b>Rename</b> it with suitable name. Create a folder with the same name (not necessary, but very important!!) inside <b>projects_assests folder</b>. Remember markdown file outside projects_assets folder, and project folder inside the projects_assets folder.
 
-As soon as you do this your page should be created on ceeoinnovations.github.io which you can access by going to https://www.ceeoinnovations.github.io/projects/<projectname>.html
+As soon as you do this your page should be created on ceeoinnovations.github.io which you can access by going to https://www.ceeoinnovations.github.io/projects/\<projectname\>.html
 
 
 ## Let's begin
 
 Open the markdown file in your favorite text editor. (Caution!! Do not edit the sample file, edit the duplicate file!!)
 
-You will see the following on the top. It is the front matter. Carefully edit the tags. Items like legal, linker, linkname are optional. Use them according to need!
+What you see on the top between --- and ---  is the front matter. Carefully edit the tags. Items like legal, linker, linkname are optional. Use them according to need!
 
-layout: post
+Here are things that you can use!
 
 1. title: Your project tile, this appears on the thumbnail and project page
 2. description:  short description (about 15 words ), this appears on thumbnail
@@ -66,7 +66,7 @@ Define heading with \#\# . It will put the text in the center with a large font.
 
 ## Examples
 If you want two images side by side
-![Image1](sample_folder/Image1.jpg){:.left}![Image1](sample_folder/Image2.jpg){:.right}
+![Image1](sample_folder/Image1.jpg){:.left}![Image1](sample_folder/Image1.jpg){:.right}
 
 ed condimentum. Praesent a metus vitae eros lacinia sollicitudin.
 
