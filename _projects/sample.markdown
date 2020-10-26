@@ -46,7 +46,9 @@ layout: post
 11. legal:  {put your legal notice here.. if not delete the section}
 ---
 
-## your_heading (overview, how it works, who is it for etc.)
+## your_heading
+
+Define heading with \#\# . It will put the text in the center with a large font.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet nulla vitae nulla blandit luctus vel et orci. Quisque dapibus ipsum justo, vitae commodo nisl suscipit nec. Integer accumsan mollis purus, sed suscipit ante consequat vitae. Quisque ac gravida ipsum. Fusce nec sapien sit amet nibh vestibulum elementum. Cras tellus nunc, ultricies at egestas at, interdum in mauris. Pellentesque porta quis urna in vehicula. Integer sed lobortis orci, eu efficitur justo. Etiam tincidunt eu est sed condimentum. Praesent a metus vitae eros lacinia sollicitudin.
 
@@ -57,12 +59,12 @@ Pellentesque luctus mi ipsum, eget consequat erat pulvinar vel. Phasellus imperd
 .
 
 
-## (More headings)
+## Examples
 
 Donec nec erat eu dolor ornare suscipit. Maecenas consequat feugiat lectus, a sodales odio porttitor non. Praesent non nisi ac metus rhoncus lacinia. Sed sed magna a neque posuere gravida. Praesent tristique diam gravida leo fermentum, vel suscipit sapien rutrum. Aenean feugiat nibh vel lorem volutpat porta. Suspendisse venenatis, nibh eget hendrerit sodales, ante nisi sodales diam, feugiat consectetur libero nulla a purus. Mauris eu purus finibus urna tristique aliquet sit amet suscipit nisl. Proin viverra suscipit magna sed consequat. Vestibulum efficitur eu velit eget tincidunt. Aliquam congue mauris a dolor maximus, in ornare risus convallis. Pellentesque accumsan nibh quis iaculis mattis. Nullam lorem lorem, dapibus id magna id, ultrices scelerisque odio. Ut consequat pulvinar nunc vel fermentum. Curabitur tempor, purus nec volutpat congue, felis dui iaculis quam, eu vestibulum erat massa at nisl
 
 If you want two images side by side
-![Image1](sample_folder/Image1.png){:.left}![Image2](sample_folder/Image2.png){:.right}
+![Image1](sample_folder/Image1.jpg){:.left}![Image2](sample_folder/Image2.jpg){:.right}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet nulla vitae nulla blandit luctus vel et orci. Quisque dapibus ipsum justo, vitae commodo nisl suscipit nec. Integer accumsan mollis purus, sed suscipit ante consequat vitae. Quisque ac gravida ipsum. Fusce nec sapien sit amet nibh vestibulum elementum. Cras tellus nunc, ultricies at egestas at, interdum in mauris. Pellentesque porta quis urna in vehicula. Integer sed lobortis orci, eu efficitur justo. Etiam tincidunt eu est sed condimentum. Praesent a metus vitae eros lacinia sollicitudin.
 
