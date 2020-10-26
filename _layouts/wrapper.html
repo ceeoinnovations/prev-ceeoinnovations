@@ -107,57 +107,16 @@
       <!-- This is CEEO INNOVATION DEFAULT FOOTER -->
       {% capture my_jargin %}{{page.legal}}{% endcapture %}
       {% include legal_text.html legal=my_jargin %}
-
+    </div>
+    </body>
    <!--............................................................................................................................................-->
    <!--This is CEEO INNOVATION default footer -->
    <!--............................................................................................................................................-->
    <div class="footerpage"></div>
- </div>
-   <script>
-      /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-      function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-       x.style.display = "none";
-      } else {
-       x.style.display = "block";
-      }
-      }
-   </script>
-   <script>
-
+     <script>
       $(function(){
            $(".footerpage").load("../postfooterpage.html");
       });
-   </script>
-   <script>
-      // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-  /*    window.onscroll = function() {scrollFunction()};
-
-      var header = document.getElementById("nav-wrap");
-      var mobileheader = document.getElementById("mobilenav");
-      var sticky = header.offsetTop;
-
-
-
-      function scrollFunction() {
-
-            if (window.pageYOffset >= sticky) {
-              header.classList.add("sticky");
-            } else {
-              header.classList.remove("sticky");
-            }
-
-           if (document.documentElement.scrollTop > header.offsetTop) {
-                document.getElementById("navbar").style.padding = "0px 0px";
-               $("#navbar").css({"padding-left": ".5%", "padding-right": ".5%","padding-top":"0%"});
-         }else  {
-              document.getElementById("navbar").style.padding = "10px 3px";
-              $("#navbar").css({"padding-bottom": "2.5%", "padding-top":"2.5%"});
-
-           }
-
-      }*/
    </script>
    <script src="../web/js/bootstrap.bundle.min.js"></script>
    <script src="../web/js/aos.js"></script>
@@ -170,5 +129,4 @@
    <script src="../web/js/jquery.stellar.min.js"></script>
    <script src="../web/js/main.js"></script>
 
- </body>
 </html>
