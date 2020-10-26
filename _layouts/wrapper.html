@@ -1,43 +1,54 @@
 ---
 ---
-<!DOCTYPE html>
 <html lang="en">
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
       <meta name="author" content="">
-      <title>CEEOINNOVATIONS</title>
-      <link rel="stylesheet" href="../web/mycss/aos.css">
+      <title>CEEO INNOVATIONS</title>
+      <link rel="stylesheet preload"  as="style"href="web/mycss/allisoncss.css">
+      <!-- Custom fonts for this template -->
       <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-      <link rel="stylesheet preload"  as="style"href="../web/mycss/allisoncss.css">
-      <link rel="preload stylesheet" href="../web/mycss/home_style.css" as="style">
-      <!-- Bootstrap core CSS -->
-      <link href="../web/mycss/bootstrap.min.css" rel="stylesheet preload" as="style">
       <!-- Custom styles for this template -->
-      <link href="../web/mycss/business-casual.min.css" rel="stylesheet preload" as="style">
+      <link href="web/mycss/business-casual.min.css" rel="stylesheet preload" as="style">
       <!--Allison's helper functions for appending content-->
-      <script src="../web/js/append_helper_functions.js" as="script"></script>
+      <script rel="preload" src="web/js/append_helper_functions.js" as="script"></script>
+      <script rel="preload" src="web/js/create_website.js" as="script"></script>
       <!-- Custom styles for this template -->
-      <link rel="preload stylesheet" href="../web/mycss/style1.css" as="style">
+      <link rel="preload stylesheet" href="web/mycss/style1.css" as="style">
       <!-- Theme Style -->
-      <link rel="preload stylesheet" href="../web/mycss/style.css" as="style">
+      <link rel="preload stylesheet" href="web/mycss/style.css" as="style">
+      <link rel="stylesheet" href="web/mycss/aos.css">
+      <link rel="stylesheet" href="web/mycss/home_style.css">
+      <style>
+      </style>
    </head>
-   <body style="background-color:rgba(245,245,245,1);padding-top: 0px">
+   <body style="background-color: #000">
+     <div style="max-width:1500px;margin:auto;background-color:#fff">
       <!------Mobile Novbar---------------------------------------------------------------------->
-      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!-- Top Navigation Menu -->
+      <!-- Top Navigation Menu-->
       <div id="mobilenav" class=" clearfix sticky topnav">
-         <a href="../index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="../web/img/Logo_DarkGreen_Inset.png" onError="this.onerror=null;this.src='web/img/Logo_DarkGreen_Inset.png';" alt="">
+         <a href="index.html" class="active"><img  id="logoimg" class="img-fluid hvr-shrink" src="web/img/Logo_DarkGreen_Inset.png" onError="this.onerror=null;this.src='../web/img/Logo_DarkGreen_Inset.png';" alt="">
          </a>
-         <!-- Navigation links (hidden by default) -->
-         <div id="myLinks">
+         <div id="myLinks" class = "dropdown navlink">
             {% for item in site.data.navigation.docs %}
-            <a  href="{{ item.url | prepend:"../" }}" >{{ item.title }}</a>
+            {% if item.sublinks %}
+            <a id="mysublinks" class="navlink"onclick="mysubFunction()" >{{ item.title }}
+            <i class="fa fa-caret-down"></i>
+            </a>
+            <div id="sublinks">
+               {% for sublink in item.sublinks %}
+               <a  class="navlink" href="{{ sublink.url }}" style="background-color:#2efa98;" >{{ sublink.title }}</a>
+               {% endfor %}
+            </div>
+            </a>
+            {% else %}
+            <a class ="navlink nav hvr-shrink" href="{{ item.url }}" >{{ item.title }}</a>
+            {% endif %}
             {% endfor %}
          </div>
-         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
          <a href="javascript:void(0);" class="icon" style="color: #000"onclick="myFunction()">
          <i class="fa fa-bars"></i>
          </a>
