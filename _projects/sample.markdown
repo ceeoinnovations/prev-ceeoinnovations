@@ -23,7 +23,7 @@ legal:  I solemly swear that I am up to no good.
 # Make Your Project Page
 ## tutorial on how to make your project page
 
-This webpage is a guide on how to create project page on  CEEOINNOVATIONS portal. Follow along the steps and 
+This webpage is a guide on how to create project page on  CEEOINNOVATIONS portal. Follow along the steps, love with your heart, use your head for everything else (Captain D) 
 
 </div>
 
