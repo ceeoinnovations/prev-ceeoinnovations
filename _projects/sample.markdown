@@ -1,13 +1,13 @@
 ---
 layout: post
 
-title: Make a Project Page
-description:  this is how you will create your project page
+title: How to Make a Project Page
+description:  short description on how to make a project page
 displayimg: sample_folder/cover.jpg
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
-authors: ["Sample Author", "author2"]
+authors: ["Milan", "author2"]
 featured: false
-date: 7-09-2020
+date: 10-26-2020
 linker: https://www.google.com
 linkname: GOOGLE
 draft: true
@@ -20,10 +20,10 @@ legal:  I solemly swear that I am up to no good.
 ![Sample_Title](![Sample_Title](sample_folder/cover.jpg)
 
 
-# Sample heading
-## catchy short sub-heading
+# Make Your Project Page
+## tutorial on how to make your project page
 
-This section will be the description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This webpage is a guide on how to create project page on  CEEOINNOVATIONS portal. Follow along the steps and 
 
 </div>
 
