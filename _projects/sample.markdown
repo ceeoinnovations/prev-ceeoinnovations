@@ -53,19 +53,20 @@ layout: post
 1. title: Your project tile, this appears on the thumbnail and project page
 2. description:  short description (about 15 words ), this appears on thumbnail
 3. displayimg: folder_name/image_name.extension, for example MachineControlToolkit/cover.jpeg ,make sure the image is square
-4. categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
+4. categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine", "SPIKE Prime" , "3D Printing", "EV3/NXT", "Robotics", "Makerspaces"]
 5. authors: ["author1", "author2"] (you can have multiple authors)
-6. featured: false (true if you want it to appear on the featured section)
-7. date: 7-09-2020 (date of publish - this is how the projects are sorted on the All projects section)
-8. linker: https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing (url to the download/github/google site that you want to include in project page)
-9. linkname: DOWNLOAD (text that will act as a hyperlink to your linker's link)
-10. draft: true (false if you want to publish on the internet) {for preview go to https://ceeoinnovations.github.io/projects/<your_markdown_filename>.html}
-11. legal:  {put your legal notice here.. if not delete the section}
+6. featured: true/false (true if you want it to appear on the featured section, if you want it to feature you should get written consent from Chris)
+7. date: Published date - this is how the projects are sorted in the All projects section
+8. linker: URL to the download/github/google site that you want to include in project page
+9. linkname: Text that will act as a hyperlink to your linker's link)
+10. draft: true/false (false if you want to publish on the internet) {for preview go to https://ceeoinnovations.github.io/projects/<your_markdown_filename>.html}
+11. legal:  put your legal notice here.. if not delete the section
 
 ---
 
-## your_heading
+## free_write section
 
+There are different ways you can present your content. For example this text you are seeing is in a free_write section. You can write text and put images in this section. I will show you what else is out there in later sections. 
 Define heading with \#\# . It will put the text in the center with a large font.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet nulla vitae nulla blandit luctus vel et orci. Quisque dapibus ipsum justo, vitae commodo nisl suscipit nec. Integer accumsan mollis purus, sed suscipit ante consequat vitae. Quisque ac gravida ipsum. Fusce nec sapien sit amet nibh vestibulum elementum. Cras tellus nunc, ultricies at egestas at, interdum in mauris. Pellentesque porta quis urna in vehicula. Integer sed lobortis orci, eu efficitur justo. Etiam tincidunt eu est sed condimentum. Praesent a metus vitae eros lacinia sollicitudin.
