@@ -56,7 +56,7 @@ layout: post
 4. categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine", "SPIKE Prime" , "3D Printing", "EV3/NXT", "Robotics", "Makerspaces"]
 5. authors: ["author1", "author2"] (you can have multiple authors)
 6. featured: true/false (true if you want it to appear on the featured section, if you want it to feature you should get written consent from Chris)
-7. date: Published date - this is how the projects are sorted in the All projects section. It has to be in this format ->  10-26-2020 , otherwise github gets angry!
+7. date: 10-26-2020 Published date - this is how the projects are sorted in the All projects section. It has to be in the given format  , otherwise github gets angry!
 8. linker: URL to the download/github/google site that you want to include in project page
 9. linkname: Text that will act as a hyperlink to your linker's link)
 10. draft: true/false (false if you want to publish on the internet) {for preview go to https://ceeoinnovations.github.io/projects/<your_markdown_filename>.html}
