@@ -7,7 +7,7 @@ displayimg: sample_folder/cover.jpg
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
 authors: ["Milan", "author2"]
 featured: false
-date: 10-26-2020
+date: 9-26-2020
 linker: https://www.google.com
 linkname: GOOGLE
 draft: true
