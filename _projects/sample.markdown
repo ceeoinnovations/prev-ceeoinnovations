@@ -3,7 +3,7 @@ layout: post
 
 title: Make a Project Page
 description:  this is how you will create your project page
-displayimg: sample_folder/cover.jpeg
+displayimg: sample_folder/cover.jpg
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
 authors: ["Sample Author", "author2"]
 featured: false
@@ -17,11 +17,11 @@ legal:  I solemly swear that I am up to no good.
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![Sample](![Sample](sample_folder/cover.jpeg)
+![Sample_Title](![Sample_Title](sample_folder/cover.jpg)
 
 
 # Sample heading
-## catchy short sub-heading 
+## catchy short sub-heading
 
 This section will be the description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -33,17 +33,17 @@ This section will be the description Lorem ipsum dolor sit amet, consectetur adi
 ---
 layout: post
 
-title: Machine Control Toolkit for LabVIEW {this appears on the thumbnail and project page}
-description:  short description (about 15 words ) {this appears on thumbnail }
-displayimg: (folder_name/image_name.extension) for example MachineControlToolkit/cover.jpeg {make sure the image is square}
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
-authors: ["author1", "author2"] (you can have multiple authors)
-featured: false (true if you want it to appear on the featured section)
-date: 7-09-2020 (date of publish - this is how the projects are sorted on the All projects section)
-linker: https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing (url to the download/github/google site that you want to include in project page)
-linkname: DOWNLOAD (text that will act as a hyperlink to your linker's link)
-draft: true (false if you want to publish on the internet) {for preview go to https://ceeoinnovations.github.io/projects/<your_markdown_filename>.html}
-legal:  {put your legal notice here.. if not delete the section}
+1. title: Machine Control Toolkit for LabVIEW {this appears on the thumbnail and project page}
+2. description:  short description (about 15 words ) {this appears on thumbnail }
+3. displayimg: (folder_name/image_name.extension) for example MachineControlToolkit/cover.jpeg {make sure the image is square}
+4. categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
+5. authors: ["author1", "author2"] (you can have multiple authors)
+6. featured: false (true if you want it to appear on the featured section)
+7. date: 7-09-2020 (date of publish - this is how the projects are sorted on the All projects section)
+8. linker: https://drive.google.com/file/d/121SOGopm3A8Asyn82Torgmb0_WXdoahU/view?usp=sharing (url to the download/github/google site that you want to include in project page)
+9. linkname: DOWNLOAD (text that will act as a hyperlink to your linker's link)
+10. draft: true (false if you want to publish on the internet) {for preview go to https://ceeoinnovations.github.io/projects/<your_markdown_filename>.html}
+11. legal:  {put your legal notice here.. if not delete the section}
 ---
 
 ## your_heading (overview, how it works, who is it for etc.)
