@@ -38,12 +38,13 @@ Rename it with suitable name. Create a folder with same name (not necessary, but
 Open the markdown file in your favorite text editor. (Caution!! Do not edit the sample file, edit the duplicate file!!)
 
 You will see the following on the top. It is the front matter. Carefully edit the tags. items like legal, linker, linkname are optional. Use them according to need!
+
 ---
 layout: post
 
-1. title: Machine Control Toolkit for LabVIEW {this appears on the thumbnail and project page}
-2. description:  short description (about 15 words ) {this appears on thumbnail }
-3. displayimg: (folder_name/image_name.extension) for example MachineControlToolkit/cover.jpeg {make sure the image is square}
+1. title: Your project tile, this appears on the thumbnail and project page
+2. description:  short description (about 15 words ), this appears on thumbnail
+3. displayimg: folder_name/image_name.extension, for example MachineControlToolkit/cover.jpeg ,make sure the image is square
 4. categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
 5. authors: ["author1", "author2"] (you can have multiple authors)
 6. featured: false (true if you want it to appear on the featured section)
