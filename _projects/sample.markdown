@@ -1,6 +1,38 @@
 ---
 layout: post
 
+title: Make a Project Page
+description:  this is how you will create your project page
+displayimg: sample_folder/cover.jpeg
+categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
+authors: ["Sample Author", "author2"]
+featured: false
+date: 7-09-2020
+linker: https://www.google.com
+linkname: GOOGLE
+draft: true
+legal:  I solemly swear that I am up to no good.
+---
+
+
+<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
+<div class="image_text_overlay" markdown="1">
+![Sample](![Sample](sample_folder/cover.jpeg)
+
+
+# Sample heading
+## catchy short sub-heading 
+
+This section will be the description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</div>
+
+<!--document creates a grid of documentss--------------------->
+<div class="free_write" markdown="1">
+
+---
+layout: post
+
 title: Machine Control Toolkit for LabVIEW {this appears on the thumbnail and project page}
 description:  short description (about 15 words ) {this appears on thumbnail }
 displayimg: (folder_name/image_name.extension) for example MachineControlToolkit/cover.jpeg {make sure the image is square}
@@ -13,24 +45,6 @@ linkname: DOWNLOAD (text that will act as a hyperlink to your linker's link)
 draft: true (false if you want to publish on the internet) {for preview go to https://ceeoinnovations.github.io/projects/<your_markdown_filename>.html}
 legal:  {put your legal notice here.. if not delete the section}
 ---
-
-
-<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
-<div class="image_text_overlay" markdown="1">
-![Sample](![Sample](sample_folder/cover.jpeg)
-
-
-# Heading {replace this with your heading}
-## sub-heading {sub heading can be your short description }
-
-This section will be the description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</div>
-
-<!--document creates a grid of documentss--------------------->
-<div class="free_write" markdown="1">
-
-
 
 ## your_heading (overview, how it works, who is it for etc.)
 
