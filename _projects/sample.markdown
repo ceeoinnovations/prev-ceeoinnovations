@@ -30,8 +30,6 @@ This webpage is a guide on how to create project page on  CEEOINNOVATIONS portal
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
 
----
-
 Dear Reader,
 
 Welcome to the journey!
@@ -47,7 +45,6 @@ Open the markdown file in your favorite text editor. (Caution!! Do not edit the 
 
 You will see the following on the top. It is the front matter. Carefully edit the tags. Items like legal, linker, linkname are optional. Use them according to need!
 
----
 layout: post
 
 1. title: Your project tile, this appears on the thumbnail and project page
@@ -61,8 +58,6 @@ layout: post
 9. linkname: Text that will act as a hyperlink to your linker's link)
 10. draft: true/false (false if you want to publish on the internet) {for preview go to https://ceeoinnovations.github.io/projects/<your_markdown_filename>.html}
 11. legal:  put your legal notice here.. if not delete the section
-
----
 
 ## free_write section
 
