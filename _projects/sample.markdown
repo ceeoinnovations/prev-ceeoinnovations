@@ -7,7 +7,7 @@ displayimg: sample_folder/cover.jpg
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
 authors: ["Milan", "author2"]
 featured: false
-date: 9-26-2020
+date: 15-09-2020
 linker: https://www.google.com
 linkname: GOOGLE
 draft: true
@@ -64,32 +64,19 @@ layout: post
 There are different ways you can present your content. For example this text you are seeing is in a free_write section. You can write text and put images in this section. I will show you what else is out there in later sections.
 Define heading with \#\# . It will put the text in the center with a large font.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet nulla vitae nulla blandit luctus vel et orci. Quisque dapibus ipsum justo, vitae commodo nisl suscipit nec. Integer accumsan mollis purus, sed suscipit ante consequat vitae. Quisque ac gravida ipsum. Fusce nec sapien sit amet nibh vestibulum elementum. Cras tellus nunc, ultricies at egestas at, interdum in mauris. Pellentesque porta quis urna in vehicula. Integer sed lobortis orci, eu efficitur justo. Etiam tincidunt eu est sed condimentum. Praesent a metus vitae eros lacinia sollicitudin.
-
-Donec tempus mauris lorem, eget congue arcu pharetra vel. Proin finibus tortor massa, eget tincidunt lacus vulputate posuere. Nam sit amet condimentum mi, at fermentum nibh. Phasellus tempor urna vulputate, vulputate purus non, consequat lorem. Suspendisse malesuada mattis mi elementum eleifend. Pellentesque quis varius mi, eget iaculis nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-
-Pellentesque luctus mi ipsum, eget consequat erat pulvinar vel. Phasellus imperdiet faucibus augue, id viverra orci cursus eu. Fusce fermentum arcu id nibh volutpat efficitur. Vestibulum enim metus, interdum sit amet sodales sed, tincidunt sed erat. Nulla in venenatis sem, nec bibendum nunc. Etiam tincidunt ex eu enim dictum aliquet. Donec et nibh dolor. Curabitur ac magna pellentesque, dignissim sapien non, ultrices turpis. Donec vestibulum rhoncus purus at interdum. Cras a feugiat leo, nec viverra odio.
-
-.
-
-
 ## Examples
-
-Donec nec erat eu dolor ornare suscipit. Maecenas consequat feugiat lectus, a sodales odio porttitor non. Praesent non nisi ac metus rhoncus lacinia. Sed sed magna a neque posuere gravida. Praesent tristique diam gravida leo fermentum, vel suscipit sapien rutrum. Aenean feugiat nibh vel lorem volutpat porta. Suspendisse venenatis, nibh eget hendrerit sodales, ante nisi sodales diam, feugiat consectetur libero nulla a purus. Mauris eu purus finibus urna tristique aliquet sit amet suscipit nisl. Proin viverra suscipit magna sed consequat. Vestibulum efficitur eu velit eget tincidunt. Aliquam congue mauris a dolor maximus, in ornare risus convallis. Pellentesque accumsan nibh quis iaculis mattis. Nullam lorem lorem, dapibus id magna id, ultrices scelerisque odio. Ut consequat pulvinar nunc vel fermentum. Curabitur tempor, purus nec volutpat congue, felis dui iaculis quam, eu vestibulum erat massa at nisl
-
 If you want two images side by side
 ![Image1](sample_folder/Image1.jpg){:.left}![Image1](sample_folder/Image2.jpg){:.right}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet nulla vitae nulla blandit luctus vel et orci. Quisque dapibus ipsum justo, vitae commodo nisl suscipit nec. Integer accumsan mollis purus, sed suscipit ante consequat vitae. Quisque ac gravida ipsum. Fusce nec sapien sit amet nibh vestibulum elementum. Cras tellus nunc, ultricies at egestas at, interdum in mauris. Pellentesque porta quis urna in vehicula. Integer sed lobortis orci, eu efficitur justo. Etiam tincidunt eu est sed condimentum. Praesent a metus vitae eros lacinia sollicitudin.
+ed condimentum. Praesent a metus vitae eros lacinia sollicitudin.
 
 if you want an image in the center
 ![Image3](sample_folder/Image3.png)
 
-Donec tempus mauris lorem, eget congue arcu pharetra vel. Proin finibus tortor massa, eget tincidunt lacus vulputate posuere. Nam sit amet condimentum mi, at fermentum nibh. Phasellus tempor urna vulputate, vulputate purus non, consequat lorem. Suspendisse malesuada mattis mi elementum eleifend. Pellentesque quis varius mi, eget iaculis nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
 *Italics*
 
-In eget urna euismod, convallis augue sit amet, interdum lectus. Nulla egestas augue sed tortor convallis, eget pretium nulla aliquet. Donec a massa ac quam consequat molestie eu ut lacus. Duis ultrices pulvinar nisl quis mattis. Aliquam nec porta nunc. Quisque tincidunt est a mollis vulputate. Vestibulum porta diam id neque porta, in ullamcorper odio blandit. Duis quis nunc ex. Nulla imperdiet, metus nec eleifend vulputate, sapien augue varius diam, ut fermentum dolor urna vestibulum nulla. Ut sit amet suscipit urna. Phasellus commodo volutpat enim, bibendum euismod ligula volutpat elementum. Morbi convallis, nisl id condimentum tincidunt, neque turpis sagittis arcu, at euismod orci enim sed dui. Quisque egestas, est ac suscipit varius, risus ante blandit lectus, sit amet tristique ex velit eget enim. Nunc dignissim sem vitae quam viverra, ut accumsan enim vestibulum. Vivamus auctor faucibus dolor, sit amet sodales lacus ultricies quis. Nam egestas eget est nec sagittis.
+sodales lacus ultricies quis. Nam egestas eget est nec sagittis.
 
 
 
