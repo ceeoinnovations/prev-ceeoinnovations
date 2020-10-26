@@ -31,6 +31,14 @@ This section will be the description Lorem ipsum dolor sit amet, consectetur adi
 <div class="free_write" markdown="1">
 
 ---
+Duplicate the sample.markdown file.
+
+Rename it with suitable name. Create a folder with same name (not necessary, but important!!) inside projects_assests folder. Remember markdown outside projects_assets folder, and project folder inside the projects_assets folder.
+
+Open the markdown file in your favorite text editor. (Caution!! Do not edit the sample file, edit the duplicate file!!)
+
+You will see the following on the top. It is the front matter. Carefully edit the tags. items like legal, linker, linkname are optional. Use them according to need!
+---
 layout: post
 
 1. title: Machine Control Toolkit for LabVIEW {this appears on the thumbnail and project page}
