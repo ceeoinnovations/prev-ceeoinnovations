@@ -44,6 +44,7 @@ layout: post
 9. linkname: DOWNLOAD (text that will act as a hyperlink to your linker's link)
 10. draft: true (false if you want to publish on the internet) {for preview go to https://ceeoinnovations.github.io/projects/<your_markdown_filename>.html}
 11. legal:  {put your legal notice here.. if not delete the section}
+
 ---
 
 ## your_heading
