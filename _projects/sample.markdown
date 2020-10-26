@@ -23,7 +23,7 @@ legal:  I solemly swear that I am up to no good.
 # Make Your Project Page
 ## tutorial on how to make your project page
 
-This webpage is a guide on how to create project page on  CEEOINNOVATIONS portal. Follow along the steps, love with your heart, use your head for everything else (Captain D) 
+This webpage is a guide on how to create project page on  CEEOINNOVATIONS portal. Follow along the steps, love with your heart, use your head for everything else (Captain D)
 
 </div>
 
@@ -31,13 +31,21 @@ This webpage is a guide on how to create project page on  CEEOINNOVATIONS portal
 <div class="free_write" markdown="1">
 
 ---
-Duplicate the sample.markdown file.
 
-Rename it with suitable name. Create a folder with same name (not necessary, but important!!) inside projects_assests folder. Remember markdown outside projects_assets folder, and project folder inside the projects_assets folder.
+Dear Reader,
+
+Welcome to the journey!
+
+First things first - Duplicate the sample.markdown file. Rename it with suitable name. Create a folder with same name (not necessary, but very important!!) inside projects_assests folder. Remember markdown file outside projects_assets folder, and project folder inside the projects_assets folder.
+
+As soon as you do this your page should be created which you can access by going to https://www.ceeoinnovations.github.io/projects/<projectname>.html
+
+
+## Let's begin
 
 Open the markdown file in your favorite text editor. (Caution!! Do not edit the sample file, edit the duplicate file!!)
 
-You will see the following on the top. It is the front matter. Carefully edit the tags. items like legal, linker, linkname are optional. Use them according to need!
+You will see the following on the top. It is the front matter. Carefully edit the tags. Items like legal, linker, linkname are optional. Use them according to need!
 
 ---
 layout: post
