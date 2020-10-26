@@ -24,6 +24,7 @@
       <link rel="preload stylesheet" href="../web/mycss/style.css" as="style">
    </head>
    <body style="background-color:rgba(245,245,245,1);padding-top: 0px">
+     <div style="max-width:1500px;margin:auto;background-color:#fff">
       <!------Mobile Novbar---------------------------------------------------------------------->
       <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -57,11 +58,22 @@
                      {% assign class = 'active' %}
                      {% endif %}
                      {% if item.title == "Search"%}
-                  <li>
+                <!--  <li>
                      <a id="navsearchimglink" href="{{ item.url | prepend:"../" }}">
                      <img  id="navimg" src="../web/img/black-search.png" >
                      </a>
+                  </li>-->
+
+                  <li>
+                    <div class="search-container">
+                       <input id="searchinput" type="text" placeholder="Search.." name="search">
+                       <button  onclick="location.href='{{item.url}}';mySearchFunction();"><i class="fa fa-search"></i></button>
+                    </div>
+                <!--     <a id="navsearchimglink" href={{item.url}}>
+                     <img  id="navimg" src="web/img/black-search.png" >
+                   </a>-->
                   </li>
+
                   {% continue %}
                   {% endif %}
                   {% if item.sublinks %}
@@ -82,9 +94,9 @@
                   </li>
                   {% endif %}
                   {% endfor %}
-                  <a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
+                  <!--<a  id="navtuftsimglink"  class="navlink hvr-shrink" href="https://www.tufts.edu/" >
                   <img  id="navimg" src="../web/img/ceeoblacklogo.png"onError="this.onerror=null;this.src='../web/img/ceeopinklogo.png';" alt="">
-                  </a>
+                </a>-->
                   </li>
                </ul>
             </div>
@@ -155,4 +167,6 @@
    <script src="../web/js/jquery.fancybox.min.js"></script>
    <script src="../web/js/jquery.stellar.min.js"></script>
    <script src="../web/js/main.js"></script>
+</div>
+ </body>
 </html>
