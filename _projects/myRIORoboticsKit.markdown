@@ -14,9 +14,12 @@ draft: true
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![logo](myRIORoboticsKit/logo.png)
-#myRIO Robotics Kit
-##A robotics kit designed for the National Intruments myRIO
+
+![logo](![myRIORoboticsKit](myRIORoboticsKit/logo.png)
+
+# myRIO Robotics Kit
+## A robotics kit designed for the National Intruments myRIO
+
 The National Instruments myRIO is a microelectronics device aimed at enabling university students to easily construct high level engineering projects. During the summer of 2016, I worked on a team to design of a robotics kit aimed at lowering the barrier to entry to using the myRIO in university robotics classrooms.
 
 The development of the kit involved specking out a building system, creating a custom printed circuit board and other custom laser-cut/3D printed mounts. An extruded aluminum build system called MakerBeam was selected as the foundation of the kit. This kit was designed to be all-encompassing such that students could quickly and easily build simple robots using the myRIO. However, it was also designed with the idea of students manufacturing their own custom parts to create more complicated builds.
