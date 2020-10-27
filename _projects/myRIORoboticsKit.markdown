@@ -22,33 +22,38 @@ The National Instruments myRIO is a microelectronics device aimed at enabling un
 </div>
 <!--document creates a grid of documents--------------------->
 <div class="free_write" markdown="1">
+
 ## Kit Development
 The development of the kit involved specking out a building system, creating a custom printed circuit board and other custom laser-cut/3D printed mounts. An extruded aluminum build system called MakerBeam was selected as the foundation of the kit. This kit was designed to be all-encompassing such that students could quickly and easily build simple robots using the myRIO. However, it was also designed with the idea of students manufacturing their own custom parts to create more complicated builds.
+
 ![myRIORoboticsKitPartsList](myRIORoboticsKit/partslist.jpg)
-*myRIO Robotics Kit Parts Lit*
+*myRIO Robotics Kit Parts List*
+
 Fifteen kits were produced, and have been in used in Tufts University Robotics classes. Example projects students were able to create can be accessed using the links below: 
 Tufts University Advanced Robotics 2017: https://sites.tufts.edu/me184/
 Tufts University Advanced Robotics 2016: https://tufts.makernetwork.org/courses/me-184-robotics
 Tufts University Introduction to Robotics 2018: http://mechatronics2018.dreslab.com/Assignments
+
 ![myRIORoboticsKit](myRIORoboticsKit/box.jpg){:.half}![example](myRIORoboticsKit/CarExample.jpg){:.half}
 *myRIO Robotics Kit Exterior and Example Robot*
+
 </div>
 
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
-# Supporting Documents
+## Supporting Documents
 [Building with the myRIO Robotics Kit](myRIORoboticsKit/Building with the myRIO Robotics Kit  .pdf)
 [Mount Assembly Instructions](myRIORoboticsKit/myRIO Robotics Kit- MOUNT ASSEMBLY INSTRUCTIONS .pdf)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
-
-# Example Robots
+<!--document creates a grid of documentss--------------------->
+<div class="document" markdown="1">
+## Example Robots
 ## Laser Following Robot
-<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
-<div class="video_text_overlay" markdown="1">
-[Laser Following Robot Example](---https://www.youtube.com/watch?v=sIFM7vtiOfs&feature=emb_title--)
-This is an example of a robot that was created with the myRIO Robotics Kit. This is a driving robot that will follow a laser pointer.
+[LaserPointerRobot](---https://www.youtube.com/watch?v=sIFM7vtiOfs&feature=emb_title--)
+[Hi-Five Robot](---https://www.youtube.com/watch?v=LZogPRv_gLE&feature=emb_title---)
+<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
