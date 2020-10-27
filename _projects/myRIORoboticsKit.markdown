@@ -41,7 +41,7 @@ Tufts University Introduction to Robotics 2018: http://mechatronics2018.dreslab.
 </div>
 
 
-# Example Videos
+# Example Robots
 ## Laser Following Robot
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
