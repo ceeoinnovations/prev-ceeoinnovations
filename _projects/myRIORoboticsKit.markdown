@@ -52,9 +52,7 @@ Fifteen kits were produced, and have been in used in Tufts University Robotics c
 <div class="video_text_overlay" markdown="1">
 ## Example Robots
 ## Laser Following Robot
-[LaserPointerRobot](--- https://youtu.be/sIFM7vtiOfs--)
-Laser Following Robot built with the myRIO Robotics Kit
-[Hi-Five Robot](--- https://youtu.be/LZogPRv_gLE--)
+[LaserPointerRobot](--- https://www.youtube.com/embed/sIFM7vtiOfs--)
 Laser Following Robot built with the myRIO Robotics Kit
 </div>
 
