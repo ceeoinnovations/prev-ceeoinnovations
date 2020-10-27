@@ -3,7 +3,7 @@ layout: post
 
 title: myRIO Robotics Kit
 description: A custom hardware set designed to enable robotics projects with the National Instruments myRIO.
-displayimg: IMAGEFOLDERNAME/IMGNAME
+displayimg: myRIORoboticsKit/logo.png
 categories: ["Makerspaces", "Robotics"]
 authors: ["Sara Willner-Giwerc", "Andrew Narahara", "Kara Krone"]
 featured: false
@@ -14,7 +14,7 @@ draft: true
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![logo](myRIORoboticsKit/logo)
+![logo](myRIORoboticsKit/logo.png)
 # myRIO Robotics Kit
 ## A robotics kit designed for the National Intruments myRIO
 The National Instruments myRIO is a microelectronics device aimed at enabling university students to easily construct high level engineering projects. During the summer of 2016, I worked on a team to design of a robotics kit aimed at lowering the barrier to entry to using the myRIO in university robotics classrooms.
