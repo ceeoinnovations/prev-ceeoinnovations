@@ -54,8 +54,8 @@ Fifteen kits were produced, and have been in used in Tufts University Robotics c
 <div class="document" markdown="1">
 ## Example Robots
 ## Laser Following Robot
-[LaserPointerRobot](---https://www.youtube.com/watch?v=sIFM7vtiOfs&feature=emb_title--)
-[Hi-Five Robot](---https://www.youtube.com/watch?v=LZogPRv_gLE&feature=emb_title---)
+[LaserPointerRobot](--- https://www.youtube.com/watch?v=sIFM7vtiOfs&feature=emb_title--)
+[Hi-Five Robot](--- https://www.youtube.com/watch?v=LZogPRv_gLE&feature=emb_title--)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
