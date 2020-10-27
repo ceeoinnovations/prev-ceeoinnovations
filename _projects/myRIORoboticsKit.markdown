@@ -33,15 +33,16 @@ Tufts University Introduction to Robotics 2018: http://mechatronics2018.dreslab.
 
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
+
 # Supporting Documents
-[TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
-[TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
+[Building with the myRIO Robotics Kit](myRIORoboticsKit/Building with the myRIO Robotics Kit  .pdf)
+[Mount Assembly Instructions](myRIORoboticsKit/myRIO Robotics Kit- MOUNT ASSEMBLY INSTRUCTIONS .pdf)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](---https://www.youtube.com/watch?v=sIFM7vtiOfs&feature=emb_title--)
+[Laser Following Robot Example](---https://www.youtube.com/watch?v=sIFM7vtiOfs&feature=emb_title--)
 # Example Videos
 ## Laser Following Robot
 This is an example of a robot that was created with the myRIO Robotics Kit. This is a driving robot that will follow a laser pointer.
