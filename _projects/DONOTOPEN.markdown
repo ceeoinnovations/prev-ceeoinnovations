@@ -30,7 +30,7 @@ This webpage is a guide on how to create a project page on  CEEOINNOVATIONS port
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
 
-Dear Reader,
+Hello friend,
 
 Welcome to the journey!
 
@@ -61,10 +61,11 @@ Here are things that you can use!
 
 ## free_write section
 
-There are different ways you can present your content. Depending on how you want to present you will want to For example this text that you are seeing is in a free_write section. You can write text and put images in this section. I will show you what else is out there in later sections.
+There are different ways you can present your content. Depending on how you want to present you will want to put it in either free_write,  For example this text that you are seeing is in a free_write section. You can write text and put images in this section. I will show you what else is out there in later sections.
 Define heading with \#\# . It will put the text in the center with a large font.
 
 ## Examples
+
 If you want two images side by side
 
 ![Image1](sample_folder/Image1.jpg){:.left}![Image1](sample_folder/Image1.jpg){:.right}
