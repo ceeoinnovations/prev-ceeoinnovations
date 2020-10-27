@@ -12,6 +12,7 @@ linker: https://github.com/ceeoinnovations/ceeoinnovations.github.io/tree/Septem
 linkname: Github
 draft: true
 legal:  I solemly swear that I am up to no good.
+
 ---
 
 
