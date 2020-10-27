@@ -24,10 +24,16 @@ The National Instruments myRIO is a microelectronics device aimed at enabling un
 
 The development of the kit involved specking out a building system, creating a custom printed circuit board and other custom laser-cut/3D printed mounts. An extruded aluminum build system called MakerBeam was selected as the foundation of the kit. This kit was designed to be all-encompassing such that students could quickly and easily build simple robots using the myRIO. However, it was also designed with the idea of students manufacturing their own custom parts to create more complicated builds.
 
+![myRIORoboticsKitPartsList](myRIORoboticsKit/partslist.jpg)
+*myRIO Robotics Kit Parts Lit*
+
 Fifteen kits were produced, and have been in used in Tufts University Robotics classes. Example projects students were able to create can be accessed using the links below: 
 Tufts University Advanced Robotics 2017: https://sites.tufts.edu/me184/
 Tufts University Advanced Robotics 2016: https://tufts.makernetwork.org/courses/me-184-robotics
 Tufts University Introduction to Robotics 2018: http://mechatronics2018.dreslab.com/Assignments
+
+![myRIORoboticsKit](myRIORoboticsKit/box.jpeg){:.half}![example](myRIORoboticsKit/CarExample.jpeg){:.half}
+*myRIO Robotics Kit Exterior and Example Robot*
 
 </div>
 
