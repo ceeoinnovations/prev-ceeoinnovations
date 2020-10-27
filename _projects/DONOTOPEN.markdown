@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: How to Make a Project Page
+title: How to Make a Project
 description:  short description on how to make a project page
 displayimg: sample_folder/cover.jpg
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","LabVIEW", "CNC", "Machine"]
@@ -12,6 +12,7 @@ linker: https://github.com/ceeoinnovations/ceeoinnovations.github.io/tree/Septem
 linkname: Github
 draft: true
 legal:  I solemly swear that I am up to no good.
+
 ---
 
 
