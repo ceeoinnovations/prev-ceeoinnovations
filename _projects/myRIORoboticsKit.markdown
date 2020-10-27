@@ -32,9 +32,7 @@ The development of the kit involved specking out a building system, creating a c
 Fifteen kits were produced, and have been in used in Tufts University Robotics classes. Example projects students were able to create can be accessed using the links below: 
 
 1. Tufts University Advanced Robotics 2017: https://sites.tufts.edu/me184/
-
 2. Tufts University Advanced Robotics 2016: https://tufts.makernetwork.org/courses/me-184-robotics
-
 3. Tufts University Introduction to Robotics 2018: http://mechatronics2018.dreslab.com/Assignments
 
 ![myRIORoboticsKit](myRIORoboticsKit/box.jpg){:.half}![example](myRIORoboticsKit/CarExample.jpg){:.half}
@@ -52,7 +50,7 @@ Fifteen kits were produced, and have been in used in Tufts University Robotics c
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
-[LaserPointerRobot](--- https://www.youtube.com/watch?v=sIFM7vtiOfs&feature=emb_title--)
+[LaserPointerRobot](--- https://youtu.be/sIFM7vtiOfs--)
 ## Example Robots
 ## Laser Following Robot
 Laser Following Robot built with the myRIO Robotics Kit
