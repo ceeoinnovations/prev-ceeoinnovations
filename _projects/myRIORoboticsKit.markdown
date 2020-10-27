@@ -40,11 +40,13 @@ Tufts University Introduction to Robotics 2018: http://mechatronics2018.dreslab.
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
+
+# Example Videos
+## Laser Following Robot
+
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
 [Laser Following Robot Example](---https://www.youtube.com/watch?v=sIFM7vtiOfs&feature=emb_title--)
-# Example Videos
-## Laser Following Robot
 This is an example of a robot that was created with the myRIO Robotics Kit. This is a driving robot that will follow a laser pointer.
 </div>
 
