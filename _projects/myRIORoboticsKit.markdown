@@ -30,9 +30,12 @@ The development of the kit involved specking out a building system, creating a c
 *myRIO Robotics Kit Parts List*
 
 Fifteen kits were produced, and have been in used in Tufts University Robotics classes. Example projects students were able to create can be accessed using the links below: 
-Tufts University Advanced Robotics 2017: https://sites.tufts.edu/me184/
-Tufts University Advanced Robotics 2016: https://tufts.makernetwork.org/courses/me-184-robotics
-Tufts University Introduction to Robotics 2018: http://mechatronics2018.dreslab.com/Assignments
+
+1. Tufts University Advanced Robotics 2017: https://sites.tufts.edu/me184/
+
+2. Tufts University Advanced Robotics 2016: https://tufts.makernetwork.org/courses/me-184-robotics
+
+3. Tufts University Introduction to Robotics 2018: http://mechatronics2018.dreslab.com/Assignments
 
 ![myRIORoboticsKit](myRIORoboticsKit/box.jpg){:.half}![example](myRIORoboticsKit/CarExample.jpg){:.half}
 *myRIO Robotics Kit Exterior and Example Robot*
