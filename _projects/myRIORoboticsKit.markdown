@@ -50,13 +50,12 @@ Fifteen kits were produced, and have been in used in Tufts University Robotics c
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
-<!--document creates a grid of documentss--------------------->
-<div class="document" markdown="1">
+<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
+<div class="video_text_overlay" markdown="1">
+[LaserPointerRobot](--- https://www.youtube.com/watch?v=sIFM7vtiOfs&feature=emb_title--)
 ## Example Robots
 ## Laser Following Robot
-[LaserPointerRobot](--- https://www.youtube.com/watch?v=sIFM7vtiOfs&feature=emb_title--)
-[Hi-Five Robot](--- https://www.youtube.com/watch?v=LZogPRv_gLE&feature=emb_title--)
-<!-- insert as many links here as you want to dynamically create a grid of pdfs-->
+Laser Following Robot built with the myRIO Robotics Kit
 </div>
 
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
