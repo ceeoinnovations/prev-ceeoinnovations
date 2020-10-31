@@ -3,7 +3,7 @@ layout: post
 
 title: Display image on Wio LCD
 description: Learn to display an image on Wio LCD
-displayimg: display_image_on_wio_LCD/WioLCD.jpg
+displayimg: display_image_on_wio_LCD/problemSpaceV2.png
 categories: ["Tech"]
 authors: ["Dipeshwor"]
 featured: false
