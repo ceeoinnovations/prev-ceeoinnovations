@@ -14,10 +14,10 @@ date: 31-10-2020
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![WioLCD](display_image_on_wio_LCD/problemSpaceV2.png)
-# Wio LCD
-## Display color images on Wio LCD
-Here's an exmaple of how you can display a color image on your Wio LCD
+![TITLE OF IMAGE](PROJECTFILENAME/IMGNAME)
+# YOUR IMAGE TITLE
+## YOUR IMAGE SUBTITLE
+THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
 </div>
 
 <!--document creates a grid of documentss--------------------->
