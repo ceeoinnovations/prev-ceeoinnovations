@@ -14,10 +14,7 @@ date: 31-10-2020
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![TITLE OF IMAGE](PROJECTFILENAME/IMGNAME)
-# YOUR IMAGE TITLE
-## YOUR IMAGE SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
+![Wio LCD](display_image_on_wio_LCD/WioLCD.jpg)
 </div>
 
 <!--document creates a grid of documentss--------------------->
