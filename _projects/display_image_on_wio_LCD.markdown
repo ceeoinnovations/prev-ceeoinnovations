@@ -1,13 +1,13 @@
 ---
 layout: post
 
-title: YOUR SITE title
-description: description of your site
-displayimg: IMAGEFOLDERNAME/IMGNAME
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
-authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
+title: Display image on Wio LCD
+description: Learn to display an image on Wio LCD
+displayimg: display_image_on_wio_LCD/WioLCD.jpg
+categories: ["Tech"]
+authors: ["Dipeshwor"]
 featured: false
-date: 24-03-2020
+date: 31-10-2020
 
 ---
 
