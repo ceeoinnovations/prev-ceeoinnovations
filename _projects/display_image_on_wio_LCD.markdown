@@ -14,7 +14,7 @@ date: 31-10-2020
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![WioLCD](display_image_on_wio_LCD/WioLCD.jpg)
+![WioLCD](display_image_on_wio_LCD/problemSpaceV2.png)
 # Wio LCD
 ## Display color images on Wio LCD
 Here's an exmaple of how you can display a color image on your Wio LCD
