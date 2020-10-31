@@ -6,7 +6,7 @@ description: Learn to display an image on Wio LCD
 displayimg: display_image_on_wio_LCD/problemSpaceV2.png
 categories: ["Tech"]
 authors: ["Dipeshwor"]
-featured: false
+featured: true
 date: 31-10-2020
 
 ---
@@ -15,6 +15,8 @@ date: 31-10-2020
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 ![Wio LCD](display_image_on_wio_LCD/WioLCD.jpg)
+# Wio LCD
+Learn to display an image on Wio LCD
 </div>
 
 <!--document creates a grid of documentss--------------------->
