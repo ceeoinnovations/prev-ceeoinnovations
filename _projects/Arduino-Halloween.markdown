@@ -44,16 +44,8 @@ Three different codes - you can find them here:
 <div class="document" markdown="1">
 ## Supporting Documents
 [Modern Clock](Halloween/Modern_Clock.pdf)
-[Mount Assembly Instructions](myRIORoboticsKit/myRIO Robotics Kit- MOUNT ASSEMBLY INSTRUCTIONS .pdf)
+[Skeleton](Halloween/Modern_Clock.pdf)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
-</div>
-
-<!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
-<div class="video_text_overlay" markdown="1">
-## Example Robots
-## Laser Following Robot
-[LaserPointerRobot](--- https://www.youtube.com/embed/sIFM7vtiOfs--)
-Laser Following Robot built with the myRIO Robotics Kit
 </div>
 
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
