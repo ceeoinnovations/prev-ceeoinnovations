@@ -26,9 +26,9 @@ This contains a bunch of codes I used in the Arduino talk at Halloween
 # Arduino Codes
 I wrote a few codes to use for demonstrations.  The first, Modern Clock, reads the time from the internet (along with my Tesla status, the local temperature and the remote temperature) and updates the IoT kit screen.  The second, Skeleton, sets up a local server that serves up a webpage that lets you jiggle the skeleton shown above.  The third just gives you a Chuck Norris joke on demand.
 
-1. Modern Clock: [arduino site](https://create.arduino.cc/editor/crogers/0321ba4b-4bbf-4681-8085-ffd724ec348c/preview)
-2. SKeleton: [arduino site](https://create.arduino.cc/editor/crogers/454bbfcc-84e4-4867-81c4-aef7efab3f89/preview)
-3. Chuck Norris Joke: [arduino site](https://create.arduino.cc/editor/crogers/da01712a-9797-4e08-a5d3-f19654849f2a/preview)
+1. Modern Clock: [Go Create](https://create.arduino.cc/editor/crogers/0321ba4b-4bbf-4681-8085-ffd724ec348c/preview)
+2. SKeleton: [Go Create](https://create.arduino.cc/editor/crogers/454bbfcc-84e4-4867-81c4-aef7efab3f89/preview)
+3. Chuck Norris Joke: [Go Create](https://create.arduino.cc/editor/crogers/da01712a-9797-4e08-a5d3-f19654849f2a/preview)
 </div>
 
 <!--document creates a grid of documents--------------------->
