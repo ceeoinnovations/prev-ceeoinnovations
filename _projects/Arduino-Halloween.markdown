@@ -20,7 +20,6 @@ draft: true
 This contains a bunch of codes I used in the Arduino talk at Halloween
 </div>
 
-
 <!--document creates a grid of documents--------------------->
 <div class="free_write" markdown="1">
 
@@ -44,7 +43,7 @@ Three different codes - you can find them here:
 <!--document creates a grid of documents--------------------->
 <div class="document" markdown="1">
 ## Supporting Documents
-[Building with the myRIO Robotics Kit](myRIORoboticsKit/Building with the myRIO Robotics Kit  .pdf)
+[Modern Clock](Halloween/Modern_Clock.pdf)
 [Mount Assembly Instructions](myRIORoboticsKit/myRIO Robotics Kit- MOUNT ASSEMBLY INSTRUCTIONS .pdf)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
