@@ -1,14 +1,14 @@
 /* web server with servo
 */
 #include <WiFiNINA.h>   //IoT
-char ssid[] = SECRET_SSID;
-char pass[] = SECRET_PASS;
+char ssid[] = SECRET_SSID;   
+char pass[] = SECRET_PASS;   
 int LED = LED_BUILTIN; // IoT
 int status = WL_IDLE_STATUS;
 WiFiServer server(80);
 
 #include <Servo.h>
-Servo skeletonHead;
+Servo skeletonHead; 
 
 int pos = 0;    // variable to store the servo position
 int wait = 100;
@@ -17,18 +17,18 @@ int range = 20;
 void setup() {
   skeletonHead.attach(4);  // use DIO4
   skeletonHead.write(90);
-  Serial.begin(9600);
-  pinMode(LED, OUTPUT);
+  Serial.begin(9600);     
+  pinMode(LED, OUTPUT);      
 
   while (status != WL_CONNECTED) {
     Serial.print("Attempting to connect to Network named: ");
-    Serial.println(ssid);
+    Serial.println(ssid);        
     status = WiFi.begin(ssid, pass);
     // wait 10 seconds for connection:
     delay(10000);
   }
-  server.begin();
-  printWifiStatus();
+  server.begin();  
+  printWifiStatus(); 
 }
 
 void loop() {
@@ -39,7 +39,7 @@ void loop() {
     delay(wait);
     skeletonHead.write(90-range);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(wait);
+    delay(wait);    
   }
   else skeletonHead.write(90);
 }
@@ -67,9 +67,9 @@ void loop() {
             client.println("</BODY>");
             client.println("</HTML>");
             break;
-          }
+          } 
           else currentLine = "";
-        }
+        } 
         else if (c != '\r') currentLine += c;      // add it to the end of the currentLine
         if (currentLine.endsWith("GET /H")) digitalWrite(LED, HIGH);   // GET /H turns the LED on
         if (currentLine.endsWith("GET /L")) digitalWrite(LED, LOW);    // GET /L turns the LED off
@@ -94,4 +94,3 @@ void printWifiStatus() {
     Serial.print("Go to http://");
     Serial.println(ip);
 }
-

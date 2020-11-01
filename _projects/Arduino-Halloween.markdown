@@ -20,31 +20,23 @@ draft: true
 This contains a bunch of codes I used in the Arduino talk at Halloween
 </div>
 
-<!--document creates a grid of documents--------------------->
+<!--straight text--------------------->
 <div class="free_write" markdown="1">
 
-# Master Clock
-A simple clock that tells much more than time
+# Arduino Codes
+I wrote a few codes to use for demonstrations.  The first, Modern Clock, reads the time from the internet (along with my Tesla status, the local temperature and the remote temperature) and updates the IoT kit screen.  The second, Skeleton, sets up a local server that serves up a webpage that lets you jiggle the skeleton shown above.  The third just gives you a Chuck Norris joke on demand.
 
-![myRIORoboticsKitPartsList](myRIORoboticsKit/partslist.jpg)
-*Code List*
-
-Three different codes - you can find them here: 
-
-1. Tufts University Advanced Robotics 2017: https://sites.tufts.edu/me184/
-2. Tufts University Advanced Robotics 2016: https://tufts.makernetwork.org/courses/me-184-robotics
-3. Tufts University Introduction to Robotics 2018: http://mechatronics2018.dreslab.com/Assignments
-
-![myRIORoboticsKit](myRIORoboticsKit/box.jpg){:.half}![example](myRIORoboticsKit/CarExample.jpg){:.half}
-*myRIO Robotics Kit Exterior and Example Robot*
-
+1. Modern Clock: https://create.arduino.cc/editor/crogers/0321ba4b-4bbf-4681-8085-ffd724ec348c/preview
+2. SKeleton: https://create.arduino.cc/editor/crogers/454bbfcc-84e4-4867-81c4-aef7efab3f89/preview
+3. Chuck Norris Joke: https://create.arduino.cc/editor/crogers/da01712a-9797-4e08-a5d3-f19654849f2a/preview
 </div>
 
 <!--document creates a grid of documents--------------------->
 <div class="document" markdown="1">
-## Supporting Documents
+## Sample Codes
 [Modern Clock](Halloween/Modern_Clock.pdf)
-[Skeleton](Halloween/Modern_Clock.pdf)
+[Skeleton](Halloween/Skeleton.pdf)
+[Chuck Norris](Halloween/ChuckNorris.pdf)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
