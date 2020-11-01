@@ -6,7 +6,7 @@ description: Learn to display an image on Wio LCD
 displayimg: display_image_on_wio_LCD/chrisNew.png
 categories: ["Tech"]
 authors: ["Dipeshwor"]
-featured: true
+featured: false
 date: 31-10-2020
 
 ---
