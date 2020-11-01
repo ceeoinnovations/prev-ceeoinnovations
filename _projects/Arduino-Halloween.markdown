@@ -14,19 +14,18 @@ draft: true
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 
-![logo](![Halloween](Halloween/logo.png)
+![logo]![Halloween](Halloween/logo.png)
 
-# Halloween Code
-## A set of codes for Halloween
-A bunch of codes I used in the Arduino talk 
+## Halloween Codes
+This contains a bunch of codes I used in the Arduino talk at Halloween
 </div>
 
 
 <!--document creates a grid of documents--------------------->
 <div class="free_write" markdown="1">
 
-## Kit Development
-Some simple text here
+# Master Clock
+A simple clock that tells much more than time
 
 ![myRIORoboticsKitPartsList](myRIORoboticsKit/partslist.jpg)
 *Code List*
