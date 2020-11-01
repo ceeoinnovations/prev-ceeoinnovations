@@ -1,13 +1,13 @@
 ---
 layout: post
 
-title: YOUR SITE title
-description: description of your site
-displayimg: IMAGEFOLDERNAME/IMGNAME
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
-authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
+title: GS + EV3
+description: Collaborative Online Robotic Platform
+displayimg: GS/Picture1.png
+categories: ["Robotics", "Ev3/NXT"]
+authors: ["Olga Sans-Cope"]
 featured: false
-date: 24-03-2020
+date: 11-01-2020
 
 ---
 
