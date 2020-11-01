@@ -7,7 +7,7 @@ displayimg: GS/Picture1.png
 categories: ["Robotics", "Ev3/NXT"]
 authors: ["Olga Sans-Cope"]
 featured: false
-date: 11-01-2020
+date: 01-11-2020
 
 ---
 
