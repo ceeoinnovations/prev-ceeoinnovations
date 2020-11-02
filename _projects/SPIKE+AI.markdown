@@ -8,7 +8,7 @@ categories: ["Spike Prime", "Lesson Plans", "Robotics", "Tech"]
 authors: ["Ziyi Zhang"]
 featured: false
 date: 24-03-2020
-draft: false
+draft: true
 
 ---
 <div class="image_text_overlay" markdown="1">
