@@ -15,7 +15,7 @@ draft: false
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![TITLE OF IMAGE](PROJECTFILENAME/IMGNAME)
+![Picture1](GS/Picture1.png)
 # YOUR IMAGE TITLE
 ## YOUR IMAGE SUBTITLE
 THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
