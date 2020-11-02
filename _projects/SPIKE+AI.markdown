@@ -23,7 +23,7 @@ Living in a world surrounded by AI technologies, we believe that students should
 <!--document creates a grid of documentss--------------------->
 ## Links to all demo videos
 <div class="document" markdown="1">
-[PDF](SPIKE+AI/Demo Link.docx)
+[doc](SPIKE+AI/Demo Links.docx)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
