@@ -32,7 +32,7 @@ This research seeks to an investigate an accessible and intuitive compu- tationa
 <br> Comparing to other screen-based applications that are designed for a solo user, it would allow multiple learners to collaboratively program together. We also believe that this system can lower the barrier to introducing coding in more young children beyond traditional target learners.
 
 ![Code](draw2code/code.jpg)
-# Example codes using Draw2Code’s paper coding blocks
+# Example code using Draw2Code’s paper coding blocks
 There are three types of coding blocks: 1) the Spirit block that users can draw a character or object on it, 2) the Event block for triggering the spirit to animate, 3) the Action block for storing size and position data of the spirit per each frame. These codes mean that when you show V hand sign to the system, the spirit of the bunny drawing will be bigger in two frames of animation.
 
 ![Scan Mode](draw2code/scan-mode.PNG)
