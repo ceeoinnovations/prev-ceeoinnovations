@@ -8,6 +8,9 @@ categories: ["Tech"]
 authors: ["Hyejin Im", "Chris Rogers"]
 featured: false
 date: 2-10-2020
+linker: http://hyejinim.github.io/draw2code
+linkname: Try Draw2Code (Works Only in Safari on iOS Device)
+draft: true
 
 ---
 
