@@ -49,24 +49,20 @@ A spirit drawn by a user is displayed and animated over the video on the screen
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
 # Work In Progress
-[TITLE OF document](draw2code/Im_topic_summary.pdf) 
-[TITLE OF document](draw2code/Im_topic_bibliography.pdf)
+[Topic Summary](draw2code/Im_topic_summary.pdf) 
+[Topic Bibliography](draw2code/Im_topic_bibliography.pdf)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](https://youtu.be/s2j0tSUs0U0)
+[Videos](https://youtu.be/s2j0tSUs0U0)
 # Scanning
-## YOUR VIDEO SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 </div>
 
 <div class="video_text_overlay" markdown="1">
 [TITLE OF VIDEO](https://youtu.be/Qh9K10bepHA)
 # Running
-## YOUR VIDEO SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 </div>
 
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
