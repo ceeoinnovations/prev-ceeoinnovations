@@ -8,7 +8,7 @@ categories: ["Makerspaces", "Robotics"]
 authors: ["Sara Willner-Giwerc", "Andrew Narahara", "Kara Krone"]
 featured: false
 date: 24-03-2020
-draft: true
+draft: false
 ---
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
@@ -18,7 +18,7 @@ draft: true
 
 # myRIO Robotics Kit
 ## A robotics kit designed for the National Intruments myRIO
-The National Instruments myRIO is a microelectronics device aimed at enabling university students to easily construct high level engineering projects. 
+The National Instruments myRIO is a microelectronics device aimed at enabling university students to easily construct high level engineering projects.
 </div>
 <!--document creates a grid of documents--------------------->
 <div class="free_write" markdown="1">
@@ -29,7 +29,7 @@ The development of the kit involved specking out a building system, creating a c
 ![myRIORoboticsKitPartsList](myRIORoboticsKit/partslist.jpg)
 *myRIO Robotics Kit Parts List*
 
-Fifteen kits were produced, and have been in used in Tufts University Robotics classes. Example projects students were able to create can be accessed using the links below: 
+Fifteen kits were produced, and have been in used in Tufts University Robotics classes. Example projects students were able to create can be accessed using the links below:
 
 1. Tufts University Advanced Robotics 2017: https://sites.tufts.edu/me184/
 2. Tufts University Advanced Robotics 2016: https://tufts.makernetwork.org/courses/me-184-robotics
