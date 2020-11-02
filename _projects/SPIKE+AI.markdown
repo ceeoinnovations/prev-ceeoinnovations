@@ -1,8 +1,8 @@
 ---
 layout: post
 
-title: Example Porjects for SPIKE+AI
-description: Example Porjects for SPIKE+AI
+title: SPIKE+AI
+description: SPIKE+AI
 displayimg: IMAGEFOLDERNAME/IMGNAME
 categories: ["Spike Prime", "Lesson Plans", "Robotics", "Tech"]
 authors: ["Ziyi Zhang"]
