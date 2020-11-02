@@ -5,7 +5,7 @@ title: Draw2Code
 description: Low-cost tangible programming system for young children to create 2D AR animation
 displayimg: draw2code/scanning-top-view.jpg
 categories: ["Tech"]
-authors: ["Hyejin Im", "Chris Rogers"]
+authors: ["Hyejin Im"]
 featured: false
 date: 2-10-2020
 linker: http://hyejinim.github.io/draw2code
