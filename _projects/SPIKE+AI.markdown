@@ -11,6 +11,12 @@ date: 24-03-2020
 draft: false
 
 ---
+<div class="image_text_overlay" markdown="1">
+![testing](SPIKE+AI/not exist yet)
+# Students playing with AI activities
+## YOUR IMAGE SUBTITLE
+Students are building their robots and discussing about the related AI concepts
+</div>
 
 # AI for SPIKE 
 ## Description
