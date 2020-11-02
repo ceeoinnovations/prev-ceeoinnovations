@@ -3,13 +3,13 @@ layout: post
 
 title: Draw2Code
 description: Low-cost tangible programming system for young children to create 2D AR animation
-displayimg: Draw2Code/scanning-top-view
+displayimg: draw2code/scanning-top-view
 categories: ["Tech"]
 authors: ["Hyejin Im", "Chris Rogers"]
 featured: false
 date: 2-10-2020
 linker: http://hyejinim.github.io/draw2code
-linkname: Try Draw2Code (Works Only in Safari on iOS Device)
+linkname: Try It (Works Only in Safari on iOS Device)
 draft: true
 
 ---
@@ -17,7 +17,7 @@ draft: true
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![TITLE OF IMAGE](Draw2Code/scanning-top-view)
+![TITLE OF IMAGE](draw2code/scanning-top-view)
 # Scanning the code 
 ## Hmm Subtitle
 This research seeks to an investigate an accessible and intuitive compu- tational kit for young children to learn the basics of computational thinking. Currently, there are many computational kits for students but there are only a few that support tangible programming. Since young children aged 5 to 9 are naturally physical learners, tangible programming is important for them to effectively learn. Learning experiences with physical objects would also positively affect their overall development by offering them opportunities to collaborate and communicate as well as to actively use their bodies than one on screen-based devices. However, those require special hardware or sen- sors so it is not accessible to everyone due to the high price. To design a more accessible and suitable computational kit for young children, we explore frameworks for designing developmentally appropriate technology, low-cost materials, and new technologies.
@@ -36,7 +36,7 @@ This research seeks to an investigate an accessible and intuitive compu- tationa
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](--- paste a youtu.be link here--)
+[TITLE OF VIDEO](https://youtu.be/s2j0tSUs0U0)
 # YOUR VIDEO TITLE
 ## YOUR VIDEO SUBTITLE
 THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
