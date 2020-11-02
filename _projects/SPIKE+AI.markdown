@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title: YOUR SITE title
-description: description of your site
+title: Example Porjects for SPIKE+AI
+description: Example Porjects for SPIKE+AI
 displayimg: IMAGEFOLDERNAME/IMGNAME
-categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Lesson Plans", "Makerspaces", "Robotics", "Ev3/NXT", "3D Printing", "Tech"]
-authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
+categories: ["Spike Prime", "Lesson Plans", "Robotics", "Tech"]
+authors: ["Ziyi Zhang"]
 featured: false
 date: 24-03-2020
 draft: true
@@ -22,7 +22,7 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
 
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
-# TITLE OF SECTION
+# AI for SPIKE
 [TITLE OF document](PROJECTFOLDERNAME/NAME OF documemt FILE)
 [TITLE OF document](PROJECTFOLDERENAME/NAME OFdocument FILE)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
@@ -39,4 +39,5 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
                If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
 <div class="free_write" markdown="1">
+In this project, we explored the possibility of integrating AI on SPIKE. Through it, we would like students to learn basic AI concepts and algorithms like supervised learning, K nearest neighbor, etc.
 </div>
