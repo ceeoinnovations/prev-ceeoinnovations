@@ -60,9 +60,7 @@ A spirit drawn by a user is displayed and animated over the video on the screen
 # Scanning
 ## YOUR VIDEO SUBTITLE
 THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
-</div>
 
-<div class="video_text_overlay" markdown="1">
 [TITLE OF VIDEO](https://youtu.be/Qh9K10bepHA)
 # Running
 ## YOUR VIDEO SUBTITLE
