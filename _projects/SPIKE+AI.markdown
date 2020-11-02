@@ -16,7 +16,7 @@ draft: true
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
                If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
 <div class="free_write" markdown="1">
-In this project, we explored the possibility of integrating AI on SPIKE. We created different activities for students to play and think. Through these activities, we would like to introduce basic AI concepts and algorithms like supervised learning, K nearest neighbor, etc.
+Living in a world surrounded by AI technologies, we believe that students should have a general sense on how it works. In this project, we explored the possibility of integrating AI on SPIKE. We created different activities for students to play and think. Through these activities, we would like to introduce basic AI concepts and algorithms like supervised learning, K nearest neighbor, etc.
 </div>
 
 <!--document creates a grid of documentss--------------------->
