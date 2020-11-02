@@ -23,6 +23,7 @@ Use the nearest neighbor algorithm to recognize and detect colors that are usual
 This is a dog robot that can be programmed to recognize custom colors.
 </div>
 
+<div class="free_write" markdown="1">
 
 ```python
 # Some python
@@ -33,6 +34,8 @@ greet('Jack')
 greet('Jill')
 greet('Bob')
 ```
+
+</div>
 
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
