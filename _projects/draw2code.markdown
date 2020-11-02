@@ -33,7 +33,7 @@ This research seeks to an investigate an accessible and intuitive compu- tationa
 
 ![Code](draw2code/code.jpg)
 # Example code using Draw2Code’s paper coding blocks
-There are three types of coding blocks: 1) the Spirit block that users can draw a character or object on it, 2) the Event block for triggering the spirit to animate, 3) the Action block for storing size and position data of the spirit per each frame. These codes mean that when you show V hand sign to the system, the spirit of the bunny drawing will be bigger in two frames of animation.
+There are three types of coding blocks: 1) the Sprit block that users can draw a character or object on it, 2) the Event block for triggering the sprit to animate, 3) the Action block for storing size and position data of the sprit per each frame. These codes mean that when you show V hand sign to the system, the sprit of the bunny drawing will be bigger in two frames of animation.
 
 ![Scan Mode](draw2code/scan-mode.PNG)
 # Draw2Code interface (current prototype) showing the Scan mode
@@ -42,7 +42,7 @@ A currently recognized coding block’s image is shown overlaying the video in t
 
 ![Run Mode](draw2code/run-mode.PNG)
 # Draw2Code interface (current prototype) showing the Run mode
-A spirit drawn by a user is displayed and animated over the video on the screen
+A sprit drawn by a user is displayed and animated over the video on the screen
 
 </div>
 
