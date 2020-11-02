@@ -56,13 +56,11 @@ A spirit drawn by a user is displayed and animated over the video on the screen
 
 <!--VIDEO_TEXT_OVERLAY creates a video with a text box over it--------------------->
 <div class="video_text_overlay" markdown="1">
-[Videos](https://youtu.be/s2j0tSUs0U0)
-# Scanning
+[Scanning](https://youtu.be/s2j0tSUs0U0)
 </div>
 
 <div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](https://youtu.be/Qh9K10bepHA)
-# Running
+[Running](https://youtu.be/Qh9K10bepHA)
 </div>
 
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
