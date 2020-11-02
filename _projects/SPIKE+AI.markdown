@@ -13,7 +13,7 @@ draft: false
 ---
 
 # AI for SPIKE 
-# Description
+## Description
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
                If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
 <div class="free_write" markdown="1">
@@ -21,11 +21,11 @@ Living in a world surrounded by AI technologies, we believe that students should
 </div>
 
 <!--document creates a grid of documentss--------------------->
-# Links to all demo videos
+## Links to all demo videos
 <div class="document" markdown="1">
 [PDF](SPIKE+AI/Demo Link.docx)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
-# Links to all support materials
+## Links to all support materials
 Google Drive: [Drive Link](https://drive.google.com/drive/folders/1LgktIDD6_xOmkDAtCi7NtupXIxNM2JPZ?usp=sharing)
