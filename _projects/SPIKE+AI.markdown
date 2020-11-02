@@ -11,14 +11,8 @@ date: 24-03-2020
 draft: true
 ---
 
-<!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
-<div class="image_text_overlay" markdown="1">
-![TITLE OF IMAGE](PROJECTFILENAME/IMGNAME)
-
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR IMAGE.
-</div>
 # AI for SPIKE 
-## Description
+# Description
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
                If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->
 <div class="free_write" markdown="1">
@@ -27,7 +21,7 @@ In this project, we explored the possibility of integrating AI on SPIKE. We crea
 
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
-## Links to all demo videos
+# Links to all demo videos
 [PDF](SPIKE+AI/demolinks.pdf)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
