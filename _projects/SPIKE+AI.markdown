@@ -20,8 +20,8 @@ In this project, we explored the possibility of integrating AI on SPIKE. We crea
 </div>
 
 <!--document creates a grid of documentss--------------------->
-<div class="document" markdown="1">
 # Links to all demo videos
+<div class="document" markdown="1">
 [PDF](SPIKE+AI/Demo Link.docx)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
