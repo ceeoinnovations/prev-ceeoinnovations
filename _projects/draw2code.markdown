@@ -16,7 +16,7 @@ linkname: Try It
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
-![Code](draw2code/code.jpg)
+![Code](draw2code/scanning-top-view.jpg)
 # Draw2Code 
 ## Computational Kit for Young Children
 Low-cost tangible programming system for young children to create 2D AR animation
@@ -25,16 +25,16 @@ Low-cost tangible programming system for young children to create 2D AR animatio
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
 
-![Code](draw2code/code.png)
+![Code](draw2code/code.jpg)
 # Scanning the code 
 
 This research seeks to an investigate an accessible and intuitive compu- tational kit for young children to learn the basics of computational thinking. Currently, there are many computational kits for students but there are only a few that support tangible programming. Since young children aged 5 to 9 are naturally physical learners, tangible programming is important for them to effectively learn. Learning experiences with physical objects would also positively affect their overall development by offering them opportunities to collaborate and communicate as well as to actively use their bodies than one on screen-based devices. However, those require special hardware or sen- sors so it is not accessible to everyone due to the high price. To design a more accessible and suitable computational kit for young children, we explore frameworks for designing developmentally appropriate technology, low-cost materials, and new technologies.
 <br> I suggest a low-cost coding system, Draw2Code, that allows children to program to create interactive 2D AR stickers using paper coding blocks and a mobile device. In this system, we suggest a novel programming language that requires users to draw to code. Using video-sensing, the system supports tangible programming and physical interaction in a low-cost way.
 
-![Scan Mode](draw2code/scan-mode.png)
+![Scan Mode](draw2code/scan-mode.PNG)
 # Scanning paper coding blocks 
 
-![Run Mode](draw2code/run-mode.png)
+![Run Mode](draw2code/run-mode.PNG)
 # Running program on the screen
 
 <br> The goal of this study is to evaluate the usability of the system, learners’ engagement in the system and the coding subject, and their computational thinking learning. Our hypothesis is that this system will engage young children in coding and help them to be confident in coding. It will also inspire creativity in the process of designing both physical and virtual worlds with open-ended projects.
@@ -46,7 +46,7 @@ This research seeks to an investigate an accessible and intuitive compu- tationa
 <div class="document" markdown="1">
 # TITLE OF SECTION
 [TITLE OF document](draw2code/im_topic_summary.pdf)
-[TITLE OF document](draw2code/bibliography.pdf)
+[TITLE OF document](draw2code/im_topic_bibliography.pdf)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>
 
