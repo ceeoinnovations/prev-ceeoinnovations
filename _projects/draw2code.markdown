@@ -48,7 +48,7 @@ A spirit drawn by a user is displayed and animated over the video on the screen
 
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
-# TITLE OF SECTION
+# Work In Progress
 [TITLE OF document](draw2code/im_topic_summary.pdf)
 [TITLE OF document](draw2code/im_topic_bibliography.pdf)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
