@@ -10,7 +10,7 @@ featured: false
 date: 2-10-2020
 linker: http://hyejinim.github.io/draw2code
 linkname: Try It
-draft: true
+draft: false
 
 ---
 
@@ -18,7 +18,7 @@ draft: true
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 ![Code](draw2code/scanning-top-view.jpg)
-# Draw2Code 
+# Draw2Code
 ## Computational Kit for Young Children
 Low-cost tangible programming system for young children to create 2D AR animation
 </div>
@@ -50,7 +50,7 @@ A sprit drawn by a user is displayed and animated over the video on the screen
 <!--document creates a grid of documentss--------------------->
 <div class="document" markdown="1">
 # Work In Progress
-[Topic Summary](draw2code/Im_topic_summary.pdf) 
+[Topic Summary](draw2code/Im_topic_summary.pdf)
 [Topic Bibliography](draw2code/Im_topic_bibliography.pdf)
 <!-- insert as many links here as you want to dynamically create a grid of pdfs-->
 </div>

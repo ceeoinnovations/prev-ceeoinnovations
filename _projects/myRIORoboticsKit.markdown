@@ -8,7 +8,7 @@ categories: ["Makerspaces", "Robotics"]
 authors: ["Sara Willner-Giwerc", "Andrew Narahara", "Kara Krone"]
 featured: false
 date: 24-03-2020
-draft: true
+draft: false
 ---
 
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->

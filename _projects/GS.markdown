@@ -8,7 +8,7 @@ categories: ["Robotics", "Ev3/NXT"]
 authors: ["Olga Sans-Cope"]
 featured: false
 date: 01-11-2020
-draft: true
+draft: false
 
 ---
 

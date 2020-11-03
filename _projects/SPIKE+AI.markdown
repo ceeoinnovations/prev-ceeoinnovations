@@ -8,7 +8,7 @@ categories: ["Spike Prime", "Lesson Plans", "Robotics", "Tech"]
 authors: ["Ziyi Zhang"]
 featured: false
 date: 24-03-2020
-draft: true
+draft: false
 
 ---
 <div class="image_text_overlay" markdown="1">
@@ -18,7 +18,7 @@ draft: true
 Students are building their robots and discussing about the related AI concepts
 </div>
 
-# AI for SPIKE 
+# AI for SPIKE
 ## Description
 <!--FREE WRITE lets you write any markdown you want (include images, lists, titles, code,etc)
                If something doesn't look how you expect on the page, try adding a linebreak after it--------------------->

@@ -8,7 +8,7 @@ categories: ["Tech"]
 authors: ["Dipeshwor"]
 featured: false
 date: 31-10-2020
-draft: true
+draft: false
 
 ---
 
