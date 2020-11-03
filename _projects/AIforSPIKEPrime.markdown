@@ -2,7 +2,7 @@
 layout: post
 
 title: AI for SPIKE Prime
-description: Implementation of AI algorithms on SPIKE Prime.
+description: An implementation of AI algorithms on SPIKE Prime.
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "AI", "LEGO", "Tech"]
 authors: ["Milan Dahal"]
 featured: false
