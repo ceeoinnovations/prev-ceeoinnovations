@@ -29,7 +29,7 @@
          {% assign projects = site.projects | sort: 'date' | reverse %}
          {% for project in projects %}
          {% if project.draft == false %}
-         {% if project.hidden == false %}
+         {% if project.hidden != true %}
          {% if project.url != "/projects/SAMPLE-FILE.html" %}
          <div class="projectsegment col-sm-6 col-md-4" >
               {% if project.redirecturl %}
