@@ -1,0 +1,128 @@
+<hr>
+
+<section class="homepagesection clearfix" >
+   <!--<div class=" pageheadercontain col-md-6">-->
+   <h1 id="mypageheader">All Projects</h1>
+   <h2 class="mainpagesubheader projectsubheader"> Our Research, Development Projects, Tools and Technologies</h2>
+   <!--</div>-->
+
+   <div id="featured">
+      <!--<p class="pagesubtitle" style="color:#2efa98;font-weight:800">CEEO INNOVATIONS PROJECTS</p>-->
+      <div id="searchbox">
+         <div id="buttonbox">
+            <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart(this)" style="margin-left: 0rem">
+               <h6 id="All" class="myButton" >All</h6>
+            </div>
+            {% for i in site.my_categories %}
+            <div class ="buttoncol navlink nav hvr-shrink" onclick="ButtonStart(this)">
+               <h6 id="{{i | replace: ' ', '_' }}" class="myButton"  >{{i}}</h6>
+            </div>
+            {% endfor %}
+         </div>
+        <!-- <div class="search-container">
+            <input id="searchinput" type="text" placeholder="Search.." name="search">
+            <button onclick="mySearchFunction()"><i class="fa fa-search"></i></button>
+         </div>-->
+      </div>
+      <div class="row no-gutters" >
+         {% assign my_variable = 100 %}
+         {% assign projects = site.projects | sort: 'date' | reverse %}
+         {% for project in projects %}
+         {% if project.url != "/projects/SAMPLE-FILE.html" %}
+         <div class="projectsegment col-sm-6 col-md-4" >
+              {% if project.redirecturl %}
+            <a class = "work-thumb" href="{{ project.redirecturl }}" >
+            <div id="hidden-tags" class="hidden-tags">
+               {{project.categories}}
+               {{project.title}}
+               {{project.url}}
+               {{project.authors}}
+               {{project.categories}}
+               {{project.tags}}
+               {{project.date}}
+               {{project.Categories}}
+               {{project.Title}}
+               {{project.Url}}
+               {{project.Authors}}
+               {{project.Categories}}
+               {{project.Tags}}
+               {{project.Date}}
+            </div>
+            <div class="work-text">
+               <h2>{{project.title}}{{project.Title}}</h2>
+               <p ><b>{{project.date | date_to_string}}{{project.Date | date_to_string}}</b></p>
+               <p class="work-text2">{{project.description}}{{project.Description}}</p>
+            </div>
+
+
+
+
+            {% if project.displayimg contains ".png" %}
+               {% if project.displayimg contains "project_assets/" %}
+               <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+               {% else %}
+               <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+               {% endif %}
+          {% else %}
+               {% if project.displayimg contains "project_assets/" %}
+               <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+               {% else %}
+               <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+               {% endif %}
+          {% endif %}
+
+
+            </a>
+            {% else %}
+            <a class = "work-thumb" href="{{ project.url | prepend: site.baseurl | replace: '//', '/' | replace: "'", '%27' | replace: ' ', '%20' }}" >
+           <div id="hidden-tags" class="hidden-tags">
+              {{project.categories}}
+              {{project.title}}
+              {{project.url}}
+              {{project.authors}}
+              {{project.categories}}
+              {{project.tags}}
+              {{project.date}}
+              {{project.Categories}}
+              {{project.Title}}
+              {{project.Url}}
+              {{project.Authors}}
+              {{project.Categories}}
+              {{project.Tags}}
+              {{project.Date}}
+           </div>
+           <div class="work-text">
+              <h2>{{project.title}}{{project.Title}}</h2>
+              <p ><b>{{project.date | date_to_string}}{{project.Date | date_to_string}}</b></p>
+              <p class="work-text2">{{project.description}}{{project.Description}}</p>
+           </div>
+
+
+
+           {% if project.displayimg contains ".png" %}
+              {% if project.displayimg contains "project_assets/" %}
+              <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+              {% else %}
+              <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+              {% endif %}
+         {% else %}
+              {% if project.displayimg contains "project_assets/" %}
+              <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+              {% else %}
+              <div id="block" alt="{{project.title}}" style="background-image: url({{project.displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}), url({{project.Displayimg | prepend: 'projects/project_assets/'|replace: ' ', '%20' }}),  url('{{site.baseurl}}/web/img/blackback.png');" >  </div>
+              {% endif %}
+         {% endif %}
+
+
+           </a>
+            {% endif%}
+
+
+         </div>
+         {% assign my_variable = my_variable  | plus: 7990 %}
+         {%endif%}
+
+         {%endfor%}
+      </div>
+   </div>
+</section>
