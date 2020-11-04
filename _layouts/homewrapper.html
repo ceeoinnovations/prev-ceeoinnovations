@@ -1,3 +1,5 @@
+---
+---
 <html lang="en">
    <head>
       <meta charset="utf-8">
@@ -51,7 +53,8 @@
          <i class="fa fa-bars"></i>
          </a>
       </div>
-
+      <!-- Navigation links (hidden by default)-->
+      <!-----------NAV BAR-------------------------------------------------------------------->
       <div id="nav-wrap" class="sticky">
          <div id="navbar" class="clearfix">
             <a id="logo" class="navlink" href="index.html"  target="_self">
@@ -126,49 +129,7 @@
                </div>
             </section>
          </div>
-         {% include featured_projects.html%}
-
-
-         {% include search_projects.html%}
-
-         <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              if (n > slides.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none";
-              }
-              for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";
-              dots[slideIndex-1].className += " active";
-            }
-         </script>
-         <script src="web/js/search_function.js"></script>
-         <script src="web/js/bootstrap.bundle.min.js"></script>
-         <script src="web/js/jquery-3.2.1.min.js"></script>
-         <script src="web/js/jquery-migrate-3.0.1.min.js"></script>
-         <script src="web/js/jquery.waypoints.min.js"></script>
-         <script src="web/js/jquery.fancybox.min.js"></script>
-         <script src="web/js/jquery.stellar.min.js"></script>
-         <script src="web/js/bootstrap.js"></script>
-         <script src="web/js/main.js"></script>
-
+         {{content}}
          <div class="footerpage"></div>
       </div>
       <script src="web/js/aos.js"></script>
