@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Markdown Creator</title>
+</head>
+<body>
+
+<div style="width:100%;">
+<div style="width: 50%; margin:0px auto; text-align: center;"> <h2>Markdown Creator</h2></div>
+
+<div style="position:relative; top:10%;width: 100%; margin:0px auto; text-align: center;" id="label-container"></div>
+
+
+<div style="position:relative; top:10%;  width: 100%; margin:0px auto; text-align: center;">
+ 
+<form style="text-align: left;" id="form" onsubmit="return false;">
+
+All fields must be filled.  <br><br><br>
+Project Title : <input style=" width:40%;" type="text" id="title" placeholder="Project Title" /> <br><br>
+Author: <input style=" width:40%;" type="text" id="author" placeholder="Author" /><br><br>
+
+<input style="position:relative; top:50%;  height:10% ;width:40%; background-color: #00AA00;" type="SUBMIT"  onclick="createMarkdown();init();" />
+</form>
+</div>
+
+
+
+<script type="text/javascript">
+
+
+function createMarkdown() {
+Title = document.getElementById("title").value;
+Author = document.getElementById("author").value;
+/*
+* Save a text file locally with a filename by triggering a download
+*/
+
+var text = "hello world",
+    blob = new Blob([text], { type: 'text/plain' }),
+    anchor = document.createElement('a');
+
+anchor.download = "hello.txt";
+anchor.href = (window.webkitURL || window.URL).createObjectURL(blob);
+anchor.dataset.downloadurl = ['text/plain', anchor.download, anchor.href].join(':');
+anchor.click();
+}
+
+function sendData() {
+	 console.log("here");
+}
+
+
+</script>
+</div>
+</body>
+</html>
