@@ -29,6 +29,7 @@
          {% assign projects = site.projects | sort: 'date' | reverse %}
          {% for project in projects %}
          {% if project.draft == false %}
+         {% if project.hidden == false %}
          {% if project.url != "/projects/SAMPLE-FILE.html" %}
          <div class="projectsegment col-sm-6 col-md-4" >
               {% if project.redirecturl %}
@@ -121,6 +122,7 @@
 
          </div>
          {% assign my_variable = my_variable  | plus: 7990 %}
+         {%endif%}
          {%endif%}
          {%endif%}
          {%endfor%}

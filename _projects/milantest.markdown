@@ -9,6 +9,7 @@ authors: ["YOUR NAME", "NAME OF OTHER COLLABORATOR"]
 featured: false
 date: 24-03-2020
 draft: true
+hidden: true
 ---
 
 

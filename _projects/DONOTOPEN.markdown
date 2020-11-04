@@ -11,6 +11,7 @@ date: 15-09-2020
 linker: https://github.com/ceeoinnovations/ceeoinnovations.github.io/tree/SeptemberTest/_projects
 linkname: Github
 draft: true
+hidden: true
 legal:  I solemly swear that I am up to no good.
 
 ---

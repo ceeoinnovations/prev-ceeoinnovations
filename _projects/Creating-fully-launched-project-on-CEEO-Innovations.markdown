@@ -8,6 +8,7 @@ categories: ["Lesson Plans", "Documentation Instructions"]
 authors: ["Allison Moore"]
 featured: false
 draft: true
+hidden: true
 ---
 
 <div class="free_write" markdown="1">
