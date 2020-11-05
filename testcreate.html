@@ -6,29 +6,35 @@
 <body>
 
 <div style="width:100%;">
-<div style="width: 50%; margin:0px auto; text-align: center;"> <h2>Markdown Creator</h2></div>
-
-<div style="position:relative; top:10%;width: 100%; margin:0px auto; text-align: center;" id="label-container"></div>
+<div style="border: 3px solid #f11;width: 50%; margin:0px auto; text-align: center;"> <h2>Markdown Creator</h2></div>
 
 
-<div style="position:relative; top:10%;  width: 100%; margin:0px auto; text-align: center;">
+<div style="border: 3px solid #111; display:flex">
+	<div style="flex: 1;padding: 20px;border: 2px solid red;">
+		<div>
+			<form style="text-align: left;" id="form" onsubmit="return false;">
+			All fields must be filled.  <br><br><br>
+			Title : <input style=" width:40%;" type="text" id="title" placeholder="Project Title" /> <br><br>
+			Description: <input style=" width:40%;" type="text" id="description" placeholder="description" /> <br><br>
+			Author: <input style=" width:40%;" type="text" id="author" placeholder="Author" /><br><br>
+			Categories: <input style=" width:40%;" type="text" id="categories" placeholder="categories" /> <br><br>
+			Featured: <input style=" width:40%;" type="text" id="featured" placeholder="Featured" /><br><br>
+			 _date: <input style=" width:40%;" type="text" id="date" placeholder="_date" /> <br><br>
+			URL: <input style=" width:40%;" type="text" id="url" placeholder="URL" /><br><br>
+			LinkName: <input style=" width:40%;" type="text" id="linkname" placeholder="LinkName" /> <br><br>
+			Draft: <input style=" width:40%;" type="text" id="draft" placeholder="Draft" /><br><br>
 
-<form style="text-align: left;" id="form" onsubmit="return false;">
+			<input style="position:relative; top:50%;  height:10% ;width:40%; background-color: #00AA00;" type="SUBMIT"  onclick="createMarkdown();" />
+			</form>
+		</div>
+	</div >
+	<div style="width: 40%;float: left;padding: 00px;border: 2px solid red;">
 
-All fields must be filled.  <br><br><br>
-Title : <input style=" width:40%;" type="text" id="title" placeholder="Project Title" /> <br><br>
-Description: <input style=" width:40%;" type="text" id="description" placeholder="description" /> <br><br>
-Author: <input style=" width:40%;" type="text" id="author" placeholder="Author" /><br><br>
-Categories: <input style=" width:40%;" type="text" id="categories" placeholder="categories" /> <br><br>
-Featured: <input style=" width:40%;" type="text" id="featured" placeholder="Featured" /><br><br>
- _date: <input style=" width:40%;" type="text" id="date" placeholder="_date" /> <br><br>
-URL: <input style=" width:40%;" type="text" id="url" placeholder="URL" /><br><br>
-LinkName: <input style=" width:40%;" type="text" id="linkname" placeholder="LinkName" /> <br><br>
-Draft: <input style=" width:40%;" type="text" id="draft" placeholder="Draft" /><br><br>
-
-
-<input style="position:relative; top:50%;  height:10% ;width:40%; background-color: #00AA00;" type="SUBMIT"  onclick="createMarkdown();" />
-</form>
+		<div>
+			<img style="width: 100%"	alt="Thumbnail" src="thumbnail.png">
+			<img style="width: 100%"	alt="Thumbnail" src="thumbnail.png">
+		</div>
+	</div>
 </div>
 
 
