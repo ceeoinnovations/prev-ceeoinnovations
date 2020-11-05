@@ -12,14 +12,22 @@
 
 
 <div style="position:relative; top:10%;  width: 100%; margin:0px auto; text-align: center;">
- 
+
 <form style="text-align: left;" id="form" onsubmit="return false;">
 
 All fields must be filled.  <br><br><br>
-Project Title : <input style=" width:40%;" type="text" id="title" placeholder="Project Title" /> <br><br>
+Title : <input style=" width:40%;" type="text" id="title" placeholder="Project Title" /> <br><br>
+Description: <input style=" width:40%;" type="text" id="description" placeholder="description" /> <br><br>
 Author: <input style=" width:40%;" type="text" id="author" placeholder="Author" /><br><br>
+Categories: <input style=" width:40%;" type="text" id="categories" placeholder="categories" /> <br><br>
+Featured: <input style=" width:40%;" type="text" id="featured" placeholder="Featured" /><br><br>
+ _date: <input style=" width:40%;" type="text" id="date" placeholder="_date" /> <br><br>
+URL: <input style=" width:40%;" type="text" id="url" placeholder="URL" /><br><br>
+LinkName: <input style=" width:40%;" type="text" id="linkname" placeholder="LinkName" /> <br><br>
+Draft: <input style=" width:40%;" type="text" id="draft" placeholder="Draft" /><br><br>
 
-<input style="position:relative; top:50%;  height:10% ;width:40%; background-color: #00AA00;" type="SUBMIT"  onclick="createMarkdown();init();" />
+
+<input style="position:relative; top:50%;  height:10% ;width:40%; background-color: #00AA00;" type="SUBMIT"  onclick="createMarkdown();" />
 </form>
 </div>
 
@@ -30,16 +38,52 @@ Author: <input style=" width:40%;" type="text" id="author" placeholder="Author" 
 
 function createMarkdown() {
 Title = document.getElementById("title").value;
+Description = document.getElementById("description").value;
 Author = document.getElementById("author").value;
+categories = document.getElementById("categories").value;
+Featured = document.getElementById("featured").value;
+_date = document.getElementById("date").value;
+URL = document.getElementById("url").value;
+LinkName = document.getElementById("linkname").value;
+Draft = document.getElementById("draft").value;
+
 /*
 * Save a text file locally with a filename by triggering a download
 */
+var front_matter;
+var text = `
+---
+layout: post
+title: ` + Title +
+`
+description: ` + Description +
+`
+displayimg: ` + Title + `/cover.jpg` +
+`
+categories: [` + categories +
+`
+authors: ` + Author +
+`
+featured: ` + Featured +
+`
+date: ` + _date +
 
-var text = "hello world",
-    blob = new Blob([text], { type: 'text/plain' }),
-    anchor = document.createElement('a');
+`
+linker: ` + URL +
+`
+linkname: ` + LinkName +
+`
+draft: ` + Draft +
+`
+---`
 
-anchor.download = "hello.txt";
+
+
+
+blob = new Blob([text], { type: 'text/plain' }),
+anchor = document.createElement('a');
+
+anchor.download = "hello.markdown";
 anchor.href = (window.webkitURL || window.URL).createObjectURL(blob);
 anchor.dataset.downloadurl = ['text/plain', anchor.download, anchor.href].join(':');
 anchor.click();
