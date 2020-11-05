@@ -32,7 +32,7 @@
 
 		<div>
 			<img style="width: 100%"	alt="Thumbnail" src="thumbnail.png">
-			<img style="width: 100%"	alt="Thumbnail" src="thumbnail.png">
+			<img style="width: 100%"	alt="Thumbnail" src="post.png">
 		</div>
 	</div>
 </div>
@@ -88,8 +88,8 @@ draft: ` + Draft +
 
 blob = new Blob([text], { type: 'text/plain' }),
 anchor = document.createElement('a');
-
-anchor.download = "hello.markdown";
+filename= Title + ".markdown";
+anchor.download = filename;
 anchor.href = (window.webkitURL || window.URL).createObjectURL(blob);
 anchor.dataset.downloadurl = ['text/plain', anchor.download, anchor.href].join(':');
 anchor.click();
