@@ -17,7 +17,7 @@ draft: false
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 
-![SNAPR](![SNAPR](SNAPR OK/cover.jpg)
+![SNAPR](![SNAPR](SNAPR/cover.jpg)
 # SNAPR -  Snap, Narrate, Auto Post and Reflect
 
  SNAPR is a tool that lets students capture and populate their e-portfolios automatically. In making/engineering, there is an emphasis on the final product and the ‘in-between’ stages are often ignored. SNAPR helps students reflect on the ‘in-between’ stages and encourage them to share stories of the processes that led to the final product.
