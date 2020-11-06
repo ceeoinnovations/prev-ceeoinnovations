@@ -3,7 +3,7 @@ layout: post
 
 title: SNAPR
 description:  A tool that lets students capture and populate their e-portfolios
-displayimg: SNAPR OK/cover.jpg
+displayimg: SNAPR/cover.jpg
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Canvas", "Documentation"]
 authors: ["Dipeshwor Man Shrestha"]
 featured: false
