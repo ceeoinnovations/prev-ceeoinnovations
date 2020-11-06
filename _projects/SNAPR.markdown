@@ -26,7 +26,7 @@ draft: false
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
 
-![SNAPR](SNAPR OK/details.png)
+![SNAPR](SNAPR/details.png)
 
 SNAPR is a tool designed for a design-based research study based on the conjecture:
 
