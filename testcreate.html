@@ -5,17 +5,17 @@
 
 	<link rel="stylesheet preload" as="style" href="web/mycss/create.css">
 </head>
-<body >
+<body style="align-items:center;">
 
 <div style="width:100%;">
 <div style="border: 3px solid #f11;width: 50%; margin:0px auto; text-align: center;"> <h2>Markdown Creator</h2></div>
 
 
-<div style="border: 3px solid #111; display:flex">
-	<div style="flex: 1;padding: 20px;border: 2px solid red;">
+<div style="border: 3px solid #111; display:flex; margin:auto;max-width:1200px">
+	<div style="flex: 1;max-width:800px;padding: 20px;border: 2px solid red;">
 		<div class="all">
 			<form style="text-align: left; align-items: left; margin:10px;" id="form" onsubmit="return false;">
-			For thumbnail on homepage.  <br><br><br>
+			<h2 style="text-align: center;">For Thumbnail</h2> <br><br><br>
 			<div class="box"><input  class="fill" type="text" id="title" placeholder="Project Title" /> <br><br>	</div>
 			<div class="box"><label for="Draft"> Draft</label><input  type="checkbox" id="Draft" name="Draft" value="True"><br><br>	 </div>
 			<div class="box"><label for="Featured"> Featured</label><input  type="checkbox" id="Featured" name="Featured" value="Truedd"> <br><br><br>	</div>
@@ -39,7 +39,7 @@
 			</div>
 
 
-			For Project Page: </br></br>
+			<h2 style="text-align: center;">For Project Page:</h2> </br></br>
 
 			<div class="box" ><input class="fill" type="text" id="url" placeholder="URL" /><br><br>	</div>
 			<div class="box" ><input class="fill" type="text" id="linkname" placeholder="URL Name" /> <br><br>	</div>
@@ -59,18 +59,20 @@
 
 
 
-			<div  >	<input style="position:relative; top:70%;  height:10% ;width:100%; background-color: #00AA00;" type="SUBMIT"  onclick="createMarkdown();" /></div>
+			<div  >	<input style="position:relative; top:70%;  height:40px ;width:100%; background-color: #5fd938;" type="SUBMIT"  value="DOWNLOAD MAKDOWN" onclick="createMarkdown();" /></div>
 
 			</form>
 		</div>
 	</div >
-	<div style="width: 40%;float: left;padding: 00px;border: 2px solid red;">
+	<div style="width: 40%;max-width: 400px;float: left;padding: 00px;border: 2px solid red;">
 
 		<div>
-			<img style="width: 100%"	alt="Thumbnail" src="thumbnail.png">
-			<img style="width: 100%"	alt="Thumbnail" src="post.png">
+			<h2 style="text-align: center;">Thumbnail</h2>
+			<img style="width: 100%; max-width: 400px"	alt="Thumbnail" src="thumbnail.png"></br></br>
+			<h2 style="text-align: center;">Project Page</h2>
+			<img style="width: 100%; max-width: 400px"	alt="Thumbnail" src="post.png">
 
-			<a  href="project.zip" download="milan"> <img style="width: 100%" src="download.png" alt="download"></a>
+			<a  href="project.zip" download="project"> <img style="width: 100%; max-width: 400px;" src="download.png" alt="download"></a>
 
 		</div>
 	</div>
@@ -225,5 +227,6 @@ function sendData() {
 
 </script>
 </div>
+
 </body>
 </html>
