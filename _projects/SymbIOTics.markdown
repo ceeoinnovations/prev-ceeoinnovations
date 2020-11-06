@@ -6,7 +6,9 @@ description: An IoT Platform Designed for Elementary School Classrooms
 displayimg: SymbIOTics/cover.png
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","IOT", "LEGO"]
 authors: ["Sara Willner-Giwerc"]
-featured: false
+
+featured: False
+
 date: 21-08-2020
 draft: false
 
