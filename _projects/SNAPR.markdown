@@ -3,7 +3,7 @@ layout: post
 
 title: SNAPR
 description:  A tool that lets students capture and populate their e-portfolios
-displayimg: SNAPR/cover.jpg
+displayimg: "SNAPR OK"/cover.jpg
 categories: ["DELETE CATEGORIES THAT DON'T APPLY","Canvas", "Documentation"]
 authors: ["Dipeshwor Man Shrestha"]
 featured: false
@@ -17,7 +17,7 @@ draft: false
 <!--IMAGE_TEXT_OVERLAY creates a image with a text box over it--------------------->
 <div class="image_text_overlay" markdown="1">
 
-![SNAPR](![SNAPR](SNAPR/cover.jpg)
+![SNAPR](![SNAPR](SNAPR OK/cover.jpg)
 # SNAPR -  Snap, Narrate, Auto Post and Reflect
 
 SNAPR is a tool that lets students capture and populate their e-portfolios automatically. In making/engineering, there is an emphasis on the final product and the ‘in-between’ stages are often ignored. SNAPR helps students reflect on the ‘in-between’ stages and encourage them to share stories of the processes that led to the final product.
@@ -26,7 +26,7 @@ SNAPR is a tool that lets students capture and populate their e-portfolios autom
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
 
-![SNAPR](SNAPR/details.png)
+![SNAPR](SNAPR OK/details.png)
 
 SNAPR is a tool designed for a design-based research study based on the conjecture:
 

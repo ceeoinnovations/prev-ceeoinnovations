@@ -124,6 +124,7 @@ textContent2.addEventListener("input", function(){
 
 function createMarkdown() {
 Title = document.getElementById("title").value;
+Foldername='"'+Title+'"';
 Description = document.getElementById("description").value;
 Author = document.getElementById("author").value;
 
@@ -159,8 +160,8 @@ if(document.getElementById("FWS").checked){
 	<div class="free_write" markdown="1">
 	<!-- this is a free write section. Use Markdown language -->
 
-	![` + Title + `](` + Title + `/image.jpg) <!-- This is how you can insert an image-->
-	![` + Title + `](` + Title + `/image.jpg){:.left}![` + Title + `](` + Title + `/image.jpg){:.right} <!-- This is how you can insert two images side by side-->
+	![` + Title + `](` + Foldername + `/image.jpg) <!-- This is how you can insert an image-->
+	![` + Title + `](` + Foldername + `/image.jpg){:.left}![` + Title + `](` + Foldername + `/image.jpg){:.right} <!-- This is how you can insert two images side by side-->
 	<!--try using {.half} to make the image appear smaller-->
 	</div>
 	`
@@ -194,7 +195,7 @@ title: ` + Title +
 `
 description: ` + Description +
 `
-displayimg: ` + Title + `/cover.jpg` +
+displayimg: ` + Foldername + `/cover.jpg` +
 `
 categories: [` + checked + "]" +
 `
@@ -215,7 +216,7 @@ draft: ` + Draft +
 
 <div class="image_text_overlay" markdown="1">
 
-![` + Title + `](![` + Title +`](`+ Title +`/cover.jpg)
+![` + Title + `](![` + Title +`](`+ Foldername +`/cover.jpg)
 # ` + Header + `\n## ` + Subheader + `\n` + Abstract +
 `
 </div>
@@ -230,7 +231,7 @@ draft: ` + Draft +
 
 text=front_matter + Free_Write + VideoSection + DocumentSection;
 console.log(text);
-/*
+
 blob = new Blob([text], { type: 'text/plain' }),
 anchor = document.createElement('a');
 filename= Title + ".markdown";
@@ -238,7 +239,7 @@ anchor.download = filename;
 anchor.href = (window.webkitURL || window.URL).createObjectURL(blob);
 anchor.dataset.downloadurl = ['text/plain', anchor.download, anchor.href].join(':');
 anchor.click();
-*/
+
 }
 
 function sendData() {
