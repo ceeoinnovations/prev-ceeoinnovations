@@ -1,0 +1,30 @@
+
+.all{
+  font-family: Arial, Helvetica, sans-serif;}
+
+
+  .box{
+
+
+width: 100%;
+
+}
+
+body {  min-width:600px; }
+
+input{
+
+font-family: Arial, Helvetica, sans-serif;
+align-items: left;
+}
+.fill{
+  width:100%;
+}
+
+.boxtextarea{
+  width:100%;
+  min-width: 400px;
+  min-height:100px;
+  max-width:100%;
+  max-height:100px;
+}
