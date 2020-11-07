@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Markdown Creator</title>
+
+	<link rel="stylesheet preload" as="style" href="web/mycss/create.css">
+</head>
+<body style="align-items:center;">
+
+<div style="width:100%;">
+<div style="background-color:#5fd938;width: 50%; margin:0px auto; text-align: center;"> <h2>Markdown Creator</h2></div>
+<div style=" background-color:#5fd938;padding-top:30px; padding-bottom: 30px;;max-width:1200px; margin:0px auto; text-align: center;">
+To create a project page in ceeoinnovations site you will need two things. </br></br> 1. <b> project markdown file </b> </br> 2. <b>project assets folder </b></br>
+</div>
+</br>
+<div style=" background-color:#aaaaaa; padding-top:30px; padding-bottom: 30px;;max-width:1200px; margin:0px auto; text-align: left;">
+<h2 style="padding-left:20px;"> Creating markdown file </h2>
+<p style="padding-left:20px;">Fill out the form below with accurate information and hit DOWNLOAD MARKDOWN button.
+	A partially filled markdown file will download.</p>
+</div>
+<div style=" display:flex; margin:auto;max-width:1200px">
+	<div style="flex: 1;max-width:800px;padding: 20px;border: 2px solid red;">
+		<div class="all">
+			<form style="text-align: left; align-items: left; margin:10px;" id="form" onsubmit="return false;">
+			<h2 style="text-align: center;">For Thumbnail</h2> <br><br><br>
+			<div class="box"><input  class="fill" type="text" id="title" placeholder="Project Title" /> <br><br>	</div>
+			<div class="box"><label for="Draft"> Draft</label><input  type="checkbox" id="Draft" name="Draft" value="True"><br><br>	 </div>
+			<div class="box"><label for="Featured"> Featured</label><input  type="checkbox" id="Featured" name="Featured" value="Truedd"> <br><br><br>	</div>
+			<div class="box"><input  class="fill" type="text" id="date" placeholder="mm-dd-yyyy (make sure you get the format right)" /> <br><br>	</div>
+			<div  class="box"><textarea class="boxtextarea" id="description" maxlength="40" >Description</textarea> <br><br>	</div>
+   		<div class="box" id="countWordD"></div>
+			<div  class="box"><input class="fill" type="text" id="author" placeholder="Author" /><br><br>	</div>
+
+			<div class="box" >
+
+			Check categories that apply to your project: </br></br>
+				<div id="box1">
+					<label for="catetory1"> SPIKE Prime</label><input  type="checkbox" id="catetory1" name="Featured" value="SPIKE Prime"> <br>
+					<label for="catetory2"> 3D Printing</label><input  type="checkbox" id="catetory2" name="Featured" value="3D Printing"> <br>
+					<label for="catetory3"> EV3/NXT</label><input  type="checkbox" id="catetory3" name="Featured" value="EV3/NXT"> <br>
+					<label for="catetory1"> Robotics</label><input  type="checkbox" id="catetory1" name="Featured" value="Robotics"> <br>
+					<label for="catetory2"> Makerspaces</label><input  type="checkbox" id="catetory2" name="Featured" value="Makerspaces"> <br>
+					<label for="catetory3"> LabVIEW</label><input  type="checkbox" id="catetory3" name="Featured" value="LabVIEW"> <br>
+				</div>
+				<br><br>
+			</div>
+
+
+			<h2 style="text-align: center;">For Project Page:</h2> </br></br>
+
+			<div class="box" ><input class="fill" type="text" id="url" placeholder="URL" /><br><br>	</div>
+			<div class="box" ><input class="fill" type="text" id="linkname" placeholder="URL Name" /> <br><br>	</div>
+
+			<div class="box"><input  class="fill" type="text" id="header" placeholder="Header" /> <br><br>	</div>
+			<div class="box"><input  class="fill" type="text" id="subheader" placeholder="Sub Header" /> <br><br>	</div>
+			<div  class="box"><textarea class="boxtextarea" id="abstract" maxlength="300" >Synopsis of Project </textarea> <br><br>	</div>
+			<div class="box" id="countWordS"></div>
+
+
+			Check sections you want to create:</br></br>
+
+			<div class="box"><label for="FreeWriteSection"> Free Write Section</label><input  type="checkbox" id="FWS" name="FWS" value="True"><br><br>	 </div>
+			<div class="box"><label for="Video"> Video </label><input  type="checkbox" id="Vid" name="Vid" value="True"><br><br>	 </div>
+			<div class="box"><label for="Documents"> Document </label><input  type="checkbox" id="Doc" name="Doc" value="True"><br><br>	 </div>
+
+
+
+
+			<div  >	<input style="position:relative; top:70%;  height:40px ;width:100%; background-color: #5fd938;" type="SUBMIT"  value="DOWNLOAD MAKDOWN" onclick="createMarkdown();" /></div>
+
+			</form>
+		</div>
+	</div >
+	<div style="width: 40%;max-width: 400px;float: left;padding: 00px;border: 2px solid red;">
+
+		<div>
+			<h2 style="text-align: center;">Thumbnail</h2>
+			<img style="width: 100%; max-width: 400px"	alt="Thumbnail" src="web/img/thumbnail.png"></br></br>
+			<h2 style="text-align: center;">Project Page</h2>
+			<img style="width: 100%; max-width: 400px"	alt="Thumbnail" src="web/img/post.png">
+
+
+		</div>
+	</div>
+</div>
+
+</br>
+<div style=" background-color:#aaaaaa; padding-top:30px; padding-bottom: 30px;;max-width:1200px; margin:0px auto; text-align: left;">
+	<h2 style="padding-left:20px;"> Project Assets folder </h2>
+	<p style="padding-left:20px;">
+	<ol>
+		<li> Download the zip file by clicking the image below.</li>
+		<li> Extract the zip file and rename the folder with your <i>Project Title</i> without spaces For example if you project tile is Create Game, your folder should be CreateGame.</li>
+		<li> Replace the existing files with files from your project.</li>
+		<li> Add your assets (images, pdfs, etc.) to the folder.</li>
+		<li> Add the folder to _projects/project_assests folder in GitHub. Simply go to tuftsceeo github, and open projects_assests folder inside _projects folder and click and drag the folder to the GitHub WebUI. </li>
+	</ol></p>
+</div>
+<div style=" padding-top:30px; padding-bottom: 30px;;max-width:1200px; margin:auto; align-items:center;border: 2px solid red;">
+	<a  href="project.zip" download="project"> <img style="width: 100%; max-width: 400px;" src="web/img/download.png" alt="download"></a>
+</div>
+
+
+<script type="text/javascript">
+
+var textContent1 = document.getElementById("description");
+var showWordCount1   = document.getElementById("countWordD");
+textContent1.addEventListener("input", function(){
+  showWordCount1.innerHTML = (
+      "Characters Remaining: "+ (40 - this.value.length) + "</br></br>"
+  );
+}, false);
+
+var textContent2 = document.getElementById("abstract");
+var showWordCount2   = document.getElementById("countWordS");
+textContent2.addEventListener("input", function(){
+  showWordCount2.innerHTML = (
+      "Characters Remaining: "+ (300 - this.value.length) + "</br></br>"
+  );
+}, false);
+
+
+
+
+function createMarkdown() {
+Title = document.getElementById("title").value;
+Foldername=Title.replace(/\s/g, "");
+Description = document.getElementById("description").value;
+Author = document.getElementById("author").value;
+
+_date = document.getElementById("date").value;
+URL = document.getElementById("url").value;
+LinkName = document.getElementById("linkname").value;
+
+Draft = document.getElementById('Draft').checked;
+Featured = document.getElementById("Featured").checked;
+
+
+var container = document.querySelector("#box1");
+var chks = container.querySelectorAll('input[type="checkbox"]');
+var checked = [];
+for(var i = 0; i < chks.length; i++){
+        if(chks[i].checked){
+            checked.push('"'+chks[i].value+'"')
+				}
+
+    }
+Header = document.getElementById("header").value;
+Subheader = document.getElementById("subheader").value;
+Abstract = document.getElementById("abstract").value;
+Free_Write="";
+DocumentSection="";
+VideoSection="";
+
+
+if(document.getElementById("FWS").checked){
+	Free_Write=
+`
+<!--document creates a grid of documentss--------------------->
+<div class="free_write" markdown="1">
+<!-- this is a free write section. Use Markdown language -->
+
+![` + Title + `](` + Foldername + `/image.jpg) <!-- This is how you can insert an image-->
+![` + Title + `](` + Foldername + `/image.jpg){:.left}![` + Title + `](` + Foldername + `/image.jpg){:.right} <!-- This is how you can insert two images side by side-->
+<!--try using {.half} to make the image appear smaller-->
+</div>
+`
+}
+
+if(document.getElementById("Doc").checked){
+DocumentSection=
+`
+<div class="document" markdown="1">
+[Poster](` + Foldername + `/poster.pdf)
+</div>
+`
+}
+
+if(document.getElementById("Vid").checked){
+VideoSection=
+`
+<div class="video_text_overlay" markdown="1">
+[TITLE OF VIDEO](--- paste a youtu.be link here--)
+# YOUR VIDEO TITLE
+## YOUR VIDEO SUBTITLE
+THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
+</div>
+`
+}
+
+var front_matter =
+`---
+layout: post
+title: ` + Title +
+`
+description: ` + Description +
+`
+displayimg: ` + Foldername + `/cover.jpg` +
+`
+categories: [` + checked + "]" +
+`
+authors: [` + Author + "]" +
+`
+featured: ` + Featured +
+`
+date: ` + _date +
+
+`
+linker: ` + URL +
+`
+linkname: ` + LinkName +
+`
+draft: ` + Draft +
+`
+---
+
+<div class="image_text_overlay" markdown="1">
+
+![` + Title + `](![` + Title +`](`+ Foldername +`/cover.jpg)
+# ` + Header + `\n## ` + Subheader + `\n` + Abstract +
+`
+</div>
+`
+
+
+
+
+
+
+
+
+text=front_matter + Free_Write + VideoSection + DocumentSection;
+console.log(text);
+
+blob = new Blob([text], { type: 'text/plain' }),
+anchor = document.createElement('a');
+filename= Foldername + ".markdown";
+anchor.download = filename;
+anchor.href = (window.webkitURL || window.URL).createObjectURL(blob);
+anchor.dataset.downloadurl = ['text/plain', anchor.download, anchor.href].join(':');
+anchor.click();
+
+}
+
+function sendData() {
+	 console.log(dd);
+}
+
+
+</script>
+</div>
+
+</body>
+</html>
