@@ -6,9 +6,9 @@ title: Creating Project
 description: Project showing how to create markdown
 displayimg: CreatingProject/cover.jpg
 categories: ["Makerspaces"]
-authors: Milan Dahal
+authors: ["Milan Dahal"]
 featured: false
-date: 11/06/2020
+date: 11-06-2020
 linker: https://github.com/tuftsceeo/ceeoinnovations
 linkname: GitHub
 draft: true
