@@ -26,7 +26,7 @@ To create a project page in ceeoinnovations site you will need two things. </br>
 			<div class="box"><input  class="fill" type="text" id="title" placeholder="Project Title" /> <br><br>	</div>
 			<div class="box"><label for="Draft"> Draft</label><input  type="checkbox" id="Draft" name="Draft" value="True"><br><br>	 </div>
 			<div class="box"><label for="Featured"> Featured</label><input  type="checkbox" id="Featured" name="Featured" value="Truedd"> <br><br><br>	</div>
-			<div class="box"><input  class="fill" type="text" id="date" placeholder="mm/dd/yyyy" /> <br><br>	</div>
+			<div class="box"><input  class="fill" type="text" id="date" placeholder="mm-dd-yyyy (make sure you get the format right)" /> <br><br>	</div>
 			<div  class="box"><textarea class="boxtextarea" id="description" maxlength="40" >Description</textarea> <br><br>	</div>
    		<div class="box" id="countWordD"></div>
 			<div  class="box"><input class="fill" type="text" id="author" placeholder="Author" /><br><br>	</div>
@@ -90,7 +90,7 @@ To create a project page in ceeoinnovations site you will need two things. </br>
 	<p style="padding-left:20px;">
 	<ol>
 		<li> Download the zip file by clicking the image below.</li>
-		<li> Extract the zip file and rename the folder with your <i>Project Title</i>.</li>
+		<li> Extract the zip file and rename the folder with your <i>Project Title</i> without spaces For example if you project tile is Create Game, your folder should be CreateGame.</li>
 		<li> Replace the existing files with files from your project.</li>
 		<li> Add your assets (images, pdfs, etc.) to the folder.</li>
 		<li> Add the folder to _projects/project_assests folder in GitHub. Simply go to tuftsceeo github, and open projects_assests folder inside _projects folder and click and drag the folder to the GitHub WebUI. </li>
@@ -124,7 +124,7 @@ textContent2.addEventListener("input", function(){
 
 function createMarkdown() {
 Title = document.getElementById("title").value;
-Foldername='"'+Title+'"';
+Foldername=Title.replace(/\s/g, "");
 Description = document.getElementById("description").value;
 Author = document.getElementById("author").value;
 
@@ -155,16 +155,16 @@ VideoSection="";
 
 if(document.getElementById("FWS").checked){
 	Free_Write=
-	`
-	<!--document creates a grid of documentss--------------------->
-	<div class="free_write" markdown="1">
-	<!-- this is a free write section. Use Markdown language -->
+`
+<!--document creates a grid of documentss--------------------->
+<div class="free_write" markdown="1">
+<!-- this is a free write section. Use Markdown language -->
 
-	![` + Title + `](` + Foldername + `/image.jpg) <!-- This is how you can insert an image-->
-	![` + Title + `](` + Foldername + `/image.jpg){:.left}![` + Title + `](` + Foldername + `/image.jpg){:.right} <!-- This is how you can insert two images side by side-->
-	<!--try using {.half} to make the image appear smaller-->
-	</div>
-	`
+![` + Title + `](` + Foldername + `/image.jpg) <!-- This is how you can insert an image-->
+![` + Title + `](` + Foldername + `/image.jpg){:.left}![` + Title + `](` + Foldername + `/image.jpg){:.right} <!-- This is how you can insert two images side by side-->
+<!--try using {.half} to make the image appear smaller-->
+</div>
+`
 }
 
 if(document.getElementById("Doc").checked){
@@ -188,8 +188,8 @@ THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
 `
 }
 
-var front_matter = `
----
+var front_matter =
+`---
 layout: post
 title: ` + Title +
 `
@@ -199,7 +199,7 @@ displayimg: ` + Foldername + `/cover.jpg` +
 `
 categories: [` + checked + "]" +
 `
-authors: ` + Author +
+authors: [` + Author + "]" +
 `
 featured: ` + Featured +
 `
@@ -234,7 +234,7 @@ console.log(text);
 
 blob = new Blob([text], { type: 'text/plain' }),
 anchor = document.createElement('a');
-filename= Title + ".markdown";
+filename= Foldername + ".markdown";
 anchor.download = filename;
 anchor.href = (window.webkitURL || window.URL).createObjectURL(blob);
 anchor.dataset.downloadurl = ['text/plain', anchor.download, anchor.href].join(':');
