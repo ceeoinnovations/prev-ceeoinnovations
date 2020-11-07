@@ -1,6 +1,7 @@
 
 ---
 layout: post
+
 title: Creating Project
 description: Project showing how to create markdown
 displayimg: CreatingProject/cover.jpg
