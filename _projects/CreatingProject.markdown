@@ -22,14 +22,14 @@ draft: true
 In this page I will show you how to create a project from start to finish. As you can see you can type 300 characters in this section. 
 </div>
 
-	<!--document creates a grid of documentss--------------------->
-	<div class="free_write" markdown="1">
-	<!-- this is a free write section. Use Markdown language -->
+<!--document creates a grid of documentss--------------------->
+<div class="free_write" markdown="1">
+<!-- this is a free write section. Use Markdown language -->
 
-	![Creating Project](CreatingProject/image.jpg) <!-- This is how you can insert an image-->
-	![Creating Project](CreatingProject/image.jpg){:.left}![Creating Project](CreatingProject/image.jpg){:.right} <!-- This is how you can insert two images side by side-->
-	<!--try using {.half} to make the image appear smaller-->
-	</div>
+![Creating Project](CreatingProject/image.jpg) <!-- This is how you can insert an image-->
+![Creating Project](CreatingProject/image.jpg){:.left}![Creating Project](CreatingProject/image.jpg){:.right} <!-- This is how you can insert two images side by side-->
+<!--try using {.half} to make the image appear smaller-->
+</div>
 	
 <div class="document" markdown="1">
 [Poster](Creating Project/poster.pdf)
