@@ -8,7 +8,7 @@ categories: ["DELETE CATEGORIES THAT DON'T APPLY","Spike Prime", "Coding Rooms",
 authors: ["Jeremy Jung"]
 featured: false
 date: 21-08-2020
-draft: false
+draft: true
 
 redirecturl: https://ceeoinnovations.github.io/RoboticsPlayground/index.html
 ---
