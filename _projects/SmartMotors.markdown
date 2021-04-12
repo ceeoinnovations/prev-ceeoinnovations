@@ -25,13 +25,12 @@ Smart Motors aim to lower the barriers of entry into robotics. By lowering the c
 <!-- this is a free write section. Use Markdown language -->
 
 ![Smart Motors](SmartMotors/image.jpg) <!-- This is how you can insert an image-->
-![Smart Motors](SmartMotors/image.jpg){:.left}![Smart Motors](SmartMotors/image.jpg){:.right} <!-- This is how you can insert two images side by side-->
-<!--try using {.half} to make the image appear smaller-->
+
 </div>
 
 <div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](--- paste a youtu.be link here--)
-# YOUR VIDEO TITLE
-## YOUR VIDEO SUBTITLE
-THIS IS WHERE YOU CAN WRITE A DESCRIPTION ABOUT YOUR VIDEO.
+[TITLE OF VIDEO](https://www.youtube.com/watch?v=g_jaH1FCP5I&t=34s)
+# Smart Motor Prototype
+## Earlier stages of Smart Motor prototype
+We explore the technical possiblilities of Smart Motor in this video. We are using Seeeduino Xiao and Grove sensors. The code is written in Circuit Python, a python variant for microprocessors by Adafruit. 
 </div>
