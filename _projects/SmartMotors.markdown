@@ -29,7 +29,7 @@ Smart Motors aim to lower the barriers of entry into robotics. By lowering the c
 </div>
 
 <div class="video_text_overlay" markdown="1">
-[TITLE OF VIDEO](https://www.youtube.com/watch?v=g_jaH1FCP5I)
+[TITLE OF VIDEO](https://youtu.be/g_jaH1FCP5I)
 # Smart Motor Prototype
 ## Earlier stages of Smart Motor prototype
 We explore the technical possiblilities of Smart Motor in this video. We are using Seeeduino Xiao and Grove sensors. The code is written in Circuit Python, a python variant for microprocessors by Adafruit. 
