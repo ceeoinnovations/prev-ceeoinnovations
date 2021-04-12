@@ -22,7 +22,8 @@ Smart Motors aim to lower the barriers of entry into robotics. By lowering the c
 
 <!--document creates a grid of documentss--------------------->
 <div class="free_write" markdown="1">
-<!-- this is a free write section. Use Markdown language -->
+In response to the challenge of how does one bring robotics into a classroom with limited computers/WiFi, we started to play around with the idea of a trainable motor.   What if, for $10, you could get a motor that can learn from you?  Can you combine that with cardboard, glue, and tape to build robots without needing a computer?  What if you had a computer, what further opportunities would that open up? We are exploring on how this might work in a local school, at scale.  In particular, we are thinking this could link nicely into the Novel Engineering work, allowing students to animate their inventions with a smart motor or a smart light or smart speaker.
+
 
 ![Smart Motors](SmartMotors/image.jpg) <!-- This is how you can insert an image-->
 
